@@ -1,0 +1,2087 @@
+<RBAProcesses>
+  <listOfProcesses>
+    <process id="P_TA" name="Translation">
+      <machinery>
+        <machineryComposition>
+          <listOfReactants>
+            <speciesReference species="P20278" stoichiometry="1.0"/>
+            <speciesReference species="Q06797" stoichiometry="1.0"/>
+            <speciesReference species="Q06796" stoichiometry="1.0"/>
+            <speciesReference species="P37949" stoichiometry="0.25"/>
+            <speciesReference species="P12873" stoichiometry="1.0"/>
+            <speciesReference species="P42060" stoichiometry="1.0"/>
+            <speciesReference species="P55874" stoichiometry="1.0"/>
+            <speciesReference species="P12874" stoichiometry="1.0"/>
+            <speciesReference species="P12875" stoichiometry="1.0"/>
+            <speciesReference species="rrnO-23S" stoichiometry="1.0"/>
+            <speciesReference species="P12877" stoichiometry="1.0"/>
+            <speciesReference species="P55872" stoichiometry="0.2"/>
+            <speciesReference species="Q06798" stoichiometry="1.0"/>
+            <speciesReference species="P42919" stoichiometry="1.0"/>
+            <speciesReference species="P05657" stoichiometry="1.0"/>
+            <speciesReference species="P12878" stoichiometry="1.0"/>
+            <speciesReference species="P12879" stoichiometry="1.0"/>
+            <speciesReference species="P17889" stoichiometry="0.3"/>
+            <speciesReference species="P26908" stoichiometry="1.0"/>
+            <speciesReference species="P02394" stoichiometry="4.0"/>
+            <speciesReference species="P20458" stoichiometry="0.25"/>
+            <speciesReference species="P14577" stoichiometry="1.0"/>
+            <speciesReference species="P80868" stoichiometry="0.8"/>
+            <speciesReference species="P55873" stoichiometry="1.0"/>
+            <speciesReference species="Q03223" stoichiometry="1.0"/>
+            <speciesReference species="P70974" stoichiometry="1.0"/>
+            <speciesReference species="P21469" stoichiometry="1.0"/>
+            <speciesReference species="P21468" stoichiometry="1.0"/>
+            <speciesReference species="P37437" stoichiometry="1.0"/>
+            <speciesReference species="P21465" stoichiometry="1.0"/>
+            <speciesReference species="P21464" stoichiometry="1.0"/>
+            <speciesReference species="P21467" stoichiometry="1.0"/>
+            <speciesReference species="P21466" stoichiometry="1.0"/>
+            <speciesReference species="P42924" stoichiometry="1.0"/>
+            <speciesReference species="P42923" stoichiometry="1.0"/>
+            <speciesReference species="P28367" stoichiometry="0.25"/>
+            <speciesReference species="P42921" stoichiometry="1.0"/>
+            <speciesReference species="P42920" stoichiometry="1.0"/>
+            <speciesReference species="P46899" stoichiometry="1.0"/>
+            <speciesReference species="P46898" stoichiometry="1.0"/>
+            <speciesReference species="P49778" stoichiometry="0.8"/>
+            <speciesReference species="rrnO-5S" stoichiometry="1.0"/>
+            <speciesReference species="O34687" stoichiometry="1.0"/>
+            <speciesReference species="P20277" stoichiometry="1.0"/>
+            <speciesReference species="P0CI78" stoichiometry="1.0"/>
+            <speciesReference species="P05647" stoichiometry="1.0"/>
+            <speciesReference species="P45872" stoichiometry="0.25"/>
+            <speciesReference species="P80700" stoichiometry="0.18"/>
+            <speciesReference species="P19947" stoichiometry="1.0"/>
+            <speciesReference species="P19946" stoichiometry="1.0"/>
+            <speciesReference species="rrnO-16S" stoichiometry="1.0"/>
+            <speciesReference species="O34967" stoichiometry="1.0"/>
+            <speciesReference species="P20282" stoichiometry="1.0"/>
+            <speciesReference species="P81101" stoichiometry="1.0"/>
+            <speciesReference species="P33166" stoichiometry="5.4"/>
+            <speciesReference species="P21478" stoichiometry="1.0"/>
+            <speciesReference species="P37807" stoichiometry="1.0"/>
+            <speciesReference species="P04969" stoichiometry="1.0"/>
+            <speciesReference species="O31742" stoichiometry="1.0"/>
+            <speciesReference species="P21472" stoichiometry="1.0"/>
+            <speciesReference species="P21473" stoichiometry="1.0"/>
+            <speciesReference species="P21470" stoichiometry="1.0"/>
+            <speciesReference species="P21471" stoichiometry="1.0"/>
+            <speciesReference species="P21476" stoichiometry="1.0"/>
+            <speciesReference species="P21477" stoichiometry="1.0"/>
+            <speciesReference species="P21474" stoichiometry="1.0"/>
+            <speciesReference species="P21475" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </machineryComposition>
+        <capacity value="ribosome_capacity"/>
+      </machinery>
+      <processings>
+        <listOfProductions>
+          <processing processingMap="translation" set="protein">
+            <listOfInputs>
+              <speciesReference species="BSU28450" stoichiometry="1"/>
+              <speciesReference species="BSU23270" stoichiometry="1"/>
+              <speciesReference species="BSU00380" stoichiometry="1"/>
+              <speciesReference species="BSU14930" stoichiometry="1"/>
+              <speciesReference species="BSU10220" stoichiometry="1"/>
+              <speciesReference species="BSU36370" stoichiometry="1"/>
+              <speciesReference species="BSU39360" stoichiometry="1"/>
+              <speciesReference species="BSU00140" stoichiometry="1"/>
+              <speciesReference species="BSU28800" stoichiometry="1"/>
+              <speciesReference species="BSU38280" stoichiometry="1"/>
+              <speciesReference species="BSU15510" stoichiometry="1"/>
+              <speciesReference species="BSU05830" stoichiometry="1"/>
+              <speciesReference species="BSU23970" stoichiometry="1"/>
+              <speciesReference species="BSU40320" stoichiometry="1"/>
+              <speciesReference species="BSU22700" stoichiometry="1"/>
+              <speciesReference species="BSU30820" stoichiometry="1"/>
+              <speciesReference species="BSU07510" stoichiometry="1"/>
+              <speciesReference species="BSU31650" stoichiometry="1"/>
+              <speciesReference species="BSU34880" stoichiometry="1"/>
+              <speciesReference species="BSU11880" stoichiometry="1"/>
+              <speciesReference species="BSU23570" stoichiometry="1"/>
+              <speciesReference species="BSU37090" stoichiometry="1"/>
+              <speciesReference species="BSU22680" stoichiometry="1"/>
+              <speciesReference species="BSU15190" stoichiometry="1"/>
+              <speciesReference species="BSU39400" stoichiometry="1"/>
+              <speciesReference species="BSU37150" stoichiometry="1"/>
+              <speciesReference species="BSU09410" stoichiometry="1"/>
+              <speciesReference species="BSU37250" stoichiometry="1"/>
+              <speciesReference species="BSU11680" stoichiometry="1"/>
+              <speciesReference species="BSU24040" stoichiometry="1"/>
+              <speciesReference species="BSU17000" stoichiometry="1"/>
+              <speciesReference species="BSU00700" stoichiometry="1"/>
+              <speciesReference species="BSU15850" stoichiometry="1"/>
+              <speciesReference species="BSU29220" stoichiometry="1"/>
+              <speciesReference species="BSU00460" stoichiometry="1"/>
+              <speciesReference species="BSU06360" stoichiometry="1"/>
+              <speciesReference species="BSU32500" stoichiometry="1"/>
+              <speciesReference species="BSU21770" stoichiometry="1"/>
+              <speciesReference species="BSU38580" stoichiometry="1"/>
+              <speciesReference species="BSU22670" stoichiometry="1"/>
+              <speciesReference species="BSU30220" stoichiometry="1"/>
+              <speciesReference species="BSU33900" stoichiometry="1"/>
+              <speciesReference species="BSU00680" stoichiometry="1"/>
+              <speciesReference species="BSU25020" stoichiometry="1"/>
+              <speciesReference species="BSU15860" stoichiometry="1"/>
+              <speciesReference species="BSU36710" stoichiometry="1"/>
+              <speciesReference species="BSU15900" stoichiometry="1"/>
+              <speciesReference species="BSU21810" stoichiometry="1"/>
+              <speciesReference species="BSU36650" stoichiometry="1"/>
+              <speciesReference species="BSU30550" stoichiometry="1"/>
+              <speciesReference species="BSU23500" stoichiometry="1"/>
+              <speciesReference species="BSU39710" stoichiometry="1"/>
+              <speciesReference species="BSU13240" stoichiometry="1"/>
+              <speciesReference species="BSU14440" stoichiometry="1"/>
+              <speciesReference species="BSU34870" stoichiometry="1"/>
+              <speciesReference species="BSU11670" stoichiometry="1"/>
+              <speciesReference species="BSU38140" stoichiometry="1"/>
+              <speciesReference species="BSU31970" stoichiometry="1"/>
+              <speciesReference species="BSU29450" stoichiometry="1"/>
+              <speciesReference species="BSU06480" stoichiometry="1"/>
+              <speciesReference species="BSU07490" stoichiometry="1"/>
+              <speciesReference species="BSU29350" stoichiometry="1"/>
+              <speciesReference species="BSU36640" stoichiometry="1"/>
+              <speciesReference species="BSU11340" stoichiometry="1"/>
+              <speciesReference species="BSU31150" stoichiometry="1"/>
+              <speciesReference species="BSU32200" stoichiometry="1"/>
+              <speciesReference species="BSU32750" stoichiometry="1"/>
+              <speciesReference species="BSU36820" stoichiometry="1"/>
+              <speciesReference species="BSU22430" stoichiometry="1"/>
+              <speciesReference species="BSU29670" stoichiometry="1"/>
+              <speciesReference species="BSU23050" stoichiometry="1"/>
+              <speciesReference species="BSU24340" stoichiometry="1"/>
+              <speciesReference species="BSU36000" stoichiometry="1"/>
+              <speciesReference species="BSU08070" stoichiometry="1"/>
+              <speciesReference species="BSU35020" stoichiometry="1"/>
+              <speciesReference species="BSU35750" stoichiometry="1"/>
+              <speciesReference species="BSU29180" stoichiometry="1"/>
+              <speciesReference species="BSU34900" stoichiometry="1"/>
+              <speciesReference species="BSU17890" stoichiometry="1"/>
+              <speciesReference species="BSU28170" stoichiometry="1"/>
+              <speciesReference species="BSU03310" stoichiometry="1"/>
+              <speciesReference species="BSU00510" stoichiometry="1"/>
+              <speciesReference species="BSU32470" stoichiometry="1"/>
+              <speciesReference species="BSU27330" stoichiometry="1"/>
+              <speciesReference species="BSU37280" stoichiometry="1"/>
+              <speciesReference species="BSU07520" stoichiometry="1"/>
+              <speciesReference species="BSU15920" stoichiometry="1"/>
+              <speciesReference species="BSU28790" stoichiometry="1"/>
+              <speciesReference species="BSU37320" stoichiometry="1"/>
+              <speciesReference species="BSU27560" stoichiometry="1"/>
+              <speciesReference species="BSU38530" stoichiometry="1"/>
+              <speciesReference species="BSU15490" stoichiometry="1"/>
+              <speciesReference species="BSU35930" stoichiometry="1"/>
+              <speciesReference species="BSU13610" stoichiometry="1"/>
+              <speciesReference species="BSU04640" stoichiometry="1"/>
+              <speciesReference species="BSU00110" stoichiometry="1"/>
+              <speciesReference species="BSU28250" stoichiometry="1"/>
+              <speciesReference species="BSU23280" stoichiometry="1"/>
+              <speciesReference species="BSU22870" stoichiometry="1"/>
+              <speciesReference species="BSU15790" stoichiometry="1"/>
+              <speciesReference species="BSU27410" stoichiometry="1"/>
+              <speciesReference species="BSU22640" stoichiometry="1"/>
+              <speciesReference species="BSU30210" stoichiometry="1"/>
+              <speciesReference species="BSU31750" stoichiometry="1"/>
+              <speciesReference species="BSU37660" stoichiometry="1"/>
+              <speciesReference species="BSU00740" stoichiometry="1"/>
+              <speciesReference species="BSU10140" stoichiometry="1"/>
+              <speciesReference species="BSU34860" stoichiometry="1"/>
+              <speciesReference species="BSU25500" stoichiometry="1"/>
+              <speciesReference species="BSU15540" stoichiometry="1"/>
+              <speciesReference species="BSU30670" stoichiometry="1"/>
+              <speciesReference species="BSU05860" stoichiometry="1"/>
+              <speciesReference species="BSU02350" stoichiometry="1"/>
+              <speciesReference species="BSU22630" stoichiometry="1"/>
+              <speciesReference species="BSU16570" stoichiometry="1"/>
+              <speciesReference species="BSU22730" stoichiometry="1"/>
+              <speciesReference species="BSU30200" stoichiometry="1"/>
+              <speciesReference species="BSU06450" stoichiometry="1"/>
+              <speciesReference species="BSU30320" stoichiometry="1"/>
+              <speciesReference species="BSU22540" stoichiometry="1"/>
+              <speciesReference species="BSU06510" stoichiometry="1"/>
+              <speciesReference species="BSU30750" stoichiometry="1"/>
+              <speciesReference species="BSU25660" stoichiometry="1"/>
+              <speciesReference species="BSU02850" stoichiometry="1"/>
+              <speciesReference species="BSU30690" stoichiometry="1"/>
+              <speciesReference species="BSU37060" stoichiometry="1"/>
+              <speciesReference species="BSU14400" stoichiometry="1"/>
+              <speciesReference species="BSU37260" stoichiometry="1"/>
+              <speciesReference species="BSU22490" stoichiometry="1"/>
+              <speciesReference species="BSU38060" stoichiometry="1"/>
+              <speciesReference species="BSU31580" stoichiometry="1"/>
+              <speciesReference species="BSU09290" stoichiometry="1"/>
+              <speciesReference species="BSU39380" stoichiometry="1"/>
+              <speciesReference species="BSU15910" stoichiometry="1"/>
+              <speciesReference species="BSU31610" stoichiometry="1"/>
+              <speciesReference species="BSU03280" stoichiometry="1"/>
+              <speciesReference species="BSU01370" stoichiometry="1"/>
+              <speciesReference species="BSU33930" stoichiometry="1"/>
+              <speciesReference species="BSU31400" stoichiometry="1"/>
+              <speciesReference species="BSU15720" stoichiometry="1"/>
+              <speciesReference species="BSU36760" stoichiometry="1"/>
+              <speciesReference species="BSU22060" stoichiometry="1"/>
+              <speciesReference species="BSU39740" stoichiometry="1"/>
+              <speciesReference species="BSU13210" stoichiometry="1"/>
+              <speciesReference species="BSU28130" stoichiometry="1"/>
+              <speciesReference species="BSU03600" stoichiometry="1"/>
+              <speciesReference species="BSU03210" stoichiometry="1"/>
+              <speciesReference species="BSU01770" stoichiometry="1"/>
+              <speciesReference species="BSU11230" stoichiometry="1"/>
+              <speciesReference species="BSU00920" stoichiometry="1"/>
+              <speciesReference species="BSU08180" stoichiometry="1"/>
+              <speciesReference species="BSU27440" stoichiometry="1"/>
+              <speciesReference species="BSU36810" stoichiometry="1"/>
+              <speciesReference species="BSU29620" stoichiometry="1"/>
+              <speciesReference species="BSU23080" stoichiometry="1"/>
+              <speciesReference species="BSU15590" stoichiometry="1"/>
+              <speciesReference species="BSU38570" stoichiometry="1"/>
+              <speciesReference species="BSU28290" stoichiometry="1"/>
+              <speciesReference species="BSU35660" stoichiometry="1"/>
+              <speciesReference species="BSU27850" stoichiometry="1"/>
+              <speciesReference species="BSU40550" stoichiometry="1"/>
+              <speciesReference species="BSU08820" stoichiometry="1"/>
+              <speciesReference species="BSU15200" stoichiometry="1"/>
+              <speciesReference species="BSU38770" stoichiometry="1"/>
+              <speciesReference species="BSU13910" stoichiometry="1"/>
+              <speciesReference species="BSU32410" stoichiometry="1"/>
+              <speciesReference species="BSU02270" stoichiometry="1"/>
+              <speciesReference species="BSU03990" stoichiometry="1"/>
+              <speciesReference species="BSU19370" stoichiometry="1"/>
+              <speciesReference species="BSU33440" stoichiometry="1"/>
+              <speciesReference species="BSU36860" stoichiometry="1"/>
+              <speciesReference species="BSU14580" stoichiometry="1"/>
+              <speciesReference species="BSU27060" stoichiometry="1"/>
+              <speciesReference species="BSU23260" stoichiometry="1"/>
+              <speciesReference species="BSU22760" stoichiometry="1"/>
+              <speciesReference species="BSU14900" stoichiometry="1"/>
+              <speciesReference species="BSU39350" stoichiometry="1"/>
+              <speciesReference species="BSU02390" stoichiometry="1"/>
+              <speciesReference species="BSU37490" stoichiometry="1"/>
+              <speciesReference species="BSU35960" stoichiometry="1"/>
+              <speciesReference species="BSU30810" stoichiometry="1"/>
+              <speciesReference species="BSU15500" stoichiometry="1"/>
+              <speciesReference species="BSU28950" stoichiometry="1"/>
+              <speciesReference species="BSU05820" stoichiometry="1"/>
+              <speciesReference species="BSU27280" stoichiometry="1"/>
+              <speciesReference species="BSU28260" stoichiometry="1"/>
+              <speciesReference species="BSU23860" stoichiometry="1"/>
+              <speciesReference species="BSU37790" stoichiometry="1"/>
+              <speciesReference species="BSU23580" stoichiometry="1"/>
+              <speciesReference species="BSU31660" stoichiometry="1"/>
+              <speciesReference species="BSU07700" stoichiometry="1"/>
+              <speciesReference species="BSU39410" stoichiometry="1"/>
+              <speciesReference species="BSU30240" stoichiometry="1"/>
+              <speciesReference species="BSU17390" stoichiometry="1"/>
+              <speciesReference species="BSU22690" stoichiometry="1"/>
+              <speciesReference species="BSU00280" stoichiometry="1"/>
+              <speciesReference species="BSU01680" stoichiometry="1"/>
+              <speciesReference species="BSU29210" stoichiometry="1"/>
+              <speciesReference species="BSU23490" stoichiometry="1"/>
+              <speciesReference species="BSU24050" stoichiometry="1"/>
+              <speciesReference species="BSU12840" stoichiometry="1"/>
+              <speciesReference species="BSU00770" stoichiometry="1"/>
+              <speciesReference species="BSU30780" stoichiometry="1"/>
+              <speciesReference species="BSU32510" stoichiometry="1"/>
+              <speciesReference species="BSU15570" stoichiometry="1"/>
+              <speciesReference species="BSU11190" stoichiometry="1"/>
+              <speciesReference species="BSU38590" stoichiometry="1"/>
+              <speciesReference species="BSU22600" stoichiometry="1"/>
+              <speciesReference species="BSU00910" stoichiometry="1"/>
+              <speciesReference species="BSU25190" stoichiometry="1"/>
+              <speciesReference species="BSU13560" stoichiometry="1"/>
+              <speciesReference species="BSU30560" stoichiometry="1"/>
+              <speciesReference species="BSU32260" stoichiometry="1"/>
+              <speciesReference species="BSU06420" stoichiometry="1"/>
+              <speciesReference species="BSU30760" stoichiometry="1"/>
+              <speciesReference species="BSU39700" stoichiometry="1"/>
+              <speciesReference species="BSU29880" stoichiometry="1"/>
+              <speciesReference species="BSU03150" stoichiometry="1"/>
+              <speciesReference species="BSU01630" stoichiometry="1"/>
+              <speciesReference species="BSU38150" stoichiometry="1"/>
+              <speciesReference species="BSU31960" stoichiometry="1"/>
+              <speciesReference species="BSU29440" stoichiometry="1"/>
+              <speciesReference species="BSU06490" stoichiometry="1"/>
+              <speciesReference species="BSU35700" stoichiometry="1"/>
+              <speciesReference species="BSU29360" stoichiometry="1"/>
+              <speciesReference species="BSU36920" stoichiometry="1"/>
+              <speciesReference species="BSU36850" stoichiometry="1"/>
+              <speciesReference species="BSU28090" stoichiometry="1"/>
+              <speciesReference species="BSU00820" stoichiometry="1"/>
+              <speciesReference species="BSU32940" stoichiometry="1"/>
+              <speciesReference species="BSU24570" stoichiometry="1"/>
+              <speciesReference species="BSU33960" stoichiometry="1"/>
+              <speciesReference species="BSU15800" stoichiometry="1"/>
+              <speciesReference species="BSU28390" stoichiometry="1"/>
+              <speciesReference species="BSU35740" stoichiometry="1"/>
+              <speciesReference species="BSU38730" stoichiometry="1"/>
+              <speciesReference species="BSU39670" stoichiometry="1"/>
+              <speciesReference species="BSU13590" stoichiometry="1"/>
+              <speciesReference species="BSU13890" stoichiometry="1"/>
+              <speciesReference species="BSU29060" stoichiometry="1"/>
+              <speciesReference species="BSU29140" stoichiometry="1"/>
+              <speciesReference species="BSU34910" stoichiometry="1"/>
+              <speciesReference species="BSU16750" stoichiometry="1"/>
+              <speciesReference species="BSU22420" stoichiometry="1"/>
+              <speciesReference species="BSU03320" stoichiometry="1"/>
+              <speciesReference species="BSU17370" stoichiometry="1"/>
+              <speciesReference species="BSU16990" stoichiometry="1"/>
+              <speciesReference species="BSU24970" stoichiometry="1"/>
+              <speciesReference species="BSU32460" stoichiometry="1"/>
+              <speciesReference species="BSU01700" stoichiometry="1"/>
+              <speciesReference species="BSU14390" stoichiometry="1"/>
+              <speciesReference species="BSU36510" stoichiometry="1"/>
+              <speciesReference species="BSU00130" stoichiometry="1"/>
+              <speciesReference species="BSU13180" stoichiometry="1"/>
+              <speciesReference species="BSU38270" stoichiometry="1"/>
+              <speciesReference species="BSU22740" stoichiometry="1"/>
+              <speciesReference species="BSU13620" stoichiometry="1"/>
+              <speciesReference species="BSU38540" stoichiometry="1"/>
+              <speciesReference species="BSU40420" stoichiometry="1"/>
+              <speciesReference species="BSU00500" stoichiometry="1"/>
+              <speciesReference species="BSU25270" stoichiometry="1"/>
+              <speciesReference species="BSU35920" stoichiometry="1"/>
+              <speciesReference species="BSU35730" stoichiometry="1"/>
+              <speciesReference species="BSU10370" stoichiometry="1"/>
+              <speciesReference species="BSU14870" stoichiometry="1"/>
+              <speciesReference species="BSU28300" stoichiometry="1"/>
+              <speciesReference species="BSU19630" stoichiometry="1"/>
+              <speciesReference species="BSU28430" stoichiometry="1"/>
+              <speciesReference species="BSU22650" stoichiometry="1"/>
+              <speciesReference species="BSU22410" stoichiometry="1"/>
+              <speciesReference species="BSU23250" stoichiometry="1"/>
+              <speciesReference species="BSU30190" stoichiometry="1"/>
+              <speciesReference species="BSU14890" stoichiometry="1"/>
+              <speciesReference species="BSU39060" stoichiometry="1"/>
+              <speciesReference species="BSU06680" stoichiometry="1"/>
+              <speciesReference species="BSU25300" stoichiometry="1"/>
+              <speciesReference species="BSU06720" stoichiometry="1"/>
+              <speciesReference species="BSU15430" stoichiometry="1"/>
+              <speciesReference species="BSU13130" stoichiometry="1"/>
+              <speciesReference species="BSU11010" stoichiometry="1"/>
+              <speciesReference species="BSU35950" stoichiometry="1"/>
+              <speciesReference species="BSU15530" stoichiometry="1"/>
+              <speciesReference species="BSU23380" stoichiometry="1"/>
+              <speciesReference species="BSU02340" stoichiometry="1"/>
+              <speciesReference species="BSU27270" stoichiometry="1"/>
+              <speciesReference species="BSU14000" stoichiometry="1"/>
+              <speciesReference species="BSU22890" stoichiometry="1"/>
+              <speciesReference species="BSU38490" stoichiometry="1"/>
+              <speciesReference species="BSU06500" stoichiometry="1"/>
+              <speciesReference species="BSU28780" stoichiometry="1"/>
+              <speciesReference species="BSU02860" stoichiometry="1"/>
+              <speciesReference species="BSU00790" stoichiometry="1"/>
+              <speciesReference species="BSU04470" stoichiometry="1"/>
+              <speciesReference species="BSU39420" stoichiometry="1"/>
+              <speciesReference species="BSU04570" stoichiometry="1"/>
+              <speciesReference species="BSU23550" stoichiometry="1"/>
+              <speciesReference species="BSU32130" stoichiometry="1"/>
+              <speciesReference species="BSU27870" stoichiometry="1"/>
+              <speciesReference species="BSU16530" stoichiometry="1"/>
+              <speciesReference species="BSU11330" stoichiometry="1"/>
+              <speciesReference species="BSU37270" stoichiometry="1"/>
+              <speciesReference species="BSU38050" stoichiometry="1"/>
+              <speciesReference species="BSU00090" stoichiometry="1"/>
+              <speciesReference species="BSU31620" stoichiometry="1"/>
+              <speciesReference species="BSU09280" stoichiometry="1"/>
+              <speciesReference species="BSU23960" stoichiometry="1"/>
+              <speciesReference species="BSU32520" stoichiometry="1"/>
+              <speciesReference species="BSU32450" stoichiometry="1"/>
+              <speciesReference species="BSU08080" stoichiometry="1"/>
+              <speciesReference species="BSU00780" stoichiometry="1"/>
+              <speciesReference species="BSU00940" stoichiometry="1"/>
+              <speciesReference species="BSU07810" stoichiometry="1"/>
+              <speciesReference species="BSU33920" stoichiometry="1"/>
+              <speciesReference species="BSU13550" stoichiometry="1"/>
+              <speciesReference species="BSU22370" stoichiometry="1"/>
+              <speciesReference species="BSU22070" stoichiometry="1"/>
+              <speciesReference species="BSU09840" stoichiometry="1"/>
+              <speciesReference species="BSU21870" stoichiometry="1"/>
+              <speciesReference species="BSU11870" stoichiometry="1"/>
+              <speciesReference species="BSU39730" stoichiometry="1"/>
+              <speciesReference species="BSU13220" stoichiometry="1"/>
+              <speciesReference species="BSU12020" stoichiometry="1"/>
+              <speciesReference species="BSU27900" stoichiometry="1"/>
+              <speciesReference species="BSU03200" stoichiometry="1"/>
+              <speciesReference species="BSU27610" stoichiometry="1"/>
+              <speciesReference species="BSU29020" stoichiometry="1"/>
+              <speciesReference species="BSU28120" stoichiometry="1"/>
+              <speciesReference species="BSU16540" stoichiometry="1"/>
+              <speciesReference species="BSU00730" stoichiometry="1"/>
+              <speciesReference species="BSU25640" stoichiometry="1"/>
+              <speciesReference species="BSU32730" stoichiometry="1"/>
+              <speciesReference species="BSU11200" stoichiometry="1"/>
+              <speciesReference species="BSU23070" stoichiometry="1"/>
+              <speciesReference species="BSU15620" stoichiometry="1"/>
+              <speciesReference species="BSU24280" stoichiometry="1"/>
+              <speciesReference species="BSU27430" stoichiometry="1"/>
+              <speciesReference species="BSU29750" stoichiometry="1"/>
+              <speciesReference species="BSU36800" stoichiometry="1"/>
+              <speciesReference species="BSU07920" stoichiometry="1"/>
+              <speciesReference species="BSU15580" stoichiometry="1"/>
+              <speciesReference species="BSU23980" stoichiometry="1"/>
+              <speciesReference species="BSU35670" stoichiometry="1"/>
+              <speciesReference species="BSU24990" stoichiometry="1"/>
+              <speciesReference species="BSU38740" stoichiometry="1"/>
+              <speciesReference species="BSU19360" stoichiometry="1"/>
+              <speciesReference species="BSU14610" stoichiometry="1"/>
+              <speciesReference species="BSU03060" stoichiometry="1"/>
+              <speciesReference species="BSU11610" stoichiometry="1"/>
+              <speciesReference species="BSU36890" stoichiometry="1"/>
+              <speciesReference species="BSU14590" stoichiometry="1"/>
+              <speciesReference species="BSU27050" stoichiometry="1"/>
+              <speciesReference species="BSU13900" stoichiometry="1"/>
+              <speciesReference species="BSU16760" stoichiometry="1"/>
+              <speciesReference species="BSU16090" stoichiometry="1"/>
+              <speciesReference species="BSU14180" stoichiometry="1"/>
+              <speciesReference species="BSU22750" stoichiometry="1"/>
+              <speciesReference species="BSU14910" stoichiometry="1"/>
+              <speciesReference species="BSU27810" stoichiometry="1"/>
+              <speciesReference species="BSU15610" stoichiometry="1"/>
+              <speciesReference species="BSU28080" stoichiometry="1"/>
+              <speciesReference species="BSU13170" stoichiometry="1"/>
+              <speciesReference species="BSU03130" stoichiometry="1"/>
+              <speciesReference species="BSU05810" stoichiometry="1"/>
+              <speciesReference species="BSU38510" stoichiometry="1"/>
+              <speciesReference species="BSU08650" stoichiometry="1"/>
+              <speciesReference species="BSU02420" stoichiometry="1"/>
+              <speciesReference species="BSU30800" stoichiometry="1"/>
+              <speciesReference species="BSU40060" stoichiometry="1"/>
+              <speciesReference species="BSU09300" stoichiometry="1"/>
+              <speciesReference species="BSU06160" stoichiometry="1"/>
+              <speciesReference species="BSU28270" stoichiometry="1"/>
+              <speciesReference species="BSU23850" stoichiometry="1"/>
+              <speciesReference species="BSU37780" stoichiometry="1"/>
+              <speciesReference species="BSU24030" stoichiometry="1"/>
+              <speciesReference species="BSU17380" stoichiometry="1"/>
+              <speciesReference species="BSU24060" stoichiometry="1"/>
+              <speciesReference species="BSU04360" stoichiometry="1"/>
+              <speciesReference species="BSU29200" stoichiometry="1"/>
+              <speciesReference species="BSU32170" stoichiometry="1"/>
+              <speciesReference species="BSU30790" stoichiometry="1"/>
+              <speciesReference species="BSU15180" stoichiometry="1"/>
+              <speciesReference species="BSU32010" stoichiometry="1"/>
+              <speciesReference species="BSU15560" stoichiometry="1"/>
+              <speciesReference species="BSU22610" stoichiometry="1"/>
+              <speciesReference species="BSU06430" stoichiometry="1"/>
+              <speciesReference species="BSU05900" stoichiometry="1"/>
+              <speciesReference species="BSU29380" stoichiometry="1"/>
+              <speciesReference species="BSU00900" stoichiometry="1"/>
+              <speciesReference species="BSU06530" stoichiometry="1"/>
+              <speciesReference species="BSU32250" stoichiometry="1"/>
+              <speciesReference species="BSU21920" stoichiometry="1"/>
+              <speciesReference species="BSU13300" stoichiometry="1"/>
+              <speciesReference species="BSU30770" stoichiometry="1"/>
+              <speciesReference species="BSU31990" stoichiometry="1"/>
+              <speciesReference species="BSU29470" stoichiometry="1"/>
+              <speciesReference species="BSU01780" stoichiometry="1"/>
+              <speciesReference species="BSU29370" stoichiometry="1"/>
+              <speciesReference species="BSU11240" stoichiometry="1"/>
+              <speciesReference species="BSU37120" stoichiometry="1"/>
+              <speciesReference species="BSU01620" stoichiometry="1"/>
+              <speciesReference species="BSU38160" stoichiometry="1"/>
+              <speciesReference species="BSU18000" stoichiometry="1"/>
+              <speciesReference species="BSU17460" stoichiometry="1"/>
+              <speciesReference species="BSU36840" stoichiometry="1"/>
+              <speciesReference species="BSU31350" stoichiometry="1"/>
+              <speciesReference species="BSU07840" stoichiometry="1"/>
+              <speciesReference species="BSU32430" stoichiometry="1"/>
+              <speciesReference species="BSU15700" stoichiometry="1"/>
+              <speciesReference species="BSU13580" stoichiometry="1"/>
+              <speciesReference species="BSU03330" stoichiometry="1"/>
+              <speciesReference species="BSU39760" stoichiometry="1"/>
+              <speciesReference species="BSU34920" stoichiometry="1"/>
+              <speciesReference species="BSU32490" stoichiometry="1"/>
+              <speciesReference species="BSU29010" stoichiometry="1"/>
+              <speciesReference species="BSU28150" stoichiometry="1"/>
+              <speciesReference species="BSU29680" stoichiometry="1"/>
+              <speciesReference species="BSU24960" stoichiometry="1"/>
+              <speciesReference species="BSU23140" stoichiometry="1"/>
+              <speciesReference species="BSU18450" stoichiometry="1"/>
+              <speciesReference species="BSU28630" stoichiometry="1"/>
+              <speciesReference species="BSU33040" stoichiometry="1"/>
+              <speciesReference species="BSU38260" stoichiometry="1"/>
+              <speciesReference species="BSU27460" stoichiometry="1"/>
+              <speciesReference species="BSU24310" stoichiometry="1"/>
+              <speciesReference species="BSU00120" stoichiometry="1"/>
+              <speciesReference species="BSU00760" stoichiometry="1"/>
+              <speciesReference species="BSU15630" stoichiometry="1"/>
+              <speciesReference species="BSU40340" stoichiometry="1"/>
+              <speciesReference species="BSU25260" stoichiometry="1"/>
+              <speciesReference species="BSU35720" stoichiometry="1"/>
+              <speciesReference species="BSU15220" stoichiometry="1"/>
+              <speciesReference species="BSU29790" stoichiometry="1"/>
+              <speciesReference species="BSU03050" stoichiometry="1"/>
+              <speciesReference species="BSU14860" stoichiometry="1"/>
+              <speciesReference species="BSU29120" stoichiometry="1"/>
+              <speciesReference species="BSU36590" stoichiometry="1"/>
+              <speciesReference species="BSU02290" stoichiometry="1"/>
+              <speciesReference species="BSU28440" stoichiometry="1"/>
+              <speciesReference species="BSU22660" stoichiometry="1"/>
+              <speciesReference species="BSU22780" stoichiometry="1"/>
+              <speciesReference species="BSU07610" stoichiometry="1"/>
+              <speciesReference species="BSU11710" stoichiometry="1"/>
+              <speciesReference species="BSU37760" stoichiometry="1"/>
+              <speciesReference species="BSU14920" stoichiometry="1"/>
+              <speciesReference species="BSU14880" stoichiometry="1"/>
+              <speciesReference species="BSU39370" stoichiometry="1"/>
+              <speciesReference species="BSU00150" stoichiometry="1"/>
+              <speciesReference species="BSU13120" stoichiometry="1"/>
+              <speciesReference species="BSU38290" stoichiometry="1"/>
+              <speciesReference species="BSU06690" stoichiometry="1"/>
+              <speciesReference species="BSU22710" stoichiometry="1"/>
+              <speciesReference species="BSU35940" stoichiometry="1"/>
+              <speciesReference species="BSU30830" stoichiometry="1"/>
+              <speciesReference species="BSU15520" stoichiometry="1"/>
+              <speciesReference species="BSU07500" stoichiometry="1"/>
+              <speciesReference species="BSU27260" stoichiometry="1"/>
+              <speciesReference species="BSU15680" stoichiometry="1"/>
+              <speciesReference species="BSU31640" stoichiometry="1"/>
+              <speciesReference species="BSU22560" stoichiometry="1"/>
+              <speciesReference species="BSU09540" stoichiometry="1"/>
+              <speciesReference species="BSU04560" stoichiometry="1"/>
+              <speciesReference species="BSU11420" stoichiometry="1"/>
+              <speciesReference species="BSU06670" stoichiometry="1"/>
+              <speciesReference species="BSU02870" stoichiometry="1"/>
+              <speciesReference species="BSU34890" stoichiometry="1"/>
+              <speciesReference species="BSU29190" stoichiometry="1"/>
+              <speciesReference species="BSU32000" stoichiometry="1"/>
+              <speciesReference species="BSU38040" stoichiometry="1"/>
+              <speciesReference species="BSU27860" stoichiometry="1"/>
+              <speciesReference species="BSU32480" stoichiometry="1"/>
+              <speciesReference species="BSU31630" stoichiometry="1"/>
+              <speciesReference species="BSU10010" stoichiometry="1"/>
+              <speciesReference species="BSU30230" stoichiometry="1"/>
+              <speciesReference species="BSU10130" stoichiometry="1"/>
+              <speciesReference species="BSU06370" stoichiometry="1"/>
+              <speciesReference species="BSU32530" stoichiometry="1"/>
+              <speciesReference species="BSU38500" stoichiometry="1"/>
+              <speciesReference species="BSU33910" stoichiometry="1"/>
+              <speciesReference species="BSU15020" stoichiometry="1"/>
+              <speciesReference species="BSU25580" stoichiometry="1"/>
+              <speciesReference species="BSU07800" stoichiometry="1"/>
+              <speciesReference species="BSU36660" stoichiometry="1"/>
+              <speciesReference species="BSU30540" stoichiometry="1"/>
+              <speciesReference species="BSU22360" stoichiometry="1"/>
+              <speciesReference species="BSU13230" stoichiometry="1"/>
+              <speciesReference species="BSU12010" stoichiometry="1"/>
+              <speciesReference species="BSU32690" stoichiometry="1"/>
+              <speciesReference species="BSU39720" stoichiometry="1"/>
+              <speciesReference species="BSU03270" stoichiometry="1"/>
+              <speciesReference species="BSU29340" stoichiometry="1"/>
+              <speciesReference species="BSU11210" stoichiometry="1"/>
+              <speciesReference species="BSU16550" stoichiometry="1"/>
+              <speciesReference species="BSU01610" stoichiometry="1"/>
+              <speciesReference species="BSU18070" stoichiometry="1"/>
+              <speciesReference species="BSU32740" stoichiometry="1"/>
+              <speciesReference species="BSU06470" stoichiometry="1"/>
+              <speciesReference species="BSU35010" stoichiometry="1"/>
+              <speciesReference species="BSU24350" stoichiometry="1"/>
+              <speciesReference species="BSU36830" stoichiometry="1"/>
+              <speciesReference species="BSU10020" stoichiometry="1"/>
+              <speciesReference species="BSU36010" stoichiometry="1"/>
+              <speciesReference species="BSU24980" stoichiometry="1"/>
+              <speciesReference species="BSU08060" stoichiometry="1"/>
+              <speciesReference species="BSU08790" stoichiometry="1"/>
+              <speciesReference species="BSU38750" stoichiometry="1"/>
+              <speciesReference species="BSU04620" stoichiometry="1"/>
+              <speciesReference species="BSU35760" stoichiometry="1"/>
+              <speciesReference species="BSU19310" stoichiometry="1"/>
+              <speciesReference species="BSU14600" stoichiometry="1"/>
+              <speciesReference species="BSU28740" stoichiometry="1"/>
+              <speciesReference species="BSU03300" stoichiometry="1"/>
+              <speciesReference species="BSU27040" stoichiometry="1"/>
+              <speciesReference species="BSU14210" stoichiometry="1"/>
+              <speciesReference species="BSU16770" stoichiometry="1"/>
+              <speciesReference species="BSU08090" stoichiometry="1"/>
+              <speciesReference species="BSU18670" stoichiometry="1"/>
+              <speciesReference species="BSU14190" stoichiometry="1"/>
+              <speciesReference species="BSU16670" stoichiometry="1"/>
+              <speciesReference species="BSU24850" stoichiometry="1"/>
+              <speciesReference species="BSU27250" stoichiometry="1"/>
+              <speciesReference species="BSU16100" stoichiometry="1"/>
+              <speciesReference species="BSU27550" stoichiometry="1"/>
+              <speciesReference species="BSU28640" stoichiometry="1"/>
+              <speciesReference species="BSU37330" stoichiometry="1"/>
+              <speciesReference species="BSU15480" stoichiometry="1"/>
+              <speciesReference species="BSU13600" stoichiometry="1"/>
+              <speciesReference species="BSU38520" stoichiometry="1"/>
+              <speciesReference species="BSU02430" stoichiometry="1"/>
+              <speciesReference species="BSU25160" stoichiometry="1"/>
+              <speciesReference species="BSU40070" stoichiometry="1"/>
+              <speciesReference species="BSU09310" stoichiometry="1"/>
+              <speciesReference species="BSU06150" stoichiometry="1"/>
+              <speciesReference species="BSU09460" stoichiometry="1"/>
+              <speciesReference species="BSU35880" stoichiometry="1"/>
+              <speciesReference species="BSU22830" stoichiometry="1"/>
+              <speciesReference species="BSU40190" stoichiometry="1"/>
+              <speciesReference species="BSU00750" stoichiometry="1"/>
+              <speciesReference species="BSU13110" stoichiometry="1"/>
+              <speciesReference species="BSU23130" stoichiometry="1"/>
+              <speciesReference species="BSU24270" stoichiometry="1"/>
+              <speciesReference species="BSU22620" stoichiometry="1"/>
+              <speciesReference species="BSU10170" stoichiometry="1"/>
+              <speciesReference species="BSU28310" stoichiometry="1"/>
+              <speciesReference species="BSU11700" stoichiometry="1"/>
+              <speciesReference species="BSU15550" stoichiometry="1"/>
+              <speciesReference species="BSU32240" stoichiometry="1"/>
+              <speciesReference species="BSU25070" stoichiometry="1"/>
+              <speciesReference species="BSU15890" stoichiometry="1"/>
+              <speciesReference species="BSU06440" stoichiometry="1"/>
+              <speciesReference species="BSU22550" stoichiometry="1"/>
+              <speciesReference species="BSU06520" stoichiometry="1"/>
+              <speciesReference species="BSU08200" stoichiometry="1"/>
+              <speciesReference species="BSU21820" stoichiometry="1"/>
+              <speciesReference species="BSU35530" stoichiometry="1"/>
+              <speciesReference species="BSU30740" stoichiometry="1"/>
+              <speciesReference species="BSU38170" stoichiometry="1"/>
+              <speciesReference species="BSU31980" stoichiometry="1"/>
+              <speciesReference species="BSU12290" stoichiometry="1"/>
+              <speciesReference species="BSU15600" stoichiometry="1"/>
+              <speciesReference species="BSU37050" stoichiometry="1"/>
+              <speciesReference species="BSU11250" stoichiometry="1"/>
+              <speciesReference species="BSU37110" stoichiometry="1"/>
+              <speciesReference species="BSU16510" stoichiometry="1"/>
+              <speciesReference species="BSU36900" stoichiometry="1"/>
+              <speciesReference species="BSU31600" stoichiometry="1"/>
+              <speciesReference species="BSU39390" stoichiometry="1"/>
+              <speciesReference species="BSU37500" stoichiometry="1"/>
+              <speciesReference species="BSU39860" stoichiometry="1"/>
+              <speciesReference species="BSU33940" stoichiometry="1"/>
+              <speciesReference species="BSU03290" stoichiometry="1"/>
+              <speciesReference species="BSU21910" stoichiometry="1"/>
+              <speciesReference species="BSU15730" stoichiometry="1"/>
+              <speciesReference species="BSU38710" stoichiometry="1"/>
+              <speciesReference species="BSU14520" stoichiometry="1"/>
+              <speciesReference species="BSU29990" stoichiometry="1"/>
+              <speciesReference species="BSU28140" stoichiometry="1"/>
+              <speciesReference species="BSU03610" stoichiometry="1"/>
+              <speciesReference species="BSU03590" stoichiometry="1"/>
+              <speciesReference species="BSU24950" stoichiometry="1"/>
+              <speciesReference species="BSU03220" stoichiometry="1"/>
+              <speciesReference species="BSU11220" stoichiometry="1"/>
+              <speciesReference species="BSU00930" stoichiometry="1"/>
+              <speciesReference species="BSU31930" stoichiometry="1"/>
+              <speciesReference species="BSU23150" stoichiometry="1"/>
+              <speciesReference species="BSU18440" stoichiometry="1"/>
+              <speciesReference species="BSU27450" stoichiometry="1"/>
+              <speciesReference species="BSU38560" stoichiometry="1"/>
+              <speciesReference species="BSU36470" stoichiometry="1"/>
+              <speciesReference species="BSU11690" stoichiometry="1"/>
+              <speciesReference species="BSU38760" stoichiometry="1"/>
+              <speciesReference species="BSU28280" stoichiometry="1"/>
+              <speciesReference species="BSU23800" stoichiometry="1"/>
+              <speciesReference species="BSU35710" stoichiometry="1"/>
+              <speciesReference species="BSU15230" stoichiometry="1"/>
+              <speciesReference species="BSU03981" stoichiometry="1"/>
+              <speciesReference species="BSU14630" stoichiometry="1"/>
+              <speciesReference species="BSU28730" stoichiometry="1"/>
+              <speciesReference species="BSU33430" stoichiometry="1"/>
+              <speciesReference species="BSU36870" stoichiometry="1"/>
+              <speciesReference species="BSU29130" stoichiometry="1"/>
+              <speciesReference species="BSU27070" stoichiometry="1"/>
+              <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+              <speciesReference species="average_protein_Secreted" stoichiometry="1"/>
+              <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
+              <speciesReference species="P21464" stoichiometry="1"/>
+              <speciesReference species="P21465" stoichiometry="1"/>
+              <speciesReference species="P21466" stoichiometry="1"/>
+              <speciesReference species="P21467" stoichiometry="1"/>
+              <speciesReference species="P21468" stoichiometry="1"/>
+              <speciesReference species="P21469" stoichiometry="1"/>
+              <speciesReference species="P12879" stoichiometry="1"/>
+              <speciesReference species="P21470" stoichiometry="1"/>
+              <speciesReference species="P21471" stoichiometry="1"/>
+              <speciesReference species="P04969" stoichiometry="1"/>
+              <speciesReference species="P21472" stoichiometry="1"/>
+              <speciesReference species="P20282" stoichiometry="1"/>
+              <speciesReference species="P12878" stoichiometry="1"/>
+              <speciesReference species="P21473" stoichiometry="1"/>
+              <speciesReference species="P21474" stoichiometry="1"/>
+              <speciesReference species="P12874" stoichiometry="1"/>
+              <speciesReference species="P21475" stoichiometry="1"/>
+              <speciesReference species="P21476" stoichiometry="1"/>
+              <speciesReference species="P21477" stoichiometry="1"/>
+              <speciesReference species="P21478" stoichiometry="1"/>
+              <speciesReference species="Q06797" stoichiometry="1"/>
+              <speciesReference species="P42919" stoichiometry="1"/>
+              <speciesReference species="P42920" stoichiometry="1"/>
+              <speciesReference species="P42921" stoichiometry="1"/>
+              <speciesReference species="P12877" stoichiometry="1"/>
+              <speciesReference species="P46898" stoichiometry="1"/>
+              <speciesReference species="P02394" stoichiometry="1"/>
+              <speciesReference species="P37437" stoichiometry="1"/>
+              <speciesReference species="P42923" stoichiometry="1"/>
+              <speciesReference species="Q06796" stoichiometry="1"/>
+              <speciesReference species="P70974" stoichiometry="1"/>
+              <speciesReference species="P12875" stoichiometry="1"/>
+              <speciesReference species="P19946" stoichiometry="1"/>
+              <speciesReference species="P14577" stoichiometry="1"/>
+              <speciesReference species="P20277" stoichiometry="1"/>
+              <speciesReference species="P46899" stoichiometry="1"/>
+              <speciesReference species="O31742" stoichiometry="1"/>
+              <speciesReference species="P55873" stoichiometry="1"/>
+              <speciesReference species="P26908" stoichiometry="1"/>
+              <speciesReference species="P42060" stoichiometry="1"/>
+              <speciesReference species="P42924" stoichiometry="1"/>
+              <speciesReference species="P0CI78" stoichiometry="1"/>
+              <speciesReference species="P05657" stoichiometry="1"/>
+              <speciesReference species="P37807" stoichiometry="1"/>
+              <speciesReference species="P12873" stoichiometry="1"/>
+              <speciesReference species="P19947" stoichiometry="1"/>
+              <speciesReference species="Q03223" stoichiometry="1"/>
+              <speciesReference species="O34967" stoichiometry="1"/>
+              <speciesReference species="O34687" stoichiometry="1"/>
+              <speciesReference species="Q06798" stoichiometry="1"/>
+              <speciesReference species="P05647" stoichiometry="1"/>
+              <speciesReference species="P55874" stoichiometry="1"/>
+              <speciesReference species="P20278" stoichiometry="1"/>
+              <speciesReference species="P20458" stoichiometry="1"/>
+              <speciesReference species="P17889" stoichiometry="1"/>
+              <speciesReference species="P55872" stoichiometry="1"/>
+              <speciesReference species="P80700" stoichiometry="1"/>
+              <speciesReference species="P33166" stoichiometry="1"/>
+              <speciesReference species="P80868" stoichiometry="1"/>
+              <speciesReference species="P49778" stoichiometry="1"/>
+              <speciesReference species="P45872" stoichiometry="1"/>
+              <speciesReference species="P28367" stoichiometry="1"/>
+              <speciesReference species="P81101" stoichiometry="1"/>
+              <speciesReference species="P37949" stoichiometry="1"/>
+              <speciesReference species="P80698" stoichiometry="1"/>
+              <speciesReference species="P28598" stoichiometry="1"/>
+              <speciesReference species="P28599" stoichiometry="1"/>
+              <speciesReference species="P17820" stoichiometry="1"/>
+              <speciesReference species="P15874" stoichiometry="1"/>
+              <speciesReference species="P17631" stoichiometry="1"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_CHP" name="Folding">
+      <machinery>
+        <machineryComposition>
+          <listOfReactants>
+            <speciesReference species="P28598" stoichiometry="14.0"/>
+            <speciesReference species="P28599" stoichiometry="7.0"/>
+            <speciesReference species="P80698" stoichiometry="1.0"/>
+            <speciesReference species="P17820" stoichiometry="1.0"/>
+            <speciesReference species="P17631" stoichiometry="2.0"/>
+            <speciesReference species="P15874" stoichiometry="2.0"/>
+          </listOfReactants>
+        </machineryComposition>
+        <capacity value="chaperone_efficiency_LM"/>
+      </machinery>
+      <processings>
+        <listOfProductions>
+          <processing processingMap="folding" set="protein">
+            <listOfInputs>
+              <speciesReference species="BSU28450" stoichiometry="1"/>
+              <speciesReference species="BSU23270" stoichiometry="1"/>
+              <speciesReference species="BSU00380" stoichiometry="1"/>
+              <speciesReference species="BSU14930" stoichiometry="1"/>
+              <speciesReference species="BSU10220" stoichiometry="1"/>
+              <speciesReference species="BSU36370" stoichiometry="1"/>
+              <speciesReference species="BSU39360" stoichiometry="1"/>
+              <speciesReference species="BSU00140" stoichiometry="1"/>
+              <speciesReference species="BSU28800" stoichiometry="1"/>
+              <speciesReference species="BSU38280" stoichiometry="1"/>
+              <speciesReference species="BSU15510" stoichiometry="1"/>
+              <speciesReference species="BSU05830" stoichiometry="1"/>
+              <speciesReference species="BSU23970" stoichiometry="1"/>
+              <speciesReference species="BSU40320" stoichiometry="1"/>
+              <speciesReference species="BSU22700" stoichiometry="1"/>
+              <speciesReference species="BSU30820" stoichiometry="1"/>
+              <speciesReference species="BSU07510" stoichiometry="1"/>
+              <speciesReference species="BSU31650" stoichiometry="1"/>
+              <speciesReference species="BSU34880" stoichiometry="1"/>
+              <speciesReference species="BSU11880" stoichiometry="1"/>
+              <speciesReference species="BSU23570" stoichiometry="1"/>
+              <speciesReference species="BSU37090" stoichiometry="1"/>
+              <speciesReference species="BSU22680" stoichiometry="1"/>
+              <speciesReference species="BSU15190" stoichiometry="1"/>
+              <speciesReference species="BSU39400" stoichiometry="1"/>
+              <speciesReference species="BSU37150" stoichiometry="1"/>
+              <speciesReference species="BSU09410" stoichiometry="1"/>
+              <speciesReference species="BSU37250" stoichiometry="1"/>
+              <speciesReference species="BSU11680" stoichiometry="1"/>
+              <speciesReference species="BSU24040" stoichiometry="1"/>
+              <speciesReference species="BSU17000" stoichiometry="1"/>
+              <speciesReference species="BSU00700" stoichiometry="1"/>
+              <speciesReference species="BSU15850" stoichiometry="1"/>
+              <speciesReference species="BSU29220" stoichiometry="1"/>
+              <speciesReference species="BSU00460" stoichiometry="1"/>
+              <speciesReference species="BSU06360" stoichiometry="1"/>
+              <speciesReference species="BSU32500" stoichiometry="1"/>
+              <speciesReference species="BSU21770" stoichiometry="1"/>
+              <speciesReference species="BSU38580" stoichiometry="1"/>
+              <speciesReference species="BSU22670" stoichiometry="1"/>
+              <speciesReference species="BSU30220" stoichiometry="1"/>
+              <speciesReference species="BSU33900" stoichiometry="1"/>
+              <speciesReference species="BSU00680" stoichiometry="1"/>
+              <speciesReference species="BSU25020" stoichiometry="1"/>
+              <speciesReference species="BSU15860" stoichiometry="1"/>
+              <speciesReference species="BSU36710" stoichiometry="1"/>
+              <speciesReference species="BSU15900" stoichiometry="1"/>
+              <speciesReference species="BSU21810" stoichiometry="1"/>
+              <speciesReference species="BSU36650" stoichiometry="1"/>
+              <speciesReference species="BSU30550" stoichiometry="1"/>
+              <speciesReference species="BSU23500" stoichiometry="1"/>
+              <speciesReference species="BSU39710" stoichiometry="1"/>
+              <speciesReference species="BSU13240" stoichiometry="1"/>
+              <speciesReference species="BSU14440" stoichiometry="1"/>
+              <speciesReference species="BSU34870" stoichiometry="1"/>
+              <speciesReference species="BSU11670" stoichiometry="1"/>
+              <speciesReference species="BSU38140" stoichiometry="1"/>
+              <speciesReference species="BSU31970" stoichiometry="1"/>
+              <speciesReference species="BSU29450" stoichiometry="1"/>
+              <speciesReference species="BSU06480" stoichiometry="1"/>
+              <speciesReference species="BSU07490" stoichiometry="1"/>
+              <speciesReference species="BSU29350" stoichiometry="1"/>
+              <speciesReference species="BSU36640" stoichiometry="1"/>
+              <speciesReference species="BSU11340" stoichiometry="1"/>
+              <speciesReference species="BSU31150" stoichiometry="1"/>
+              <speciesReference species="BSU32200" stoichiometry="1"/>
+              <speciesReference species="BSU32750" stoichiometry="1"/>
+              <speciesReference species="BSU36820" stoichiometry="1"/>
+              <speciesReference species="BSU22430" stoichiometry="1"/>
+              <speciesReference species="BSU29670" stoichiometry="1"/>
+              <speciesReference species="BSU23050" stoichiometry="1"/>
+              <speciesReference species="BSU24340" stoichiometry="1"/>
+              <speciesReference species="BSU36000" stoichiometry="1"/>
+              <speciesReference species="BSU08070" stoichiometry="1"/>
+              <speciesReference species="BSU35020" stoichiometry="1"/>
+              <speciesReference species="BSU35750" stoichiometry="1"/>
+              <speciesReference species="BSU29180" stoichiometry="1"/>
+              <speciesReference species="BSU34900" stoichiometry="1"/>
+              <speciesReference species="BSU17890" stoichiometry="1"/>
+              <speciesReference species="BSU28170" stoichiometry="1"/>
+              <speciesReference species="BSU03310" stoichiometry="1"/>
+              <speciesReference species="BSU00510" stoichiometry="1"/>
+              <speciesReference species="BSU32470" stoichiometry="1"/>
+              <speciesReference species="BSU27330" stoichiometry="1"/>
+              <speciesReference species="BSU37280" stoichiometry="1"/>
+              <speciesReference species="BSU07520" stoichiometry="1"/>
+              <speciesReference species="BSU15920" stoichiometry="1"/>
+              <speciesReference species="BSU28790" stoichiometry="1"/>
+              <speciesReference species="BSU37320" stoichiometry="1"/>
+              <speciesReference species="BSU27560" stoichiometry="1"/>
+              <speciesReference species="BSU38530" stoichiometry="1"/>
+              <speciesReference species="BSU15490" stoichiometry="1"/>
+              <speciesReference species="BSU35930" stoichiometry="1"/>
+              <speciesReference species="BSU13610" stoichiometry="1"/>
+              <speciesReference species="BSU04640" stoichiometry="1"/>
+              <speciesReference species="BSU00110" stoichiometry="1"/>
+              <speciesReference species="BSU28250" stoichiometry="1"/>
+              <speciesReference species="BSU23280" stoichiometry="1"/>
+              <speciesReference species="BSU22870" stoichiometry="1"/>
+              <speciesReference species="BSU15790" stoichiometry="1"/>
+              <speciesReference species="BSU27410" stoichiometry="1"/>
+              <speciesReference species="BSU22640" stoichiometry="1"/>
+              <speciesReference species="BSU30210" stoichiometry="1"/>
+              <speciesReference species="BSU31750" stoichiometry="1"/>
+              <speciesReference species="BSU37660" stoichiometry="1"/>
+              <speciesReference species="BSU00740" stoichiometry="1"/>
+              <speciesReference species="BSU10140" stoichiometry="1"/>
+              <speciesReference species="BSU34860" stoichiometry="1"/>
+              <speciesReference species="BSU25500" stoichiometry="1"/>
+              <speciesReference species="BSU15540" stoichiometry="1"/>
+              <speciesReference species="BSU30670" stoichiometry="1"/>
+              <speciesReference species="BSU05860" stoichiometry="1"/>
+              <speciesReference species="BSU02350" stoichiometry="1"/>
+              <speciesReference species="BSU22630" stoichiometry="1"/>
+              <speciesReference species="BSU16570" stoichiometry="1"/>
+              <speciesReference species="BSU22730" stoichiometry="1"/>
+              <speciesReference species="BSU30200" stoichiometry="1"/>
+              <speciesReference species="BSU06450" stoichiometry="1"/>
+              <speciesReference species="BSU30320" stoichiometry="1"/>
+              <speciesReference species="BSU22540" stoichiometry="1"/>
+              <speciesReference species="BSU06510" stoichiometry="1"/>
+              <speciesReference species="BSU30750" stoichiometry="1"/>
+              <speciesReference species="BSU25660" stoichiometry="1"/>
+              <speciesReference species="BSU02850" stoichiometry="1"/>
+              <speciesReference species="BSU30690" stoichiometry="1"/>
+              <speciesReference species="BSU37060" stoichiometry="1"/>
+              <speciesReference species="BSU14400" stoichiometry="1"/>
+              <speciesReference species="BSU37260" stoichiometry="1"/>
+              <speciesReference species="BSU22490" stoichiometry="1"/>
+              <speciesReference species="BSU38060" stoichiometry="1"/>
+              <speciesReference species="BSU31580" stoichiometry="1"/>
+              <speciesReference species="BSU09290" stoichiometry="1"/>
+              <speciesReference species="BSU39380" stoichiometry="1"/>
+              <speciesReference species="BSU15910" stoichiometry="1"/>
+              <speciesReference species="BSU31610" stoichiometry="1"/>
+              <speciesReference species="BSU03280" stoichiometry="1"/>
+              <speciesReference species="BSU01370" stoichiometry="1"/>
+              <speciesReference species="BSU33930" stoichiometry="1"/>
+              <speciesReference species="BSU31400" stoichiometry="1"/>
+              <speciesReference species="BSU15720" stoichiometry="1"/>
+              <speciesReference species="BSU36760" stoichiometry="1"/>
+              <speciesReference species="BSU22060" stoichiometry="1"/>
+              <speciesReference species="BSU39740" stoichiometry="1"/>
+              <speciesReference species="BSU13210" stoichiometry="1"/>
+              <speciesReference species="BSU28130" stoichiometry="1"/>
+              <speciesReference species="BSU03600" stoichiometry="1"/>
+              <speciesReference species="BSU03210" stoichiometry="1"/>
+              <speciesReference species="BSU01770" stoichiometry="1"/>
+              <speciesReference species="BSU11230" stoichiometry="1"/>
+              <speciesReference species="BSU00920" stoichiometry="1"/>
+              <speciesReference species="BSU08180" stoichiometry="1"/>
+              <speciesReference species="BSU27440" stoichiometry="1"/>
+              <speciesReference species="BSU36810" stoichiometry="1"/>
+              <speciesReference species="BSU29620" stoichiometry="1"/>
+              <speciesReference species="BSU23080" stoichiometry="1"/>
+              <speciesReference species="BSU15590" stoichiometry="1"/>
+              <speciesReference species="BSU38570" stoichiometry="1"/>
+              <speciesReference species="BSU28290" stoichiometry="1"/>
+              <speciesReference species="BSU35660" stoichiometry="1"/>
+              <speciesReference species="BSU27850" stoichiometry="1"/>
+              <speciesReference species="BSU40550" stoichiometry="1"/>
+              <speciesReference species="BSU08820" stoichiometry="1"/>
+              <speciesReference species="BSU15200" stoichiometry="1"/>
+              <speciesReference species="BSU38770" stoichiometry="1"/>
+              <speciesReference species="BSU13910" stoichiometry="1"/>
+              <speciesReference species="BSU32410" stoichiometry="1"/>
+              <speciesReference species="BSU02270" stoichiometry="1"/>
+              <speciesReference species="BSU03990" stoichiometry="1"/>
+              <speciesReference species="BSU19370" stoichiometry="1"/>
+              <speciesReference species="BSU33440" stoichiometry="1"/>
+              <speciesReference species="BSU36860" stoichiometry="1"/>
+              <speciesReference species="BSU14580" stoichiometry="1"/>
+              <speciesReference species="BSU27060" stoichiometry="1"/>
+              <speciesReference species="BSU23260" stoichiometry="1"/>
+              <speciesReference species="BSU22760" stoichiometry="1"/>
+              <speciesReference species="BSU14900" stoichiometry="1"/>
+              <speciesReference species="BSU39350" stoichiometry="1"/>
+              <speciesReference species="BSU02390" stoichiometry="1"/>
+              <speciesReference species="BSU37490" stoichiometry="1"/>
+              <speciesReference species="BSU35960" stoichiometry="1"/>
+              <speciesReference species="BSU30810" stoichiometry="1"/>
+              <speciesReference species="BSU15500" stoichiometry="1"/>
+              <speciesReference species="BSU28950" stoichiometry="1"/>
+              <speciesReference species="BSU05820" stoichiometry="1"/>
+              <speciesReference species="BSU27280" stoichiometry="1"/>
+              <speciesReference species="BSU28260" stoichiometry="1"/>
+              <speciesReference species="BSU23860" stoichiometry="1"/>
+              <speciesReference species="BSU37790" stoichiometry="1"/>
+              <speciesReference species="BSU23580" stoichiometry="1"/>
+              <speciesReference species="BSU31660" stoichiometry="1"/>
+              <speciesReference species="BSU07700" stoichiometry="1"/>
+              <speciesReference species="BSU39410" stoichiometry="1"/>
+              <speciesReference species="BSU30240" stoichiometry="1"/>
+              <speciesReference species="BSU17390" stoichiometry="1"/>
+              <speciesReference species="BSU22690" stoichiometry="1"/>
+              <speciesReference species="BSU00280" stoichiometry="1"/>
+              <speciesReference species="BSU01680" stoichiometry="1"/>
+              <speciesReference species="BSU29210" stoichiometry="1"/>
+              <speciesReference species="BSU23490" stoichiometry="1"/>
+              <speciesReference species="BSU24050" stoichiometry="1"/>
+              <speciesReference species="BSU12840" stoichiometry="1"/>
+              <speciesReference species="BSU00770" stoichiometry="1"/>
+              <speciesReference species="BSU30780" stoichiometry="1"/>
+              <speciesReference species="BSU32510" stoichiometry="1"/>
+              <speciesReference species="BSU15570" stoichiometry="1"/>
+              <speciesReference species="BSU11190" stoichiometry="1"/>
+              <speciesReference species="BSU38590" stoichiometry="1"/>
+              <speciesReference species="BSU22600" stoichiometry="1"/>
+              <speciesReference species="BSU00910" stoichiometry="1"/>
+              <speciesReference species="BSU25190" stoichiometry="1"/>
+              <speciesReference species="BSU13560" stoichiometry="1"/>
+              <speciesReference species="BSU30560" stoichiometry="1"/>
+              <speciesReference species="BSU32260" stoichiometry="1"/>
+              <speciesReference species="BSU06420" stoichiometry="1"/>
+              <speciesReference species="BSU30760" stoichiometry="1"/>
+              <speciesReference species="BSU39700" stoichiometry="1"/>
+              <speciesReference species="BSU29880" stoichiometry="1"/>
+              <speciesReference species="BSU03150" stoichiometry="1"/>
+              <speciesReference species="BSU01630" stoichiometry="1"/>
+              <speciesReference species="BSU38150" stoichiometry="1"/>
+              <speciesReference species="BSU31960" stoichiometry="1"/>
+              <speciesReference species="BSU29440" stoichiometry="1"/>
+              <speciesReference species="BSU06490" stoichiometry="1"/>
+              <speciesReference species="BSU35700" stoichiometry="1"/>
+              <speciesReference species="BSU29360" stoichiometry="1"/>
+              <speciesReference species="BSU36920" stoichiometry="1"/>
+              <speciesReference species="BSU36850" stoichiometry="1"/>
+              <speciesReference species="BSU28090" stoichiometry="1"/>
+              <speciesReference species="BSU00820" stoichiometry="1"/>
+              <speciesReference species="BSU32940" stoichiometry="1"/>
+              <speciesReference species="BSU24570" stoichiometry="1"/>
+              <speciesReference species="BSU33960" stoichiometry="1"/>
+              <speciesReference species="BSU15800" stoichiometry="1"/>
+              <speciesReference species="BSU28390" stoichiometry="1"/>
+              <speciesReference species="BSU35740" stoichiometry="1"/>
+              <speciesReference species="BSU38730" stoichiometry="1"/>
+              <speciesReference species="BSU39670" stoichiometry="1"/>
+              <speciesReference species="BSU13590" stoichiometry="1"/>
+              <speciesReference species="BSU13890" stoichiometry="1"/>
+              <speciesReference species="BSU29060" stoichiometry="1"/>
+              <speciesReference species="BSU29140" stoichiometry="1"/>
+              <speciesReference species="BSU34910" stoichiometry="1"/>
+              <speciesReference species="BSU16750" stoichiometry="1"/>
+              <speciesReference species="BSU22420" stoichiometry="1"/>
+              <speciesReference species="BSU03320" stoichiometry="1"/>
+              <speciesReference species="BSU17370" stoichiometry="1"/>
+              <speciesReference species="BSU16990" stoichiometry="1"/>
+              <speciesReference species="BSU24970" stoichiometry="1"/>
+              <speciesReference species="BSU32460" stoichiometry="1"/>
+              <speciesReference species="BSU01700" stoichiometry="1"/>
+              <speciesReference species="BSU14390" stoichiometry="1"/>
+              <speciesReference species="BSU36510" stoichiometry="1"/>
+              <speciesReference species="BSU00130" stoichiometry="1"/>
+              <speciesReference species="BSU13180" stoichiometry="1"/>
+              <speciesReference species="BSU38270" stoichiometry="1"/>
+              <speciesReference species="BSU22740" stoichiometry="1"/>
+              <speciesReference species="BSU13620" stoichiometry="1"/>
+              <speciesReference species="BSU38540" stoichiometry="1"/>
+              <speciesReference species="BSU40420" stoichiometry="1"/>
+              <speciesReference species="BSU00500" stoichiometry="1"/>
+              <speciesReference species="BSU25270" stoichiometry="1"/>
+              <speciesReference species="BSU35920" stoichiometry="1"/>
+              <speciesReference species="BSU35730" stoichiometry="1"/>
+              <speciesReference species="BSU10370" stoichiometry="1"/>
+              <speciesReference species="BSU14870" stoichiometry="1"/>
+              <speciesReference species="BSU28300" stoichiometry="1"/>
+              <speciesReference species="BSU19630" stoichiometry="1"/>
+              <speciesReference species="BSU28430" stoichiometry="1"/>
+              <speciesReference species="BSU22650" stoichiometry="1"/>
+              <speciesReference species="BSU22410" stoichiometry="1"/>
+              <speciesReference species="BSU23250" stoichiometry="1"/>
+              <speciesReference species="BSU30190" stoichiometry="1"/>
+              <speciesReference species="BSU14890" stoichiometry="1"/>
+              <speciesReference species="BSU39060" stoichiometry="1"/>
+              <speciesReference species="BSU06680" stoichiometry="1"/>
+              <speciesReference species="BSU25300" stoichiometry="1"/>
+              <speciesReference species="BSU06720" stoichiometry="1"/>
+              <speciesReference species="BSU15430" stoichiometry="1"/>
+              <speciesReference species="BSU13130" stoichiometry="1"/>
+              <speciesReference species="BSU11010" stoichiometry="1"/>
+              <speciesReference species="BSU35950" stoichiometry="1"/>
+              <speciesReference species="BSU15530" stoichiometry="1"/>
+              <speciesReference species="BSU23380" stoichiometry="1"/>
+              <speciesReference species="BSU02340" stoichiometry="1"/>
+              <speciesReference species="BSU27270" stoichiometry="1"/>
+              <speciesReference species="BSU14000" stoichiometry="1"/>
+              <speciesReference species="BSU22890" stoichiometry="1"/>
+              <speciesReference species="BSU38490" stoichiometry="1"/>
+              <speciesReference species="BSU06500" stoichiometry="1"/>
+              <speciesReference species="BSU28780" stoichiometry="1"/>
+              <speciesReference species="BSU02860" stoichiometry="1"/>
+              <speciesReference species="BSU00790" stoichiometry="1"/>
+              <speciesReference species="BSU04470" stoichiometry="1"/>
+              <speciesReference species="BSU39420" stoichiometry="1"/>
+              <speciesReference species="BSU04570" stoichiometry="1"/>
+              <speciesReference species="BSU23550" stoichiometry="1"/>
+              <speciesReference species="BSU32130" stoichiometry="1"/>
+              <speciesReference species="BSU27870" stoichiometry="1"/>
+              <speciesReference species="BSU16530" stoichiometry="1"/>
+              <speciesReference species="BSU11330" stoichiometry="1"/>
+              <speciesReference species="BSU37270" stoichiometry="1"/>
+              <speciesReference species="BSU38050" stoichiometry="1"/>
+              <speciesReference species="BSU00090" stoichiometry="1"/>
+              <speciesReference species="BSU31620" stoichiometry="1"/>
+              <speciesReference species="BSU09280" stoichiometry="1"/>
+              <speciesReference species="BSU23960" stoichiometry="1"/>
+              <speciesReference species="BSU32520" stoichiometry="1"/>
+              <speciesReference species="BSU32450" stoichiometry="1"/>
+              <speciesReference species="BSU08080" stoichiometry="1"/>
+              <speciesReference species="BSU00780" stoichiometry="1"/>
+              <speciesReference species="BSU00940" stoichiometry="1"/>
+              <speciesReference species="BSU07810" stoichiometry="1"/>
+              <speciesReference species="BSU33920" stoichiometry="1"/>
+              <speciesReference species="BSU13550" stoichiometry="1"/>
+              <speciesReference species="BSU22370" stoichiometry="1"/>
+              <speciesReference species="BSU22070" stoichiometry="1"/>
+              <speciesReference species="BSU09840" stoichiometry="1"/>
+              <speciesReference species="BSU21870" stoichiometry="1"/>
+              <speciesReference species="BSU11870" stoichiometry="1"/>
+              <speciesReference species="BSU39730" stoichiometry="1"/>
+              <speciesReference species="BSU13220" stoichiometry="1"/>
+              <speciesReference species="BSU12020" stoichiometry="1"/>
+              <speciesReference species="BSU27900" stoichiometry="1"/>
+              <speciesReference species="BSU03200" stoichiometry="1"/>
+              <speciesReference species="BSU27610" stoichiometry="1"/>
+              <speciesReference species="BSU29020" stoichiometry="1"/>
+              <speciesReference species="BSU28120" stoichiometry="1"/>
+              <speciesReference species="BSU16540" stoichiometry="1"/>
+              <speciesReference species="BSU00730" stoichiometry="1"/>
+              <speciesReference species="BSU25640" stoichiometry="1"/>
+              <speciesReference species="BSU32730" stoichiometry="1"/>
+              <speciesReference species="BSU11200" stoichiometry="1"/>
+              <speciesReference species="BSU23070" stoichiometry="1"/>
+              <speciesReference species="BSU15620" stoichiometry="1"/>
+              <speciesReference species="BSU24280" stoichiometry="1"/>
+              <speciesReference species="BSU27430" stoichiometry="1"/>
+              <speciesReference species="BSU29750" stoichiometry="1"/>
+              <speciesReference species="BSU36800" stoichiometry="1"/>
+              <speciesReference species="BSU07920" stoichiometry="1"/>
+              <speciesReference species="BSU15580" stoichiometry="1"/>
+              <speciesReference species="BSU23980" stoichiometry="1"/>
+              <speciesReference species="BSU35670" stoichiometry="1"/>
+              <speciesReference species="BSU24990" stoichiometry="1"/>
+              <speciesReference species="BSU38740" stoichiometry="1"/>
+              <speciesReference species="BSU19360" stoichiometry="1"/>
+              <speciesReference species="BSU14610" stoichiometry="1"/>
+              <speciesReference species="BSU03060" stoichiometry="1"/>
+              <speciesReference species="BSU11610" stoichiometry="1"/>
+              <speciesReference species="BSU36890" stoichiometry="1"/>
+              <speciesReference species="BSU14590" stoichiometry="1"/>
+              <speciesReference species="BSU27050" stoichiometry="1"/>
+              <speciesReference species="BSU13900" stoichiometry="1"/>
+              <speciesReference species="BSU16760" stoichiometry="1"/>
+              <speciesReference species="BSU16090" stoichiometry="1"/>
+              <speciesReference species="BSU14180" stoichiometry="1"/>
+              <speciesReference species="BSU22750" stoichiometry="1"/>
+              <speciesReference species="BSU14910" stoichiometry="1"/>
+              <speciesReference species="BSU27810" stoichiometry="1"/>
+              <speciesReference species="BSU15610" stoichiometry="1"/>
+              <speciesReference species="BSU28080" stoichiometry="1"/>
+              <speciesReference species="BSU13170" stoichiometry="1"/>
+              <speciesReference species="BSU03130" stoichiometry="1"/>
+              <speciesReference species="BSU05810" stoichiometry="1"/>
+              <speciesReference species="BSU38510" stoichiometry="1"/>
+              <speciesReference species="BSU08650" stoichiometry="1"/>
+              <speciesReference species="BSU02420" stoichiometry="1"/>
+              <speciesReference species="BSU30800" stoichiometry="1"/>
+              <speciesReference species="BSU40060" stoichiometry="1"/>
+              <speciesReference species="BSU09300" stoichiometry="1"/>
+              <speciesReference species="BSU06160" stoichiometry="1"/>
+              <speciesReference species="BSU28270" stoichiometry="1"/>
+              <speciesReference species="BSU23850" stoichiometry="1"/>
+              <speciesReference species="BSU37780" stoichiometry="1"/>
+              <speciesReference species="BSU24030" stoichiometry="1"/>
+              <speciesReference species="BSU17380" stoichiometry="1"/>
+              <speciesReference species="BSU24060" stoichiometry="1"/>
+              <speciesReference species="BSU04360" stoichiometry="1"/>
+              <speciesReference species="BSU29200" stoichiometry="1"/>
+              <speciesReference species="BSU32170" stoichiometry="1"/>
+              <speciesReference species="BSU30790" stoichiometry="1"/>
+              <speciesReference species="BSU15180" stoichiometry="1"/>
+              <speciesReference species="BSU32010" stoichiometry="1"/>
+              <speciesReference species="BSU15560" stoichiometry="1"/>
+              <speciesReference species="BSU22610" stoichiometry="1"/>
+              <speciesReference species="BSU06430" stoichiometry="1"/>
+              <speciesReference species="BSU05900" stoichiometry="1"/>
+              <speciesReference species="BSU29380" stoichiometry="1"/>
+              <speciesReference species="BSU00900" stoichiometry="1"/>
+              <speciesReference species="BSU06530" stoichiometry="1"/>
+              <speciesReference species="BSU32250" stoichiometry="1"/>
+              <speciesReference species="BSU21920" stoichiometry="1"/>
+              <speciesReference species="BSU13300" stoichiometry="1"/>
+              <speciesReference species="BSU30770" stoichiometry="1"/>
+              <speciesReference species="BSU31990" stoichiometry="1"/>
+              <speciesReference species="BSU29470" stoichiometry="1"/>
+              <speciesReference species="BSU01780" stoichiometry="1"/>
+              <speciesReference species="BSU29370" stoichiometry="1"/>
+              <speciesReference species="BSU11240" stoichiometry="1"/>
+              <speciesReference species="BSU37120" stoichiometry="1"/>
+              <speciesReference species="BSU01620" stoichiometry="1"/>
+              <speciesReference species="BSU38160" stoichiometry="1"/>
+              <speciesReference species="BSU18000" stoichiometry="1"/>
+              <speciesReference species="BSU17460" stoichiometry="1"/>
+              <speciesReference species="BSU36840" stoichiometry="1"/>
+              <speciesReference species="BSU31350" stoichiometry="1"/>
+              <speciesReference species="BSU07840" stoichiometry="1"/>
+              <speciesReference species="BSU32430" stoichiometry="1"/>
+              <speciesReference species="BSU15700" stoichiometry="1"/>
+              <speciesReference species="BSU13580" stoichiometry="1"/>
+              <speciesReference species="BSU03330" stoichiometry="1"/>
+              <speciesReference species="BSU39760" stoichiometry="1"/>
+              <speciesReference species="BSU34920" stoichiometry="1"/>
+              <speciesReference species="BSU32490" stoichiometry="1"/>
+              <speciesReference species="BSU29010" stoichiometry="1"/>
+              <speciesReference species="BSU28150" stoichiometry="1"/>
+              <speciesReference species="BSU29680" stoichiometry="1"/>
+              <speciesReference species="BSU24960" stoichiometry="1"/>
+              <speciesReference species="BSU23140" stoichiometry="1"/>
+              <speciesReference species="BSU18450" stoichiometry="1"/>
+              <speciesReference species="BSU28630" stoichiometry="1"/>
+              <speciesReference species="BSU33040" stoichiometry="1"/>
+              <speciesReference species="BSU38260" stoichiometry="1"/>
+              <speciesReference species="BSU27460" stoichiometry="1"/>
+              <speciesReference species="BSU24310" stoichiometry="1"/>
+              <speciesReference species="BSU00120" stoichiometry="1"/>
+              <speciesReference species="BSU00760" stoichiometry="1"/>
+              <speciesReference species="BSU15630" stoichiometry="1"/>
+              <speciesReference species="BSU40340" stoichiometry="1"/>
+              <speciesReference species="BSU25260" stoichiometry="1"/>
+              <speciesReference species="BSU35720" stoichiometry="1"/>
+              <speciesReference species="BSU15220" stoichiometry="1"/>
+              <speciesReference species="BSU29790" stoichiometry="1"/>
+              <speciesReference species="BSU03050" stoichiometry="1"/>
+              <speciesReference species="BSU14860" stoichiometry="1"/>
+              <speciesReference species="BSU29120" stoichiometry="1"/>
+              <speciesReference species="BSU36590" stoichiometry="1"/>
+              <speciesReference species="BSU02290" stoichiometry="1"/>
+              <speciesReference species="BSU28440" stoichiometry="1"/>
+              <speciesReference species="BSU22660" stoichiometry="1"/>
+              <speciesReference species="BSU22780" stoichiometry="1"/>
+              <speciesReference species="BSU07610" stoichiometry="1"/>
+              <speciesReference species="BSU11710" stoichiometry="1"/>
+              <speciesReference species="BSU37760" stoichiometry="1"/>
+              <speciesReference species="BSU14920" stoichiometry="1"/>
+              <speciesReference species="BSU14880" stoichiometry="1"/>
+              <speciesReference species="BSU39370" stoichiometry="1"/>
+              <speciesReference species="BSU00150" stoichiometry="1"/>
+              <speciesReference species="BSU13120" stoichiometry="1"/>
+              <speciesReference species="BSU38290" stoichiometry="1"/>
+              <speciesReference species="BSU06690" stoichiometry="1"/>
+              <speciesReference species="BSU22710" stoichiometry="1"/>
+              <speciesReference species="BSU35940" stoichiometry="1"/>
+              <speciesReference species="BSU30830" stoichiometry="1"/>
+              <speciesReference species="BSU15520" stoichiometry="1"/>
+              <speciesReference species="BSU07500" stoichiometry="1"/>
+              <speciesReference species="BSU27260" stoichiometry="1"/>
+              <speciesReference species="BSU15680" stoichiometry="1"/>
+              <speciesReference species="BSU31640" stoichiometry="1"/>
+              <speciesReference species="BSU22560" stoichiometry="1"/>
+              <speciesReference species="BSU09540" stoichiometry="1"/>
+              <speciesReference species="BSU04560" stoichiometry="1"/>
+              <speciesReference species="BSU11420" stoichiometry="1"/>
+              <speciesReference species="BSU06670" stoichiometry="1"/>
+              <speciesReference species="BSU02870" stoichiometry="1"/>
+              <speciesReference species="BSU34890" stoichiometry="1"/>
+              <speciesReference species="BSU29190" stoichiometry="1"/>
+              <speciesReference species="BSU32000" stoichiometry="1"/>
+              <speciesReference species="BSU38040" stoichiometry="1"/>
+              <speciesReference species="BSU27860" stoichiometry="1"/>
+              <speciesReference species="BSU32480" stoichiometry="1"/>
+              <speciesReference species="BSU31630" stoichiometry="1"/>
+              <speciesReference species="BSU10010" stoichiometry="1"/>
+              <speciesReference species="BSU30230" stoichiometry="1"/>
+              <speciesReference species="BSU10130" stoichiometry="1"/>
+              <speciesReference species="BSU06370" stoichiometry="1"/>
+              <speciesReference species="BSU32530" stoichiometry="1"/>
+              <speciesReference species="BSU38500" stoichiometry="1"/>
+              <speciesReference species="BSU33910" stoichiometry="1"/>
+              <speciesReference species="BSU15020" stoichiometry="1"/>
+              <speciesReference species="BSU25580" stoichiometry="1"/>
+              <speciesReference species="BSU07800" stoichiometry="1"/>
+              <speciesReference species="BSU36660" stoichiometry="1"/>
+              <speciesReference species="BSU30540" stoichiometry="1"/>
+              <speciesReference species="BSU22360" stoichiometry="1"/>
+              <speciesReference species="BSU13230" stoichiometry="1"/>
+              <speciesReference species="BSU12010" stoichiometry="1"/>
+              <speciesReference species="BSU32690" stoichiometry="1"/>
+              <speciesReference species="BSU39720" stoichiometry="1"/>
+              <speciesReference species="BSU03270" stoichiometry="1"/>
+              <speciesReference species="BSU29340" stoichiometry="1"/>
+              <speciesReference species="BSU11210" stoichiometry="1"/>
+              <speciesReference species="BSU16550" stoichiometry="1"/>
+              <speciesReference species="BSU01610" stoichiometry="1"/>
+              <speciesReference species="BSU18070" stoichiometry="1"/>
+              <speciesReference species="BSU32740" stoichiometry="1"/>
+              <speciesReference species="BSU06470" stoichiometry="1"/>
+              <speciesReference species="BSU35010" stoichiometry="1"/>
+              <speciesReference species="BSU24350" stoichiometry="1"/>
+              <speciesReference species="BSU36830" stoichiometry="1"/>
+              <speciesReference species="BSU10020" stoichiometry="1"/>
+              <speciesReference species="BSU36010" stoichiometry="1"/>
+              <speciesReference species="BSU24980" stoichiometry="1"/>
+              <speciesReference species="BSU08060" stoichiometry="1"/>
+              <speciesReference species="BSU08790" stoichiometry="1"/>
+              <speciesReference species="BSU38750" stoichiometry="1"/>
+              <speciesReference species="BSU04620" stoichiometry="1"/>
+              <speciesReference species="BSU35760" stoichiometry="1"/>
+              <speciesReference species="BSU19310" stoichiometry="1"/>
+              <speciesReference species="BSU14600" stoichiometry="1"/>
+              <speciesReference species="BSU28740" stoichiometry="1"/>
+              <speciesReference species="BSU03300" stoichiometry="1"/>
+              <speciesReference species="BSU27040" stoichiometry="1"/>
+              <speciesReference species="BSU14210" stoichiometry="1"/>
+              <speciesReference species="BSU16770" stoichiometry="1"/>
+              <speciesReference species="BSU08090" stoichiometry="1"/>
+              <speciesReference species="BSU18670" stoichiometry="1"/>
+              <speciesReference species="BSU14190" stoichiometry="1"/>
+              <speciesReference species="BSU16670" stoichiometry="1"/>
+              <speciesReference species="BSU24850" stoichiometry="1"/>
+              <speciesReference species="BSU27250" stoichiometry="1"/>
+              <speciesReference species="BSU16100" stoichiometry="1"/>
+              <speciesReference species="BSU27550" stoichiometry="1"/>
+              <speciesReference species="BSU28640" stoichiometry="1"/>
+              <speciesReference species="BSU37330" stoichiometry="1"/>
+              <speciesReference species="BSU15480" stoichiometry="1"/>
+              <speciesReference species="BSU13600" stoichiometry="1"/>
+              <speciesReference species="BSU38520" stoichiometry="1"/>
+              <speciesReference species="BSU02430" stoichiometry="1"/>
+              <speciesReference species="BSU25160" stoichiometry="1"/>
+              <speciesReference species="BSU40070" stoichiometry="1"/>
+              <speciesReference species="BSU09310" stoichiometry="1"/>
+              <speciesReference species="BSU06150" stoichiometry="1"/>
+              <speciesReference species="BSU09460" stoichiometry="1"/>
+              <speciesReference species="BSU35880" stoichiometry="1"/>
+              <speciesReference species="BSU22830" stoichiometry="1"/>
+              <speciesReference species="BSU40190" stoichiometry="1"/>
+              <speciesReference species="BSU00750" stoichiometry="1"/>
+              <speciesReference species="BSU13110" stoichiometry="1"/>
+              <speciesReference species="BSU23130" stoichiometry="1"/>
+              <speciesReference species="BSU24270" stoichiometry="1"/>
+              <speciesReference species="BSU22620" stoichiometry="1"/>
+              <speciesReference species="BSU10170" stoichiometry="1"/>
+              <speciesReference species="BSU28310" stoichiometry="1"/>
+              <speciesReference species="BSU11700" stoichiometry="1"/>
+              <speciesReference species="BSU15550" stoichiometry="1"/>
+              <speciesReference species="BSU32240" stoichiometry="1"/>
+              <speciesReference species="BSU25070" stoichiometry="1"/>
+              <speciesReference species="BSU15890" stoichiometry="1"/>
+              <speciesReference species="BSU06440" stoichiometry="1"/>
+              <speciesReference species="BSU22550" stoichiometry="1"/>
+              <speciesReference species="BSU06520" stoichiometry="1"/>
+              <speciesReference species="BSU08200" stoichiometry="1"/>
+              <speciesReference species="BSU21820" stoichiometry="1"/>
+              <speciesReference species="BSU35530" stoichiometry="1"/>
+              <speciesReference species="BSU30740" stoichiometry="1"/>
+              <speciesReference species="BSU38170" stoichiometry="1"/>
+              <speciesReference species="BSU31980" stoichiometry="1"/>
+              <speciesReference species="BSU12290" stoichiometry="1"/>
+              <speciesReference species="BSU15600" stoichiometry="1"/>
+              <speciesReference species="BSU37050" stoichiometry="1"/>
+              <speciesReference species="BSU11250" stoichiometry="1"/>
+              <speciesReference species="BSU37110" stoichiometry="1"/>
+              <speciesReference species="BSU16510" stoichiometry="1"/>
+              <speciesReference species="BSU36900" stoichiometry="1"/>
+              <speciesReference species="BSU31600" stoichiometry="1"/>
+              <speciesReference species="BSU39390" stoichiometry="1"/>
+              <speciesReference species="BSU37500" stoichiometry="1"/>
+              <speciesReference species="BSU39860" stoichiometry="1"/>
+              <speciesReference species="BSU33940" stoichiometry="1"/>
+              <speciesReference species="BSU03290" stoichiometry="1"/>
+              <speciesReference species="BSU21910" stoichiometry="1"/>
+              <speciesReference species="BSU15730" stoichiometry="1"/>
+              <speciesReference species="BSU38710" stoichiometry="1"/>
+              <speciesReference species="BSU14520" stoichiometry="1"/>
+              <speciesReference species="BSU29990" stoichiometry="1"/>
+              <speciesReference species="BSU28140" stoichiometry="1"/>
+              <speciesReference species="BSU03610" stoichiometry="1"/>
+              <speciesReference species="BSU03590" stoichiometry="1"/>
+              <speciesReference species="BSU24950" stoichiometry="1"/>
+              <speciesReference species="BSU03220" stoichiometry="1"/>
+              <speciesReference species="BSU11220" stoichiometry="1"/>
+              <speciesReference species="BSU00930" stoichiometry="1"/>
+              <speciesReference species="BSU31930" stoichiometry="1"/>
+              <speciesReference species="BSU23150" stoichiometry="1"/>
+              <speciesReference species="BSU18440" stoichiometry="1"/>
+              <speciesReference species="BSU27450" stoichiometry="1"/>
+              <speciesReference species="BSU38560" stoichiometry="1"/>
+              <speciesReference species="BSU36470" stoichiometry="1"/>
+              <speciesReference species="BSU11690" stoichiometry="1"/>
+              <speciesReference species="BSU38760" stoichiometry="1"/>
+              <speciesReference species="BSU28280" stoichiometry="1"/>
+              <speciesReference species="BSU23800" stoichiometry="1"/>
+              <speciesReference species="BSU35710" stoichiometry="1"/>
+              <speciesReference species="BSU15230" stoichiometry="1"/>
+              <speciesReference species="BSU03981" stoichiometry="1"/>
+              <speciesReference species="BSU14630" stoichiometry="1"/>
+              <speciesReference species="BSU28730" stoichiometry="1"/>
+              <speciesReference species="BSU33430" stoichiometry="1"/>
+              <speciesReference species="BSU36870" stoichiometry="1"/>
+              <speciesReference species="BSU29130" stoichiometry="1"/>
+              <speciesReference species="BSU27070" stoichiometry="1"/>
+              <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+              <speciesReference species="average_protein_Secreted" stoichiometry="1"/>
+              <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
+              <speciesReference species="P21464" stoichiometry="1"/>
+              <speciesReference species="P21465" stoichiometry="1"/>
+              <speciesReference species="P21466" stoichiometry="1"/>
+              <speciesReference species="P21467" stoichiometry="1"/>
+              <speciesReference species="P21468" stoichiometry="1"/>
+              <speciesReference species="P21469" stoichiometry="1"/>
+              <speciesReference species="P12879" stoichiometry="1"/>
+              <speciesReference species="P21470" stoichiometry="1"/>
+              <speciesReference species="P21471" stoichiometry="1"/>
+              <speciesReference species="P04969" stoichiometry="1"/>
+              <speciesReference species="P21472" stoichiometry="1"/>
+              <speciesReference species="P20282" stoichiometry="1"/>
+              <speciesReference species="P12878" stoichiometry="1"/>
+              <speciesReference species="P21473" stoichiometry="1"/>
+              <speciesReference species="P21474" stoichiometry="1"/>
+              <speciesReference species="P12874" stoichiometry="1"/>
+              <speciesReference species="P21475" stoichiometry="1"/>
+              <speciesReference species="P21476" stoichiometry="1"/>
+              <speciesReference species="P21477" stoichiometry="1"/>
+              <speciesReference species="P21478" stoichiometry="1"/>
+              <speciesReference species="Q06797" stoichiometry="1"/>
+              <speciesReference species="P42919" stoichiometry="1"/>
+              <speciesReference species="P42920" stoichiometry="1"/>
+              <speciesReference species="P42921" stoichiometry="1"/>
+              <speciesReference species="P12877" stoichiometry="1"/>
+              <speciesReference species="P46898" stoichiometry="1"/>
+              <speciesReference species="P02394" stoichiometry="1"/>
+              <speciesReference species="P37437" stoichiometry="1"/>
+              <speciesReference species="P42923" stoichiometry="1"/>
+              <speciesReference species="Q06796" stoichiometry="1"/>
+              <speciesReference species="P70974" stoichiometry="1"/>
+              <speciesReference species="P12875" stoichiometry="1"/>
+              <speciesReference species="P19946" stoichiometry="1"/>
+              <speciesReference species="P14577" stoichiometry="1"/>
+              <speciesReference species="P20277" stoichiometry="1"/>
+              <speciesReference species="P46899" stoichiometry="1"/>
+              <speciesReference species="O31742" stoichiometry="1"/>
+              <speciesReference species="P55873" stoichiometry="1"/>
+              <speciesReference species="P26908" stoichiometry="1"/>
+              <speciesReference species="P42060" stoichiometry="1"/>
+              <speciesReference species="P42924" stoichiometry="1"/>
+              <speciesReference species="P0CI78" stoichiometry="1"/>
+              <speciesReference species="P05657" stoichiometry="1"/>
+              <speciesReference species="P37807" stoichiometry="1"/>
+              <speciesReference species="P12873" stoichiometry="1"/>
+              <speciesReference species="P19947" stoichiometry="1"/>
+              <speciesReference species="Q03223" stoichiometry="1"/>
+              <speciesReference species="O34967" stoichiometry="1"/>
+              <speciesReference species="O34687" stoichiometry="1"/>
+              <speciesReference species="Q06798" stoichiometry="1"/>
+              <speciesReference species="P05647" stoichiometry="1"/>
+              <speciesReference species="P55874" stoichiometry="1"/>
+              <speciesReference species="P20278" stoichiometry="1"/>
+              <speciesReference species="P20458" stoichiometry="1"/>
+              <speciesReference species="P17889" stoichiometry="1"/>
+              <speciesReference species="P55872" stoichiometry="1"/>
+              <speciesReference species="P80700" stoichiometry="1"/>
+              <speciesReference species="P33166" stoichiometry="1"/>
+              <speciesReference species="P80868" stoichiometry="1"/>
+              <speciesReference species="P49778" stoichiometry="1"/>
+              <speciesReference species="P45872" stoichiometry="1"/>
+              <speciesReference species="P28367" stoichiometry="1"/>
+              <speciesReference species="P81101" stoichiometry="1"/>
+              <speciesReference species="P37949" stoichiometry="1"/>
+              <speciesReference species="P80698" stoichiometry="1"/>
+              <speciesReference species="P28598" stoichiometry="1"/>
+              <speciesReference species="P28599" stoichiometry="1"/>
+              <speciesReference species="P17820" stoichiometry="1"/>
+              <speciesReference species="P15874" stoichiometry="1"/>
+              <speciesReference species="P17631" stoichiometry="1"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_TSC" name="Transcription">
+      <processings>
+        <listOfProductions>
+          <processing processingMap="transcription" set="rna">
+            <listOfInputs>
+              <speciesReference species="trnasecys" stoichiometry="1"/>
+              <speciesReference species="M_trna2_c" stoichiometry="1"/>
+              <speciesReference species="M_trna_c" stoichiometry="1"/>
+              <speciesReference species="mrna" stoichiometry="1"/>
+              <speciesReference species="rrnO-16S" stoichiometry="1"/>
+              <speciesReference species="rrnO-23S" stoichiometry="1"/>
+              <speciesReference species="rrnO-5S" stoichiometry="1"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_REP" name="Replication">
+      <processings>
+        <listOfProductions>
+          <processing processingMap="replication" set="dna">
+            <listOfInputs>
+              <speciesReference species="dna" stoichiometry="1"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_RNADEG" name="RNA degradation">
+      <processings>
+        <listOfDegradations>
+          <processing processingMap="rna_degradation" set="rna">
+            <listOfInputs>
+              <speciesReference species="trnasecys" stoichiometry="1"/>
+              <speciesReference species="M_trna2_c" stoichiometry="1"/>
+              <speciesReference species="M_trna_c" stoichiometry="1"/>
+              <speciesReference species="mrna" stoichiometry="1"/>
+              <speciesReference species="rrnO-16S" stoichiometry="1"/>
+              <speciesReference species="rrnO-23S" stoichiometry="1"/>
+              <speciesReference species="rrnO-5S" stoichiometry="1"/>
+            </listOfInputs>
+          </processing>
+        </listOfDegradations>
+      </processings>
+    </process>
+    <process id="test_process_0" name="Test process"/>
+    <process id="test_process_1" name="Test process"/>
+    <process id="test_process_2" name="Test process"/>
+  </listOfProcesses>
+  <listOfProcessingMaps>
+    <processingMap id="translation">
+      <constantProcessing>
+        <listOfReactants>
+          <speciesReference species="M_tfmet_c" stoichiometry="1"/>
+          <speciesReference species="M_gtp_c" stoichiometry="1"/>
+          <speciesReference species="M_h2o_c" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_trna_c" stoichiometry="1"/>
+          <speciesReference species="M_fmet_c" stoichiometry="1"/>
+          <speciesReference species="M_gdp_c" stoichiometry="1"/>
+          <speciesReference species="M_p_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+        </listOfProducts>
+      </constantProcessing>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tala_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tcys_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="D" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tasp_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="E" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tglu_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="F" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tphe_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tgly_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="H" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_this_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="I" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tile_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="K" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tlys_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="L" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tleu_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="M" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tmet_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="N" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tasn_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="P" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tpro_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="Q" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tgln_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="R" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_targ_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="S" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tser_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="T" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tthr_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="V" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_tval_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="W" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_ttrp_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="Y" machineryCost="1">
+          <listOfReactants>
+            <speciesReference species="M_ttyr_c" stoichiometry="1"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2"/>
+            <speciesReference species="M_p_c" stoichiometry="2"/>
+            <speciesReference species="M_h_c" stoichiometry="2"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57540" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_nad_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29035" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_mn2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:48828" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:18420" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_mg2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:58937" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_tpp_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:597326" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_py5p_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29103" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_k_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29105" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_zn2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:30413" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemeb_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:28938" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:49883" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57692" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fad_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:25516" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:60539" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:49601" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:58210" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fmn_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57783" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_nadph_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:24875" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29033" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29036" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_cu2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:60240" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:47942" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:49786" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:21137" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:15361" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_pyr_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:83088" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:29108" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_ca2_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:17544" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:60532" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemea_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:60342" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:60344" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemeb_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57586" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_bio_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57618" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fmn_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:71302" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:57925" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:62814" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemed_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:60052" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_sheme_c" stoichiometry="1"/>
+          </listOfReactants>
+        </componentProcessing>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="folding">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.1"/>
+        <componentProcessing component="C" machineryCost="0.1"/>
+        <componentProcessing component="D" machineryCost="0.1"/>
+        <componentProcessing component="E" machineryCost="0.1"/>
+        <componentProcessing component="F" machineryCost="0.1"/>
+        <componentProcessing component="G" machineryCost="0.1"/>
+        <componentProcessing component="H" machineryCost="0.1"/>
+        <componentProcessing component="I" machineryCost="0.1"/>
+        <componentProcessing component="K" machineryCost="0.1"/>
+        <componentProcessing component="L" machineryCost="0.1"/>
+        <componentProcessing component="M" machineryCost="0.1"/>
+        <componentProcessing component="N" machineryCost="0.1"/>
+        <componentProcessing component="P" machineryCost="0.1"/>
+        <componentProcessing component="Q" machineryCost="0.1"/>
+        <componentProcessing component="R" machineryCost="0.1"/>
+        <componentProcessing component="S" machineryCost="0.1"/>
+        <componentProcessing component="T" machineryCost="0.1"/>
+        <componentProcessing component="V" machineryCost="0.1"/>
+        <componentProcessing component="W" machineryCost="0.1"/>
+        <componentProcessing component="Y" machineryCost="0.1"/>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="transcription">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_atp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_ctp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_gtp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="U" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_utp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="rna_degradation">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_amp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_cmp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_gmp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="U" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_ump_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="replication">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_datp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_dctp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_dgtp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="T" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_dttp_c" stoichiometry="1"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1"/>
+            <speciesReference species="M_h_c" stoichiometry="1"/>
+          </listOfProducts>
+        </componentProcessing>
+      </listOfComponentProcessings>
+    </processingMap>
+  </listOfProcessingMaps>
+</RBAProcesses>
