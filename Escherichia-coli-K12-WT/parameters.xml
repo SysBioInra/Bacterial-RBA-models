@@ -389,7 +389,7 @@
     </function>
     <function id="default_efficiency" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="36000"/>
+        <parameter id="CONSTANT" value="45000"/>
       </listOfParameters>
     </function>
     <function id="default_transporter_efficiency" type="constant" variable="growth_rate">
