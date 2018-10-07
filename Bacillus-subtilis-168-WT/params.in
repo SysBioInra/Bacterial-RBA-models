@@ -4,12 +4,12 @@
 #########################
 
 ##############################################################################
-# INPUT_DIR                                                                  
-# Directory where input files can be found and where helper files will be    
-# stored. Can be asolute path or path relative to where program is RUN (!).  
+# INPUT_DIR
+# Directory where input files can be found and where helper files will be
+# stored. Can be asolute path or path relative to where program is RUN (!).
 ##############################################################################
 
-INPUT_DIR = /path/to/data
+INPUT_DIR = data
 
 ##############################################################################
 # SBML_FILE
@@ -20,7 +20,7 @@ INPUT_DIR = /path/to/data
 SBML_FILE = sbml.xml
 
 ##############################################################################
-# ORGANISM_ID                                                                  
+# ORGANISM_ID
 # Taxonomy ID of target organism as established by the NCBI. Please retrieve
 # id of your organism on:
 #   www.ncbi.nlm.nih.gov/taxonomy
@@ -31,10 +31,9 @@ SBML_FILE = sbml.xml
 ORGANISM_ID = 224308
 
 ##############################################################################
-# OUTPUT_DIR                                                                  
+# OUTPUT_DIR
 # Directory where files used to run RBA are stored. Absolute path or path
 # relative to where program is RUN (!).
 ##############################################################################
 
-OUTPUT_DIR = /path/to/xml 
-
+OUTPUT_DIR = .
