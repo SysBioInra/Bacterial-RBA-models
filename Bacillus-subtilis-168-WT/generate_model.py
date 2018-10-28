@@ -5,14 +5,15 @@ from __future__ import absolute_import, division, print_function
 
 # imports
 import rba
-from rba.utils.inject_efficiencies import EfficiencyInjecter
 
 
 def main():
     builder = rba.ModelBuilder('params.in')
     subtilis = builder.build_model()
     subtilis.set_medium('data/curated_medium.tsv')
-    EfficiencyInjecter(subtilis, 'data/catalytic_activity_medium_2.csv')
+    subtilis.set_enzyme_efficiency_constants(
+        'data/catalytic_activity_medium_2.csv'
+    )
     add_flagella_constraint(subtilis)
     subtilis.write()
 
