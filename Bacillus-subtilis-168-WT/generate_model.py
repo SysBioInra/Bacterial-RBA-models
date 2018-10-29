@@ -8,12 +8,9 @@ import rba
 
 
 def main():
-    builder = rba.ModelBuilder('params.in')
-    subtilis = builder.build_model()
+    subtilis = rba.RbaModel.from_data('params.in')
     subtilis.set_medium('data/curated_medium.tsv')
-    subtilis.set_enzyme_efficiency_constants(
-        'data/catalytic_activity_medium_2.csv'
-    )
+    subtilis.set_enzyme_efficiencies('data/catalytic_activity_medium_2.csv')
     add_flagella_constraint(subtilis)
     subtilis.write()
 
