@@ -13,34 +13,39 @@
     <function id="fraction_protein_Cytoplasm" type="linear" variable="growth_rate">
       <listOfParameters>
         <parameter id="Y_MIN" value="-inf"/>
-        <parameter id="LINEAR_CONSTANT" value="0.6197287265"/>
+        <parameter id="LINEAR_CONSTANT" value="0.7279411657"/>
         <parameter id="Y_MAX" value="inf"/>
-        <parameter id="LINEAR_COEF" value="0.059052336"/>
-        <parameter id="X_MAX" value="2"/>
-        <parameter id="X_MIN" value="0.0"/>
+        <parameter id="LINEAR_COEF" value="0.0447180286"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="fraction_protein_Secreted" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="0.0020247865"/>
+        <parameter id="CONSTANT" value="0.0004022417"/>
       </listOfParameters>
     </function>
     <function id="fraction_protein_Cell_inner_membrane" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="0.109803785282"/>
+        <parameter id="CONSTANT" value="0.0800355614"/>
       </listOfParameters>
     </function>
-    <function id="fraction_protein_Cell_outer_membrane" type="constant" variable="growth_rate">
+    <function id="fraction_protein_Cell_outer_membrane" type="linear" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="0.121826289019"/>
+        <parameter id="Y_MIN" value="-inf"/>
+        <parameter id="LINEAR_CONSTANT" value="0.0888492883"/>
+        <parameter id="Y_MAX" value="inf"/>
+        <parameter id="LINEAR_COEF" value="-0.00713438535558149"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="fraction_protein_Periplasm" type="linear" variable="growth_rate">
       <listOfParameters>
         <parameter id="Y_MIN" value="-inf"/>
-        <parameter id="LINEAR_CONSTANT" value="0.1461460006"/>
+        <parameter id="LINEAR_CONSTANT" value="0.1020529183"/>
         <parameter id="Y_MAX" value="inf"/>
-        <parameter id="LINEAR_COEF" value="-0.059052336"/>
+        <parameter id="LINEAR_COEF" value="-0.0364179528113712"/>
         <parameter id="X_MAX" value="2"/>
         <parameter id="X_MIN" value="0.0"/>
       </listOfParameters>
@@ -107,9 +112,14 @@
         <parameter id="Km" value="0.5"/>
       </listOfParameters>
     </function>
-    <function id="secretion_capacity" type="constant" variable="growth_rate">
+    <function id="secretion_capacity" type="linear" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="10000"/>
+        <parameter id="Y_MIN" value="-inf"/>
+        <parameter id="LINEAR_CONSTANT" value="-24979.0894512654"/>
+        <parameter id="Y_MAX" value="inf"/>
+        <parameter id="LINEAR_COEF" value="425660.470793603"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.25"/>
       </listOfParameters>
     </function>
     <function id="ribosome_efficiency_CM" type="constant" variable="growth_rate">
@@ -125,11 +135,16 @@
     <function id="chaperone_efficiency_LM" type="linear" variable="growth_rate">
       <listOfParameters>
         <parameter id="Y_MIN" value="-inf"/>
-        <parameter id="LINEAR_CONSTANT" value="-2888.0051"/>
+        <parameter id="LINEAR_CONSTANT" value="5711.3441235355"/>
         <parameter id="Y_MAX" value="inf"/>
-        <parameter id="LINEAR_COEF" value="36044.48"/>
-        <parameter id="X_MAX" value="1.6"/>
+        <parameter id="LINEAR_COEF" value="25942.770707548"/>
+        <parameter id="X_MAX" value="1.9"/>
         <parameter id="X_MIN" value="0.25"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ATPS4rpp_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="720000"/>
       </listOfParameters>
     </function>
     <function id="mrna_degradation_flux" type="constant" variable="growth_rate">
@@ -6481,13 +6496,13 @@
     </aggregate>
     <aggregate id="R_ATPS4rpp_efficiency" type="multiplication">
       <listOfFunctionReferences>
-        <functionReference function="default_transporter_efficiency"/>
+        <functionReference function="R_ATPS4rpp_efficiency"/>
         <functionReference function="R_ATPS4rpp_M_h_p_transport_factor"/>
       </listOfFunctionReferences>
     </aggregate>
     <aggregate id="R_ATPS4rpp_2_efficiency" type="multiplication">
       <listOfFunctionReferences>
-        <functionReference function="default_transporter_efficiency"/>
+        <functionReference function="R_ATPS4rpp_efficiency"/>
         <functionReference function="R_ATPS4rpp_2_M_h_p_transport_factor"/>
       </listOfFunctionReferences>
     </aggregate>
