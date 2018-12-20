@@ -33659,7 +33659,7 @@
         <componentReference component="Y" stoichiometry="8.92204899777"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AG67" compartment="Cytoplasm">
+    <macromolecule id="b0911" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="48"/>
         <componentReference component="C" stoichiometry="2"/>
@@ -33683,7 +33683,7 @@
         <componentReference component="Y" stoichiometry="6"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7V0" compartment="Cytoplasm">
+    <macromolecule id="b0169" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="25"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -33707,7 +33707,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7V3" compartment="Cytoplasm">
+    <macromolecule id="b3314" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="24"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -33731,7 +33731,7 @@
         <componentReference component="Y" stoichiometry="4"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7V8" compartment="Cytoplasm">
+    <macromolecule id="b3296" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="18"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -33755,7 +33755,7 @@
         <componentReference component="Y" stoichiometry="8"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7W1" compartment="Cytoplasm">
+    <macromolecule id="b3303" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="20"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -33779,7 +33779,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P02358" compartment="Cytoplasm">
+    <macromolecule id="b4200" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="14"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -33803,7 +33803,7 @@
         <componentReference component="Y" stoichiometry="4"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P02359" compartment="Cytoplasm">
+    <macromolecule id="b3341" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="22"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -33827,7 +33827,7 @@
         <componentReference component="Y" stoichiometry="4"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7W7" compartment="Cytoplasm">
+    <macromolecule id="b3306" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="14"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -33851,7 +33851,7 @@
         <componentReference component="Y" stoichiometry="3"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7X3" compartment="Cytoplasm">
+    <macromolecule id="b3230" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="10"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -33875,7 +33875,7 @@
         <componentReference component="Y" stoichiometry="5"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7R5" compartment="Cytoplasm">
+    <macromolecule id="b3321" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="9"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -33899,7 +33899,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7R9" compartment="Cytoplasm">
+    <macromolecule id="b3297" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="17"/>
         <componentReference component="C" stoichiometry="2"/>
@@ -33923,7 +33923,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7S3" compartment="Cytoplasm">
+    <macromolecule id="b3342" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="9"/>
         <componentReference component="C" stoichiometry="4"/>
@@ -33947,7 +33947,7 @@
         <componentReference component="Y" stoichiometry="4"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7S9" compartment="Cytoplasm">
+    <macromolecule id="b3298" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="11"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -33971,7 +33971,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AG59" compartment="Cytoplasm">
+    <macromolecule id="b3307" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="12"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -33995,7 +33995,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0ADZ4" compartment="Cytoplasm">
+    <macromolecule id="b3165" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="7"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34019,7 +34019,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7T3" compartment="Cytoplasm">
+    <macromolecule id="b2609" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="11"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34043,7 +34043,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AG63" compartment="Cytoplasm">
+    <macromolecule id="b3311" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="2"/>
         <componentReference component="C" stoichiometry="2"/>
@@ -34067,7 +34067,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7T7" compartment="Cytoplasm">
+    <macromolecule id="b4202" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="7"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34091,7 +34091,7 @@
         <componentReference component="Y" stoichiometry="6"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7U3" compartment="Cytoplasm">
+    <macromolecule id="b3316" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="6"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34115,7 +34115,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7U7" compartment="Cytoplasm">
+    <macromolecule id="b0023" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="19"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34139,7 +34139,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P68681" compartment="Cytoplasm">
+    <macromolecule id="b3065" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="9"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34163,7 +34163,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="C8U8F3" compartment="Cytoplasm">
+    <macromolecule id="b1480" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="2"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34187,7 +34187,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7L0" compartment="Cytoplasm">
+    <macromolecule id="b3984" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="33"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34211,7 +34211,7 @@
         <componentReference component="Y" stoichiometry="3"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P60422" compartment="Cytoplasm">
+    <macromolecule id="b3317" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="21"/>
         <componentReference component="C" stoichiometry="2"/>
@@ -34235,7 +34235,7 @@
         <componentReference component="Y" stoichiometry="6"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P60438" compartment="Cytoplasm">
+    <macromolecule id="b3320" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="19"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34259,7 +34259,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P60723" compartment="Cytoplasm">
+    <macromolecule id="b3319" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="23"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34283,7 +34283,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P62399" compartment="Cytoplasm">
+    <macromolecule id="b3308" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="16"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34307,7 +34307,7 @@
         <componentReference component="Y" stoichiometry="6"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AG55" compartment="Cytoplasm">
+    <macromolecule id="b3305" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="20"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34331,7 +34331,7 @@
         <componentReference component="Y" stoichiometry="5"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7K2" compartment="Cytoplasm">
+    <macromolecule id="b3986" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="28"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34355,7 +34355,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7R1" compartment="Cytoplasm">
+    <macromolecule id="b4203" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="24"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34379,7 +34379,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7J3" compartment="Cytoplasm">
+    <macromolecule id="b3985" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="33"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34403,7 +34403,7 @@
         <componentReference component="Y" stoichiometry="3"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7J7" compartment="Cytoplasm">
+    <macromolecule id="b3983" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="20"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34427,7 +34427,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AA10" compartment="Cytoplasm">
+    <macromolecule id="b3231" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="14"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34451,7 +34451,7 @@
         <componentReference component="Y" stoichiometry="6"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0ADY3" compartment="Cytoplasm">
+    <macromolecule id="b3310" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="7"/>
         <componentReference component="C" stoichiometry="2"/>
@@ -34475,7 +34475,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P02413" compartment="Cytoplasm">
+    <macromolecule id="b3301" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="15"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34499,7 +34499,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0ADY7" compartment="Cytoplasm">
+    <macromolecule id="b3313" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="14"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34523,7 +34523,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AG44" compartment="Cytoplasm">
+    <macromolecule id="b3294" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="17"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34547,7 +34547,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0C018" compartment="Cytoplasm">
+    <macromolecule id="b3304" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="22"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34571,7 +34571,7 @@
         <componentReference component="Y" stoichiometry="3"/>
       </composition>
     </macromolecule>
-    <macromolecule id="B1LPB3" compartment="Cytoplasm">
+    <macromolecule id="b2606" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="7"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34595,7 +34595,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7L3" compartment="Cytoplasm">
+    <macromolecule id="b1716" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="22"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34619,7 +34619,7 @@
         <componentReference component="Y" stoichiometry="6"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AG48" compartment="Cytoplasm">
+    <macromolecule id="b3186" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="7"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34643,7 +34643,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P61175" compartment="Cytoplasm">
+    <macromolecule id="b3315" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="13"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34667,7 +34667,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0ADZ0" compartment="Cytoplasm">
+    <macromolecule id="b3318" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="10"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34691,7 +34691,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P60624" compartment="Cytoplasm">
+    <macromolecule id="b3309" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="9"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34715,7 +34715,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P68919" compartment="Cytoplasm">
+    <macromolecule id="b2185" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="11"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34739,7 +34739,7 @@
         <componentReference component="Y" stoichiometry="3"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7M0" compartment="Cytoplasm">
+    <macromolecule id="b3185" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="9"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34763,7 +34763,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7M2" compartment="Cytoplasm">
+    <macromolecule id="b3637" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="5"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34787,7 +34787,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7M6" compartment="Cytoplasm">
+    <macromolecule id="b3312" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="6"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34811,7 +34811,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0AG51" compartment="Cytoplasm">
+    <macromolecule id="b3302" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="5"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34835,7 +34835,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7M9" compartment="Cytoplasm">
+    <macromolecule id="b3936" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="2"/>
         <componentReference component="C" stoichiometry="4"/>
@@ -34859,7 +34859,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="C4ZS29" compartment="Cytoplasm">
+    <macromolecule id="b1089" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="5"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34883,7 +34883,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7N9" compartment="Cytoplasm">
+    <macromolecule id="b3636" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="3"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34907,7 +34907,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7P6" compartment="Cytoplasm">
+    <macromolecule id="b3703" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="5"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -34931,7 +34931,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7Q2" compartment="Cytoplasm">
+    <macromolecule id="b1717" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="7"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -34955,7 +34955,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7Q7" compartment="Cytoplasm">
+    <macromolecule id="b3299" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="2"/>
         <componentReference component="C" stoichiometry="3"/>
@@ -34979,7 +34979,7 @@
         <componentReference component="Y" stoichiometry="0"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P69222" compartment="Cytoplasm">
+    <macromolecule id="b0884" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="2"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -35003,7 +35003,7 @@
         <componentReference component="Y" stoichiometry="2"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A705" compartment="Cytoplasm">
+    <macromolecule id="b3168" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="109"/>
         <componentReference component="C" stoichiometry="3"/>
@@ -35027,7 +35027,7 @@
         <componentReference component="Y" stoichiometry="11"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A707" compartment="Cytoplasm">
+    <macromolecule id="b1718" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="10"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -35051,7 +35051,7 @@
         <componentReference component="Y" stoichiometry="3"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A6P1" compartment="Cytoplasm">
+    <macromolecule id="b0170" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="39"/>
         <componentReference component="C" stoichiometry="2"/>
@@ -35075,7 +35075,7 @@
         <componentReference component="Y" stoichiometry="3"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0CE47" compartment="Cytoplasm">
+    <macromolecule id="b3339" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="27"/>
         <componentReference component="C" stoichiometry="3"/>
@@ -35099,7 +35099,7 @@
         <componentReference component="Y" stoichiometry="10"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A6M8" compartment="Cytoplasm">
+    <macromolecule id="b3340" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="67"/>
         <componentReference component="C" stoichiometry="3"/>
@@ -35123,7 +35123,7 @@
         <componentReference component="Y" stoichiometry="19"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A6N4" compartment="Cytoplasm">
+    <macromolecule id="b4147" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="16"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -35147,7 +35147,7 @@
         <componentReference component="Y" stoichiometry="6"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A7I0" compartment="Cytoplasm">
+    <macromolecule id="b1211" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="37"/>
         <componentReference component="C" stoichiometry="3"/>
@@ -35171,7 +35171,7 @@
         <componentReference component="Y" stoichiometry="7"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P07012" compartment="Cytoplasm">
+    <macromolecule id="b2891" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="29"/>
         <componentReference component="C" stoichiometry="2"/>
@@ -35195,7 +35195,7 @@
         <componentReference component="Y" stoichiometry="11"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A850" compartment="Cytoplasm">
+    <macromolecule id="b0436" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="41"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -35219,7 +35219,7 @@
         <componentReference component="Y" stoichiometry="8"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A6F5" compartment="Cytoplasm">
+    <macromolecule id="b4143" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="74"/>
         <componentReference component="C" stoichiometry="3"/>
@@ -35243,7 +35243,7 @@
         <componentReference component="Y" stoichiometry="7"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A6F9" compartment="Cytoplasm">
+    <macromolecule id="b4142" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="7"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -35267,7 +35267,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P0A6Y8" compartment="Cytoplasm">
+    <macromolecule id="b0014" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="70"/>
         <componentReference component="C" stoichiometry="1"/>
@@ -35291,7 +35291,7 @@
         <componentReference component="Y" stoichiometry="7"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P09372" compartment="Cytoplasm">
+    <macromolecule id="b2614" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="24"/>
         <componentReference component="C" stoichiometry="0"/>
@@ -35315,7 +35315,7 @@
         <componentReference component="Y" stoichiometry="1"/>
       </composition>
     </macromolecule>
-    <macromolecule id="P08622" compartment="Cytoplasm">
+    <macromolecule id="b0015" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="27"/>
         <componentReference component="C" stoichiometry="10"/>
