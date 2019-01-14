@@ -6,8 +6,8 @@
         <parameter id="LINEAR_CONSTANT" value="5.91"/>
         <parameter id="Y_MAX" value="inf"/>
         <parameter id="LINEAR_COEF" value="-1.04"/>
-        <parameter id="X_MAX" value="1.8"/>
-        <parameter id="X_MIN" value="0.2"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="fraction_protein_Cytoplasm" type="linear" variable="growth_rate">
@@ -46,8 +46,8 @@
         <parameter id="LINEAR_CONSTANT" value="0.1020529183"/>
         <parameter id="Y_MAX" value="inf"/>
         <parameter id="LINEAR_COEF" value="-0.0364179528113712"/>
-        <parameter id="X_MAX" value="2"/>
-        <parameter id="X_MIN" value="0.0"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="fraction_non_enzymatic_protein_Cytoplasm" type="linear" variable="growth_rate">
@@ -56,8 +56,8 @@
         <parameter id="LINEAR_CONSTANT" value="0.149246904234"/>
         <parameter id="Y_MAX" value="1"/>
         <parameter id="LINEAR_COEF" value="0.011032304366"/>
-        <parameter id="X_MAX" value="2"/>
-        <parameter id="X_MIN" value="0.25"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="fraction_non_enzymatic_protein_Secreted" type="constant" variable="growth_rate">
@@ -71,8 +71,8 @@
         <parameter id="LINEAR_CONSTANT" value="0.243130825671"/>
         <parameter id="Y_MAX" value="1"/>
         <parameter id="LINEAR_COEF" value="-0.0413082825353"/>
-        <parameter id="X_MAX" value="2"/>
-        <parameter id="X_MIN" value="0.25"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="fraction_non_enzymatic_protein_Cell_outer_membrane" type="constant" variable="growth_rate">
@@ -86,8 +86,8 @@
         <parameter id="LINEAR_CONSTANT" value="0.0216299371578"/>
         <parameter id="Y_MAX" value="1"/>
         <parameter id="LINEAR_COEF" value="0.0472582706326"/>
-        <parameter id="X_MAX" value="2"/>
-        <parameter id="X_MIN" value="0.25"/>
+        <parameter id="X_MAX" value="1.9"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="Cytoplasm_density" type="constant" variable="growth_rate">
@@ -119,7 +119,7 @@
         <parameter id="Y_MAX" value="inf"/>
         <parameter id="LINEAR_COEF" value="425660.470793603"/>
         <parameter id="X_MAX" value="1.9"/>
-        <parameter id="X_MIN" value="0.25"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="ribosome_efficiency_CM" type="constant" variable="growth_rate">
@@ -139,7 +139,7 @@
         <parameter id="Y_MAX" value="inf"/>
         <parameter id="LINEAR_COEF" value="25942.770707548"/>
         <parameter id="X_MAX" value="1.9"/>
-        <parameter id="X_MIN" value="0.25"/>
+        <parameter id="X_MIN" value="0.26"/>
       </listOfParameters>
     </function>
     <function id="R_ATPS4rpp_efficiency" type="constant" variable="growth_rate">
