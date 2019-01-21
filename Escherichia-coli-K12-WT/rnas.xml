@@ -38,6 +38,14 @@
         <componentReference component="G" stoichiometry="16.0"/>
       </composition>
     </macromolecule>
+    <macromolecule id="M_trnatrp_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="A" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+      </composition>
+    </macromolecule>
     <macromolecule id="M_trnahis_c" compartment="Cytoplasm">
       <composition>
         <componentReference component="A" stoichiometry="14.0"/>
@@ -132,14 +140,6 @@
         <componentReference component="C" stoichiometry="27.0"/>
         <componentReference component="U" stoichiometry="20.0"/>
         <componentReference component="G" stoichiometry="31.0"/>
-      </composition>
-    </macromolecule>
-    <macromolecule id="M_trnatrp_c" compartment="Cytoplasm">
-      <composition>
-        <componentReference component="A" stoichiometry="14.0"/>
-        <componentReference component="C" stoichiometry="21.0"/>
-        <componentReference component="U" stoichiometry="17.0"/>
-        <componentReference component="G" stoichiometry="24.0"/>
       </composition>
     </macromolecule>
     <macromolecule id="M_trnalys_c" compartment="Cytoplasm">
