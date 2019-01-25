@@ -151,7 +151,8 @@
     </function>
     <function id="R_Rubisco_efficiency" type="michaelisMenten" variable="M_co2_e">
       <listOfParameters>
-        <parameter id="kmax" value="1138"/>
+        <parameter id="kmax" value="4716"/>
+        <!-- low efficiency version: kmax = 1138 -->
         <parameter id="Km" value="0.000446"/>
       </listOfParameters>
     </function>
