@@ -1,4 +1,4 @@
-# Bacillus subtilis RBA model
+# *Bacillus subtilis 168* WT RBA model
 
 Bacillus subtilis RBA model was generated using the RBApy package (https://doi.org/10.1016/j.ymben.2019.06.001),
 using manually curated metabolic reconstruction (https://doi.org/10.1186/1752-0509-2-20) 
