@@ -1,0 +1,67 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+Q0KBZ2	Q0KBZ2_CUPNH	unreviewed	Translation initiation factor IF-3	infC H16_A1340	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	140
+Q0K9B9	IF2_CUPNH	reviewed	Translation initiation factor IF-2	infB H16_A2306	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	962
+Q0JZW8	IF13_CUPNH	reviewed	Translation initiation factor IF-1 3	infA3 infA2 H16_B1924	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	73
+Q0K640	IF12_CUPNH	reviewed	Translation initiation factor IF-1 2	infA2 infA1 H16_A3463	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	72
+Q0K8Z9	IF11_CUPNH	reviewed	Translation initiation factor IF-1 1	infA1 infA3 H16_A2433	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	73
+Q0JZY1	Q0JZY1_CUPNH	unreviewed	Translation elongation factor G (EF-G)	H16_B1911	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	684
+Q0JY21	RF3_CUPNH	reviewed	Peptide chain release factor 3 (RF-3)	prfC H16_B2571	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	533
+Q0K611	Q0K611_CUPNH	unreviewed	Elongation factor G (EF-G)	fusA fusA1 H16_A3492	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	702
+Q0K4Z4	Q0K4Z4_CUPNH	unreviewed	Elongation factor G (EF-G)	fusA fusA2 H16_B0124	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	701
+Q0K8N0	LEPA_CUPNH	reviewed	Elongation factor 4 (EF-4) (EC 3.6.5.n1) (Ribosomal back-translocase LepA)	lepA H16_A2558	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	597
+Q0K9E8	RL9_CUPNH	reviewed	50S ribosomal protein L9	rplI H16_A2276	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	150
+Q0K605	RL7_CUPNH	reviewed	50S ribosomal protein L7/L12	rplL H16_A3498	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	124
+Q0K634	RL6_CUPNH	reviewed	50S ribosomal protein L6	rplF H16_A3469	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	177
+Q0K631	RL5_CUPNH	reviewed	50S ribosomal protein L5	rplE H16_A3472	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	180
+Q0K620	RL4_CUPNH	reviewed	50S ribosomal protein L4	rplD H16_A3483	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	206
+Q0K641	RL36_CUPNH	reviewed	50S ribosomal protein L36	rpmJ H16_A3462	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	38
+Q0KBZ1	RL35_CUPNH	reviewed	50S ribosomal protein L35	rpmI H16_A1341	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	65
+Q0K5B8	RL34_CUPNH	reviewed	50S ribosomal protein L34	rpmH H16_A3747	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	44
+Q0K7B1	RL33_CUPNH	reviewed	50S ribosomal protein L33	rpmG H16_A3035	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	56
+Q0K8L7	RL32_CUPNH	reviewed	50S ribosomal protein L32	rpmF H16_A2571	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	59
+Q0K929	RL31B_CUPNH	reviewed	50S ribosomal protein L31 type B	rpmE2 H16_A2397	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	86
+Q0K637	RL30_CUPNH	reviewed	50S ribosomal protein L30	rpmD H16_A3466	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	60
+Q0K619	RL3_CUPNH	reviewed	50S ribosomal protein L3	rplC H16_A3484	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	216
+Q0K627	RL29_CUPNH	reviewed	50S ribosomal protein L29	rpmC H16_A3476	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	64
+Q0K7B2	RL28_CUPNH	reviewed	50S ribosomal protein L28	rpmB H16_A3034	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	77
+Q0K6P5	RL27_CUPNH	reviewed	50S ribosomal protein L27	rpmA H16_A3251	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	86
+Q0KEP9	RL25_CUPNH	reviewed	50S ribosomal protein L25 (General stress protein CTC)	rplY ctc H16_A0371	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	205
+Q0K630	RL24_CUPNH	reviewed	50S ribosomal protein L24	rplX H16_A3473	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	102
+Q0K621	RL23_CUPNH	reviewed	50S ribosomal protein L23	rplW H16_A3482	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	104
+Q0K624	RL22_CUPNH	reviewed	50S ribosomal protein L22	rplV H16_A3479	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	109
+Q0K6P4	RL21_CUPNH	reviewed	50S ribosomal protein L21	rplU H16_A3252	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	103
+Q0KBZ0	RL20_CUPNH	reviewed	50S ribosomal protein L20	rplT H16_A1342	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	118
+Q0K622	RL2_CUPNH	reviewed	50S ribosomal protein L2	rplB H16_A3481	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	276
+Q0KD78	RL19_CUPNH	reviewed	50S ribosomal protein L19	rplS H16_A0897	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	130
+Q0K635	RL18_CUPNH	reviewed	50S ribosomal protein L18	rplR H16_A3468	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	119
+Q0K646	RL17_CUPNH	reviewed	50S ribosomal protein L17	rplQ H16_A3457	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	131
+Q0K626	RL16_CUPNH	reviewed	50S ribosomal protein L16	rplP H16_A3477	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	138
+Q0K638	RL15_CUPNH	reviewed	50S ribosomal protein L15	rplO H16_A3465	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	144
+Q0K629	RL14_CUPNH	reviewed	50S ribosomal protein L14	rplN H16_A3474	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	122
+Q0KED9	RL13_CUPNH	reviewed	50S ribosomal protein L13	rplM H16_A0482	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	142
+Q0K602	RL11_CUPNH	reviewed	50S ribosomal protein L11	rplK H16_A3501	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	143
+Q0K604	RL10_CUPNH	reviewed	50S ribosomal protein L10	rplJ H16_A3499	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	173
+Q0K603	RL1_CUPNH	reviewed	50S ribosomal protein L1	rplA H16_A3500	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	231
+Q0KED8	RS9_CUPNH	reviewed	30S ribosomal protein S9	rpsI H16_A0483	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	130
+Q0K633	RS8_CUPNH	reviewed	30S ribosomal protein S8	rpsH H16_A3470	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	131
+Q0K610	RS7_CUPNH	reviewed	30S ribosomal protein S7	rpsG H16_A3493	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	156
+Q0K9E5	RS6_CUPNH	reviewed	30S ribosomal protein S6	rpsF H16_A2279	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	124
+Q0K636	RS5_CUPNH	reviewed	30S ribosomal protein S5	rpsE H16_A3467	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	172
+Q0K644	RS4_CUPNH	reviewed	30S ribosomal protein S4	rpsD H16_A3459	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	207
+Q0K625	RS3_CUPNH	reviewed	30S ribosomal protein S3	rpsC H16_A3478	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	265
+Q0K864	Q0K864_CUPNH	unreviewed	30S ribosomal protein S21	rpsU rpsU2 H16_A2728	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	70
+Q0K8I8	Q0K8I8_CUPNH	unreviewed	30S ribosomal protein S21	rpsU rpsU1 H16_A2601	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	70
+Q0K781	Q0K781_CUPNH	unreviewed	30S ribosomal protein S20	rpsT H16_A3065	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	88
+Q0KA16	RS2_CUPNH	reviewed	30S ribosomal protein S2	rpsB H16_A2055	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	248
+Q0K623	RS19_CUPNH	reviewed	30S ribosomal protein S19	rpsS H16_A3480	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	91
+Q0K9E7	RS18_CUPNH	reviewed	30S ribosomal protein S18	rpsR H16_A2277	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	92
+Q0K628	RS17_CUPNH	reviewed	30S ribosomal protein S17	rpsQ H16_A3475	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	92
+Q0KD81	RS16_CUPNH	reviewed	30S ribosomal protein S16	rpsP H16_A0894	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	84
+Q0KCT5	RS15_CUPNH	reviewed	30S ribosomal protein S15	rpsO H16_A1044	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	89
+Q0K632	RS14_CUPNH	reviewed	30S ribosomal protein S14	rpsN H16_A3471	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	101
+Q0K642	RS13_CUPNH	reviewed	30S ribosomal protein S13	rpsM H16_A3461	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	121
+Q0K609	RS12_CUPNH	reviewed	30S ribosomal protein S12	rpsL H16_A3494	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	125
+Q0K643	RS11_CUPNH	reviewed	30S ribosomal protein S11	rpsK H16_A3460	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	132
+Q0K613	RS10_CUPNH	reviewed	30S ribosomal protein S10	rpsJ H16_A3490	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	102
+Q0KDH6	Q0KDH6_CUPNH	unreviewed	30S ribosomal protein S1	rpsA H16_A0798	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	564
+

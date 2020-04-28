@@ -1,0 +1,1120 @@
+ENTRY	GENE NAME	PROTEIN NAME	LOCATION
+Q0K2K1	gabD1 H16_B0982	Succinate-semialdehyde dehydrogenase (NADP+) (EC 1.2.1.16)	Cytoplasm
+Q0KBC0	tmk H16_A1569	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	Cytoplasm
+Q0K4T6	cpaF2 H16_B0187	Flp pilus assembly ATPase CpaF (EC 3.6.1.-)	Cytoplasm
+Q0K572	cynS H16_B0046	Cyanate hydratase (Cyanase) (EC 4.2.1.104) (Cyanate hydrolase) (Cyanate lyase)	Cytoplasm
+Q0K9U2	ttuD2 H16_A2132	Hydroxypyruvate reductase (EC 1.1.1.81)	Cytoplasm
+Q0KF23	H16_A0246	Methylenetetrahydrofolate reductase (EC 1.5.1.20)	Cytoplasm
+Q0KAG3	acnM H16_A1907	Aconitate hydratase (Aconitase) (EC 4.2.1.3)	Cytoplasm
+Q0KAZ6	H16_A1700	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K974	H16_A2352	Putative NADH-flavin reductase (EC 1.5.1.30)	Cytoplasm
+Q0K718	pntAa3 H16_A3128	NAD(P) transhydrogenase subunit alpha 1 (EC 1.6.1.2)	Cytoplasm
+Q0K5G5	def H16_A3700	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	Cytoplasm
+Q0KDC3	pntAb1 H16_A0851	NAD(P) transhydrogenase subunit alpha 2 (EC 1.6.1.2)	Cytoplasm
+Q0K7K8	fdhA1 H16_A2937	Formate dehydrogenase alpha subunit (Fe4S4 domain) (EC 1.2.1.2)	Cytoplasm
+Q0K2G7	icd3 H16_B1016	Isocitrate dehydrogenase [NAD] (EC 1.1.1.41)	Cytoplasm
+Q0JZM9	H16_B2013	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0K058	H16_B1834	Alcohol dehydrogenase (EC 1.1.1.1)	Cytoplasm
+Q0K0C1	H16_A1713 H16_B1771	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K8Y0	carB2 carB H16_A2452	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5) (Carbamoyl-phosphate synthetase ammonia chain)	Cytoplasm
+Q0KAG0	ansA H16_A1910	Glutaminase-asparaginase (Amidohydrolase) (EC 3.5.1.38)	Cytoplasm
+Q0K3N3	H16_B0594	Predicted acid phosphatase (EC 3.1.3.-)	Cytoplasm
+Q0KA06	H16_A2065	Aminotransferase, class I and II (EC 2.6.1.-)	Cytoplasm
+Q0K412	aroQ2 aroQ H16_B0465	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	Cytoplasm
+Q0K759	H16_A3087	Anthranilate/para-aminobenzoate synthase component I	Cytoplasm
+Q0K5R1	pyk2 H16_A3602	Pyruvate kinase (EC 2.7.1.40)	Cytoplasm
+Q0K6X5	accB H16_A3171	Biotin carboxyl carrier protein of acetyl-CoA carboxylase	Cytoplasm
+Q0K7K2	mrp H16_A2943	Iron-sulfur cluster carrier protein	Cytoplasm
+Q0KBG0	H16_A1529	Phenylacetic acid degradation protein PaaI (EC 3.1.2.23)	Cytoplasm
+Q0K5N0	H16_A3634	Esterase/lipase (EC 3.1.1.-)	Cytoplasm
+Q0K1B7	tdo2 H16_B1418	Tryptophan 2,3-dioxygenase (EC 1.13.11.11)	Cytoplasm
+Q0K0S6	H16_B1613	MoxR-like ATPase (EC 3.6.1.-)	Cytoplasm
+Q0K9P5	H16_A2179	Lactoylglutathione lyase (EC 4.4.1.5)	Cytoplasm
+Q0JZY7	H16_B1905	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KFB8	metH H16_A0151	Methionine synthase (EC 2.1.1.13) (5-methyltetrahydrofolate--homocysteine methyltransferase)	Cytoplasm
+Q0KBH0	H16_A1519	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K9J7	iclB H16_A2227	Isocitrate lyase (EC 4.1.3.1)	Cytoplasm
+Q0K2V6	H16_B0876	3-Hydroxybenzoate 6-hydroxylase (EC 1.14.13.24)	Cytoplasm
+Q0KDD3	dadA3 H16_A0841	D-amino-acid dehydrogenase (EC 1.4.99.1)	Cytoplasm
+Q0KEV4	zwf1 zwf H16_A0316	Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49)	Cytoplasm
+Q0K1D6	ipdC H16_B1399	Indole-3-pyruvate decarboxylase (EC 4.1.1.74)	Cytoplasm
+Q0KEZ7	mmsA1 H16_A0273	Methylmalonate-semialdehyde dehydrogenase (EC 1.2.1.27)	Cytoplasm
+Q0K9E4	H16_A2280	Glutaminase-asparaginase (Amidohydrolase) (EC 3.5.1.38)	Cytoplasm
+Q0JY98	hmgL2 H16_B2494	Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)	Cytoplasm
+Q0K493	H16_B0382	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0K4Y7	H16_B0131	Probable 5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41) (5-keto-4-deoxy-glucarate dehydratase) (KDGDH)	Cytoplasm
+Q0K3S7	H16_B0550	Tautomerase (EC 5.3.2.-)	Cytoplasm
+Q0K428	H16_B0449	Leucine dehydrogenase (EC 1.4.1.9)	Cytoplasm
+Q0K496	H16_B0379	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K8X4	abmD H16_A2458	Putative acyl-CoA dehydrogenase (EC 1.3.99.-)	Cytoplasm
+Q0KC25	hutG3 H16_A1306	N-Formylglutamate amidohydrolase (EC 3.5.1.68)	Cytoplasm
+Q0K6H2	H16_A3330	Alcohol dehydrogenase (EC 1.1.1.1)	Cytoplasm
+Q0K7E0	H16_A3005	Putative aylformamidase (EC 3.5.1.9)	Cytoplasm
+Q0K3G4	H16_B0663	Short chain alcohol dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0KAB4	H16_A1956	Carbon-nitrogen hydrolase (EC 3.5.-.-)	Cytoplasm
+Q0K7F1	cysG H16_A2994	Uroporphyrin-III C-methyltransferase (EC 2.1.1.107)	Cytoplasm
+Q0KDK7	pgpB H16_A0767	Putative membrane-associated phospholipid phosphatase, PAP2 superfamily (EC 3.1.3.2)	Cytoplasm
+Q0K2E9	H16_B1034	Alpha-ketoglutarate-dependent taurine dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0K3C1	H16_B0706	Acyl dehydratase (EC 4.2.1.-)	Cytoplasm
+Q0KC34	H16_A1297	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K3D1	H16_B0696	Acyl-CoA synthetase (AMP-forming) (EC 6.2.1.1)	Cytoplasm
+Q0JYE0	H16_B2452	Acetolactate synthase large subunit (EC 2.2.1.6)	Cytoplasm
+Q0K7N2	pyrB H16_A2913	Aspartate carbamoyltransferase (EC 2.1.3.2) (Aspartate transcarbamylase) (ATCase)	Cytoplasm
+Q0KCD3	H16_A1197	Acyl-CoA synthetase (EC 6.2.1.-)	Cytoplasm
+Q0KD53	H16_A0922	2-Polyprenyl-6-methoxyphenol hydroxylase or related FAD-dependent oxidoreductase (EC 1.14.13.-)	Cytoplasm
+Q0JZ09	bkdA1 pdhA H16_B2233	Pyruvate dehydrogenase E1 component subunit alpha (EC 1.2.4.1)	Cytoplasm
+Q0JZH3	H16_B2069	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylas (EC 3.5.1.-)	Cytoplasm
+Q0K584	wecC H16_B0034	UDP-N-Acetyl-D-mannosamine 6-dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q59106	odhA H16_A2325	2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2) (Alpha-ketoglutarate dehydrogenase)	Cytoplasm
+Q0K1P2	phnT H16_B1292	Acetyltransferase (GNAT) family (EC 2.3.1.-)	Cytoplasm
+Q0KDF8	H16_A0816	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KAX7	H16_A1720	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0KDA6	H16_A0868	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K1W1	ribB H16_B1223	3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12)	Cytoplasm
+Q0K486	H16_B0389	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0JYX4	narI2 H16_B2268	Respiratory nitrate reductase gamma chain (NarI) (EC 1.7.99.4)	Cytoplasm
+Q0KDJ0	ggt2a H16_A0784	Gamma-glutamyltransferase 2 (EC 2.3.2.2)	Cytoplasm
+Q0KBL7	H16_A1469	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0K376	H16_B0751	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K9J3	H16_A2231	Acetolactate synthase large subunit (EC 2.2.1.6)	Cytoplasm
+Q0K7T7	H16_A2857	Aminotransferase (EC 2.6.1.-)	Cytoplasm
+Q0KAG1	prpD1 H16_A1909	2-Methylcitrate dehydratase (EC 4.2.1.79)	Cytoplasm
+Q0KEA6	trpS H16_A0515	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)	Cytoplasm
+Q0K0F1	H16_B1741	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0KDM8	H16_A0745	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+Q0K161	H16_B1475	Dienelactone hydrolase family protein (EC 3.1.1.-)	Cytoplasm
+Q0K836	H16_A2756	ABC-type transporter, ATPase component: PAAT family (EC 3.6.3.21)	Cytoplasm
+Q0K8R2	dat H16_A2521	Aminotransferase class IV (Putative D-alanine transaminase) (EC 2.6.1.21)	Cytoplasm
+Q0K4U9	H16_B0174	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K056	H16_B1836	Putative dioxygenase, 2OG-Fe(II) oxygenase superfamily (EC 1.13.11.-)	Cytoplasm
+Q0K491	H16_B0384	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K158	H16_B1478	ABC-type methionine transporter (EC 7.4.2.11)	Cytoplasm
+Q0KA90	H16_A1980	Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	Cytoplasm
+Q0K3T8	poxA H16_B0539	Phenol hydroxylase P0 protein (EC 1.14.13.7)	Cytoplasm
+Q0K4T0	H16_B0193	Transcriptional regulator, PspF-family (EC 3.6.1.-)	Cytoplasm
+Q0K473	H16_B0402	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0K7U0	ribBA ribB H16_A2854	3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12)	Cytoplasm
+Q0JY58	H16_B2534	3-Hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)	Cytoplasm
+Q0K163	H16_B1473	Metal-dependent amidase/aminoacylase/carboxypeptidase (EC 3.5.-.-)	Cytoplasm
+Q0KCM8	paaH2 H16_A1102	3-Hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)	Cytoplasm
+Q0K4S5	pcaI H16_B0198	3-Oxoadipate CoA-transferase subunit A (EC 2.8.3.6)	Cytoplasm
+Q0K3K1	cysN2 cysC cysN H16_B0626	Multifunctional fusion protein [Includes: Sulfate adenylyltransferase subunit 1 (EC 2.7.7.4) (ATP-sulfurylase large subunit) (Sulfate adenylate transferase) (SAT); Adenylyl-sulfate kinase (EC 2.7.1.25) (APS kinase) (ATP adenosine-5'-phosphosulfate 3'-phosphotransferase) (Adenosine-5'-phosphosulfate kinase)]	Cytoplasm
+Q0JYV7	nirE H16_B2285	Uroporphyrin-III C-methyltransferase (EC 2.1.1.107)	Cytoplasm
+Q0KB09	H16_A1683	Predicted acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K941	hmgL1 H16_A2385	Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)	Cytoplasm
+Q0K874	pct H16_A2718	Acetate CoA-transferase YdiF (EC 2.8.3.8)	Cytoplasm
+Q0K3N2	bpHI H16_B0595	4-hydroxy-2-oxovalerate aldolase 3 (HOA 3) (EC 4.1.3.39) (4-hydroxy-2-keto-pentanoic acid aldolase 3) (4-hydroxy-2-oxopentanoate aldolase 3)	Cytoplasm
+Q0K235	H16_B1148	Acyl-CoA synthetase (EC 6.2.1.-)	Cytoplasm
+Q0K4J5	fbaB H16_B0278	Fructose-bisphosphate aldolase class-I (EC 4.1.2.13)	Cytoplasm
+Q0K0M3	H16_B1666	Chitooligosaccharide deacetylase (EC 3.5.1.-)	Cytoplasm
+Q0K7I4	cbiP cobQ H16_A2961	Cobyric acid synthase	Cytoplasm
+Q0KA99	H16_A1971	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K6X9	murC1 mpl H16_A3167	UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl-meso-2,6-diaminoheptandioate ligase (EC 6.3.2.45) (Murein peptide ligase) (UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase)	Cytoplasm
+Q0KDB3	H16_A0861	Alcohol dehydrogenase, class IV (EC 1.1.1.-)	Cytoplasm
+Q59100	cbbAC cbbA2 H16_B1384	Fructose-bisphosphate aldolase, chromosomal (FBP aldolase) (FBPA) (EC 4.1.2.13) (Fructose-1,6-bisphosphate aldolase)	Cytoplasm
+Q0K9T6	H16_A2138	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KC67	pntAa2 H16_A1264	NAD(P) transhydrogenase subunit alpha 1 (EC 1.6.1.2)	Cytoplasm
+Q0KC00	H16_A1331	Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit A (EC 2.8.3.5)	Cytoplasm
+Q0KEU8	gshA H16_A0322	Gamma-glutamate-cysteine ligase (EC 6.3.2.2)	Cytoplasm
+Q0K3F2	H16_B0675	Acyl-CoA dehydrogenase,short-chain specific (EC 1.3.99.-)	Cytoplasm
+Q0K7D3	hutG1 H16_A3013	N-Formylglutamate amidohydrolase (EC 3.5.1.68)	Cytoplasm
+Q0K0I8	fdwB H16_B1701	Tungsten-containing formate dehydrogenase beta subunit (EC 1.2.1.2)	Cytoplasm
+Q0K815	katG H16_A2777	Catalase-peroxidase (CP) (EC 1.11.1.21) (Peroxidase/catalase)	Cytoplasm
+Q0K2U8	mhpD3 H16_B0884	2-Oxopent-4-enoate hydratase (EC 4.2.1.80)	Cytoplasm
+Q0K197	H16_B1439	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K6I2	trpG H16_A3320	Anthranilate synthase component II (EC 4.1.3.27)	Cytoplasm
+Q0K7M5	hemC H16_A2920	Porphobilinogen deaminase (PBG) (EC 2.5.1.61) (Hydroxymethylbilane synthase) (HMBS) (Pre-uroporphyrinogen synthase)	Cytoplasm
+Q0K073	serA6 H16_B1819	D-3-Phosphoglycerate dehydrogenase (EC 1.1.1.95)	Cytoplasm
+Q0K876	gltX2 gluQ H16_A2716	Glutamyl-Q tRNA(Asp) synthetase (Glu-Q-RSs) (EC 6.1.1.-)	Cytoplasm
+Q0KBC7	ltnD H16_A1562	L-threonate dehydrogenase (EC 1.1.1.411)	Cytoplasm
+Q0K670	dgt H16_A3433	Deoxyguanosinetriphosphate triphosphohydrolase-like protein	Cytoplasm
+Q0K5P1	H16_A3623	Zn-dependent hydrolase / glyoxylase	Cytoplasm
+Q0KFF8	gatA H16_A0111	Glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADT subunit A) (EC 6.3.5.7)	Cytoplasm
+Q0K1H0	acdS H16_B1365	1-aminocyclopropane-1-carboxylate deaminase (ACC deaminase) (ACCD) (EC 3.5.99.7)	Cytoplasm
+Q0K2H9	H16_B1004	Alpha-ketoglutarate-dependent taurine dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0KE74	sucD H16_A0548	Succinate--CoA ligase [ADP-forming] subunit alpha (EC 6.2.1.5) (Succinyl-CoA synthetase subunit alpha) (SCS-alpha)	Cytoplasm
+Q0K1S0	H16_B1264	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K7G6	H16_A2979	Enoyl-CoA hydratase/isomerase (EC 4.2.1.17)	Cytoplasm
+Q0K7N6	H16_A2909	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	Cytoplasm
+Q0KF20	H16_A0249	5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)	Cytoplasm
+Q0K2S2	H16_B0910	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K715	pntB3 H16_A3131	NAD(P) transhydrogenase subunit beta (EC 7.1.1.1) (Nicotinamide nucleotide transhydrogenase subunit beta)	Cytoplasm
+Q0KDS4	H16_A0699	Acyltransferase family protein (EC 2.3.1.-)	Cytoplasm
+Q0KA43	guaA H16_A2028	GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2) (GMP synthetase) (Glutamine amidotransferase)	Cytoplasm
+Q0K3A5	H16_B0722	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K2C0	H16_B1063	Predicted acid phosphatase (EC 3.1.3.-)	Cytoplasm
+Q0K231	H16_B1152	Mannose-6-phosphate isomerase (EC 5.3.1.8)	Cytoplasm
+Q0KCM1	hutG2 H16_A1109	N-Formylglutamate amidohydrolase (EC 3.5.1.68)	Cytoplasm
+P40852	cbbZC cbbZ2 H16_B1387	Phosphoglycolate phosphatase, chromosomal (PGP) (PGPase) (EC 3.1.3.18)	Cytoplasm
+Q0K6Z2	thiL H16_A3154	Thiamine-monophosphate kinase (TMP kinase) (Thiamine-phosphate kinase) (EC 2.7.4.16)	Cytoplasm
+Q0K211	H16_B1172	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0K8F7	sdhC H16_A2632	Succinate dehydrogenase (Cytochrome b subunit) (EC 1.3.99.1)	Cytoplasm
+Q0KC65	pntB2 H16_A1266	NAD(P) transhydrogenase subunit beta (EC 7.1.1.1) (Nicotinamide nucleotide transhydrogenase subunit beta)	Cytoplasm
+Q0KEP7	ispE H16_A0374	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	Cytoplasm
+Q0KAG6	prpR H16_A1904	Propionate catabolism activator (EC 3.6.1.-)	Cytoplasm
+Q0KF10	folB H16_A0259	Dihydroneopterin aldolase (EC 4.1.2.25)	Cytoplasm
+Q0KBX7	gudB H16_A1356	NAD-specific glutamate dehydrogenase (EC 1.4.1.2)	Cytoplasm
+Q0KEE2	pyrC H16_A0479	Dihydroorotase (DHOase) (EC 3.5.2.3)	Cytoplasm
+Q0KCH9	tyrB1 H16_A1151	Aminotransferase (EC 2.6.1.-)	Cytoplasm
+Q0K1A0	prpD3 H16_B1436	2-Methylcitrate dehydratase (EC 4.2.1.79)	Cytoplasm
+Q0K6Y9	pyrF H16_A3157	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23) (OMP decarboxylase) (OMPDCase) (OMPdecase)	Cytoplasm
+Q0K165	fdhA2 H16_B1471	Formate dehydrogenase alpha chain (EC 1.2.1.2)	Cytoplasm
+Q0K0D4	alpH H16_B1758	Allophanate hydrolase (EC 3.5.1.54)	Cytoplasm
+Q0JZB9	H16_B2123	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)	Cytoplasm
+Q0KCX7	maeB H16_A1002	Malic enzyme (NADP) (EC 1.1.1.40)	Cytoplasm
+Q0K3S9	mhpD1 H16_B0548	2-Oxopent-4-enoate hydratase (EC 4.2.1.80)	Cytoplasm
+Q0K3E6	prpD2 H16_B0681	2-Methylcitrate dehydratase (EC 4.2.1.79)	Cytoplasm
+Q0KAQ9	H16_A1807	4-hydroxy-2-oxovalerate aldolase 1 (HOA 1) (EC 4.1.3.39) (4-hydroxy-2-keto-pentanoic acid aldolase 1) (4-hydroxy-2-oxopentanoate aldolase 1)	Cytoplasm
+Q0KC41	H16_A1290	Acetyl-CoA C-acyltransferase (EC 2.3.1.16)	Cytoplasm
+Q0K0L9	fahA H16_B1670	Fumarylacetoacetase hydrolase (EC 3.7.1.2)	Cytoplasm
+Q0KDB8	lao2 H16_A0856	L-Amino-acid oxidase (EC 1.4.3.2)	Cytoplasm
+Q0K0C3	apbA3 H16_B1769	2-dehydropantoate 2-reductase (EC 1.1.1.169) (Ketopantoate reductase)	Cytoplasm
+Q0JYF4	H16_B2438	Predicted acyl-CoA transferase/carnitine dehydratase (EC 5.1.99.-)	Cytoplasm
+Q0KE75	sucC H16_A0547	Succinate--CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	Cytoplasm
+Q0K3T4	poxE H16_B0543	Phenol hydroxylase P4 protein (EC 1.14.13.7)	Cytoplasm
+Q9X6U2	hbdH1 H16_A1334	D-beta-hydroxybutyrate dehydrogenase (BDH) (EC 1.1.1.30) (3-hydroxybutyrate dehydrogenase) (3-HBDH)	Cytoplasm
+Q0KDC4	pntAa1 H16_A0850	NAD(P) transhydrogenase subunit alpha 1 (EC 1.6.1.2)	Cytoplasm
+Q0K7H9	cobC H16_A2966	Alpha-ribazole phosphatase (CobC) (EC 3.1.3.73)	Cytoplasm
+Q0KBE0	leuC2 H16_A1549	3-Isopropylmalate dehydratase large subunit (EC 4.2.1.33)	Cytoplasm
+Q0K6Q4	hprT H16_A3242	Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)	Cytoplasm
+Q0K7B5	ispH H16_A3031	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (HMBPP reductase) (EC 1.17.7.4)	Cytoplasm
+Q0K853	H16_A2739	Dienelactone hydrolase or related enzyme (EC 3.1.1.-)	Cytoplasm
+Q0KFJ6	H16_A0073	Putative peptidase, M20D subfamily (EC 3.4.17.-)	Cytoplasm
+Q0KF32	thiS H16_A0237	Thiamine biosynthesis sulfur transfer protein	Cytoplasm
+Q0KBD5	H16_A1554	Esterase/lipase (EC 3.1.1.-)	Cytoplasm
+Q0K8Q6	fumA H16_A2528	Fumarate hydratase class I (EC 4.2.1.2)	Cytoplasm
+Q0K3H1	H16_B0656	Acyl CoA:acetate/3-ketoacid CoA transferase,beta subunit (EC 2.8.3.-)	Cytoplasm
+Q0K8X6	H16_A2456	Predicted thioesterase (EC 3.1.2.-)	Cytoplasm
+Q0KEN0	gutQ H16_A0391	Predicted sugar phosphate isomerase involved in capsule formation (EC 5.3.1.-)	Cytoplasm
+Q0K5R2	ttuD1 H16_A3601	Hydroxypyruvate reductase (EC 1.1.1.81)	Cytoplasm
+Q0K4A9	H16_B0365	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0KEC0	purH H16_A0501	Bifunctional purine biosynthesis protein PurH [Includes: Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3) (AICAR transformylase); IMP cyclohydrolase (EC 3.5.4.10) (ATIC) (IMP synthase) (Inosinicase)]	Cytoplasm
+Q0K293	H16_B1090	Patatin-like phospholipase (EC 3.1.1.-)	Cytoplasm
+Q0K3U3	plcN2 H16_B0534	Phospholipase C (EC 3.1.4.3)	Cytoplasm
+Q0JZB6	H16_B2126	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0K6R1	nrdA H16_A3235	Ribonucleoside-diphosphate reductase (EC 1.17.4.1)	Cytoplasm
+Q0K3U1	catB4 H16_B0536	Muconate cyclo-isomerase (EC 5.5.1.1)	Cytoplasm
+Q0JYV2	pcaG H16_B2290	Protocatechuate 3,4-dioxygenase alpha chain (EC 1.13.11.3)	Cytoplasm
+Q0JYJ4	H16_B2398	Predicted phosphatase (EC 3.1.3.-)	Cytoplasm
+Q0K2P1	H16_B0942	Malate/L-lactate dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0K6J8	hipO H16_A3299	Putative peptidase, M20D subfamily (EC 3.4.17.-)	Cytoplasm
+Q0KA02	dapE H16_A2069	Succinyl-diaminopimelate desuccinylase (SDAP desuccinylase) (EC 3.5.1.18) (N-succinyl-LL-2,6-diaminoheptanedioate amidohydrolase)	Cytoplasm
+Q0KFK4	H16_A0065	Glutathione peroxidase	Cytoplasm
+Q0KF41	H16_A0228	Lauroyl/myristoyl acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K1G8	H16_B1367	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K155	H16_B1481	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KD62	nadD H16_A0913	Probable nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18) (Deamido-NAD(+) diphosphorylase) (Deamido-NAD(+) pyrophosphorylase) (Nicotinate mononucleotide adenylyltransferase) (NaMN adenylyltransferase)	Cytoplasm
+Q0K3N6	H16_B0591	Acetyl-CoA synthetase (EC 6.2.1.1)	Cytoplasm
+Q0KAL7	rfbB2 H16_A1851	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	Cytoplasm
+Q0K6I5	rpe H16_A3317	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)	Cytoplasm
+Q0K6G5	pfs H16_A3337	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase (EC 3.2.2.9)	Cytoplasm
+Q0KCM9	H16_A1101	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K1Z1	H16_B1192	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K2H4	H16_B1009	Probable bifunctional P-450:NADPH-P450 reductase (EC 1.6.2.4)	Cytoplasm
+Q0K868	plcN1 H16_A2724	Phospholipase C (EC 3.1.4.3)	Cytoplasm
+Q0KFM7	H16_A0042	Glutathionylspermidine synthase (EC 6.3.1.8)	Cytoplasm
+Q0KAM0	rfbC H16_A1848	dTDP-4-dehydrorhamnose 3,5-epimerase (EC 5.1.3.13) (Thymidine diphospho-4-keto-rhamnose 3,5-epimerase)	Cytoplasm
+Q0K7N7	H16_A2908	dTDP-4-dehydrorhamnose reductase (EC 1.1.1.133)	Cytoplasm
+Q0KAI1	H16_A1889	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K7N4	plsC2 H16_A2911	1-Acylglycerol-3-phosphate O-acyltransferase (EC 2.3.1.51)	Cytoplasm
+Q0KFA2	ivd1 H16_A0167	Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)	Cytoplasm
+Q0KFG1	gatB H16_A0108	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (Asp/Glu-ADT subunit B) (EC 6.3.5.-)	Cytoplasm
+Q0JYD7	H16_B2455	Ureidoglycolate lyase (EC 4.3.2.3)	Cytoplasm
+Q0KFE5	H16_A0124	Allophanate hydrolase subunit 1 (EC 3.5.1.54)	Cytoplasm
+Q0KDI8	gph H16_A0786	Phosphoglycolate phosphatase (PGP) (PGPase) (EC 3.1.3.18)	Cytoplasm
+Q0KDU9	H16_A0674	Adenylate cyclase, class 2 (EC 4.6.1.1)	Cytoplasm
+Q0K0J0	H16_B1699	Zinc-type alcohol dehydrogenase-like protein	Cytoplasm
+Q0K0X5	glgP H16_B1562	Alpha-1,4 glucan phosphorylase (EC 2.4.1.1)	Cytoplasm
+Q0KCR1	H16_A1069	Acyl dehydratase (EC 4.2.1.-)	Cytoplasm
+P27747	acoC H16_B0146	Dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system (EC 2.3.1.12) (Acetoin dehydrogenase E2 component) (Dihydrolipoamide acetyltransferase component of acetoin cleaving system) (Fast-migrating protein) (FMP)	Cytoplasm
+Q0KEX9	H16_A0291	Coenzyme F390 synthetase (EC 6.2.1.-)	Cytoplasm
+Q0JZ13	metY2 H16_B2229	O-Acetylhomoserine sulfhydrylase (EC 2.5.1.49)	Cytoplasm
+Q0K5A3	serS2 H16_B0015	Seryl-tRNA synthetase (EC 6.1.1.11)	Cytoplasm
+Q0K7D2	hutF H16_A3014	Formiminoglutamate deiminase (EC 3.5.3.13)	Cytoplasm
+Q0K6R0	H16_A3236	N-Acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	Cytoplasm
+Q0K082	H16_B1810	ABC-type transporter, ATPase component: PAAT family (EC 3.6.3.21)	Cytoplasm
+Q0K3F6	H16_B0671	NADH:flavin oxidoreductase (Old Yellow Enzyme family) (EC 1.5.1.30)	Cytoplasm
+Q0JYI9	caa H16_B2403	Periplasmic alpha-carbonic anhydrase (EC 4.2.1.1)	Cytoplasm
+Q0K4Q4	H16_B0219	N-Acetyltransferase, (GNAT) family (EC 2.3.1.-)	Cytoplasm
+Q0K8X5	abmG H16_A2457	2-Aminobenzoate-CoA ligase (EC 6.2.1.32)	Cytoplasm
+Q0K0H5	pntB4 H16_B1714	NAD(P) transhydrogenase subunit beta (EC 7.1.1.1) (Nicotinamide nucleotide transhydrogenase subunit beta)	Cytoplasm
+Q0K722	purB H16_A3124	Adenylosuccinate lyase (ASL) (EC 4.3.2.2) (Adenylosuccinase)	Cytoplasm
+Q0KD58	H16_A0917	Predicted ATPase (EC 3.6.1.-)	Cytoplasm
+Q0JY17	H16_B2575	Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains (EC 3.6.1.-)	Cytoplasm
+Q0KCB4	cysE H16_A1216	Serine acetyltransferase (EC 2.3.1.30)	Cytoplasm
+Q0JZX8	H16_B1914	Enoyl-CoA-hydratase/isomerase (EC 4.2.1.17)	Cytoplasm
+Q0K766	serB2 H16_A3080	Phosphoserine phosphatase (EC 3.1.3.3)	Cytoplasm
+Q0K1A7	katE2 H16_B1428	Catalase (EC 1.11.1.6)	Cytoplasm
+Q0JZ84	H16_B2158	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K3Q9	acnB H16_B0568	Aconitate hydratase B (EC 4.2.1.3) (EC 4.2.1.99) (2-methylisocitrate dehydratase)	Cytoplasm
+Q0K3E4	H16_B0683	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KDY1	fdsA H16_A0642	NAD-dependent formate dehydrogenase alpha subunit (EC 1.2.1.2)	Cytoplasm
+Q0K489	H16_B0386	Acetyl-CoA synthetase (NDP-forming) (EC 6.2.1.1)	Cytoplasm
+Q0KCR2	H16_A1068	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KEU6	fruA H16_A0324	Phosphotransferase system, fructose-specific component IIA (EC 2.7.1.69)	Cytoplasm
+Q0JY37	H16_B2555	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0K4F0	H16_B0324	Fumarylacetoacetate hydrolase (EC 3.7.1.2)	Cytoplasm
+Q0K7M4	ppc H16_A2921	Phosphoenolpyruvate carboxylase (PEPC) (PEPCase) (EC 4.1.1.31)	Cytoplasm
+Q0K4S4	pcaJ H16_B0199	3-Oxoadipate CoA-transferase subunit B (EC 2.8.3.6)	Cytoplasm
+Q9K4U8	norR2 H16_B2325	Nitric oxide reductase transcription regulator NorR2	Cytoplasm
+Q0JZ73	ispH H16_B2169	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (HMBPP reductase) (EC 1.17.7.4)	Cytoplasm
+Q0KDI1	hisC hisC1 H16_A0793	Histidinol-phosphate aminotransferase (EC 2.6.1.9) (Imidazole acetol-phosphate transaminase)	Cytoplasm
+Q0KCF2	edd1 edd H16_A1178	Phosphogluconate dehydratase (EC 4.2.1.12)	Cytoplasm
+Q0K7Y5	H16_A2808	BEC protein-catalyzes hydroxylation of indole to indoxyl / Acyl-CoA dehydrogenase (EC 1.3.99.-)	Cytoplasm
+Q0K134	frcK H16_B1503	Fructokinase (EC 2.7.1.4)	Cytoplasm
+Q0KCL7	H16_A1113	Pyruvate decarboxylase or related thiamine pyrophosphate-requiring enzyme (EC 4.1.1.-)	Cytoplasm
+Q0KB86	H16_A1603	Predicted spermidine synthase with an N-terminalmembrane domain (EC 2.5.1.16)	Cytoplasm
+Q0KAS1	H16_A1791	Predicted redox protein, regulator of disulfide bond formation (EC 4.6.1.1)	Cytoplasm
+Q0K831	H16_A2761	NADH pyrophosphatase I of the Nudix family of hydrolases (EC 3.6.1.22)	Cytoplasm
+Q0KF40	H16_A0229	Lauroyl/myristoyl acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K7M6	hemXD H16_A2919	Two domain protein: Uroporphyrinogen-III synthase/methylase (EC 2.1.1.107)	Cytoplasm
+Q0K4J3	ilvD H16_B0280	Dihydroxy-acid dehydratase (DAD) (EC 4.2.1.9)	Cytoplasm
+Q0K6W2	H16_A3184	Uncharacterized protein, 4-oxalocrotonate tautomerase homolog (EC 5.3.2.-)	Cytoplasm
+Q0K415	potA H16_B0462	Spermidine/putrescine import ATP-binding protein PotA (EC 7.6.2.11)	Cytoplasm
+Q0K370	H16_B0757	Dioxygenase related to 2-nitropropane dioxygenase (EC 1.13.11.-)	Cytoplasm
+P52993	sucB odhB H16_A2324	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61) (2-oxoglutarate dehydrogenase complex component E2) (OGDC-E2) (Dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex)	Cytoplasm
+Q0K0I9	fdwA H16_B1700	Tungsten-containing formate dehydrogenase alpha subunit (EC 1.2.1.2)	Cytoplasm
+Q0KDZ0	pcaH2 H16_A0633	Protocatechuate 3,4-dioxygenase beta subunit (EC 1.13.11.-)	Cytoplasm
+Q0JY27	pgl H16_B2565	6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)	Cytoplasm
+P40853	cbbZP PHG419	Phosphoglycolate phosphatase, plasmid (PGP) (PGPase) (EC 3.1.3.18)	Cytoplasm
+Q59101	cbbAP PHG416	Fructose-bisphosphate aldolase, plasmid (FBP aldolase) (FBPA) (EC 4.1.2.13) (Fructose-1,6-bisphosphate aldolase)	Cytoplasm
+Q0JZC9	citE4 H16_B2113	Citrate lyase beta subunit (EC 4.1.3.6)	Cytoplasm
+Q0K377	H16_B0750	Salicylate hydroxylase (EC 1.14.13.1)	Cytoplasm
+Q0K6Z9	tktA H16_A3147	Transketolase (EC 2.2.1.1)	Cytoplasm
+Q0K2Y4	H16_B0848	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0KA62	ald H16_A2009	Alanine dehydrogenase (EC 1.4.1.1)	Cytoplasm
+Q0K8J3	H16_A2596	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KC68	H16_A1263	Probable taurine catabolism dioxygenase (EC 1.14.11.-)	Cytoplasm
+Q0KDZ9	hpaF H16_A0624	5-Carboxymethyl-2-hydroxymuconate isomerase (EC 5.3.3.10)	Cytoplasm
+Q0JYX7	narG2 H16_B2265	Respiratory nitrate reductase alpha chain (NarG) (EC 1.7.99.4)	Cytoplasm
+Q0K8F4	citE1 H16_A2635	Citrate lyase beta subunit (EC 4.1.3.6)	Cytoplasm
+Q0K7Q2	rfbF H16_A2893	Putative glucose-1-phosphate cytidylyltransferase (EC 2.7.7.33)	Cytoplasm
+Q0K1U6	H16_B1238	Acid phosphatase (EC 3.1.3.2)	Cytoplasm
+Q0K798	dfp H16_A3048	Coenzyme A biosynthesis bifunctional protein CoaBC (EC 4.1.1.36) (EC 6.3.2.5) (DNA/pantothenate metabolism flavoprotein)	Cytoplasm
+Q0K448	H16_B0428	Putative fumarylpyruvate hydrolase (EC 3.7.1.5)	Cytoplasm
+Q0KBU1	arcB H16_A1394	Ornithine cyclodeaminase (EC 4.3.1.12)	Cytoplasm
+Q0K9S5	H16_A2149	Acyl-CoA dehydrogenase, long-chain specific (EC 1.3.99.-)	Cytoplasm
+Q0K7I1	cobD H16_A2964	Cobalamin biosynthesis protein (CobD) (EC 6.3.1.10)	Cytoplasm
+Q0K2L3	pcpE H16_B0970	2-Chloromaleylacetate/maleylacetate reductase (EC 1.3.1.32)	Cytoplasm
+Q0K8X1	abmA H16_A2461	2-Aminobenzoyl-CoA monooxygenase/reductase (EC 1.14.13.40)	Cytoplasm
+Q0K3Z2	H16_B0485	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0K8P2	H16_A2546	CDP-diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	Cytoplasm
+Q0K0U4	upp upp2 H16_B1595	Uracil phosphoribosyltransferase (EC 2.4.2.9) (UMP pyrophosphorylase) (UPRTase)	Cytoplasm
+Q0K0F4	H16_B1738	Enoyl-CoA hydratase/isomerase family (EC 4.2.1.17)	Cytoplasm
+Q0KAP0	H16_A1828	Glucose/sorbosone dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0K9Y6	H16_A2086	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0K4E4	acmD H16_B0330	Amidohydrolase, similiar to 2-amino-3-carboxymuconate-6-semialdehyde decarboxylase (EC 4.1.1.45)	Cytoplasm
+Q0K2K8	H16_B0975	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KAW3	H16_A1734	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase (EC 3.5.1.-)	Cytoplasm
+Q0KBW5	folD H16_A1370	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	Cytoplasm
+Q0K8H7	trpA H16_A2612	Tryptophan synthase alpha chain (EC 4.2.1.20)	Cytoplasm
+Q0K6V6	H16_A3190	Predicted thioesterase (EC 3.1.2.-)	Cytoplasm
+Q0K7P5	gmd H16_A2900	GDP-mannose 4,6-dehydratase (EC 4.2.1.47) (GDP-D-mannose dehydratase)	Cytoplasm
+Q0K2Z9	H16_B0833	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+Q0JYV1	pcaH1 H16_B2291	Protocatechuate 3,4-dioxygenase beta chain (EC 1.13.11.3)	Cytoplasm
+Q0KFC7	H16_A0142	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0JZX4	H16_B1918	Benzoate-coenzyme A ligase (EC 6.2.1.25)	Cytoplasm
+Q0K840	galU H16_A2752	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9) (UDP-glucose pyrophosphorylase)	Cytoplasm
+Q0KEQ9	H16_A0361	Putative fumarylacetoacetat hydroxylase (EC 3.7.1.2)	Cytoplasm
+Q0K061	dapA4 H16_B1831	Dihydrodipicolinate synthase (DapA) (EC 4.2.1.52)	Cytoplasm
+Q0KEJ4	ilvA H16_A0427	L-threonine dehydratase (EC 4.3.1.19) (Threonine deaminase)	Cytoplasm
+Q0K5G6	fmt H16_A3699	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	Cytoplasm
+Q0K5R9	H16_A3594	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0K8J9	pncB H16_A2589	Nicotinate phosphoribosyltransferase (NAPRTase) (EC 6.3.4.21)	Cytoplasm
+Q0K3Y2	H16_B0495	Nitrilotriacetate monooxygenase component b (EC 1.14.13.-)	Cytoplasm
+Q0JZ85	H16_B2157	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K7P0	manC2 H16_A2905	Mannose-1-phosphate guanylyltransferase (EC 2.7.7.22)	Cytoplasm
+Q0K7N9	H16_A2906	dTDP-4-dehydrorhamnose 3,5-epimerase (EC 5.1.3.13) (Thymidine diphospho-4-keto-rhamnose 3,5-epimerase)	Cytoplasm
+Q0KCT8	leuA H16_A1041	2-isopropylmalate synthase (EC 2.3.3.13) (Alpha-IPM synthase) (Alpha-isopropylmalate synthase)	Cytoplasm
+Q0KEA2	plsC1 H16_A0519	1-Acylglycerol-3-phosphate O-acyltransferase (EC 2.3.1.51)	Cytoplasm
+Q0KDA7	H16_A0867	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0JYL4	cysK4 H16_B2378	Cysteine synthase (EC 2.5.1.47)	Cytoplasm
+Q0K6H7	acyP H16_A3325	Acylphosphatase (EC 3.6.1.7) (Acylphosphate phosphohydrolase)	Cytoplasm
+Q0KDY3	fdsG H16_A0640	NAD-dependent formate dehydrogenase gamma subunit (EC 1.2.1.2)	Cytoplasm
+Q0KBS4	H16_A1412	Benzoate-coenzyme A ligase (EC 6.2.1.25)	Cytoplasm
+Q0KA41	guaB H16_A2030	Inosine-5'-monophosphate dehydrogenase (IMP dehydrogenase) (IMPD) (IMPDH) (EC 1.1.1.205)	Cytoplasm
+Q0K9Y4	H16_A2088	Phosphatidate cytidylyltransferase	Cytoplasm
+Q0KAG7	cysK2 H16_A1903	Cysteine synthase (EC 2.5.1.47)	Cytoplasm
+Q0K7L4	dcd H16_A2931	dCTP deaminase (EC 3.5.4.13) (Deoxycytidine triphosphate deaminase)	Cytoplasm
+Q0K3L6	hprA H16_B0611	Glycerate dehydrogenase (EC 1.1.1.29)	Cytoplasm
+Q0K367	H16_B0760	Fructose-2,6-bisphosphatase (EC 3.1.3.46)	Cytoplasm
+Q0K8G0	sdhB H16_A2629	Succinate dehydrogenase iron-sulfur subunit (EC 1.3.5.1)	Cytoplasm
+Q0K797	dut H16_A3049	Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)	Cytoplasm
+Q0K6D0	ubiX2 ubiX H16_A3372	Flavin prenyltransferase UbiX (EC 2.5.1.129)	Cytoplasm
+Q0K3H0	H16_B0657	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K6X4	accC2 H16_A3172	Biotin carboxylase (EC 6.3.4.14) (EC 6.4.1.2)	Cytoplasm
+Q0KDA1	H16_A0873	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KAE6	ptpS H16_A1924	6-Pyruvoyl tetrahydrobiopterin synthase protein	Cytoplasm
+Q0K566	leuC4 H16_B0052	3-Isopropylmalate dehydratase large subunit (EC 4.2.1.33)	Cytoplasm
+Q0KA22	dxr H16_A2049	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	Cytoplasm
+Q0K8J6	H16_A2592	Ferredoxin--NADP reductase 2 (FNR 2) (Fd-NADP(+) reductase 2) (EC 1.18.1.2)	Cytoplasm
+Q0KBE2	H16_A1547	Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)	Cytoplasm
+Q0KA26	lpxD H16_A2045	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K274	H16_B1109	Putative dioxygenase, 2OG-Fe(II) oxygenase superfamily (EC 1.13.11.-)	Cytoplasm
+Q0K3G5	H16_B0662	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0KAK4	rfbA H16_A1864	Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)	Cytoplasm
+P50321	cbbGC cbbG2 H16_B1386	Glyceraldehyde-3-phosphate dehydrogenase, chromosomal (GAPDH) (EC 1.2.1.12) (NAD-dependent glyceraldehyde-3-phosphate dehydrogenase)	Cytoplasm
+Q0KC96	mvaB H16_A1235	Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)	Cytoplasm
+Q0K7E9	cysD H16_A2996	Sulfate adenylyltransferase subunit 2 (EC 2.7.7.4)	Cytoplasm
+Q0K597	H16_B0021	Acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KF88	bioF H16_A0181	8-amino-7-oxononanoate synthase (AONS) (EC 2.3.1.47) (7-keto-8-amino-pelargonic acid synthase) (7-KAP synthase) (KAPA synthase) (8-amino-7-ketopelargonate synthase)	Cytoplasm
+Q0K8Q5	murI H16_A2529	Glutamate racemase (EC 5.1.1.3)	Cytoplasm
+Q0K5J1	H16_A3673	Ornithine cyclodeaminase (EC 4.3.1.12)	Cytoplasm
+Q0K8W8	gloB2 gloB H16_A2464	Hydroxyacylglutathione hydrolase (EC 3.1.2.6) (Glyoxalase II) (Glx II)	Cytoplasm
+Q0K5R3	H16_A3600	2-Hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	Cytoplasm
+Q0K4C9	gnl2 H16_B0345	Gluconolactonase (EC 3.1.1.17)	Cytoplasm
+Q0K9L3	iclA H16_A2211	Isocitrate lyase (EC 4.1.3.1)	Cytoplasm
+Q0KAI2	H16_A1888	Short chain dehydrogenase (EC 1.-.-.-)	Cytoplasm
+Q0K0I0	H16_B1709	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0KBZ4	spoT2 H16_A1337	GTP pyrophosphokinase (EC 2.7.6.5)	Cytoplasm
+Q0KEF9	H16_A0462	Acetyl-CoA C-acyltransferase (EC 2.3.1.16)	Cytoplasm
+Q0KBR4	H16_A1422	Transcriptional regulator, LuxR-family containing alpha/beta hydrolase domain (EC 3.1.1.-)	Cytoplasm
+Q0K6F8	ubiX1 ubiX H16_A3344	Flavin prenyltransferase UbiX (EC 2.5.1.129)	Cytoplasm
+Q0JY92	H16_B2500	Sulfite reductase [NADPH] flavoprotein alpha-component (EC 1.8.1.2)	Cytoplasm
+Q0K6J5	H16_A3307	Putative enoyl-CoA hydratase (EC 4.2.1.-)	Cytoplasm
+Q0K3N0	bphH H16_B0597	2-Oxopent-4-enoate hydratase (EC 4.2.1.80)	Cytoplasm
+Q0K2A7	aroG2 H16_B1076	Phospho-2-dehydro-3-deoxyheptonate aldolase (EC 2.5.1.54)	Cytoplasm
+Q0K021	pta2 H16_B1871	Phosphotransacetylase (EC 2.3.1.8)	Cytoplasm
+Q0K4F3	H16_B0321	Altronate dehydratase (EC 4.2.1.7)	Cytoplasm
+Q0K4C7	serA2 H16_B0347	D-3-Phosphoglycerate dehydrogenase (EC 1.1.1.95)	Cytoplasm
+Q0K480	H16_B0395	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KA98	ivd2 H16_A1972	Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)	Cytoplasm
+Q0K7T2	phaZ2 H16_A2862	Intracellular poly(3-hydroxybutyrate) depolymerase (EC 3.1.1.75)	Cytoplasm
+Q0K833	H16_A2759	N-Acetylglutamate synthase or related acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K737	katE1 H16_A3109	Catalase (EC 1.11.1.6)	Cytoplasm
+Q0KAR0	H16_A1806	Acetaldehyde dehydrogenase (EC 1.2.1.10) (Acetaldehyde dehydrogenase [acetylating])	Cytoplasm
+Q0K3T9	poxR H16_B0538	Activator of phenol-degradative genes,PspF-family (EC 3.6.1.-)	Cytoplasm
+Q0K7H7	cobT H16_A2968	Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (NN:DBI PRT) (EC 2.4.2.21) (N(1)-alpha-phosphoribosyltransferase)	Cytoplasm
+Q0K1X5	H16_B1209	N-Acyl-D-Amino Acid Deacylase (EC 3.5.1.14)	Cytoplasm
+Q0K5P3	gcvP H16_A3621	Glycine dehydrogenase (decarboxylating) (EC 1.4.4.2) (Glycine cleavage system P-protein) (Glycine decarboxylase) (Glycine dehydrogenase (aminomethyl-transferring))	Cytoplasm
+Q0KDI7	ubiG H16_A0787	Ubiquinone biosynthesis O-methyltransferase (2-polyprenyl-6-hydroxyphenol methylase) (EC 2.1.1.222) (3-demethylubiquinone 3-O-methyltransferase) (EC 2.1.1.64)	Cytoplasm
+Q0KEZ6	H16_A0274	Lactoylglutathione lyase (EC 4.4.1.5)	Cytoplasm
+Q0KCS6	nuoE H16_A1054	NADH dehydrogenase chain E (EC 1.6.5.3)	Cytoplasm
+Q0JZZ4	xdhB2 H16_B1898	Putative xanthine dehydrogenase subunit (EC 1.17.1.4)	Cytoplasm
+Q0K028	H16_B1864	Putative acyl-CoA dehydrogenase, putative desulfurization enzyme (EC 3.1.2.-)	Cytoplasm
+Q0KDA2	H16_A0872	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K7A4	purN H16_A3042	Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2) (5'-phosphoribosylglycinamide transformylase) (GAR transformylase) (GART)	Cytoplasm
+Q0K3Q5	H16_B0572	Glucose/sorbosone dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0KEE4	leuB1 H16_A0477	3-Isopropylmalate dehydrogenase (EC 1.1.1.85)	Cytoplasm
+Q0K3F1	H16_B0676	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K8G2	cisY H16_A2627	Citrate synthase	Cytoplasm
+Q0KCL2	H16_A1118	MoxR-like ATPase (EC 3.6.1.-)	Cytoplasm
+Q0KBN4	serB1 H16_A1452	Phosphoserine phosphatase (EC 3.1.3.3)	Cytoplasm
+Q0KF35	aidB H16_A0234	Acyl-CoA dehydrogenase, short-chain specific (Probable AidB protein) (EC 1.3.99.3)	Cytoplasm
+Q0KBC2	gcvT2 H16_A1567	Aminomethyltransferase (EC 2.1.2.10)	Cytoplasm
+Q0K6Y5	aroE H16_A3161	Shikimate dehydrogenase (NADP(+)) (SDH) (EC 1.1.1.25)	Cytoplasm
+Q0KAX9	H16_A1718	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0KF18	H16_A0251	Predicted nucleoside-diphosphate-sugar epimerase (EC 5.1.3.-)	Cytoplasm
+Q0KAY2	apbA1 H16_A1715	2-dehydropantoate 2-reductase (EC 1.1.1.169) (Ketopantoate reductase)	Cytoplasm
+Q0K1B5	H16_B1420	Hydroquinone meta cleavage dioxygenase (EC 1.13.11.-)	Cytoplasm
+Q0K1G6	H16_B1369	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0KAA9	benC H16_A1961	Benzoate 1,2-dioxygenase electron transfer component (EC 1.14.12.10)	Cytoplasm
+Q0K2G9	phaZ5 H16_B1014	Intracellular poly(3-hydroxybutyrate) depolymerase (EC 3.1.1.75)	Cytoplasm
+Q0K4D5	phaZ3 H16_B0339	Intracellular poly(3-hydroxybutyrate) depolymerase (EC 3.1.1.75)	Cytoplasm
+Q0KCN2	H16_A1098	Gamma-glutamyltransferase 1 (EC 2.3.2.2)	Cytoplasm
+Q0K281	H16_B1102	Acetyl-CoA synthetase (EC 6.2.1.1)	Cytoplasm
+Q0K6R2	nrdB H16_A3234	Ribonucleoside-diphosphate reductase subunit beta (EC 1.17.4.1)	Cytoplasm
+Q0K0Q8	pta1 H16_B1631	Phosphotransacetylase (EC 2.3.1.8)	Cytoplasm
+Q0K3W0	H16_B0517	Zn-dependent alcohol dehydrogenase (EC 1.1.1.1)	Cytoplasm
+Q0K456	H16_B0420	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0KCR3	H16_A1067	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KEV6	nagA H16_A0314	N-Acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)	Cytoplasm
+Q0K8S5	H16_A2508	Glycerol-3-phosphate dehydrogenase (EC 1.1.99.5)	Cytoplasm
+Q0K672	gltB1 H16_A3431	Glutamate synthase [NADPH], Glutamate synthase amidotransferase domain (EC 1.4.1.13)	Cytoplasm
+Q0KD49	H16_A0926	N-Carbamoylsarcosine amidohydrolase (CSHase) (EC 3.5.1.59)	Cytoplasm
+Q0K3F9	H16_B0668	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K859	ispA H16_A2733	Geranylgeranyl pyrophosphate synthase (EC 2.5.1.10)	Cytoplasm
+Q0KEE6	H16_A0475	ABC-type transporter, ATPase component: PAAT family (EC 3.6.3.21)	Cytoplasm
+Q0KA69	phaB2 H16_A2002	Acetoacetyl-CoA reductase (EC 1.1.1.36)	Cytoplasm
+Q0KDH2	ugd H16_A0802	UDP-glucose 6-dehydrogenase (EC 1.1.1.22)	Cytoplasm
+Q0K4B8	H16_B0356	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K5L8	parA2 H16_A3646	ATPase involved in chromosome partitioning (EC 3.6.1.-)	Cytoplasm
+Q0K393	H16_B0734	Beta-ketoacyl-ACP reductase (EC 1.3.1.-)	Cytoplasm
+P46368	acoD H16_B1960	Acetaldehyde dehydrogenase 2 (EC 1.2.1.3) (Acetaldehyde dehydrogenase II) (ACDH-II)	Cytoplasm
+Q0K3A3	H16_B0724	Enoyl-CoA hydratase/isomerase family (EC 4.2.1.17)	Cytoplasm
+Q0K4B9	H16_B0355	Acyl-CoA transferase/carnitine dehydratase (EC 2.8.3.-)	Cytoplasm
+Q0K1P3	phnN H16_B1291	Ribose 1,5-bisphosphate phosphokinase PhnN (EC 2.7.4.23) (Ribose 1,5-bisphosphokinase)	Cytoplasm
+Q0KDM0	H16_A0753	Thioredoxin reductase (EC 1.8.1.9)	Cytoplasm
+Q0K3G2	H16_B0665	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+P19923	cfxP H16_B1389	Phosphoribulokinase, chromosomal (PRK) (PRKase) (EC 2.7.1.19) (Phosphopentokinase)	Cytoplasm
+Q0JZZ9	dadA7 H16_B1893	D-amino-acid dehydrogenase (EC 1.4.99.1)	Cytoplasm
+Q0JZB1	betA1 betA H16_B2131	Oxygen-dependent choline dehydrogenase (CDH) (CHD) (EC 1.1.99.1) (Betaine aldehyde dehydrogenase) (BADH) (EC 1.2.1.8)	Cytoplasm
+Q0KFM5	hutG H16_A0044	Formimidoylglutamase (EC 3.5.3.8) (Formiminoglutamase) (Formiminoglutamate hydrolase)	Cytoplasm
+Q0K6I0	trpC H16_A3322	Indole-3-glycerol phosphate synthase (IGPS) (EC 4.1.1.48)	Cytoplasm
+Q0K3G6	H16_B0661	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K487	H16_B0388	3-Hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)	Cytoplasm
+Q0K1Z5	H16_B1188	Enoyl-CoA hydratase/isomerase (EC 4.2.1.17)	Cytoplasm
+Q59098	pdhB H16_A1375	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12) (Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex) (E2)	Cytoplasm
+Q0KAC1	sbm2 H16_A1949	Methylmalonyl-CoA mutase (EC 5.4.99.2)	Cytoplasm
+Q0K183	fdoH H16_B1453	Formate dehydrogenase beta subunit (EC 1.2.1.2)	Cytoplasm
+Q0K285	H16_B1098	Pyridinenucleotide-disulphide (Lipoamid) oxidoreductase (EC 1.8.1.4)	Cytoplasm
+Q0K1B3	H16_B1422	Thioredoxin reductase (EC 1.8.1.9)	Cytoplasm
+Q0KCW2	xdhA1 H16_A1017	Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (EC 1.17.1.4)	Cytoplasm
+Q0K4P7	galE H16_B0226	UDP-glucose 4-epimerase (EC 5.1.3.2)	Cytoplasm
+Q0KBC5	H16_A1564	Predicted acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KA68	phaC2 H16_A2003	Poly(3-hydroxybutyrate) polymerase (EC 2.3.1.-)	Cytoplasm
+Q0K2A2	tyrB2 H16_B1081	Tyrosine aminotransferase (EC 2.6.1.57)	Cytoplasm
+Q0KDJ2	ssnA H16_A0782	Cytosine deaminase or related metal-dependent hydrolase (EC 3.5.4.-)	Cytoplasm
+Q0KAS2	H16_A1789	Glycerol trinitrate reductase (EC 1.7.1.-)	Cytoplasm
+Q0K6W0	H16_A3186	Aldehyde reductase, related to diketogulonate reductase (EC 1.1.1.21)	Cytoplasm
+Q0KEU0	thiF H16_A0330	Dinucleotide-utilizing enzyme involved in molybdopterin thiamine biosynthesis family 2	Cytoplasm
+Q0KB73	H16_A1616	Acetyl-coenzyme A synthetase (EC 6.2.1.1)	Cytoplasm
+Q0K2P5	H16_B0938	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0JYH1	racX H16_B2421	Aspartate racemase (EC 5.1.1.13)	Cytoplasm
+Q0K5L5	hutG4 H16_A3649	N-Formylglutamate amidohydrolase (EC 3.5.1.68)	Cytoplasm
+Q0KAW5	H16_A1732	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0K051	H16_B1841	Methylmalonyl-CoA mutase c-terminal domain/subunit (Cobalamin-binding) (EC 5.4.99.2)	Cytoplasm
+Q0KBG1	H16_A1528	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K8F1	acnA H16_A2638	Aconitate hydratase (Aconitase) (EC 4.2.1.3)	Cytoplasm
+Q0JZB2	betB H16_B2130	Betaine-aldehyde dehydrogenase (EC 1.2.1.8)	Cytoplasm
+Q0KBN2	argE1 H16_A1454	Acetylornithine deacetylase (EC 3.5.1.16)	Cytoplasm
+Q0K4E0	mdh2 H16_B0334	Malate-dehydrogenase (EC 1.1.1.37)	Cytoplasm
+Q0KET8	gpmA H16_A0332	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (BPG-dependent PGAM) (PGAM) (Phosphoglyceromutase) (dPGM) (EC 5.4.2.11)	Cytoplasm
+Q0KF01	H16_A0269	N-Acetylglutamate synthase or related acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KBM9	ispF H16_A1457	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	Cytoplasm
+Q0K9G6	H16_A2258	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KDH0	hldD H16_A0804	ADP-L-glycero-D-manno-heptose-6-epimerase (EC 5.1.3.20) (ADP-L-glycero-beta-D-manno-heptose-6-epimerase) (ADP-glyceromanno-heptose 6-epimerase) (ADP-hep 6-epimerase) (AGME)	Cytoplasm
+Q0K2S3	H16_B0909	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KD21	spoT1 H16_A0955	GTP pyrophosphokinase (EC 2.7.6.5)	Cytoplasm
+Q0K1E0	cbbL1 cbbL cbxLC cfxLC H16_B1395	Ribulose bisphosphate carboxylase large chain, chromosomal (RuBisCO large subunit) (EC 4.1.1.39)	Cytoplasm
+Q0KAA3	catC3 H16_A1967	Muconolactone Delta-isomerase (MIase) (EC 5.3.3.4)	Cytoplasm
+Q0K455	H16_B0421	Aldehyde dehydrogenase, NAD(P)-dependent (EC 1.2.1.3)	Cytoplasm
+Q0K0P7	H16_B1642	dTDP-glucose 4-6-dehydratase (EC 4.2.1.46)	Cytoplasm
+Q0KF45	pyrE H16_A0224	Orotate phosphoribosyltransferase (OPRT) (OPRTase) (EC 2.4.2.10)	Cytoplasm
+Q0K3R7	H16_B0560	Nicotinate-nucleotide pyrophosphorylase [carboxylating] (EC 2.4.2.19)	Cytoplasm
+Q0K8Y6	folP H16_A2446	Dihydropteroate synthase (DHPS) (EC 2.5.1.15) (Dihydropteroate pyrophosphorylase)	Cytoplasm
+Q0K1F2	cbbB H16_B1383	Formate dehydrogenase, alpha chain (EC 1.2.1.2)	Cytoplasm
+Q0KF99	H16_A0170	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K7X8	kynU H16_A2815	Kynureninase (EC 3.7.1.3) (L-kynurenine hydrolase)	Cytoplasm
+Q0K3Y9	H16_B0488	Predicted acyl-CoA transferase (EC 2.8.3.-)	Cytoplasm
+Q0K354	nasE H16_B0778	Nitrite reductase, NAD(P)H-dependent,Ferredoxinsubunit (EC 1.7.1.4)	Cytoplasm
+Q0KC80	pyc H16_A1251	Pyruvate carboxylase (EC 6.4.1.1)	Cytoplasm
+Q0JZE6	treA H16_B2096	Neutral trehalase (EC 3.2.1.28)	Cytoplasm
+Q0K8H5	trpB H16_A2614	Tryptophan synthase beta chain (EC 4.2.1.20)	Cytoplasm
+Q0K4G1	H16_B0313	Acetolactate synthase large subunit (TPP dependent) (EC 2.2.1.6)	Cytoplasm
+Q0KEJ1	H16_A0430	Trehalose-6-phosphate synthase (EC 2.4.1.15) (Osmoregulatory trehalose synthesis protein A) (UDP-glucose-glucosephosphate glucosyltransferase)	Cytoplasm
+Q0JZU7	gdhA2 H16_B1945	Glutamate dehydrogenase	Cytoplasm
+Q0KA97	H16_A1973	Acetyl/propionyl-CoA carboxylase,carboxyltransferase subunit (EC 6.4.1.-)	Cytoplasm
+Q0K271	H16_B1112	Esterase/ipase (EC 3.1.1.-)	Cytoplasm
+Q0JZ53	dadA8 H16_B2189	D-amino-acid dehydrogenase (EC 1.4.99.1)	Cytoplasm
+Q0KDE3	maoB H16_A0831	Monoamine oxidase (Flavin containing) (EC 1.4.3.4)	Cytoplasm
+Q59097	pdhA H16_A1374	Pyruvate dehydrogenase E1 component (PDH E1 component) (EC 1.2.4.1)	Cytoplasm
+Q0KBL1	H16_A1475	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylas (EC 3.5.1.-)	Cytoplasm
+Q0K775	H16_A3071	Putative acetyltransferase protein (EC 2.3.1.-)	Cytoplasm
+Q0KDB7	dadA4 H16_A0857	D-amino-acid dehydrogenase (EC 1.4.99.1)	Cytoplasm
+Q0K3T5	poxD H16_B0542	Phenol hydroxylase P3 protein (EC 1.14.13.7)	Cytoplasm
+Q0JY71	H16_B2521	Alpha-ketoglutarate-dependent taurine dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0JZG9	phaZ6 H16_B2073	Poly(3-hydroxybutyrate) depolymerase (EC 3.1.1.75)	Cytoplasm
+Q0KEB7	ubiH H16_A0504	2-Polyprenyl-6-methoxyphenol hydroxylase or related FAD-dependent oxidoreductase (EC 1.14.13.-)	Cytoplasm
+Q0KDA8	H16_A0866	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0JZT6	purU H16_B1956	Formyltetrahydrofolate deformylase (EC 3.5.1.10) (Formyl-FH(4) hydrolase)	Cytoplasm
+Q0KC24	glcD2 H16_A1307	Glycolate oxidase subunit GlcD (EC 1.1.3.15)	Cytoplasm
+Q0K4C1	citE2 H16_B0353	Citrate lyase beta subunit (EC 4.1.3.6)	Cytoplasm
+Q0KCL6	H16_A1114	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+Q0JZ08	bkdA2 H16_B2234	2-Oxoisovalerate dehydrogenase E1 component,beta subunit (EC 1.2.4.1)	Cytoplasm
+P50322	cbbGP PHG418	Glyceraldehyde-3-phosphate dehydrogenase, plasmid (GAPDH) (EC 1.2.1.12) (NAD-dependent glyceraldehyde-3-phosphate dehydrogenase)	Cytoplasm
+Q04539	rpe2 cbbEP cfxE PHG423	Ribulose-phosphate 3-epimerase 2 (EC 5.1.3.1)	Cytoplasm
+Q0JYE6	H16_B2446	4-Hydroxybenzoate decarboxylase (EC 4.1.1.61)	Cytoplasm
+Q0KAG5	prpB H16_A1905	2-methylisocitrate lyase (2-MIC) (MICL) (EC 4.1.3.30) ((2R,3S)-2-methylisocitrate lyase)	Cytoplasm
+Q0JYC2	H16_B2470	Putative alcohol dehydrogenase class III (EC 1.1.1.1)	Cytoplasm
+Q0K5X9	hmp2 H16_A3533	Flavohemoprotein (Hemoglobin-like)	Cytoplasm
+Q0JYE5	ubiX H16_B2447	Flavin prenyltransferase UbiX (EC 2.5.1.129)	Cytoplasm
+Q0KAD6	tdh H16_A1934	Threonine dehydrogenase (Zn dependent) (EC 1.1.1.103)	Cytoplasm
+Q0K9S3	H16_A2151	Putative acyl dehydratase (EC 4.2.1.-)	Cytoplasm
+Q0K521	eutC H16_B0097	Ethanolamine ammonia-lyase light chain (EC 4.3.1.7)	Cytoplasm
+Q0K7X5	gcdH H16_A2818	Glutaryl-CoA dehydrogenase (EC 1.3.99.7)	Cytoplasm
+Q0KBP1	bktB H16_A1445	Beta-ketothiolase BktB (EC 2.3.1.16) (EC 2.3.1.9) (Acetyl-CoA acetyltransferase) (Acetyl-CoA acyltransferase)	Cytoplasm
+Q0K0J4	menB H16_B1695	1,4-dihydroxy-2-naphthoyl-CoA synthase (DHNA-CoA synthase) (EC 4.1.3.36)	Cytoplasm
+Q0K756	H16_A3090	Corrinoid adenosyltransferase (EC 2.5.1.17)	Cytoplasm
+Q0KAM1	manB1 H16_A1847	Phosphomannomutase (EC 5.4.2.8)	Cytoplasm
+Q0K7T4	H16_A2860	Acetoacetyl-CoA synthetase (EC 6.2.1.16)	Cytoplasm
+Q0KB10	ldhA2 ldhA1 H16_A1681 H16_A1682	D-Lactate dehydrogenase (EC 1.1.1.28)	Cytoplasm
+Q0K375	H16_B0752	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0KEQ8	H16_A0362	Maleylacetoacetate isomerase (EC 5.2.1.2)	Cytoplasm
+Q0KCB6	suhB H16_A1214	Inositol-1-monophosphatase (EC 3.1.3.25)	Cytoplasm
+Q0K7U5	ribC H16_A2849	Riboflavin synthase alpha chain (EC 2.5.1.9)	Cytoplasm
+Q0KC42	H16_A1289	Acyl dehydratase (EC 4.2.1.-)	Cytoplasm
+Q0K4Q0	H16_B0223	Dioxygenase related to 2-nitropropane dioxygenase (EC 1.13.11.-)	Cytoplasm
+Q0K5S0	H16_A3593	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0KCW3	xdhB1 H16_A1016	Xanthine dehydrogenase, subunit B (EC 1.17.1.4)	Cytoplasm
+Q0KAA6	catA H16_A1964	Catechol 1,2-dioxygenase (EC 1.13.11.1)	Cytoplasm
+Q0KE21	H16_A0602	Short-chain alcohol dehydrogenase/3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0JZ15	tauD2 H16_B2227	Probable taurine catabolism dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0KBN9	metC H16_A1447	Cystathionine beta-lyase (EC 4.4.1.8)	Cytoplasm
+Q0K2Z0	phoD H16_B0842	Phosphodiesterase/alkaline phosphatase D (EC 3.1.3.1)	Cytoplasm
+Q0KE86	H16_A0535	Putative carboxymuconolactone decarboxylase (EC 4.1.1.44)	Cytoplasm
+Q0K308	serA4 H16_B0824	D-3-Phosphoglycerate dehydrogenase (EC 1.1.1.95)	Cytoplasm
+Q0JZ31	H16_B2211	Citrate synthase (EC 2.3.3.1)	Cytoplasm
+Q0KBT1	H16_A1404	ADP-ribose pyrophosphatase (EC 3.6.1.13)	Cytoplasm
+Q0K8X8	carA H16_A2454	Carbamoyl-phosphate synthase small chain (EC 6.3.5.5) (Carbamoyl-phosphate synthetase glutamine chain)	Cytoplasm
+Q0JY26	zwf3 zwf H16_B2566	Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49)	Cytoplasm
+Q0KDR2	cpaF1 H16_A0711	Flp pilus assembly ATPase CpaF (EC 3.6.1.-)	Cytoplasm
+Q0K3G3	H16_B0664	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K0L8	hmgA H16_B1671	Homogentisate 1,2-dioxygenase (HGDO) (EC 1.13.11.5) (Homogentisate oxygenase) (Homogentisic acid oxidase) (Homogentisicase)	Cytoplasm
+Q0K104	H16_B1533	Taurine catabolism dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0K0J5	H16_B1694	Acyl-CoA Dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K301	H16_B0831	Alcohol dehydrogenase, class IV (EC 1.1.1.-)	Cytoplasm
+Q0KDC9	lao1 H16_A0845	L-Amino-acid oxidase (EC 1.4.3.2)	Cytoplasm
+Q0K418	argE2 H16_B0459	Acetylornithine deacetylase (EC 3.5.1.16)	Cytoplasm
+Q0JYD2	alc H16_B2460	Probable allantoicase (EC 3.5.3.4) (Allantoate amidinohydrolase)	Cytoplasm
+Q0KFC6	mhpD2 H16_A0143	2-Oxopent-4-enoate hydratase (EC 4.2.1.80)	Cytoplasm
+Q0K2R7	H16_B0915	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K1J9	H16_B1335	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K3C8	H16_B0699	Acyl-CoA dehydrogenase, long-chain specific (EC 1.3.99.-)	Cytoplasm
+Q0KC14	aroC H16_A1317	Chorismate synthase (CS) (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	Cytoplasm
+Q0KAG4	prpC1 H16_A1906	Citrate synthase	Cytoplasm
+Q0K492	H16_B0383	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KEQ1	rfbB1 H16_A0369	dTDP-D-glucose 4,6-dehydratase (EC 4.2.1.46)	Cytoplasm
+Q0K4F5	pdxA2 H16_B0319	D-threonate 4-phosphate dehydrogenase (EC 1.1.1.408)	Cytoplasm
+Q0K3T0	H16_B0547	2-Hydroxymuconic semialdehyde dehydrogenase (EC 1.2.1.32)	Cytoplasm
+Q0K2J9	ggt2c H16_B0984	Gamma-glutamyltransferase 2 (EC 2.3.2.2)	Cytoplasm
+Q0KEA4	gloA1 H16_A0517	Lactoylglutathione lyase (EC 4.4.1.5) (Glyoxalase I)	Cytoplasm
+Q0K749	glcF H16_A3097	2-Hydroxy-acid oxidase, Fe-S subunit (EC 1.1.3.15)	Cytoplasm
+Q0K7U6	ribD H16_A2848	Riboflavin biosynthesis protein RibD [Includes: Diaminohydroxyphosphoribosylaminopyrimidine deaminase (DRAP deaminase) (EC 3.5.4.26) (Riboflavin-specific deaminase); 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193) (HTP reductase)]	Cytoplasm
+Q0KCS5	nuoF H16_A1055	NADH-quinone oxidoreductase subunit F (EC 7.1.1.-)	Cytoplasm
+Q0KAI5	H16_A1885	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K789	truA2 H16_A3057	Pseudouridine synthase (EC 5.4.99.-)	Cytoplasm
+Q0K1A3	adhP H16_B1433	Alcohol dehydrogenase, Zn-dependent (EC 1.1.1.1)	Cytoplasm
+Q0K1E1	cbbS2 H16_B1394	Ribulose bisphosphate carboxylase small chain (EC 4.1.1.39)	Cytoplasm
+Q0KDA3	H16_A0871	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K8E4	speE H16_A2647	Spermidine synthase (EC 2.5.1.16)	Cytoplasm
+Q0KB33	H16_A1656	Ap4A phosphorylase II (EC 2.7.7.53)	Cytoplasm
+Q0KAZ4	H16_A1702	FAD binding domain in molybdopterin dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0K0E6	H16_B1746	Monooxygenase (EC 1.14.14.-)	Cytoplasm
+Q0K5I6	phhA H16_A3678	Phenylalanine 4-monooxygenase (EC 1.14.16.1)	Cytoplasm
+Q0K0J6	H16_B1693	2,3-dihydroxybenzoate-AMP ligase (EC 6.3.2.-)	Cytoplasm
+Q0K475	H16_B0400	Medium-chain acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KCS4	nuoG H16_A1056	NADH-quinone oxidoreductase (EC 7.1.1.-)	Cytoplasm
+Q0K8K2	H16_A2586	Lactate dehydrogenase or related dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0K100	gabD3 H16_B1537	Succinate-semialdehyde dehydrogenase (NADP+) (EC 1.2.1.16)	Cytoplasm
+Q0K049	H16_B1843	3-Hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)	Cytoplasm
+Q0K660	lysA2 lysA H16_A3443	Diaminopimelate decarboxylase (DAP decarboxylase) (DAPDC) (EC 4.1.1.20)	Cytoplasm
+Q0KEC2	gdpD H16_A0499	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)	Cytoplasm
+Q0K6K5	H16_A3292	Molybdopterin oxidoreductase (EC 1.2.1.2)	Cytoplasm
+Q0KDM4	nadE H16_A0749	Glutamine-dependent NAD(+) synthetase (EC 6.3.5.1) (NAD(+) synthase [glutamine-hydrolyzing])	Cytoplasm
+Q0K6T3	H16_A3213	Uncharacterized protein	Cytoplasm
+Q0K0V6	metE H16_B1581	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14) (Cobalamin-independent methionine synthase) (Methionine synthase, vitamin-B12 independent isozyme)	Cytoplasm
+Q0K3S3	tdcB H16_B0554	Threonine deaminase (EC 4.3.1.19)	Cytoplasm
+Q0KD28	H16_A0948	dITP/XTP pyrophosphatase (EC 3.6.1.66) (Non-canonical purine NTP pyrophosphatase) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	Cytoplasm
+Q0K3W9	dadA6 H16_B0508	D-amino-acid dehydrogenase (EC 1.4.99.1)	Cytoplasm
+Q0K9K9	H16_A2215	Dienelactone hydrolase or related enzyme (EC 3.1.1.-)	Cytoplasm
+Q0JYJ1	phaZ7 H16_B2401	Poly(3-hydroxybutyrate) depolymerase (EC 3.1.1.75)	Cytoplasm
+Q0K457	H16_B0419	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0KA29	lpxB H16_A2042	Lipid-A-disaccharide synthase (EC 2.4.1.182)	Cytoplasm
+Q0K5N3	putA H16_A3631	Bifunctional protein PutA [Includes: Proline dehydrogenase (EC 1.5.5.2) (Proline oxidase); Delta-1-pyrroline-5-carboxylate dehydrogenase (P5C dehydrogenase) (EC 1.2.1.88) (L-glutamate gamma-semialdehyde dehydrogenase)]	Cytoplasm
+Q0K6Z3	maeA H16_A3153	Malic enzyme (NAD-binding) (EC 1.1.1.38)	Cytoplasm
+Q0KDU4	H16_A0679	Lactate dehydrogenase or related dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0K830	ltaA H16_A2762	L-threonine aldolase (EC 4.1.2.48)	Cytoplasm
+Q0KC95	leuC leuC1 H16_A1236	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0KBD9	leuD leuD2 H16_A1550	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0K291	H16_B1092	Thioredoxin reductase (EC 1.8.1.9)	Cytoplasm
+Q0K4A3	pimC H16_B0371	Pimeloyl-CoA dehydrogenase (Large subunit) (EC 1.3.1.62)	Cytoplasm
+Q0K1T5	H16_B1249	Esterase/lipase (EC 3.1.1.-)	Cytoplasm
+Q0K469	H16_B0406	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K2Z1	serA5 H16_B0841	D-3-Phosphoglycerate dehydrogenase (EC 1.1.1.95)	Cytoplasm
+Q0K0E2	H16_B1750	3-hydroxyisobutyrate dehydrogenase (HIBADH) (EC 1.1.1.31)	Cytoplasm
+Q0K1I8	H16_B1346	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KC09	H16_A1322	Triacylglycerol lipase (EC 3.1.1.3)	Cytoplasm
+Q0K1K2	H16_B1332	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K0F7	H16_B1735	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+Q0KF29	H16_A0240	Acetyltransferase (GNAT) family (EC 2.3.1.-)	Cytoplasm
+Q0K586	wbpD H16_B0032	Acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0JY31	H16_B2561	Lactate dehydrogenase or related dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0KCI0	phaZ1 H16_A1150	Intracellular poly(3-hydroxybutyrate) depolymerase (EC 3.1.1.75)	Cytoplasm
+Q0KBE3	H16_A1546	Chitooligosaccharide deacetylase (EC 3.5.1.-)	Cytoplasm
+Q0K615	H16_A3488	Dienelactone hydrolase or related enzyme (EC 3.1.1.-)	Cytoplasm
+Q0K5A0	H16_B0018	Predicted acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K138	frcC H16_B1499	ABC-type transporter, permease component: CUT2 family, fructose specific	Cytoplasm
+Q0KFK1	H16_A0068	D-Hydantoinase	Cytoplasm
+Q0KDC2	pntB1 H16_A0852	NAD(P) transhydrogenase subunit beta (EC 7.1.1.1) (Nicotinamide nucleotide transhydrogenase subunit beta)	Cytoplasm
+Q0K8M0	fabD H16_A2568	Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)	Cytoplasm
+Q0KBV8	pdhL H16_A1377	Dihydrolipoyl dehydrogenase (EC 1.8.1.4)	Cytoplasm
+Q0JYB4	H16_B2478	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KCK8	aroG1 H16_A1122	Phospho-2-dehydro-3-deoxyheptonate aldolase (EC 2.5.1.54)	Cytoplasm
+Q0KEU7	gshB H16_A0323	Glutathione synthetase (EC 6.3.2.3) (GSH synthetase) (GSH-S) (GSHase) (Glutathione synthase)	Cytoplasm
+Q0K353	nasD H16_B0779	Nitrite reductase, NAD(P)H-dependent, large subunit (EC 1.7.1.4)	Cytoplasm
+Q0K4R9	H16_B0204	Succinate dehydrogenase/fumarate reductase,flavoprotein (EC 1.3.99.1)	Cytoplasm
+Q0K8F5	mdh H16_A2634	Malate dehydrogenase (EC 1.1.1.37)	Cytoplasm
+Q0KEG0	H16_A0461	Two domain protein: 3-hydroxyacyl-CoA dehydrogenase (EC 4.2.1.17)	Cytoplasm
+Q0K6S5	H16_A3221	Acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KFA0	can H16_A0169	Carbonic anhydrase	Cytoplasm
+Q0K861	folE2 H16_A2731	GTP cyclohydrolase FolE2 (EC 3.5.4.16)	Cytoplasm
+Q0K3H3	bphC H16_B0654	Biphenyl-2,3-diol 1,2-dioxygenase (EC 1.13.11.39)	Cytoplasm
+Q0K5W1	H16_A3551	Methylmalonyl CoA epimerase (EC 5.1.99.1)	Cytoplasm
+Q0KD82	H16_A0893	Glucose/sorbosone dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0K8A9	H16_A2683	Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains (EC 3.6.1.-)	Cytoplasm
+Q0K8H1	asd H16_A2618	Aspartate-semialdehyde dehydrogenase (ASA dehydrogenase) (ASADH) (EC 1.2.1.11) (Aspartate-beta-semialdehyde dehydrogenase)	Cytoplasm
+Q0K8X2	abmB H16_A2460	Putative beta-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0KBN0	ispD H16_A1456	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	Cytoplasm
+Q0K4B7	H16_B0357	Citrate synthase (EC 2.3.3.1)	Cytoplasm
+Q0K9H2	H16_A2252	Acyl-CoA synthetase (EC 6.2.1.-)	Cytoplasm
+Q0K0X9	H16_B1558	Two domain protein: Trehalose synthase (EC 5.4.99.16)	Cytoplasm
+Q0K6Q2	phy H16_A3244	Prolyl 4-hydroxylase alpha subunit (EC 1.14.11.2)	Cytoplasm
+Q0K0N7	H16_B1652	3-Hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)	Cytoplasm
+Q0KF37	H16_A0232	Aldehyde dehydrogenase	Cytoplasm
+Q0JZL0	H16_B2032	ATPase involved in chromosome partitioning (EC 3.6.1.-)	Cytoplasm
+Q0K812	ggt2b H16_A2780	Gamma-glutamyltransferase 2 (EC 2.3.2.2)	Cytoplasm
+Q0K0H4	pntA4 H16_B1715	NAD(P) transhydrogenase subunit alpha (EC 7.1.1.1)	Cytoplasm
+Q0KEF7	H16_A0464	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K2Y5	H16_B0847	Acyl-CoA transferase/carnitine dehydratase (EC 2.8.3.-)	Cytoplasm
+Q0KAI8	H16_A1882	Asp-tRNA Asn / Glu-tRNA Gln amidotransferase A subunit or related amidase (EC 6.3.5.-)	Cytoplasm
+Q0K368	H16_B0759	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K1G4	H16_B1371	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0KF83	H16_A0186	Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)	Cytoplasm
+Q0K7N3	pyrX H16_A2912	Dihydroorotase (EC 3.5.2.3)	Cytoplasm
+Q0K4B4	H16_B0360	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K687	hisD H16_A3416	Histidinol dehydrogenase (HDH) (EC 1.1.1.23)	Cytoplasm
+Q0K752	glcD1 H16_A3094	Glycolate oxidase subunit GlcD (EC 1.1.3.15)	Cytoplasm
+Q0KA33	ppsA H16_A2038	Phosphoenolpyruvate synthase (PEP synthase) (EC 2.7.9.2) (Pyruvate, water dikinase)	Cytoplasm
+Q0K8H9	folC H16_A2610	Folylpolyglutamate synthase (EC 6.3.2.17)	Cytoplasm
+Q0JZP5	H16_B1997	Putative aylformamidase (EC 3.5.1.9)	Cytoplasm
+Q0K829	H16_A2763	Tautomerase (EC 5.3.2.-)	Cytoplasm
+P31638	acsA acoE H16_A2525	Acetyl-coenzyme A synthetase (AcCoA synthetase) (Acs) (EC 6.2.1.1) (Acetate--CoA ligase) (Acyl-activating enzyme)	Cytoplasm
+Q0KD43	mgsA H16_A0932	Methylglyoxal synthase (MGS) (EC 4.2.3.3)	Cytoplasm
+Q0KBZ9	H16_A1332	Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit B (EC 2.8.3.5)	Cytoplasm
+Q0K313	kbl H16_B0819	2-amino-3-ketobutyrate coenzyme A ligase (AKB ligase) (EC 2.3.1.29) (Glycine acetyltransferase)	Cytoplasm
+Q0JY70	H16_B2522	Medium-chain-fatty-acid-CoA ligase (EC 6.2.1.-)	Cytoplasm
+Q0KAQ3	H16_A1814	D-beta-hydroxybutyrate dehydrogenase (EC 1.1.1.30)	Cytoplasm
+Q0KDI2	pheA H16_A0792	Prephenate dehydratase, Chorismate mutase (EC 5.4.99.5)	Cytoplasm
+Q0KFG8	H16_A0101	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K2Q1	H16_B0932	Phospholipase D (EC 3.1.4.4)	Cytoplasm
+Q0K2D6	quiA H16_B1047	Quinate dehydrogenase (PQQ) (EC 1.1.99.25)	Cytoplasm
+Q0K018	H16_B1874	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0KF30	thiE H16_A0239	Thiamine monophosphate synthase (EC 2.5.1.3)	Cytoplasm
+Q0JZ50	glxb H16_B2192	Glutamine amidotransferases class-II (EC 1.4.1.13)	Cytoplasm
+Q0KCD1	H16_A1199	Ferredoxin--NADP reductase 1 (FNR 1) (Fd-NADP(+) reductase 1) (EC 1.18.1.2)	Cytoplasm
+Q0KFN1	H16_A0038	Alpha-ketoglutarate-dependent taurine dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0K5Y3	H16_A3529	Acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KA95	metK2 H16_A1975	S-Adenosylmethionine synthetase (EC 2.5.1.6)	Cytoplasm
+Q0K276	H16_B1107	Phospholipase D (EC 3.1.4.4)	Cytoplasm
+Q0JYX2	can2 H16_B2270	Carbonic anhydrase (EC 4.2.1.1) (Carbonate dehydratase)	Cytoplasm
+Q0JYD9	H16_B2453	Protoporphyrinogen oxidase (EC 1.3.3.4)	Cytoplasm
+Q0KAI3	H16_A1887	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K3H2	H16_B0655	Acyl CoA:acetate/3-ketoacid CoA transferase,alpha subunit (EC 2.8.3.-)	Cytoplasm
+Q0KF72	H16_A0197	Predicted hydrolase or acyltransferase (EC 3.-.-.-)	Cytoplasm
+Q0K8E6	H16_A2643	Spermidine synthase (EC 2.5.1.16)	Cytoplasm
+Q0K9T0	pccB H16_A2144	Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)	Cytoplasm
+Q0K9P2	H16_A2182	Alkaline phosphatase (EC 3.1.3.1)	Cytoplasm
+Q0K156	H16_B1480	Nitrilotriacetate monooxygenase component A (EC 1.14.13.-)	Cytoplasm
+Q0K4I6	H16_B0287	Putative carboxylesterase (EC 3.1.1.-)	Cytoplasm
+Q0K8Y7	glmM H16_A2445	Phosphoglucosamine mutase (EC 5.4.2.10)	Cytoplasm
+P42721	cbbL2 cbbL cbxLP cfxLP PHG427	Ribulose bisphosphate carboxylase large chain, plasmid (RuBisCO large subunit) (EC 4.1.1.39)	Cytoplasm
+Q0K2K2	gabT H16_B0981	4-Aminobutyrate aminotransferase (EC 2.6.1.19)	Cytoplasm
+Q0K1H8	paaL2 H16_B1357	Phenylacetate-coenzyme A ligase (EC 6.2.1.30) (Phenylacetyl-CoA ligase)	Cytoplasm
+Q0JYV6	pobA H16_B2286	p-Hydroxybenzoate hydroxylase, FAD dependent monooxygenase (EC 1.14.13.2)	Cytoplasm
+Q0K192	prpD4 H16_B1444	2-Methylcitrate dehydratase (EC 4.2.1.79)	Cytoplasm
+Q0K9S6	H16_A2148	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K139	frcA H16_B1498	ABC-type transporter, ATPase component: CUT2 family, fructose specific (EC 3.6.3.-)	Cytoplasm
+Q0JYR9	norB2 H16_B2323	Nitric oxide reductase qNor type (NorB2) (EC 1.7.99.7)	Cytoplasm
+Q0KD37	H16_A0938	ABC-type transporter, ATPase component: CUT2 family (EC 3.6.3.17)	Cytoplasm
+Q0K4A2	pimD H16_B0372	Pimeloyl-CoA dehydrogenase (Small subunit) (EC 1.3.1.62)	Cytoplasm
+Q0K0M7	H16_B1662	Acyl-coenzyme A synthetase/AMP-(Fatty) acid ligase (EC 6.2.1.-)	Cytoplasm
+Q0KCU3	ilvH H16_A1036	Acetolactate synthase III small subunit (EC 2.2.1.6)	Cytoplasm
+Q0KAA7	benA H16_A1963	Benzoate 1,2-dioxygenase hydroxylase component,alpha subunit (EC 1.14.12.10)	Cytoplasm
+Q0K6D6	ubiD2 H16_A3366	3-Octaprenyl-4-hydroxybenzoate carboxy-lyase (EC 4.1.1.-)	Cytoplasm
+Q0K723	H16_A3123	Cytochrome b561 (EC 1.2.2.2)	Cytoplasm
+Q0K5K1	betA4 H16_A3663	Choline dehydrogenase (EC 1.1.99.1)	Cytoplasm
+Q0K8S6	glpK H16_A2507	Glycerol kinase (EC 2.7.1.30) (ATP:glycerol 3-phosphotransferase) (Glycerokinase) (GK)	Cytoplasm
+Q0KBS6	H16_A1410	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0K7D4	gnl1 H16_A3012	Gluconolactonase (EC 3.1.1.17)	Cytoplasm
+Q0K1C8	H16_B1407	Putative acetyltransferase (GNAT) family (EC 2.3.1.-)	Cytoplasm
+Q0KEE3	ldhA H16_A0478	Dehydrogenase related to lactate dehydrogenases (EC 1.1.1.-)	Cytoplasm
+Q0K461	H16_B0414	Citrate synthase (EC 2.3.3.1)	Cytoplasm
+Q0K0Z1	H16_B1546	2-Polyprenyl-6-methoxyphenol hydroxylase or related FAD-dependent oxidoreductase (EC 1.14.13.-)	Cytoplasm
+Q0K495	H16_B0380	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0K2P4	cyp H16_B0939	Monooxygenase / Flavin Reductase (EC 1.14.14.1)	Cytoplasm
+Q0K3G7	H16_B0660	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K7Y6	H16_A2807	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K2Q5	H16_B0928	6-Carboxyhexanoate-CoA ligase (EC 6.2.1.14)	Cytoplasm
+Q0KAV1	pdhA2 H16_A1753	Pyruvate dehydrogenase E1 component (EC 1.2.4.1)	Cytoplasm
+Q0K651	engB H16_A3452	Probable GTP-binding protein EngB	Cytoplasm
+Q0K7K9	fdhB1 H16_A2936	Formate dehydrogenase iron-sulfur subunit (EC 1.2.1.2)	Cytoplasm
+Q0KER4	trpD2 H16_A0356	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)	Cytoplasm
+Q0JYV3	pcaB1 H16_B2289	3-Carboxy-cis,cis-muconate cyclo-isomerase (EC 5.5.1.2)	Cytoplasm
+Q0K184	fdoG H16_B1452	Formate dehydrogenase alpha subunit (EC 1.2.1.2)	Cytoplasm
+Q0K546	fmdA1 H16_B0072	Formamidase (EC 3.5.1.49)	Cytoplasm
+Q0K3T6	poxC H16_B0541	Phenol hydroxylase P2 protein (EC 1.14.13.7)	Cytoplasm
+Q0K548	amn H16_B0070	AMP nucleosidase (EC 3.2.2.4)	Cytoplasm
+Q0K0J3	H16_B1696	Short Chain CoA Dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0KCW5	H16_A1014	Adenine deaminase (ADE) (EC 3.5.4.2) (Adenine aminohydrolase) (AAH)	Cytoplasm
+Q0K8F8	sdhD H16_A2631	Succinate dehydrogenase (Hydrophobic anchor subunit) (EC 1.3.99.1)	Cytoplasm
+Q0K355	H16_B0777	Flavoprotein FAD oxidoreductase	Cytoplasm
+Q0K3S8	H16_B0549	4-Oxalocrotonate decarboxylase (EC 4.1.1.77)	Cytoplasm
+Q0KBF9	H16_A1530	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K2P2	H16_B0941	NAD-dependent beta-hydroxyacid dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0KE17	lpxK H16_A0606	Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130) (Lipid A 4'-kinase)	Cytoplasm
+Q0K396	H16_B0731	Beta-ketoacyl-ACP reductase (EC 1.3.1.-)	Cytoplasm
+Q0K0U6	codA H16_B1593	Cytosine deaminase (EC 3.5.4.1)	Cytoplasm
+Q0K2R8	H16_B0914	Acyl-CoA transferase/carnitine dehydratase (EC 2.8.3.-)	Cytoplasm
+Q0KFD4	birA H16_A0135	Biotin-(Acetyl-CoA carboxylase) ligase (EC 6.3.4.15)	Cytoplasm
+Q0K650	hemB H16_A3453	Delta-aminolevulinic acid dehydratase (EC 4.2.1.24)	Cytoplasm
+Q0K3J5	H16_B0632	Two domain protein: GTP cyclohydrolase II (EC 4.1.2.-)	Cytoplasm
+Q0KFN0	H16_A0039	N-Acetyltransferase (GNAT) family (EC 2.3.1.-)	Cytoplasm
+Q0K1X1	eda H16_B1213	2-Keto-3-deoxy-6-phosphogluconate aldolase (EC 4.1.2.14)	Cytoplasm
+Q0KAM8	folA1 H16_A1840	Dihydrofolate reductase (EC 1.5.1.3)	Cytoplasm
+Q0K3M7	bphD H16_B0600	2,6-dioxo-6-phenylhexa-3-enoate hydrolase (EC 3.7.1.8)	Cytoplasm
+Q0KAQ8	H16_A1809	Adenylate cyclase, family 3 (EC 4.6.1.1)	Cytoplasm
+Q0K8I3	metB metZ H16_A2606	O-succinylhomoserine sulfhydrylase (OSH sulfhydrylase) (OSHS sulfhydrylase) (EC 2.5.1.-)	Cytoplasm
+Q0K332	H16_B0800	Ring hydroxylating dioxygenase beta subunit (EC 1.-.-.-)	Cytoplasm
+Q0KF92	H16_A0177	Carboxyltransferase	Cytoplasm
+Q0K537	leuA2 leuA H16_B0081	2-isopropylmalate synthase (EC 2.3.3.13) (Alpha-IPM synthase) (Alpha-isopropylmalate synthase)	Cytoplasm
+Q0K4R1	H16_B0212	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+Q0K0X8	glgB H16_B1559	1,4-alpha-glucan branching enzyme GlgB (EC 2.4.1.18) (1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-glucosyl-transferase) (Alpha-(1->4)-glucan branching enzyme) (Glycogen branching enzyme) (BE)	Cytoplasm
+Q0K2A0	hpd H16_B1083	4-Hydroxyphenylpyruvate dioxygenase (EC 1.13.11.27)	Cytoplasm
+Q0K2X0	H16_B0862	Cytosine deaminase or related metal-dependent hydrolase (EC 3.5.4.-)	Cytoplasm
+Q0KD60	purD H16_A0915	Phosphoribosylamine--glycine ligase (EC 6.3.4.13) (GARS) (Glycinamide ribonucleotide synthetase) (Phosphoribosylglycinamide synthetase)	Cytoplasm
+Q0K716	pntAb3 H16_A3130	NAD(P) transhydrogenase subunit alpha 2 (EC 1.6.1.2)	Cytoplasm
+Q0K7Q4	H16_A2891	Protoporphyrinogen oxidase (EC 1.3.3.4)	Cytoplasm
+Q0K697	H16_A3406	Diadenosine tetraphosphate (Ap4A) hydrolase or other HIT family hydrolase (EC 3.6.1.17)	Cytoplasm
+Q0KDP5	H16_A0728	Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains (EC 3.6.1.-)	Cytoplasm
+Q0KC18	metY1 H16_A1313	O-Acetylhomoserine sulfhydrylase (EC 2.5.1.49)	Cytoplasm
+Q0K0J8	H16_B1691	Phosphopantetheinyltransferase family protein (EC 3.1.2.-)	Cytoplasm
+Q0K3T7	poxB H16_B0540	Phenol hydroxylase P1 protein (EC 1.14.13.7)	Cytoplasm
+Q0K7A9	nadC H16_A3037	Quinolinate phosphoribosyl transferase (EC 2.4.2.19)	Cytoplasm
+Q0K5R4	hyi2 H16_A3599	Hydroxypyruvate isomerase (EC 5.3.1.22)	Cytoplasm
+Q0K9L5	H16_A2209	Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	Cytoplasm
+Q0KC16	H16_A1315	Putative acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KAL8	rfbD H16_A1850	dTDP-4-dehydrorhamnose reductase (EC 1.1.1.133)	Cytoplasm
+Q0K1T4	H16_B1250	5-Carboxymethyl-2-hydroxymuconate isomerase (EC 5.3.3.10)	Cytoplasm
+Q0K3F0	H16_B0677	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K5F3	serA1 H16_A3712	D-3-Phosphoglycerate dehydrogenase (EC 1.1.1.95)	Cytoplasm
+Q0K8X0	prpE H16_A2462	Propionate-CoA ligase (EC 6.2.1.17)	Cytoplasm
+Q0KB57	nagH H16_A1632	Salicylate-5-hydroxylase small oxygenase component (EC 1.14.12.-)	Cytoplasm
+Q0K9V9	alr H16_A2113	Alanine racemase (EC 5.1.1.1)	Cytoplasm
+P19924	cfxP cbbPP PHG421	Phosphoribulokinase, plasmid (PRK) (PRKase) (EC 2.7.1.19) (Phosphopentokinase)	Cytoplasm
+Q0K9U1	leuB2 H16_A2133	3-Isopropylmalate dehydrogenase (EC 1.1.1.85)	Cytoplasm
+Q0K3E7	citE3 H16_B0680	Citrate lyase beta subunit (EC 4.1.3.6)	Cytoplasm
+Q0KB40	H16_A1649	3-Demethylubiquinone-9 3-methyltransferase (EC 2.1.1.64)	Cytoplasm
+Q0K2M2	pyk3 H16_B0961	Pyruvate kinase (EC 2.7.1.40)	Cytoplasm
+Q0K335	H16_B0797	Cytosine deaminase-related enzyme (EC 3.5.4.12)	Cytoplasm
+Q0KEG1	acaD H16_A0460	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KBM1	H16_A1465	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase (EC 3.5.1.-)	Cytoplasm
+Q0K479	H16_B0396	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K7L1	fdhC H16_A2934	Cytochrome b subunit of formate dehydrogenase (EC 1.2.1.2)	Cytoplasm
+Q0K2V7	H16_B0875	Maleylpyruvate isomerase (EC 5.2.1.4)	Cytoplasm
+Q0JYW7	leuC5 leuC H16_B2275	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0K3Y1	H16_B0496	4-Hydroxyphenylacetate-3-hydroxylase (EC 4.2.1.120)	Cytoplasm
+Q0K417	lldA H16_B0460	L-Lactate cytochrome reductase (EC 1.1.2.3)	Cytoplasm
+Q0JZB3	H16_B2129	Phenylpropionate dioxygenase or related ring-hydroxylating dioxygenase, large terminal subunit (EC 1.14.-.-)	Cytoplasm
+Q0K9X0	ansB H16_A2102	L-Asparaginase (EC 3.5.1.1)	Cytoplasm
+Q0JYJ5	H16_B2397	Acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K198	H16_B1438	6-Carboxyhexanoate-CoA ligase (EC 6.2.1.14)	Cytoplasm
+Q0JYW6	leuD5 leuD H16_B2276	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0K7F8	ilvD H16_A2987	Dihydroxy-acid dehydratase (DAD) (EC 4.2.1.9)	Cytoplasm
+Q0K9M0	H16_A2204	Spermidine synthase (EC 2.5.1.16)	Cytoplasm
+Q0K3L5	glxK H16_B0612	Glycerate kinase (EC 2.7.1.31)	Cytoplasm
+Q0K848	thrB H16_A2744	Homoserine kinase (HK) (HSK) (EC 2.7.1.39)	Cytoplasm
+Q0K8Z6	ppx H16_A2436	Exopolyphosphatase (EC 3.6.1.11)	Cytoplasm
+Q0K8V9	H16_A2474	NADP oxidoreductase coenzyme F420-dependent (EC 1.1.1.-)	Cytoplasm
+Q0K4J0	H16_B0283	UDP-glucose 4-epimerase (EC 5.1.3.2)	Cytoplasm
+Q0K6I9	paaL1 H16_A3313	Phenylacetate-coenzyme A ligase (EC 6.2.1.30) (Phenylacetyl-CoA ligase)	Cytoplasm
+Q0KAL4	manC1 H16_A1854	Mannose-1-phosphate guanylyltransferase (EC 2.7.7.22)	Cytoplasm
+Q0K499	cycR2 H16_B0376	Response regulator containing an adenylate cyclase effector domain (EC 4.6.1.1)	Cytoplasm
+Q0K6S4	H16_A3222	Putative homoserine kinase type II (EC 2.7.1.39)	Cytoplasm
+Q0K531	H16_B0087	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KDF7	dadA1 dadA H16_A0817	D-amino acid dehydrogenase (EC 1.4.99.-)	Cytoplasm
+Q0K3B4	H16_B0713	Short-chain alcohol dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0K337	H16_B0795	Protocatechuate 3,4-dioxygenase (EC 1.13.11.3)	Cytoplasm
+Q0K0E7	H16_B1745	Zinc-type alcohol dehydrogenase adhd (Aldehyde reductase) (EC 1.1.1.1)	Cytoplasm
+Q0K980	rpiA H16_A2345	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	Cytoplasm
+Q0JYY7	gloA5 H16_B2255	Lactoylglutathione lyase (EC 4.4.1.5)	Cytoplasm
+Q0K1Y4	H16_B1199	Glycerol kinase (EC 2.7.1.30)	Cytoplasm
+Q0KE08	hpaI1 H16_A0615	2,4-dihydroxyhept-2-ene-1,7-dioic acid aldolase (EC 4.1.2.-)	Cytoplasm
+Q0KCZ5	cpaF3 H16_A0983	Flp pilus assembly ATPase CpaF (EC 3.6.1.-)	Cytoplasm
+Q0K7A1	H16_A3045	FAD Synthase	Cytoplasm
+Q0K7G7	H16_A2978	Acyl-CoA synthetase (EC 6.2.1.-)	Cytoplasm
+Q0K7Z8	H16_A2794	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0KB50	cysI2 H16_A1639	Sulfite reductase, beta subunit (Hemoprotein with two 4Fe-4S domains) (EC 1.8.2.1)	Cytoplasm
+Q0K5S7	pat H16_A3586	Phosphinothricin N-acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KCA1	H16_A1230	Acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II (EC 6.2.1.-)	Cytoplasm
+Q0K0V4	catD2 H16_B1583	3-Oxoadipate enol-lactone hydrolase (EC 3.1.1.24)	Cytoplasm
+Q0K7E6	cysI1 H16_A2999	Sulfite reductase, beta subunit (Hemoprotein with two 4Fe-4S domains) (EC 1.8.1.2)	Cytoplasm
+Q0KDL6	adh H16_A0757	Alcohol dehydrogenase (EC 1.1.1.1) (EC 1.1.1.4) (EC 1.2.1.3)	Cytoplasm
+Q0KFC2	H16_A0147	Predicted hydrolase or acyltransferase (Alpha/beta hydrolase superfamily)	Cytoplasm
+Q0KF79	gloB1 H16_A0190	Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	Cytoplasm
+Q0JZA7	H16_B2135	Vanillate O-demethylase oxidoreductase (EC 1.14.13.-)	Cytoplasm
+Q0K3S6	mhpF H16_B0551	Acetaldehyde dehydrogenase 1 (EC 1.2.1.10) (Acetaldehyde dehydrogenase [acetylating] 1)	Cytoplasm
+Q0K3T3	poxF H16_B0544	Phenol hydroxylase P5 protein (EC 1.14.13.7)	Cytoplasm
+Q0KF97	H16_A0172	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0KAT0	H16_A1779	Thioredoxin reductase (EC 1.8.1.9)	Cytoplasm
+Q0JZZ3	H16_B1899	Predicted acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K3P7	H16_B0580	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K9Q3	phaB3 H16_A2171	Acetoacetyl-CoA reductase (EC 1.1.1.36)	Cytoplasm
+Q0K3K0	cysH2 cysD H16_B0627	Sulfate adenylyltransferase subunit 2 (EC 2.7.7.4) (ATP-sulfurylase small subunit) (Sulfate adenylate transferase) (SAT)	Cytoplasm
+Q0KBU8	glcD3 H16_A1387	Glycolate oxidase subunit GlcD (EC 1.1.3.15)	Cytoplasm
+Q0KFM4	hisP H16_A0045	ABC-type transporter, ATPase component: PAAT family (EC 3.6.3.21)	Cytoplasm
+Q0K522	eutB H16_B0096	Ethanolamine ammonia-lyase heavy chain (EC 4.3.1.7)	Cytoplasm
+Q0JZS5	folE H16_B1967	GTP cyclohydrolase I (EC 3.5.4.16)	Cytoplasm
+Q0KCU0	pssA H16_A1039	Phosphatidylserine synthase (EC 2.7.8.8)	Cytoplasm
+Q0K1Y8	adhC H16_B1195	S-(hydroxymethyl)glutathione dehydrogenase (EC 1.1.1.284)	Cytoplasm
+Q0KC49	H16_A1282	Predicted GTPase (EC 3.6.1.-)	Cytoplasm
+Q0KAX8	H16_A1719	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K9F8	thrA H16_A2266	Homoserine dehydrogenase (EC 1.1.1.3)	Cytoplasm
+Q0KE61	ilvE H16_A0561	Branched-chain-amino-acid aminotransferase (BCAT) (EC 2.6.1.42)	Cytoplasm
+Q0KC72	H16_A1259	D-Galactarate dehydratase (EC 4.2.1.42)	Cytoplasm
+Q0KDY2	fdsB H16_A0641	NAD-dependent formate dehydrogenase beta subunit (EC 1.2.1.2)	Cytoplasm
+Q0K771	H16_A3075	D-Hydantoinase (EC 3.5.2.2)	Cytoplasm
+Q0K022	xsc H16_B1870	Sulphoacetaldehyde acetyltransferase (TPP dependent) (EC 2.3.3.15)	Cytoplasm
+Q0K371	H16_B0756	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0KBG2	pncA H16_A1527	Bifunctional Pyrazinamidase/Nicotinamidase (EC 3.5.1.19)	Cytoplasm
+Q0K2Y2	H16_B0850	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0KA59	H16_A2012	Putative thymidine phosphorylase 1 (EC 2.4.2.4) (TdRPase 1)	Cytoplasm
+Q0K4S3	pcaF H16_B0200	Beta-ketoadipyl CoA thiolase (EC 2.3.1.16)	Cytoplasm
+Q0KC75	H16_A1256	Malate/L-lactate dehydrogenase (EC 1.1.1.-)	Cytoplasm
+Q0KAA2	catD1 H16_A1968	3-Oxoadipate enol-lactone hydrolase (EC 3.1.1.24)	Cytoplasm
+Q0KCA5	lysC H16_A1225	Aspartokinase (EC 2.7.2.4)	Cytoplasm
+Q0K6S3	H16_A3223	Uncharacterized protein	Cytoplasm
+Q0K1X2	kdgK H16_B1212	2-Keto-3-deoxygluconate kinase (EC 2.7.1.45)	Cytoplasm
+Q0K397	H16_B0730	Ring-hydroxylating dioxygenase (EC 1.14.-.-)	Cytoplasm
+Q0KAS6	H16_A1785	Salicylate hydroxylase (EC 1.14.13.1)	Cytoplasm
+Q0KE26	amiC H16_A0597	N-Acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	Cytoplasm
+Q0K011	H16_B1881	Ornithine cyclodeaminase (EC 4.3.1.12)	Cytoplasm
+Q0K2N5	H16_B0948	Uncharacterized NAD(FAD)-dependent dehydrogenase	Cytoplasm
+Q0KAY1	H16_A1716	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0JZ80	H16_B2162	Aldehyde reductase, related to diketogulonate reductase (EC 1.1.1.21)	Cytoplasm
+Q0KAW1	H16_A1736	Creatinine amidohydrolase (EC 3.5.2.10)	Cytoplasm
+Q0K673	gltD H16_A3430	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	Cytoplasm
+Q0KC94	leuD leuD1 H16_A1237	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0KFF7	gatC H16_A0112	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C (Asp/Glu-ADT subunit C) (EC 6.3.5.-)	Cytoplasm
+Q0K7R0	manB2 H16_A2885	Phosphomannomutase (EC 5.4.2.8)	Cytoplasm
+Q0K494	H16_B0381	Acetyl-CoA acetyltransferase (EC 2.3.1.9)	Cytoplasm
+Q0KEY8	paaH1 H16_A0282	3-Hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)	Cytoplasm
+Q0KAA8	benB H16_A1962	Benzoate 1,2-dioxygenase hydroxylase component,beta subunit (EC 1.14.12.10)	Cytoplasm
+Q0JYX5	narJ2 H16_B2267	Respiratory nitrate reductase delta chain (NarJ) (EC 1.7.99.4)	Cytoplasm
+Q0KCU2	ilvC H16_A1037	Ketol-acid reductoisomerase (NADP(+)) (KARI) (EC 1.1.1.86) (Acetohydroxy-acid isomeroreductase) (AHIR) (Alpha-keto-beta-hydroxylacyl reductoisomerase) (Ketol-acid reductoisomerase type 1) (Ketol-acid reductoisomerase type I)	Cytoplasm
+Q0KBX1	H16_A1363	Cytosine deaminase or related metal-dependent hydrolase (EC 3.5.4.-)	Cytoplasm
+Q0K3K9	glnA2 H16_B0618	Glutamine synthetase (EC 6.3.1.2)	Cytoplasm
+Q0KFG9	H16_A0100	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K2L5	pcpA H16_B0968	6-Chlorohydroxyquinol-1,2-dioxygenase (EC 1.13.11.-)	Cytoplasm
+Q0KDI0	tyrA H16_A0794	Prephenate dehydrogenase (EC 1.3.1.12)	Cytoplasm
+Q0K3Y6	H16_B0491	Aminoacylase (EC 3.5.1.14)	Cytoplasm
+Q0KE54	fba H16_A0568	Fructose-1,6-bisphosphate aldolase (FBP aldolase) (EC 4.1.2.13)	Cytoplasm
+Q0K6X6	aroQ1 aroQ H16_A3170	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	Cytoplasm
+Q0K6D1	coxL5 H16_A3371	Aerobic-type carbon monoxide dehydrogenase homolog, large subunit (EC 1.-.-.-)	Cytoplasm
+Q0K2R9	H16_B0913	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KCR0	H16_A1070	Acyl dehydratase (EC 4.2.1.-)	Cytoplasm
+Q0K219	serB3 H16_B1164	Phosphoserine phosphatase (EC 3.1.3.3)	Cytoplasm
+Q0JZ98	H16_B2144	CDP-diacylglycerol pyrophosphatase (EC 3.6.1.26)	Cytoplasm
+Q0K0N2	H16_B1657	3-Hydroxyisobutyrate dehydrogenase (EC 1.1.1.31)	Cytoplasm
+Q0K182	fdoI H16_B1454	Formate dehydrogenase gamma subunit (EC 1.2.1.2)	Cytoplasm
+Q0K6G3	hemA H16_A3339	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	Cytoplasm
+Q0K5P7	uvrD3 rep H16_A3617	ATP-dependent DNA helicase Rep (EC 3.6.4.12)	Cytoplasm
+Q0KAS5	H16_A1786	Maleylacetate reductase (EC 1.3.1.32)	Cytoplasm
+Q0K6I3	trpE H16_A3319	Anthranilate synthase component 1 (EC 4.1.3.27)	Cytoplasm
+Q0K9K7	aceB H16_A2217	Malate synthase (EC 2.3.3.9)	Cytoplasm
+Q0K6F4	H16_A3348	Dihydrodipicolinate reductase	Cytoplasm
+Q0KCU4	ilvB H16_A1035	Acetolactate synthase (EC 2.2.1.6)	Cytoplasm
+Q0K5R5	H16_A3598	Glyoxylate carboligase (EC 4.1.1.47)	Cytoplasm
+Q0K4A7	H16_B0367	Acyl-CoA transferase/carnitine dehydratase (EC 2.8.3.-)	Cytoplasm
+Q0K1Z3	H16_B1190	3-hydroxyisobutyrate dehydrogenase (HIBADH) (EC 1.1.1.31)	Cytoplasm
+Q0JYD3	aimE amiF H16_B2459	Formamidase (EC 3.5.1.49) (Formamide amidohydrolase)	Cytoplasm
+Q0KEZ8	aptA H16_A0272	Omega-amino acid-pyruvate aminotransferase (EC 2.6.1.18)	Cytoplasm
+Q0K195	gnl3 H16_B1441	Gluconolactonase (EC 3.1.1.17)	Cytoplasm
+Q0KAT6	H16_A1772	Benzaldehyde dehydrogenase [NAD+] (EC 1.2.1.28)	Cytoplasm
+Q0KE55	pyk1 H16_A0567	Pyruvate kinase (EC 2.7.1.40)	Cytoplasm
+Q0K1Z2	mmsA3 H16_B1191	Methylmalonate-semialdehyde dehydrogenase (EC 1.2.1.27)	Cytoplasm
+Q0K962	ispG H16_A2364	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) (EC 1.17.7.3) (1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase)	Cytoplasm
+Q0K1Q6	H16_B1278	Predicted acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K4H9	selD H16_B0295	Selenide, water dikinase (EC 2.7.9.3) (Selenium donor protein) (Selenophosphate synthase)	Cytoplasm
+Q0JZ86	H16_B2156	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KC73	H16_A1258	D-Galactarate dehydratase (EC 4.2.1.42)	Cytoplasm
+Q0K103	H16_B1534	Aldehyde dehydrogenase (NAD+) (EC 1.2.1.3)	Cytoplasm
+Q0K3T1	H16_B0546	Catechol 2,3-dioxygenase (EC 1.13.11.2)	Cytoplasm
+Q0K8L1	H16_A2577	Predicted phosphatase (EC 3.1.3.-)	Cytoplasm
+Q0K7D7	asdA H16_A3009	Aminotransferase (EC 2.6.1.-)	Cytoplasm
+Q0K5P2	sdaA H16_A3622	L-serine dehydratase (EC 4.3.1.17)	Cytoplasm
+Q0K4Z1	H16_B0127	Glucarate dehydratase (EC 4.2.1.40)	Cytoplasm
+Q0K4H3	H16_B0301	Threonine synthase (EC 4.2.3.1)	Cytoplasm
+Q0K1H7	paaK2 H16_B1358	Phenylacetic acid degradation protein K,phenylacetaldehyde dehydrogenase (EC 1.2.1.39)	Cytoplasm
+Q0K5C8	H16_A3737	Choline dehydrogenase (EC 1.1.99.1)	Cytoplasm
+Q0K8Z8	sixA H16_A2434	Phosphohistidine phosphatase (EC 3.1.3.-)	Cytoplasm
+Q0KDH1	hldA H16_A0803	D-beta-D-heptose 7-phophosphate kinase	Cytoplasm
+Q0K136	zwf2 zwf H16_B1501	Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49)	Cytoplasm
+P21725	cbbTC cbbT2 H16_B1388	Transketolase, chromosomal (TK) (EC 2.2.1.1)	Cytoplasm
+Q0K6J1	H16_A3311	Enoyl-CoA hydratase (EC 4.2.1.17)	Cytoplasm
+Q0K4R5	H16_B0208	Farnesyl-diphosphate farnesyltransferase (EC 2.5.1.21)	Cytoplasm
+Q0KF86	bioB H16_A0183	Biotin synthase (EC 2.8.1.6)	Cytoplasm
+Q0KBI0	gatA3 H16_A1509	Glutamyl/Aspartyl-tRNA(Gln/Asp) amidotransferasesubunit A (EC 6.3.5.-)	Cytoplasm
+Q0K7I3	cobU H16_A2962	Adenosylcobinamide-phosphate guanylyltransferase(CobU) (EC 2.7.7.62)	Cytoplasm
+Q0K0J7	H16_B1692	Putative aminotransferase (EC 2.6.1.-)	Cytoplasm
+Q0KE44	H16_A0578	2-Polyprenyl-6-methoxyphenol hydroxylase or related FAD-dependent oxidoreductase (EC 1.14.13.-)	Cytoplasm
+Q0K0B9	H16_B1773	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0JZV3	feaB H16_B1939	Putative phenylacetaldehyde dehydrogenase (EC 1.2.1.39)	Cytoplasm
+Q0K066	H16_B1826	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KC40	H16_A1291	Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)	Cytoplasm
+Q0KBI4	dadA5 H16_A1505	D-amino-acid dehydrogenase (EC 1.4.99.1)	Cytoplasm
+Q0K392	H16_B0735	Acetolactate synthase large subunit (EC 2.2.1.6)	Cytoplasm
+Q0K075	lldD H16_B1817	L-Lactate cytochrome c reductase (EC 1.1.2.3)	Cytoplasm
+Q0KDE7	cycR1 H16_A0827	Response regulator containing an adenylate cyclase effector domain (EC 4.6.1.1)	Cytoplasm
+Q0K390	H16_B0737	Aldehyde dehydrogenase, NAD-dependent (EC 1.2.1.3)	Cytoplasm
+Q0KDX9	fdsD H16_A0644	NAD-dependent formate dehydrogenase delta subunit (EC 1.2.1.2)	Cytoplasm
+Q0KE53	purC H16_A0569	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6) (SAICAR synthetase)	Cytoplasm
+Q0KFE4	H16_A0125	Allophanate hydrolase subunit 2 (EC 3.5.1.54)	Cytoplasm
+Q0K3I9	H16_B0638	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0K860	dxs H16_A2732	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	Cytoplasm
+Q0K7T9	ribH H16_A2855	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	Cytoplasm
+Q0K2V8	H16_B0874	Fumarylpyruvate hydrolase (EC 3.7.1.5)	Cytoplasm
+Q0K3M2	H16_B0605	Metal-dependent amidase/aminoacylase/carboxypeptidase (EC 3.5.1.-)	Cytoplasm
+Q0K7X7	kynA H16_A2816	Tryptophan 2,3-dioxygenase (TDO) (EC 1.13.11.11) (Tryptamin 2,3-dioxygenase) (Tryptophan oxygenase) (TO) (TRPO) (Tryptophan pyrrolase) (Tryptophanase)	Cytoplasm
+Q0KF34	thiC H16_A0235	Phosphomethylpyrimidine synthase (EC 4.1.99.17) (Hydroxymethylpyrimidine phosphate synthase) (HMP-P synthase) (HMP-phosphate synthase) (HMPP synthase) (Thiamine biosynthesis protein ThiC)	Cytoplasm
+Q0KCF1	gntK H16_A1179	Gluconokinase (EC 2.7.1.12)	Cytoplasm
+Q0JZ51	glnA3 H16_B2191	Glutamine synthetase (EC 6.3.1.2)	Cytoplasm
+Q0K9A3	H16_A2322	ATPase (EC 3.6.1.-)	Cytoplasm
+Q0K6J4	H16_A3308	ABC-type transporter, ATPase component: PAAT family (EC 3.6.3.21)	Cytoplasm
+Q0K5P5	gcvT H16_A3619	Aminomethyltransferase (EC 2.1.2.10) (Glycine cleavage system T protein)	Cytoplasm
+Q0KCK5	nit H16_A1125	Nitrilase (EC 3.5.5.1)	Cytoplasm
+Q0K137	frcB H16_B1500	ABC-type transporter, periplasmic component: CUT2 family, fructose specific	Cytoplasm
+Q0KCW6	guaD H16_A1013	Guanine deaminase (Guanase) (EC 3.5.4.3) (Guanine aminohydrolase)	Cytoplasm
+Q0KDT4	H16_A0689	Predicted ornithine cyclodeaminase (EC 4.3.1.12)	Cytoplasm
+Q0JZ49	glxC H16_B2193	Glutamine amidotransferases class-II (EC 1.4.1.13)	Cytoplasm
+Q0K240	gloA2 H16_B1143	Lactoylglutathione lyase (EC 4.4.1.5)	Cytoplasm
+Q0KB02	hisD H16_A1694	Histidinol dehydrogenase (HDH) (EC 1.1.1.23)	Cytoplasm
+Q0K2Y3	H16_B0849	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KCI5	H16_A1145	Flavin-binding monooxygenase (EC 1.14.13.-)	Cytoplasm
+Q0KBJ3	H16_A1495	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+Q0K3C9	H16_B0698	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K6U5	H16_A3201	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K688	hisC hisC2 H16_A3415	Histidinol-phosphate aminotransferase (EC 2.6.1.9) (Imidazole acetol-phosphate transaminase)	Cytoplasm
+Q0KEF0	gdhA1 H16_A0471	Glutamate dehydrogenase	Cytoplasm
+Q0K9Z4	H16_A2078	Predicted acyl-CoAtransferase/carnitine dehydratase	Cytoplasm
+Q0K0M6	H16_B1663	Predicted acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0JZZ5	xdhA2 H16_B1897	Putative xanthine dehydrogenase subunit (EC 1.17.1.4)	Cytoplasm
+Q0K5A4	H16_B0014	Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)	Cytoplasm
+Q0K9T1	H16_A2143	Acyl-CoA dehydrogenase, long-chain specific (EC 1.3.99.-)	Cytoplasm
+Q0K6I4	gph H16_A3318	Phosphoglycolate phosphatase (PGP) (PGPase) (EC 3.1.3.18)	Cytoplasm
+Q0K6T4	H16_A3212	APH domain-containing protein	Cytoplasm
+Q0KF33	thiO H16_A0236	Thiamine biosynthesis oxidoreductase	Cytoplasm
+Q0K8H4	trpF H16_A2615	N-(5'-phosphoribosyl)anthranilate isomerase (PRAI) (EC 5.3.1.24)	Cytoplasm
+Q0K079	kguD H16_B1813	Putative 2-Ketogluconate-6-phosphate reductase (EC 1.1.1.43)	Cytoplasm
+Q0K0E1	H16_B1751	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+Q0K9T2	accA2 H16_A2142	Acetyl-CoA carboxylase alpha chain (EC 6.4.1.1)	Cytoplasm
+Q0K7F0	cysN1 H16_A2995	Sulfate adenylyltransferase subunit 1 (EC 2.7.7.4)	Cytoplasm
+Q0K1N4	aceE H16_B1300	Pyruvate dehydrogenase E1 component (EC 1.2.4.1)	Cytoplasm
+Q0K907	pcaB2 H16_A2422	3-Carboxy-cis,cis-muconate cyclo-isomerase (EC 5.5.1.2)	Cytoplasm
+Q0K356	H16_B0776	Nitrate reductase [NADH] (EC 1.7.1.1)	Cytoplasm
+Q0K217	plcN4 H16_B1166	Phospholipase C (EC 3.1.4.3)	Cytoplasm
+Q0K3J4	H16_B0633	Esterase/lipase (EC 3.1.1.-)	Cytoplasm
+Q0KF90	H16_A0179	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K936	nrdJ H16_A2390	Vitamin B12-dependent ribonucleotide reductase (EC 1.17.4.1)	Cytoplasm
+Q0KE51	purK H16_A0571	N5-carboxyaminoimidazole ribonucleotide synthase (N5-CAIR synthase) (EC 6.3.4.18) (5-(carboxyamino)imidazole ribonucleotide synthetase)	Cytoplasm
+Q0K7F2	cbiX H16_A2993	Cobalamin biosynthesis CbiX protein	Cytoplasm
+Q0K0X6	malQ H16_B1561	4-alpha-glucanotransferase (EC 2.4.1.25) (Amylomaltase) (Disproportionating enzyme)	Cytoplasm
+Q0K2V9	H16_B0873	Gentisate 1,2-dioxygenase (EC 1.13.11.4)	Cytoplasm
+Q0K5K0	mmsA2 H16_A3664	Methylmalonate-semialdehyde dehydrogenase (EC 1.2.1.27)	Cytoplasm
+Q0K0J9	H16_B1690	Thioesterase (EC 3.1.2.-)	Cytoplasm
+Q0K0W1	ribA H16_B1576	GTP cyclohydrolase-2 (EC 3.5.4.25) (GTP cyclohydrolase II)	Cytoplasm
+Q0K4B5	H16_B0359	Acyl dehydratase (EC 4.2.1.-)	Cytoplasm
+Q0K6I1	trpD H16_A3321	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)	Cytoplasm
+Q0KAA4	catB3 H16_A1966	Muconate cyclo-isomerase (EC 5.5.1.1)	Cytoplasm
+Q0KFB9	bhmT H16_A0150	Betainehomocysteine S-methyltransferase (EC 2.1.1.5)	Cytoplasm
+Q0JZ74	H16_B2168	Flavonol reductase/cinnamoyl-CoA reductase (EC 1.1.1.-)	Cytoplasm
+Q0KDA9	H16_A0865	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K5T1	gloB3 H16_A3582	Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	Cytoplasm
+Q0K764	folK H16_A3082	7 8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase (EC 2.7.6.3)	Cytoplasm
+Q0KC66	pntAb2 H16_A1265	NAD(P) transhydrogenase subunit alpha 2 (EC 1.6.1.2)	Cytoplasm
+Q0KFN2	H16_A0037	Alpha-ketoglutarate-dependent taurine dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0K4R0	dapA2 H16_B0213	Dihydrodipicolinate synthase (EC 4.2.1.52)	Cytoplasm
+Q0JZH4	H16_B2068	Deacetylase, histone deacetylase family (EC 3.1.1.-)	Cytoplasm
+P21726	cbbTP PHG420	Transketolase, plasmid (TK) (EC 2.2.1.1)	Cytoplasm
+Q0JYE8	H16_B2444	NAD-dependent aldehyde dehydrogenase (EC 1.2.1.3)	Cytoplasm
+P40117	rpe1 cbbE2 cbbEC cfxE H16_B1391	Ribulose-phosphate 3-epimerase 1 (EC 5.1.3.1)	Cytoplasm
+Q0K0F0	H16_B1742	Enoyl-CoA hydratase/isomerase (EC 4.2.1.17)	Cytoplasm
+Q0K8F3	prpC2 H16_A2636	Citrate synthase	Cytoplasm
+Q0K3C3	H16_B0704	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K401	fmdA2 H16_B0476	Formamidase (EC 3.5.1.49)	Cytoplasm
+Q0K6P3	grcC H16_A3253	Trans-hexaprenyltranstransferase (EC 2.5.1.30)	Cytoplasm
+Q0K1B8	H16_B1417	Alcohol dehydrogenase, class IV (EC 1.1.1.-)	Cytoplasm
+Q0KBD6	gbd H16_A1553	NAD-dependent 4-hydroxybutyrate dehydrogenase (EC 1.1.1.61)	Cytoplasm
+Q0K753	H16_A3093	Acetyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0K7N8	H16_A2907	Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)	Cytoplasm
+Q0K4Q7	pdxA2 H16_B0216	4-Hydroxythreonine-4-phosphate dehydrogenase (EC 1.1.1.262)	Cytoplasm
+P27746	acoB H16_B0145	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta (Acetoin:DCPIP oxidoreductase-beta) (Ao:DCPIP OR) (EC 1.1.1.-) (TPP-dependent acetoin dehydrogenase E1 subunit beta)	Cytoplasm
+Q0KF95	H16_A0174	Phosphoglycolate phosphatase (EC 3.1.3.18)	Cytoplasm
+Q0KEJ3	otsB H16_A0428	Trehalose 6-phosphate phosphatase (EC 3.1.3.12)	Cytoplasm
+Q0K2Z8	acsA H16_B0834	Acetyl-coenzyme A synthetase (AcCoA synthetase) (Acs) (EC 6.2.1.1) (Acetate--CoA ligase) (Acyl-activating enzyme)	Cytoplasm
+Q0K057	H16_B1835	Aldehyde dehydrogenase family protein	Cytoplasm
+Q0K7Z0	pdxH H16_A2802	Pyridoxine/pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5) (PNP/PMP oxidase) (PNPOx) (Pyridoxal 5'-phosphate synthase)	Cytoplasm
+Q0K567	leuD4 leuD H16_B0051	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0KAB0	benD H16_A1960	Cis-1,2-dihydroxycyclohexa-3 5-diene-1-carboxylate dehydrogenase (EC 1.3.1.25)	Cytoplasm
+Q59102	cbxSP cbbS cbbSP cfxSP rbcS PHG426	Ribulose bisphosphate carboxylase small chain, plasmid (RuBisCO small subunit) (EC 4.1.1.39)	Cytoplasm
+Q0KB34	betA3 H16_A1655	Choline dehydrogenase (EC 1.1.99.1)	Cytoplasm
+Q0K7N1	H16_A2914	Pyrimidine operon attenuation protein/uracil phosphoribosyltransferase (EC 2.4.2.9)	Cytoplasm
+Q0JZ07	bkdB H16_B2235	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.-)	Cytoplasm
+Q0JZM8	H16_B2014	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase or related deacylase (EC 3.5.1.-)	Cytoplasm
+Q0K8G9	leuD leuD3 H16_A2620	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0K9F9	thrC H16_A2265	Threonine synthase (EC 4.2.3.1)	Cytoplasm
+Q0K5E1	lpdaA H16_A3724	Dihydrolipoamide dehydrogenase (E3 component of pyruvate or 2-oxoglutarate DH-complexes) (EC 1.8.1.4)	Cytoplasm
+Q0K3S5	H16_B0552	4-hydroxy-2-oxovalerate aldolase 2 (HOA 2) (EC 4.1.3.39) (4-hydroxy-2-keto-pentanoic acid aldolase 2) (4-hydroxy-2-oxopentanoate aldolase 2)	Cytoplasm
+Q0K7G4	mcd H16_A2981	Malonyl-CoA decarboxylase Malonyl-CoA decarboxylase (EC 4.1.1.9)	Cytoplasm
+Q0K0P6	H16_B1643	Predicted xylanase/chitin deacetylase (EC 3.5.1.-)	Cytoplasm
+Q0KAF1	H16_A1919	Putative Lactaldehyde dehydrogenase (EC 1.2.1.22)	Cytoplasm
+Q0K7P9	H16_A2896	NAD dependent sugar epimerase (EC 4.2.1.-)	Cytoplasm
+Q0KCA2	H16_A1229	Citrate synthase (EC 2.3.3.1)	Cytoplasm
+Q0K2B6	plcN3 H16_B1067	Phospholipase C (EC 3.1.4.3)	Cytoplasm
+Q0KEC8	pgam2 H16_A0493	Phosphoglycerate mutase 2 protein (EC 5.4.2.1)	Cytoplasm
+Q0KEZ0	sbm1 icmF H16_A0280	Fused isobutyryl-CoA mutase [Includes: Isobutyryl-CoA mutase (ICM) (EC 5.4.99.13); P-loop GTPase (EC 3.6.5.-) (G-protein chaperone)]	Cytoplasm
+Q0KEV5	nagB H16_A0315	Glucosamine-6-phosphate deaminase (EC 3.5.99.6)	Cytoplasm
+Q0K321	maiA H16_B0811	Maleate isomerase (EC 5.2.1.1) (Maleate cis-trans isomerase)	Cytoplasm
+Q0K2L8	H16_B0965	Probable D-galactarate dehydratase (EC 4.2.1.42)	Cytoplasm
+Q0K7L5	ldcC H16_A2930	Arginine/lysine/ornithine decarboxylase (EC 4.1.1.19)	Cytoplasm
+Q0KF26	H16_A0243	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase (EC 2.7.4.7)	Cytoplasm
+Q0JYX6	narH2 H16_B2266	Respiratory nitrate reductase beta chain (NarH) (EC 1.7.99.4)	Cytoplasm
+Q0K318	H16_B0814	Amidase related to nicotinamidase (EC 3.5.1.-)	Cytoplasm
+Q0K0H0	apbA2 H16_B1719	2-dehydropantoate 2-reductase (EC 1.1.1.169) (Ketopantoate reductase)	Cytoplasm
+Q0K1U3	nhoA H16_B1241	Arylamine N-acetyltransferase (EC 2.3.1.5)	Cytoplasm
+Q0K8I2	purF H16_A2607	Amidophosphoribosyltransferase (ATase) (EC 2.4.2.14) (Glutamine phosphoribosylpyrophosphate amidotransferase) (GPATase)	Cytoplasm
+Q0KAZ7	H16_A1699	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K389	H16_B0738	Predicted ring-cleavage extradiol dioxygenase (EC 1.14.-.-)	Cytoplasm
+Q0KDG7	cysK1 H16_A0807	Cysteine synthase (EC 2.5.1.47)	Cytoplasm
+Q0K9P1	H16_A2183	Alkaline phosphatase	Cytoplasm
+Q0K834	H16_A2758	Altronate dehydratase (EC 4.2.1.7)	Cytoplasm
+Q0K404	fmdR H16_B0473	Formamidase fused to an AraC-type HTH DNA-binding domain (EC 3.5.1.49)	Cytoplasm
+Q0KDK4	dadA2 dadA H16_A0770	D-amino acid dehydrogenase (EC 1.4.99.-)	Cytoplasm
+Q0KCX9	pepN H16_A1000	Alanyl aminopeptidase N (EC 3.4.11.2)	Cytoplasm
+Q0K8G8	leuC3 leuC H16_A2621	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+Q0K6N1	lpxC H16_A3266	UDP-3-O-acyl-N-acetylglucosamine deacetylase (UDP-3-O-acyl-GlcNAc deacetylase) (EC 3.5.1.108) (UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase)	Cytoplasm
+Q0K454	H16_B0422	Taurine catabolism dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0KCE5	pyrG H16_A1185	CTP synthase (EC 6.3.4.2) (Cytidine 5'-triphosphate synthase) (Cytidine triphosphate synthetase) (CTP synthetase) (CTPS) (UTP--ammonia ligase)	Cytoplasm
+Q0K0V3	catC2 H16_B1584	Muconolactone Delta-isomerase (MIase) (EC 5.3.3.4)	Cytoplasm
+Q0K0X3	treY H16_B1564	Maltooligosyl trehalose synthase (EC 5.4.99.16)	Cytoplasm
+Q0K6B6	H16_A3386	Amidase (EC 3.5.1.-)	Cytoplasm
+Q0K2R5	H16_B0917	Lipid A biosynthesis lauroyl acyltransferase (EC 2.3.1.-)	Cytoplasm
+Q0KAN6	H16_A1832	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KAR4	H16_A1802	Acetyltransferase (GNAT) family (EC 2.3.1.-)	Cytoplasm
+Q0JZ22	tauD1 H16_B2220	Taurine catabolism dioxygenase (EC 1.14.11.17)	Cytoplasm
+Q0K050	H16_B1842	Methylmalonyl-CoA mutase alpha subunit (EC 5.4.99.2)	Cytoplasm
+Q0KD52	maiA H16_A0923	Maleate isomerase (EC 5.2.1.1) (Maleate cis-trans isomerase)	Cytoplasm
+Q0K999	ugpQ H16_A2326	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)	Cytoplasm
+Q0K063	potA H16_B1829	Spermidine/putrescine import ATP-binding protein PotA (EC 7.6.2.11)	Cytoplasm
+Q0K3A6	H16_B0721	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0KD57	upp upp1 H16_A0918	Uracil phosphoribosyltransferase (EC 2.4.2.9) (UMP pyrophosphorylase) (UPRTase)	Cytoplasm
+Q0KDB1	H16_A0863	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K8S8	purU H16_A2505	Formyltetrahydrofolate deformylase (EC 3.5.1.10) (Formyl-FH(4) hydrolase)	Cytoplasm
+Q0JYW5	nirS H16_B2277	Cytochrome cd1 nitrite reductase (NirS) (EC 1.7.2.1)	Cytoplasm
+Q0KDD1	H16_A0843	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0K204	gabD2 H16_B1179	Succinate-semialdehyde dehydrogenase (NADP+) (EC 1.2.1.16)	Cytoplasm
+Q0K1Y5	H16_B1198	FAD dependent glycerol-3-phosphate dehydrogenase (EC 1.1.99.5)	Cytoplasm
+Q0JYV4	pcaCD H16_B2288	3-Oxoadipate enol-lactone hydrolase/4-carboxymuconolactone decarboxylase (EC 4.1.1.44)	Cytoplasm
+Q0K888	folA2 H16_A2704	Dihydrofolate reductase (EC 1.5.1.3)	Cytoplasm
+Q0KF89	bioA H16_A0180	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)	Cytoplasm
+Q0K790	icd1 H16_A3056	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)	Cytoplasm
+Q0KDG4	H16_A0810	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0K700	gapA H16_A3146	Glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.-)	Cytoplasm
+Q0K7J9	H16_A2946	Acetyl-CoA carboxylase (Biotin carboxylase and carboxyl transferase domains) (EC 6.3.4.15)	Cytoplasm
+Q0KC92	H16_A1239	3-Hydroxyisobutyrate dehydrogenase (EC 1.1.1.31)	Cytoplasm
+Q0JZK9	H16_B2033	Adenosine deaminase, truncated	Cytoplasm
+Q0K3N1	H16_B0596	Acetaldehyde dehydrogenase 2 (EC 1.2.1.10) (Acetaldehyde dehydrogenase [acetylating] 2)	Cytoplasm
+Q0K755	dld H16_A3091	D-Lactate dehydrogenase (Cytochrome) (EC 1.1.2.4)	Cytoplasm
+Q0KE52	purE H16_A0570	N5-carboxyaminoimidazole ribonucleotide mutase (N5-CAIR mutase) (EC 5.4.99.18) (5-(carboxyamino)imidazole ribonucleotide mutase)	Cytoplasm
+Q0JZW1	icd2 H16_B1931	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42) (Oxalosuccinate decarboxylase)	Cytoplasm
+Q0K3G8	H16_B0659	Enoyl-CoA hydratase/carnithine racemase (EC 4.2.1.17)	Cytoplasm
+Q0KF36	betA2 H16_A0233	Choline dehydrogenase (EC 1.1.99.1)	Cytoplasm
+Q0KF84	H16_A0185	D-3-Phosphoglycerate dehydrogenase (EC 1.1.1.95)	Cytoplasm
+Q0K750	glcE H16_A3096	2-Hydroxy-acid oxidase, FAD-binding subunit (EC 1.1.3.15)	Cytoplasm
+Q0K411	serA3 H16_B0466	D-3-Phosphoglycerate dehydrogenase (EC 1.1.1.95)	Cytoplasm
+Q0KEH6	ubiE H16_A0445	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE (EC 2.1.1.163) (EC 2.1.1.201) (2-methoxy-6-polyprenyl-1,4-benzoquinol methylase) (Demethylmenaquinone methyltransferase)	Cytoplasm
+Q0JZI5	gabD4 H16_B2057	Succinate-semialdehyde dehydrogenase (NADP+) (EC 1.2.1.16)	Cytoplasm
+Q0JZ48	gltB2 H16_B2194	Glutamate synthase [NADPH], Glutamate synthase amidotransferase domain (EC 1.4.1.13)	Cytoplasm
+Q0KBD1	otnI hyi1 H16_A1558	2-oxo-tetronate isomerase (EC 5.3.1.35) (2-dehydrotetronate isomerase)	Cytoplasm
+Q0K3C4	H16_B0703	Acyl-CoA dehydrogenase (EC 1.3.99.3)	Cytoplasm
+Q0JY25	edd2 edd H16_B2567	Phosphogluconate dehydratase (EC 4.2.1.12)	Cytoplasm
