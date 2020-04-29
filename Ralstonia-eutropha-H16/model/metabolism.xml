@@ -1,10 +1,10 @@
 <RBAMetabolism>
   <listOfCompartments>
-    <compartment id="Cytoplasm"/>
-    <compartment id="Secreted"/>
-    <compartment id="Inner_membrane"/>
-    <compartment id="Outer_membrane"/>
+    <compartment id="Cell_outer_membrane"/>
     <compartment id="Periplasm"/>
+    <compartment id="Cytoplasm"/>
+    <compartment id="Cell_inner_membrane"/>
+    <compartment id="Secreted"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
@@ -1112,7 +1112,7 @@
     <species id="M_ohpb_c" boundaryCondition="false"/>
     <species id="M_4h2opntn_c" boundaryCondition="false"/>
     <species id="M_3mbcoa_c" boundaryCondition="false"/>
-    <species id="M_dna_c" boundaryCondition="false"/>
+    <species id="M_DNA_c" boundaryCondition="false"/>
     <species id="M_sertrna_c" boundaryCondition="false"/>
     <species id="M_hydroxyakg_c" boundaryCondition="false"/>
     <species id="M_3fchdc_c" boundaryCondition="false"/>
@@ -8441,7 +8441,7 @@
     <reaction id="R_Biomass" reversible="false">
       <listOfReactants>
         <speciesReference species="M_PHOSPHOLIPID_c" stoichiometry="0.0495"/>
-        <speciesReference species="M_dna_c" stoichiometry="0.031"/>
+        <speciesReference species="M_DNA_c" stoichiometry="0.031"/>
         <speciesReference species="M_PEPTIDO_c" stoichiometry="0.06"/>
         <speciesReference species="M_CAV_c" stoichiometry="0.03"/>
         <speciesReference species="M_RNA_c" stoichiometry="0.06"/>
@@ -23776,18 +23776,6 @@
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_GAPD_duplicate_4" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_g3p_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pi_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_13dpg_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
     <reaction id="R_THRabc" reversible="false">
       <listOfReactants>
         <speciesReference species="M_atp_c" stoichiometry="1.0"/>
@@ -28087,7 +28075,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_pi_c" stoichiometry="4.4"/>
-        <speciesReference species="M_dna_c" stoichiometry="1.0"/>
+        <speciesReference species="M_DNA_c" stoichiometry="1.0"/>
         <speciesReference species="M_adp_c" stoichiometry="4.4"/>
       </listOfProducts>
     </reaction>

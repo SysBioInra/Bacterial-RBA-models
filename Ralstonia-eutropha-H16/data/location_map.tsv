@@ -1,7 +1,7 @@
 UNIPROT NAME	USER ID
 Cytoplasm	Cytoplasm
-Cell inner membrane	Inner_membrane
-Cell membrane	Inner_membrane
-Membrane	Inner_membrane
-Cell outer membrane	Outer_membrane
+Cell inner membrane	Cell_inner_membrane
+Cell membrane	Cell_inner_membrane
+Membrane	Cell_inner_membrane
+Cell outer membrane	Cell_outer_membrane
 Periplasm	Periplasm

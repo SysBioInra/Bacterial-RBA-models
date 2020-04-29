@@ -33,39 +33,19 @@ def modify_model():
     model.reactions.ASNTRS.build_reaction_from_string('asn__L_c + atp_c + trnaasn_c --> amp_c + asntrna_c + h_c + ppi_c')
     model.reactions.ASNTRS.gene_reaction_rule = 'H16_A0453'
     
+    # replace all empty gene associations with UNKNOWN in order to
+    # avoid spontaneus reactions (see RBApy manual)
+    for r in model.reactions:
+        if r.gene_reaction_rule == '':
+            r.gene_reaction_rule = 'UNKNOWN'
+    
     # export model as sbml.xml
     cobra.io.write_sbml_model(model, 'data/sbml.xml')
 
 
-def export_minimal_medium():
-    
-    # Ralstonia eutropha minimal medium with the
-    # following core components, not including carbon
-    # or nitrogen source
-    minimal_medium = {
-        'EX_mg2_e': 10.0,
-        'EX_pi_e': 1000.0,
-        'EX_cobalt2_e': 10.0,
-        'EX_cl_e': 10.0,
-        'EX_k_e': 10.0,
-        'EX_fe3_e': 10.0,
-        'EX_so4_e': 10.0,
-        'EX_na_e': 10.0,
-        'EX_o2_e': 18.5,
-        'EX_mobd_e': 10.0,
-        'EX_h2o_e': 1000.0,
-        'EX_h_e': 100.0
-        }
-    return(minimal_medium)
-
-
 # MAIN FUNCTION --------------------------------------------------------
 #
-# input for initial model creation are the following files in data/:
-# - genome scale model in SBML format
-# - ribosome.fasta
-# - chaperones.fasta
-# - trnas.fasta
+# model creation using files in data/:
 def main():
     
     # make some inital modifications to sbml required for RBA
@@ -79,7 +59,6 @@ def main():
     
     # export to files
     reutropha.write()
-
 
 
 if __name__ == "__main__":

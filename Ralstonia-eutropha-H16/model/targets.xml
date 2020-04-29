@@ -2,11 +2,11 @@
   <listOfTargetGroups>
     <targetGroup id="translation_targets">
       <listOfConcentrations>
-        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
-        <targetSpecies value="nonenzymatic_proteins_Secreted" species="average_protein_Secreted"/>
-        <targetSpecies value="nonenzymatic_proteins_Inner_membrane" species="average_protein_Inner_membrane"/>
-        <targetSpecies value="nonenzymatic_proteins_Outer_membrane" species="average_protein_Outer_membrane"/>
+        <targetSpecies value="nonenzymatic_proteins_Cell_outer_membrane" species="average_protein_Cell_outer_membrane"/>
         <targetSpecies value="nonenzymatic_proteins_Periplasm" species="average_protein_Periplasm"/>
+        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
+        <targetSpecies value="nonenzymatic_proteins_Cell_inner_membrane" species="average_protein_Cell_inner_membrane"/>
+        <targetSpecies value="nonenzymatic_proteins_Secreted" species="average_protein_Secreted"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="transcription_targets">
@@ -59,21 +59,20 @@
         <targetSpecies value="CMP_concentration" species="M_cmp_c"/>
         <targetSpecies value="GMP_concentration" species="M_gmp_c"/>
         <targetSpecies value="Pi_concentration" species="M_pi_c"/>
-        <targetSpecies value="COA_concentration" species="M_coa_c"/>
-        <targetSpecies value="NAD_concentration" species="M_nad_c"/>
-        <targetSpecies value="NADP_concentration" species="M_nadp_c"/>
-        <targetSpecies value="NADPH_concentration" species="M_nadph_c"/>
         <targetSpecies value="K_concentration" species="M_k_c"/>
-        <targetSpecies value="SPMD_concentration" species="M_spmd_c"/>
         <targetSpecies value="PPi_concentration" species="M_ppi_c"/>
         <targetSpecies value="10FTHF_concentration" species="M_10fthf_c"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="macrocomponent_production">
       <listOfConcentrations>
-        <targetSpecies value="M_PHOSPHOLIPID_c_concentration" species="M_PHOSPHOLIPID_c"/>
-        <targetSpecies value="M_PEPTIDO_c_concentration" species="M_PEPTIDO_c"/>
+        <targetSpecies value="M_CARBO_c_concentration" species="M_CARBO_c"/>
+        <targetSpecies value="M_CAV_c_concentration" species="M_CAV_c"/>
         <targetSpecies value="M_LPS_c_concentration" species="M_LPS_c"/>
+        <targetSpecies value="M_PEPTIDO_c_concentration" species="M_PEPTIDO_c"/>
+        <targetSpecies value="M_PHOSPHOLIPID_c_concentration" species="M_PHOSPHOLIPID_c"/>
+        <targetSpecies value="M_DNA_c_concentration" species="M_DNA_c"/>
+        <targetSpecies value="M_RNA_c_concentration" species="M_RNA_c"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="maintenance_atp_target">

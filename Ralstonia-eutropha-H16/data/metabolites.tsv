@@ -58,12 +58,12 @@ dCTP	dCTP	M_dctp_c	0
 dGTP	dGTP	M_dgtp_c	0
 dTTP	dTTP	M_dttp_c	0
 Pi	Phosphate	M_pi_c	0.0144
-COA	Coenzyme A	M_coa_c	0.0003
-NAD	NAD	M_nad_c	0.0162
-NADP	NADP	M_nadp_c	0.0009
-NADPH	NADPH	M_nadph_c	0.0002
+COA	Coenzyme A	M_coa_c	0
+NAD	NAD	M_nad_c	0
+NADP	NADP	M_nadp_c	0
+NADPH	NADPH	M_nadph_c	0
 K	Potassium	M_k_c	0.7063
-SPMD	SPMD	M_spmd_c	0.007
+SPMD	SPMD	M_spmd_c	0
 H2O	H2O	M_h2o_c	0
 H	Proton	M_h_c	0
 PPi	Pyrophosphate	M_ppi_c	0.0009
