@@ -1250,13 +1250,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3643" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3642" stoichiometry="10.0"/>
-          <speciesReference species="H16_A3639" stoichiometry="3.0"/>
-          <speciesReference species="H16_A3636" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3637" stoichiometry="3.0"/>
-          <speciesReference species="H16_A3638" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3640" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3641" stoichiometry="2.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1278,7 +1271,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2704" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1840" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1412,7 +1404,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1428" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2777" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1420,7 +1411,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1428" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3109" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2184,7 +2174,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1632" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0800" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2192,8 +2181,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2999" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2500" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1639" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2306,7 +2293,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1700" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1701" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2314,9 +2300,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0640" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0642" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0641" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0644" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2331,9 +2314,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2934" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2937" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2936" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1471" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2341,8 +2321,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1454" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1452" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1453" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2735,7 +2713,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2999" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2500" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2743,7 +2720,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1639" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2500" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3010,8 +2986,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2325" stoichiometry="2.0"/>
-          <speciesReference species="H16_A2324" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1098" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3019,8 +2993,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3724" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2325" stoichiometry="2.0"/>
-          <speciesReference species="H16_A2324" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3028,8 +3000,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2325" stoichiometry="2.0"/>
-          <speciesReference species="H16_A2324" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1377" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3037,8 +3007,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2323" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2325" stoichiometry="2.0"/>
-          <speciesReference species="H16_A2324" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3067,7 +3035,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1344" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1343" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4391,7 +4358,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2454" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2452" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4938,10 +4904,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2231" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0735" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0313" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2452" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1036" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5103,7 +5065,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0548" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0547" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5601,20 +5562,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1051" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1052" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1050" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1055" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1056" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1053" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1054" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1061" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1060" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1063" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1062" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1059" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1058" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1057" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0251" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5783,11 +5730,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0539" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0540" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0541" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0542" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0543" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0544" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5823,11 +5765,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0539" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0540" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0541" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0542" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0543" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0544" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5835,11 +5772,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0539" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0540" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0541" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0542" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0543" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0544" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6162,10 +6094,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0204" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2632" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2631" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2630" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2629" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6215,10 +6143,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0204" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2632" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2631" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2630" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2629" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6534,7 +6458,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6542,8 +6465,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2390" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6551,7 +6472,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6559,8 +6479,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2390" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6582,7 +6500,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6590,8 +6507,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2390" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6606,7 +6521,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6614,8 +6528,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3234" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3235" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2390" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6735,11 +6647,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0539" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0540" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0541" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0542" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0543" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0544" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6754,11 +6661,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0539" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0540" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0541" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0542" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0543" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0544" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6815,7 +6717,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1391" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3317" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6823,7 +6724,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="PHG423" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3317" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6866,10 +6766,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1882" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1509" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0111" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0112" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0108" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6877,7 +6773,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0372" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0371" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6885,10 +6780,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1882" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1509" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0111" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0112" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0108" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6938,10 +6829,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2231" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0735" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0313" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2452" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1036" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7131,20 +7018,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1051" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1052" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1050" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1055" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1056" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1053" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1054" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1061" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1060" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1063" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1062" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1059" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1058" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1057" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0251" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7159,20 +7032,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1051" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1052" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1050" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1055" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1056" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1053" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1054" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1061" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1060" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1063" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1062" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1059" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1058" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1057" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0251" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7831,7 +7690,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2621" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2620" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7839,7 +7697,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0051" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0052" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7847,7 +7704,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B2276" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2275" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7855,7 +7711,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1549" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1550" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7863,7 +7718,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1236" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1237" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7878,7 +7732,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2621" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2620" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7886,7 +7739,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0051" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0052" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7894,7 +7746,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B2276" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2275" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7902,7 +7753,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1549" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1550" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7910,7 +7760,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1236" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1237" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8002,8 +7851,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1962" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1961" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1963" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8011,8 +7858,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1962" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1961" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1963" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8062,8 +7907,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1962" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1961" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1963" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8071,8 +7914,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1962" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1961" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1963" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8080,8 +7921,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1962" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1961" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1963" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8117,8 +7956,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1962" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1961" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1963" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8560,9 +8397,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0778" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0779" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0948" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0777" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9284,16 +9118,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1265" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1264" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1714" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3131" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1715" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3130" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0852" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0850" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1266" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0851" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3128" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9525,7 +9349,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2612" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2614" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9533,7 +9356,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2612" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2614" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9576,7 +9398,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2612" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2614" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9654,7 +9475,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1388" stoichiometry="2.0"/>
-          <speciesReference species="H16_A3147" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9662,7 +9482,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="PHG420" stoichiometry="2.0"/>
-          <speciesReference species="H16_A3147" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9670,7 +9489,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1388" stoichiometry="2.0"/>
-          <speciesReference species="H16_A3147" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9678,7 +9496,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="PHG420" stoichiometry="2.0"/>
-          <speciesReference species="H16_A3147" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9805,7 +9622,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3319" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3320" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19074,8 +18890,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1498" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1499" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1500" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19657,8 +19471,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1962" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1961" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1963" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19792,8 +19604,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2627" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0357" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2211" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19801,8 +19611,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2627" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0357" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1229" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19810,8 +19618,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2627" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0357" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0414" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -20239,7 +20045,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2995" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2996" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -20968,7 +20773,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1681" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1682" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22033,7 +21837,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2621" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2620" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22041,7 +21844,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0051" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0052" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22049,7 +21851,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B2276" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2275" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22057,7 +21858,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1549" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1550" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22065,7 +21865,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1236" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1237" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22073,7 +21872,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2621" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2620" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22081,7 +21879,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0051" stoichiometry="1.0"/>
-          <speciesReference species="H16_B0052" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22089,7 +21886,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B2276" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2275" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22097,7 +21893,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1549" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1550" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22105,7 +21900,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1236" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1237" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22904,7 +22698,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B2290" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2291" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22926,7 +22719,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B2290" stoichiometry="1.0"/>
-          <speciesReference species="H16_B2291" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23193,8 +22985,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1841" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1842" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0280" stoichiometry="2.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23202,8 +22992,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1841" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1842" stoichiometry="1.0"/>
-          <speciesReference species="H16_A1949" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24996,9 +24784,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1223" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3171" stoichiometry="1.0"/>
-          <speciesReference species="H16_A3172" stoichiometry="1.0"/>
-          <speciesReference species="H16_A2611" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -25419,7 +25204,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="PHG426" stoichiometry="1.0"/>
-          <speciesReference species="PHG427" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -25427,7 +25211,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1394" stoichiometry="1.0"/>
-          <speciesReference species="H16_B1395" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -25442,8 +25225,6 @@
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0238" stoichiometry="4.0"/>
-          <speciesReference species="H16_A0237" stoichiometry="1.0"/>
-          <speciesReference species="H16_A0330" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>

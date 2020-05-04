@@ -8,12 +8,29 @@ import rba
 import cobra
 
 
+# MAIN FUNCTION --------------------------------------------------------
+#
+# model creation using files in data/:
+def main():
+    
+    # make some inital modifications to sbml required for RBA
+    import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1.xml")
+    
+    # inital run of model generation creates helper files
+    reutropha = rba.RbaModel.from_data('params.in')
+    
+    # set a growth medium
+    reutropha.set_medium('data/medium.tsv')
+    
+    # export to files
+    reutropha.write()
+
+
 # the following function imports the genome scale model from remote
 # location and implements some changes important for making RBA model
 # import model
-def modify_model():
+def import_sbml_model(model_path):
     
-    model_path = "../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1.xml"
     model = cobra.io.read_sbml_model(model_path)
     
     # add (dummy) tRNA loading reaction for Asparagin 
@@ -41,24 +58,6 @@ def modify_model():
     
     # export model as sbml.xml
     cobra.io.write_sbml_model(model, 'data/sbml.xml')
-
-
-# MAIN FUNCTION --------------------------------------------------------
-#
-# model creation using files in data/:
-def main():
-    
-    # make some inital modifications to sbml required for RBA
-    #modify_model()
-    
-    # inital run of model generation creates helper files
-    reutropha = rba.RbaModel.from_data('params.in')
-    
-    # set a growth medium
-    reutropha.set_medium('data/medium.tsv')
-    
-    # export to files
-    reutropha.write()
 
 
 if __name__ == "__main__":

@@ -1,10 +1,10 @@
 <RBAMetabolism>
   <listOfCompartments>
-    <compartment id="Cell_outer_membrane"/>
+    <compartment id="Secreted"/>
+    <compartment id="Cell_inner_membrane"/>
     <compartment id="Periplasm"/>
     <compartment id="Cytoplasm"/>
-    <compartment id="Cell_inner_membrane"/>
-    <compartment id="Secreted"/>
+    <compartment id="Cell_outer_membrane"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
