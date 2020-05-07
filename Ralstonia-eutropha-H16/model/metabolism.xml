@@ -1,10 +1,8 @@
 <RBAMetabolism>
   <listOfCompartments>
+    <compartment id="Cell_membrane"/>
     <compartment id="Secreted"/>
-    <compartment id="Cell_inner_membrane"/>
-    <compartment id="Periplasm"/>
     <compartment id="Cytoplasm"/>
-    <compartment id="Cell_outer_membrane"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
@@ -4068,7 +4066,7 @@
         <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH" reversible="true">
+    <reaction id="R_FDH" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4078,7 +4076,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_2" reversible="true">
+    <reaction id="R_FDH_duplicate_2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4088,7 +4086,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_3" reversible="true">
+    <reaction id="R_FDH_duplicate_3" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4098,7 +4096,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_4" reversible="true">
+    <reaction id="R_FDH_duplicate_4" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4108,7 +4106,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_5" reversible="true">
+    <reaction id="R_FDH_duplicate_5" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4118,7 +4116,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_6" reversible="true">
+    <reaction id="R_FDH_duplicate_6" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>

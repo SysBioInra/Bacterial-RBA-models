@@ -10,7 +10,7 @@ import numpy as np
 
 def main():
     
-    # set input and putput paths
+    # set input and output paths
     # 'model/' or '../Bacillus-subtilis-168-WT/' or '../Escherichia-coli-K12-WT'
     xml_dir = 'model/'
     output_dir = 'simulation/'
@@ -28,11 +28,11 @@ def main():
         model.medium = new_medium
         
         # solve model
-        results = model.solve()
+        result = model.solve()
         
-        # report results, for yield calculation supply transport
+        # report results; for yield calculation supply transport
         # reaction and MW of substrate
-        report_results(results,
+        report_results(result,
             output_dir = output_dir,
             output_suffix = '_fru_' + str(conc) + '.tsv',
             substrate ='R_FRUpts2',  
@@ -41,17 +41,17 @@ def main():
 
 
 def report_results(
-    rba_result, output_dir, output_suffix,
+    result, output_dir, output_suffix,
     substrate = None, substrate_MW = None):
     
     # calculate yield
     # flux in mmol g_bm^-1 h^-1 needs to be converted to g substrate;
     # for fructose: MW = 180.16 g/mol = 0.18 g/mmol
     if substrate:
-        yield_subs = rba_result.mu_opt / (rba_result.reaction_fluxes()[substrate] * substrate_MW)
+        yield_subs = result.mu_opt / (result.reaction_fluxes()[substrate] * substrate_MW)
     
     # export summary fluxes per reaction
-    rba_result.write_fluxes(
+    result.write_fluxes(
         output_dir + 'fluxes' + output_suffix,
         file_type = 'tsv',
         merge_isozyme_reactions = True,
@@ -59,13 +59,15 @@ def report_results(
         remove_prefix = True)
     
     # export enzyme concentrations
-    rba_result.write_proteins(
+    result.write_proteins(
         output_dir + 'proteins' + output_suffix,
         file_type = 'csv')
     
     # export growth rate, yield, and process machinery concentrations
-    ma = rba_result.process_machinery_concentrations()
-    ma['mu'] = rba_result.mu_opt
+    ma = result.process_machinery_concentrations()
+    ma['P_ENZ'] = sum(result.enzyme_concentrations().values())
+    ma['P_TOT'] = sum(ma.values())
+    ma['mu'] = result.mu_opt
     if substrate:
         ma['yield'] = yield_subs
     with open(output_dir + 'macroprocesses' + output_suffix, 'w') as fout:
@@ -73,10 +75,10 @@ def report_results(
     
     # print µ_max and yield to terminal
     print('\n----- SUMMARY -----')
-    print('\nOptimal growth rate is {}.'.format(rba_result.mu_opt))
+    print('\nOptimal growth rate is {}.'.format(result.mu_opt))
     print('Yield on substrate is {}.'.format(yield_subs))
     # print top exchange fluxes
-    rba_result.print_main_transport_reactions()
+    result.print_main_transport_reactions()
 
 
 if __name__ == '__main__':

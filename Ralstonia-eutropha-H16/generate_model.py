@@ -22,6 +22,12 @@ def main():
     # set a growth medium
     reutropha.set_medium('data/medium.tsv')
     
+    # set k_app default efficiencies
+    set_default_efficiencies(reutropha)
+    
+    # set k_app for selected reactions (from GECKO)
+    reutropha.set_enzyme_efficiencies('data/enzyme_efficiency.tsv')
+    
     # export to files
     reutropha.write()
 
@@ -44,20 +50,35 @@ def import_sbml_model(model_path):
         charge = 0,
         formula = 'C10H17O10PR2'))
     
+    
     ASNTRS = cobra.Reaction('ASNTRS')
     ASNTRS.name = 'Asparaginyl-tRNA synthetase'
+    ASNTRS_string = 'asn__L_c + atp_c + trnaasn_c --> amp_c + asntrna_c + h_c + ppi_c'
     model.add_reactions([ASNTRS])
-    model.reactions.ASNTRS.build_reaction_from_string('asn__L_c + atp_c + trnaasn_c --> amp_c + asntrna_c + h_c + ppi_c')
+    model.reactions.ASNTRS.build_reaction_from_string(ASNTRS_string)
     model.reactions.ASNTRS.gene_reaction_rule = 'H16_A0453'
     
     # replace all empty gene associations with UNKNOWN in order to
-    # avoid spontaneus reactions (see RBApy manual)
+    # avoid spontaneous reactions (see RBApy manual)
     for r in model.reactions:
         if r.gene_reaction_rule == '':
             r.gene_reaction_rule = 'UNKNOWN'
     
+    # manual curation of reactions that seem infeasible
+    model.reactions.FDH.bounds = (0.0, 1000.0)
+    
     # export model as sbml.xml
     cobra.io.write_sbml_model(model, 'data/sbml.xml')
+
+
+# set k_app default efficiencies
+def set_default_efficiencies(model):
+    
+    fn = model.parameters.functions.get_by_id('default_efficiency')
+    fn.parameters.get_by_id('CONSTANT').value = 45000
+    
+    fn = model.parameters.functions.get_by_id('default_transporter_efficiency')
+    fn.parameters.get_by_id('CONSTANT').value = 360000
 
 
 if __name__ == "__main__":

@@ -20,19 +20,9 @@
         <parameter id="CONSTANT" value="0.1"/>
       </listOfParameters>
     </function>
-    <function id="fraction_protein_Cell_inner_membrane" type="constant" variable="growth_rate">
+    <function id="fraction_protein_Cell_membrane" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="0.06666666666666667"/>
-      </listOfParameters>
-    </function>
-    <function id="fraction_protein_Periplasm" type="constant" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="CONSTANT" value="0.06666666666666667"/>
-      </listOfParameters>
-    </function>
-    <function id="fraction_protein_Cell_outer_membrane" type="constant" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="CONSTANT" value="0.06666666666666667"/>
+        <parameter id="CONSTANT" value="0.2"/>
       </listOfParameters>
     </function>
     <function id="fraction_non_enzymatic_protein_Cytoplasm" type="linear" variable="growth_rate">
@@ -50,27 +40,7 @@
         <parameter id="CONSTANT" value="1"/>
       </listOfParameters>
     </function>
-    <function id="fraction_non_enzymatic_protein_Cell_inner_membrane" type="linear" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="LINEAR_COEF" value="-0.0496"/>
-        <parameter id="LINEAR_CONSTANT" value="0.8965"/>
-        <parameter id="X_MIN" value="0.25"/>
-        <parameter id="X_MAX" value="1.6"/>
-        <parameter id="Y_MIN" value="0"/>
-        <parameter id="Y_MAX" value="1"/>
-      </listOfParameters>
-    </function>
-    <function id="fraction_non_enzymatic_protein_Periplasm" type="linear" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="LINEAR_COEF" value="-0.0496"/>
-        <parameter id="LINEAR_CONSTANT" value="0.8965"/>
-        <parameter id="X_MIN" value="0.25"/>
-        <parameter id="X_MAX" value="1.6"/>
-        <parameter id="Y_MIN" value="0"/>
-        <parameter id="Y_MAX" value="1"/>
-      </listOfParameters>
-    </function>
-    <function id="fraction_non_enzymatic_protein_Cell_outer_membrane" type="linear" variable="growth_rate">
+    <function id="fraction_non_enzymatic_protein_Cell_membrane" type="linear" variable="growth_rate">
       <listOfParameters>
         <parameter id="LINEAR_COEF" value="-0.0496"/>
         <parameter id="LINEAR_CONSTANT" value="0.8965"/>
@@ -354,7 +324,7 @@
     </function>
     <function id="default_transporter_efficiency" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="360000.0"/>
+        <parameter id="CONSTANT" value="360000"/>
       </listOfParameters>
     </function>
     <function id="R_ATPS4m_M_h_e_transport_factor" type="michaelisMenten" variable="M_h_e">
@@ -2727,24 +2697,3952 @@
         <parameter id="kmax" value="1"/>
       </listOfParameters>
     </function>
+    <function id="R_ATPS4m_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="66600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ATPS4m_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="66600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHFR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="89280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHFR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="89280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPPGO3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="236.70000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPPGO3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="236.70000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DTMPK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DTMPK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CSND_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="50220"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CSND_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="50220"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KDOPP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1513.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KDOPP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1513.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22701600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22701600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="41400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="41400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TMDPP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="42840"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TMDPP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="42840"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNATr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16380"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNATr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16380"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10008"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10008"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLNTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLNTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10008"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10008"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACALD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51660"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACALD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51660"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GPDDA1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HISTD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5220"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HISTD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5220"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OCTDPS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3609"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OCTDPS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3609"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NMNAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16380"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NMNAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16380"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TYRTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="102600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TYRTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="102600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYOX_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1421640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYOX_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1421640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDPGDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="158.39999999999998"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDPGDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="158.39999999999998"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHRPL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3447"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHRPL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3447"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2627.1"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2627.1"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYK3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11534400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYK3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11534400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYK2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11534400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYK2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11534400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TAh_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="80280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TAh_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="80280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHQS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHQS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ARGTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="93600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ARGTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="93600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22986"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22986"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADK1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="585243"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADK1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="585243"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GMPS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8604"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GMPS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8604"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACODA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="13680000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACODA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="13680000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KDOCT2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="56520"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KDOCT2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="56520"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1224"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1224"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUTRR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="504.00000000000006"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUTRR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="504.00000000000006"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTPTP1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14400000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTPTP1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14400000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPAKr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="397800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPAKr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="397800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBL1abc_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5004"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBL1abc_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5004"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HOPNTAL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6444"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HOPNTAL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6444"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LEUTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14759.999999999998"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LEUTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14759.999999999998"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MTHFR2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="102960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MTHFR2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="102960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2235600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2235600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FBA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14490.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FBA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14490.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PERD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4320.000000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PERD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4320.000000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AKGDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="738000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AKGDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="738000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALATRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALATRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PHETRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6192"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PHETRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6192"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LYSTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3339"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LYSTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3339"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FBP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="54900"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FBP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="54900"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADOCBLS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADOCBLS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GAM_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="21384"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GAM_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="21384"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DCTPD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4464"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DCTPD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4464"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADPRDP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32939.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADPRDP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32939.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THFAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="68040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THFAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="68040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_XPPT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="36180"/>
+      </listOfParameters>
+    </function>
+    <function id="R_XPPT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="36180"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACACT1r_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18000000000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACACT1r_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18000000000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYSSADS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYSSADS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="457200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="457200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADSK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="90162"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADSK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="90162"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FCLT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="216"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FCLT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="216"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD5_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD5_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MOHMT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2813.4"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MOHMT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2813.4"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BTS4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="25020.000900000003"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BTS4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="25020.000900000003"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAAGDS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4680"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAAGDS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4680"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMID2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="111420"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMID2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="111420"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TAUDO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11340"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TAUDO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11340"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HACD4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G6PDA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1103400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G6PDA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1103400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP7_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP7_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALATA_D_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALATA_D_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP6_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52740"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP6_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52740"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP5_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP5_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52740"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52740"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PAPPT3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19188"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PAPPT3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19188"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PUNP1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64439.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PNTK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3672"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PNTK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3672"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LCADi_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4860"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LCADi_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4860"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBPS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBPS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DAPDC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16020"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DAPDC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16020"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGDP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10944"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGDP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10944"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMAOTr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="468"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMAOTr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="468"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UPPRT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2340"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UPPRT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2340"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LDHm_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="432000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LDHm_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="432000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPCK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPCK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACHBS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19692"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACHBS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19692"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHORS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="29.88"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHORS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="29.88"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHORM_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="201600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHORM_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="201600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AOBUTDs_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14058"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AOBUTDs_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14058"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IMPD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9180"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IMPD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9180"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SUCOAS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SUCOAS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BUPN_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11178"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BUPN_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11178"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SSALy_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="35748"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SSALy_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="35748"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KYN_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3438.0000000000005"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KYN_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3438.0000000000005"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="362160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="362160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FUM_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1944000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FUM_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1944000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPNCL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3168"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPNCL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3168"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19620"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19620"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G1SAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3420"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G1SAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3420"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASP1DC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12870"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASP1DC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12870"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYSTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="44640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYSTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="44640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGAAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="37800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGAAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="37800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCITS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18216"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCITS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18216"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CPPPGO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CPPPGO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK5_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK5_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK6_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK6_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="108000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="108000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK7_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK7_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK8_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NDPK8_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALPHNH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="40320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALPHNH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="40320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NPHS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="149.4"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NPHS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="149.4"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYCTO1p_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10440.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYCTO1p_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10440.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SDPDS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="504000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SDPDS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="504000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_VALTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="37080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_VALTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="37080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SUCD1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="66240"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SUCD1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="66240"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYDXO_1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYDXO_1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CTPS2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22319.999999999996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CTPS2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22319.999999999996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGCVT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5273.999999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGCVT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5273.999999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PTA2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="432000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PTA2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="432000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HIBDkt_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HIBDkt_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="43.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPAS2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPAS2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GALCTD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GALCTD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GRTT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1242"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GRTT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1242"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYDXNO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="71640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYDXNO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="71640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDPDRE_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="140400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDPDRE_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="140400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="40500"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="40500"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_VALTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="47160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_VALTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="47160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RNDR4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="46440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GF6PTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="48078"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GF6PTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="48078"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTRLASE_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22446000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTRLASE_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="22446000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GALUi_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="70740"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GALUi_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="70740"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPCOAC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6336"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPCOAC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6336"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPA2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14220648"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPA2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14220648"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1404000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1404000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RPI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5421600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RPI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5421600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11534400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11534400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RPE_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3132000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RPE_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3132000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRDR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="82080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRDR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="82080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACLS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19692"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACLS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19692"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TREH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="716400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TREH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="716400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GTPCI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6.119999999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GTPCI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6.119999999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AHCYSNS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4194"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AHCYSNS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4194"/>
+      </listOfParameters>
+    </function>
+    <function id="R_XAND_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="20412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_XAND_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="20412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADH16_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1625400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADH16_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1625400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALAR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="107820"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALAR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="107820"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="27180"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="27180"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPCT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="825660"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPCT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="825660"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="158400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="158400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PTAr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1494000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PTAr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1494000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHPD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="21600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHPD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="21600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNAM_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10260"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNAM_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10260"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DPR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="90000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DPR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="90000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_E4PD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="664200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_E4PD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="664200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OCT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="176400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OCT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="176400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD9_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD9_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD8_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD8_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD5_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD5_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD7_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD7_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD6_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD6_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADNCYC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4606.200000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADNCYC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4606.200000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMAA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMAA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="84240"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="84240"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADPT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18126"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADPT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18126"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G6PDH2r_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4050000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G6PDH2r_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4050000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BZ12DOX_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1321200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BZ12DOX_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1321200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADDP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="154800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADDP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="154800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OP4ENH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="217800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OP4ENH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="217800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G1PTT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="13320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G1PTT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="13320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KAS14_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="356.94"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KAS14_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="356.94"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ICDHyr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="118800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ICDHyr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="118800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FALDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1980.0000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FALDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1980.0000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLBRAN2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="540"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLBRAN2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="540"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SKDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="219960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SKDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="219960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDSK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDSK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1944000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1944000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACYP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="0.00558"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACYP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="0.00558"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SDPTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SDPTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DPHS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="42120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DPHS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="42120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SPMS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="81720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SPMS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="81720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLXCL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="68040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLXCL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="68040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SHKK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="216000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SHKK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="216000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ARGDC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4392"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ARGDC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4392"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNDMBRT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNDMBRT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DPCOAK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="139.32"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DPCOAK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="139.32"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTP3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1854"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTP3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1854"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTP1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1854"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTP1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1854"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ILETRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ILETRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACBIPGT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="271.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACBIPGT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="271.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCITL2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCITL2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GTHS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="108720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GTHS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="108720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AHSERL4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="694800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AHSERL4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="694800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PANTS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PANTS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DXPRIi_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="7200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DXPRIi_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="7200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PMDPHT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PMDPHT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THD2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="838800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THD2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="838800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRSARr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="874800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRSARr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="874800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PTPATi_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16839"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PTPATi_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16839"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDPDRR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="97200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDPDRR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="97200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_METTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_METTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPS2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="24480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPS2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="24480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PMPK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="252.00000000000003"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PMPK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="252.00000000000003"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPS1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRPS1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HXAND_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="20412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HXAND_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="20412"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ANS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="258480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ANS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="258480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAG4Ei_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="281250"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAG4Ei_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="281250"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MMSAD1m_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="7920.000000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MMSAD1m_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="7920.000000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD11_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD11_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DUTPDP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="154800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DUTPDP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="154800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACGK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="153900"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACGK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="153900"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD10_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NTD10_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHOLD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="193320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CHOLD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="193320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHEDAA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="739440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHEDAA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="739440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACGS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACGS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ANPRT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="15840.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ANPRT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="15840.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYAM5PO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PYAM5PO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="17640000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="17640000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLCRD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="126000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLCRD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="126000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9954000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="9954000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_4HTHRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_4HTHRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1906200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1906200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGM_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11520000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGM_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="11520000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MUCCYCI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="406440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MUCCYCI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="406440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_P5CR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1626120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_P5CR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1626120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LGTHL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1159200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LGTHL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1159200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AACTOOR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="25920"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AACTOOR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="25920"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGPT2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3353.4"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAGPT2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3353.4"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FMETTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="95040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FMETTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="95040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_S7PI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1692"/>
+      </listOfParameters>
+    </function>
+    <function id="R_S7PI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1692"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HMPK1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1296"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HMPK1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1296"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCDC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136.79999999999998"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCDC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="136.79999999999998"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACPS1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="612"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACPS1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="612"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGCM_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="232758"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGCM_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="232758"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DAPE_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="271800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DAPE_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="271800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BETALDHx_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="39600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BETALDHx_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="39600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ILETA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="47160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ILETA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="47160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ICDHx_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="166320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ICDHx_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="166320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_METAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1674.7506"/>
+      </listOfParameters>
+    </function>
+    <function id="R_METAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1674.7506"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PCNO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="216000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PCNO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="216000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="57132"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="57132"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MGSA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="984600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MGSA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="984600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PAPSR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1375.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PAPSR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1375.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IPMD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IPMD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PAPSR2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1375.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PAPSR2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1375.2"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PDX5POi_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PDX5POi_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="51768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FLVR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="195768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FLVR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="195768"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HSDy_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HSDy_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MECDPS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8100"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MECDPS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8100"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLNS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLNS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_P5CD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5760"/>
+      </listOfParameters>
+    </function>
+    <function id="R_P5CD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="5760"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LDH_L_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2374200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LDH_L_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2374200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASNN_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="127800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASNN_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="127800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYCK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1260000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYCK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1260000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NODOx_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1355400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NODOx_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1355400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ORPT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1008.0000000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ORPT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1008.0000000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HSK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="48960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HSK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="48960"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPPGO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="236.70000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPPGO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="236.70000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GAPD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="234000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GAPD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="234000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_METS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="15060.06"/>
+      </listOfParameters>
+    </function>
+    <function id="R_METS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="15060.06"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UMPK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1570320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UMPK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1570320"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TPI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="42606000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TPI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="42606000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADCS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1908"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADCS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1908"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MAN6PI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4935600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MAN6PI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4935600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ICL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="39618"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ICL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="39618"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DURIPP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="58139.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DURIPP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="58139.99999999999"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TDP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TMDS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TMDS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="64800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_EDTXS1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="471600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_EDTXS1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="471600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="540"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="540"/>
+      </listOfParameters>
+    </function>
+    <function id="R_A5PISO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="784800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_A5PISO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="784800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALKP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86850"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALKP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86850"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FOMETRi_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="68040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_FOMETRi_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="68040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ATPPRT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6876"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ATPPRT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6876"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DADK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="585243"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DADK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="585243"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_THRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GARFT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="39996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GARFT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="39996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UREA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12600000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UREA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12600000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GUAPRT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="33588"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GUAPRT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="33588"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGLYCP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="338400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGLYCP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="338400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHPS2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="355.85999999999996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHPS2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="355.85999999999996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UDPGD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8460"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UDPGD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8460"/>
+      </listOfParameters>
+    </function>
+    <function id="R_URIDK2r_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_URIDK2r_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32040"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OBTFL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="30834.000000000004"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OBTFL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="30834.000000000004"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ETHAAL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="99216"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ETHAAL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="99216"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LEUTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="47160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LEUTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="47160"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACKr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2739600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACKr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2739600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACOATA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="317.88"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACOATA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="317.88"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBIAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="73.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CBIAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="73.8"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BACCL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1836"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BACCL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1836"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NT5C_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NT5C_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="32184"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PACCOAL_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PACCOAL_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYTK1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="187200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYTK1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="187200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYTK2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="187200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYTK2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="187200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAMAS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="62280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_UAMAS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="62280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRE6PP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52902"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRE6PP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52902"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUDC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="28854.000000000004"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUDC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="28854.000000000004"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IPPS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IPPS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="12600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASP4DC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="796770"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASP4DC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="796770"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GTPDPK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="262800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GTPDPK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="262800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IGPDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3600000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_IGPDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3600000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGAMT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14244.84"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PGAMT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="14244.84"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPBNGS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="57960.00000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPBNGS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="57960.00000000001"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SERD_L_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="639306"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SERD_L_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="639306"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RBFK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="13500"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RBFK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="13500"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMPN_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="115200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMPN_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="115200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DNTPPA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16524"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DNTPPA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="16524"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TYRTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="27720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TYRTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="27720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADSL1r_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2520"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADSL1r_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2520"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PMANM_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18198"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PMANM_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18198"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AGDC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="180000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AGDC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="180000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ENO_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="122706"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ENO_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="122706"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALDD2x_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="20196"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALDD2x_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="20196"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYSS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CYSS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="86400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MALS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="89460"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MALS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="89460"/>
+      </listOfParameters>
+    </function>
+    <function id="R_U23GAAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="82800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_U23GAAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="82800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNDPR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2052"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NNDPR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2052"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PHETA1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="102600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PHETA1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="102600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUDy_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="134280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUDy_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="134280"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GDH1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="219600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GDH1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="219600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HISTP_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="626400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HISTP_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="626400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HISTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="7344"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HISTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="7344"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DGK1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="469800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DGK1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="469800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACOTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4266"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACOTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4266"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PSCIT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="70200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PSCIT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="70200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DXPS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DXPS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6120"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADTRHD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="604440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_NADTRHD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="604440"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT3_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT3_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT4_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT4_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AOXSr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19.799999999999997"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AOXSr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="19.799999999999997"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_AMALT2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="79200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALCD2x_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="205200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALCD2x_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="205200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SLCYSS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="694800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SLCYSS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="694800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HSTPT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8010"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HSTPT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="8010"/>
+      </listOfParameters>
+    </function>
+    <function id="R_3OXCOAT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="28080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_3OXCOAT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="28080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HPYRRy_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="532800000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HPYRRy_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="532800000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GMAND_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GMAND_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPNDH_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6955200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPNDH_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="6955200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPND_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="234000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PPND_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="234000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALCD19_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="99360"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALCD19_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="99360"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYCTO1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10440.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLYCTO1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="10440.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADOCBIK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="795.6"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADOCBIK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="795.6"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PRAI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="180000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PRAI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="180000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="904680"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="904680"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HXPRT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3492"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HXPRT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3492"/>
+      </listOfParameters>
+    </function>
+    <function id="R_EDA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="30743.999999999996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_EDA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="30743.999999999996"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OMPDC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="151200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OMPDC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="151200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SERTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="15066.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_SERTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="15066.000000000002"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DADA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="41400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DADA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="41400"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LALDO2x_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="532800000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_LALDO2x_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="532800000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PRPPS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="163080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PRPPS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="163080"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CRTNh_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4824000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_CRTNh_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4824000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DDGLK_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="23760"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DDGLK_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="23760"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G1PACT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2980800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_G1PACT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2980800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ME1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2232000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ME1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="2232000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ME2_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1167480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ME2_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1167480"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PROTRS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="44640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PROTRS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="44640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BPNT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_BPNT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="18720"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ABTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="170640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ABTA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="170640"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHORD_NAD_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="92520"/>
+      </listOfParameters>
+    </function>
+    <function id="R_DHORD_NAD_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="92520"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RBFSa_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="237.05999999999997"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RBFSa_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="237.05999999999997"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KARI_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3924.0000000000005"/>
+      </listOfParameters>
+    </function>
+    <function id="R_KARI_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3924.0000000000005"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRE6PS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="25200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_TRE6PS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="25200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OMCDC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_OMCDC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="72000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPO1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="648"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ASPO1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="648"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADSS_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ADSS_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="3600"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALDD19xr_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ALDD19xr_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="52200"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCOATA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="360000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_MCOATA_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="360000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GK1_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="469800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GK1_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="469800"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HPYRRx_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1566"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HPYRRx_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="1566"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PSP_L_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="540"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PSP_L_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="540"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUR_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="90000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_GLUR_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="90000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACCOAC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="75060"/>
+      </listOfParameters>
+    </function>
+    <function id="R_ACCOAC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="75060"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PSERT_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4284"/>
+      </listOfParameters>
+    </function>
+    <function id="R_PSERT_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="4284"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HCO3E_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="864000000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_HCO3E_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="864000000"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RBPC_enzyme_forward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="23364"/>
+      </listOfParameters>
+    </function>
+    <function id="R_RBPC_enzyme_backward_efficiency" type="constant" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="CONSTANT" value="23364"/>
+      </listOfParameters>
+    </function>
   </listOfFunctions>
   <listOfAggregates>
-    <aggregate id="Cell_inner_membrane_density" type="multiplication">
+    <aggregate id="Cell_membrane_density" type="multiplication">
       <listOfFunctionReferences>
         <functionReference function="amino_acid_concentration"/>
-        <functionReference function="fraction_protein_Cell_inner_membrane"/>
-      </listOfFunctionReferences>
-    </aggregate>
-    <aggregate id="Periplasm_density" type="multiplication">
-      <listOfFunctionReferences>
-        <functionReference function="amino_acid_concentration"/>
-        <functionReference function="fraction_protein_Periplasm"/>
-      </listOfFunctionReferences>
-    </aggregate>
-    <aggregate id="Cell_outer_membrane_density" type="multiplication">
-      <listOfFunctionReferences>
-        <functionReference function="amino_acid_concentration"/>
-        <functionReference function="fraction_protein_Cell_outer_membrane"/>
+        <functionReference function="fraction_protein_Cell_membrane"/>
       </listOfFunctionReferences>
     </aggregate>
     <aggregate id="nonenzymatic_proteins_Cytoplasm" type="multiplication">
@@ -2763,28 +6661,12 @@
         <functionReference function="fraction_non_enzymatic_protein_Secreted"/>
       </listOfFunctionReferences>
     </aggregate>
-    <aggregate id="nonenzymatic_proteins_Cell_inner_membrane" type="multiplication">
+    <aggregate id="nonenzymatic_proteins_Cell_membrane" type="multiplication">
       <listOfFunctionReferences>
         <functionReference function="amino_acid_concentration"/>
         <functionReference function="inverse_average_protein_length"/>
-        <functionReference function="fraction_protein_Cell_inner_membrane"/>
-        <functionReference function="fraction_non_enzymatic_protein_Cell_inner_membrane"/>
-      </listOfFunctionReferences>
-    </aggregate>
-    <aggregate id="nonenzymatic_proteins_Periplasm" type="multiplication">
-      <listOfFunctionReferences>
-        <functionReference function="amino_acid_concentration"/>
-        <functionReference function="inverse_average_protein_length"/>
-        <functionReference function="fraction_protein_Periplasm"/>
-        <functionReference function="fraction_non_enzymatic_protein_Periplasm"/>
-      </listOfFunctionReferences>
-    </aggregate>
-    <aggregate id="nonenzymatic_proteins_Cell_outer_membrane" type="multiplication">
-      <listOfFunctionReferences>
-        <functionReference function="amino_acid_concentration"/>
-        <functionReference function="inverse_average_protein_length"/>
-        <functionReference function="fraction_protein_Cell_outer_membrane"/>
-        <functionReference function="fraction_non_enzymatic_protein_Cell_outer_membrane"/>
+        <functionReference function="fraction_protein_Cell_membrane"/>
+        <functionReference function="fraction_non_enzymatic_protein_Cell_membrane"/>
       </listOfFunctionReferences>
     </aggregate>
     <aggregate id="ribosome_capacity" type="multiplication">
@@ -2795,7 +6677,7 @@
     </aggregate>
     <aggregate id="R_ATPS4m_efficiency" type="multiplication">
       <listOfFunctionReferences>
-        <functionReference function="default_transporter_efficiency"/>
+        <functionReference function="R_ATPS4m_enzyme_forward_efficiency"/>
         <functionReference function="R_ATPS4m_M_h_e_transport_factor"/>
       </listOfFunctionReferences>
     </aggregate>
@@ -2922,7 +6804,7 @@
     </aggregate>
     <aggregate id="R_CBL1abc_efficiency" type="multiplication">
       <listOfFunctionReferences>
-        <functionReference function="default_transporter_efficiency"/>
+        <functionReference function="R_CBL1abc_enzyme_forward_efficiency"/>
         <functionReference function="R_CBL1abc_M_cbl1_e_transport_factor"/>
       </listOfFunctionReferences>
     </aggregate>
@@ -3509,7 +7391,7 @@
     </aggregate>
     <aggregate id="R_THD2_efficiency" type="multiplication">
       <listOfFunctionReferences>
-        <functionReference function="default_transporter_efficiency"/>
+        <functionReference function="R_THD2_enzyme_forward_efficiency"/>
         <functionReference function="R_THD2_M_h_e_transport_factor"/>
       </listOfFunctionReferences>
     </aggregate>
