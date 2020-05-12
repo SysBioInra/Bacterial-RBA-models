@@ -11,7 +11,6 @@ import numpy as np
 def main():
     
     # set input and output paths
-    # 'model/' or '../Bacillus-subtilis-168-WT/' or '../Escherichia-coli-K12-WT'
     xml_dir = 'model/'
     output_dir = 'simulation/'
     
@@ -19,7 +18,7 @@ def main():
     model = rba.RbaModel.from_xml(xml_dir)
     
     # optionally modify medium
-    c_fruc = [10**i for i in np.arange(-4, 0.25, 0.25)]
+    c_fruc = [10**i for i in np.arange(-3.5, 0.25, 0.25)]
     new_medium = model.medium
     
     # loop through a set of conditions
@@ -35,7 +34,7 @@ def main():
         report_results(result,
             output_dir = output_dir,
             output_suffix = '_fru_' + str(conc) + '.tsv',
-            substrate ='R_FRUpts2',  
+            substrate ='R_FRUabc',  
             substrate_MW = 0.18
             )
 
@@ -66,7 +65,6 @@ def report_results(
     # export growth rate, yield, and process machinery concentrations
     ma = result.process_machinery_concentrations()
     ma['P_ENZ'] = sum(result.enzyme_concentrations().values())
-    ma['P_TOT'] = sum(ma.values())
     ma['mu'] = result.mu_opt
     if substrate:
         ma['yield'] = yield_subs

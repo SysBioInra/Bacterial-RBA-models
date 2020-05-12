@@ -25,8 +25,8 @@ def main():
     # set k_app default efficiencies
     set_default_efficiencies(reutropha)
     
-    # set k_app for selected reactions (from GECKO)
-    reutropha.set_enzyme_efficiencies('data/enzyme_efficiency.tsv')
+    # set k_app for selected reactions (from GECKO, optional)
+    #reutropha.set_enzyme_efficiencies('data/enzyme_efficiency.tsv')
     
     # export to files
     reutropha.write()
@@ -64,16 +64,25 @@ def import_sbml_model(model_path):
         if r.gene_reaction_rule == '':
             r.gene_reaction_rule = 'UNKNOWN'
     
-    # manual curation of reactions that seem infeasible
+    # manual curation of reactions that take part in artificial cycles
     model.reactions.FDH.bounds = (0.0, 1000.0)
+    model.remove_reactions(['FRUpts2', 'ACt2r', 'ACACt2', 'MDH2'])
     
     # export model as sbml.xml
     cobra.io.write_sbml_model(model, 'data/sbml.xml')
 
 
-# set k_app default efficiencies
+# set k_app default efficiencies analogous to E.coli
 def set_default_efficiencies(model):
     
+    # different options for default enzyme kcat:
+    # 12.5 * 3600 = 45000/h; Bulovic et al., 2019, RBApy
+    # 65 * 3600 = 234000/h; Lloyd et al., 2018, CobraME
+    # 172 * 3600 = 619200/h; Salvy et al., 2020, ETFL
+    
+    # systematically testing different default values revealed
+    # that transporter efficiency has little effect on µ compared to
+    # non transporter enzymes
     fn = model.parameters.functions.get_by_id('default_efficiency')
     fn.parameters.get_by_id('CONSTANT').value = 45000
     

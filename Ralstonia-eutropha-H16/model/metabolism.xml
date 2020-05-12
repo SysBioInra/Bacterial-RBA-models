@@ -1,8 +1,8 @@
 <RBAMetabolism>
   <listOfCompartments>
-    <compartment id="Cell_membrane"/>
-    <compartment id="Secreted"/>
     <compartment id="Cytoplasm"/>
+    <compartment id="Secreted"/>
+    <compartment id="Cell_membrane"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
@@ -5137,16 +5137,6 @@
         <speciesReference species="M_hophd_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_MDH2" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_mal__L_c" stoichiometry="1.0"/>
-        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_oaa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
     <reaction id="R_BPHEDO2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_dhchph_c" stoichiometry="1.0"/>
@@ -5568,16 +5558,6 @@
       <listOfProducts>
         <speciesReference species="M_pi_c" stoichiometry="1.0"/>
         <speciesReference species="M_f6p_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACt2r" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_h_e" stoichiometry="1.0"/>
-        <speciesReference species="M_ac_e" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_ac_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_ADOCBLS" reversible="false">
@@ -11297,16 +11277,6 @@
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
         <speciesReference species="M_c181_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACACt2" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_acac_e" stoichiometry="1.0"/>
-        <speciesReference species="M_h_e" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_acac_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_PTRCORNt7" reversible="true">
@@ -18441,17 +18411,6 @@
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
         <speciesReference species="M_galctn__D_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_FRUpts2" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_fru_e" stoichiometry="1.0"/>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_f6p_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_CATCHD1" reversible="false">
