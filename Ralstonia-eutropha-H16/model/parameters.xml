@@ -10,44 +10,14 @@
         <parameter id="Y_MAX" value="inf"/>
       </listOfParameters>
     </function>
-    <function id="fraction_protein_Cytoplasm" type="constant" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="CONSTANT" value="0.7"/>
-      </listOfParameters>
-    </function>
     <function id="fraction_protein_Secreted" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="0.1"/>
-      </listOfParameters>
-    </function>
-    <function id="fraction_protein_Cell_membrane" type="constant" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="CONSTANT" value="0.2"/>
-      </listOfParameters>
-    </function>
-    <function id="fraction_non_enzymatic_protein_Cytoplasm" type="linear" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="LINEAR_COEF" value="-0.0502"/>
-        <parameter id="LINEAR_CONSTANT" value="0.3526"/>
-        <parameter id="X_MIN" value="0.25"/>
-        <parameter id="X_MAX" value="1.6"/>
-        <parameter id="Y_MIN" value="0"/>
-        <parameter id="Y_MAX" value="1"/>
+        <parameter id="CONSTANT" value="0"/>
       </listOfParameters>
     </function>
     <function id="fraction_non_enzymatic_protein_Secreted" type="constant" variable="growth_rate">
       <listOfParameters>
         <parameter id="CONSTANT" value="1"/>
-      </listOfParameters>
-    </function>
-    <function id="fraction_non_enzymatic_protein_Cell_membrane" type="linear" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="LINEAR_COEF" value="-0.0496"/>
-        <parameter id="LINEAR_CONSTANT" value="0.8965"/>
-        <parameter id="X_MIN" value="0.25"/>
-        <parameter id="X_MAX" value="1.6"/>
-        <parameter id="Y_MIN" value="0"/>
-        <parameter id="Y_MAX" value="1"/>
       </listOfParameters>
     </function>
     <function id="Cytoplasm_density" type="constant" variable="growth_rate">
@@ -2665,6 +2635,46 @@
       <listOfParameters>
         <parameter id="Km" value="0.8"/>
         <parameter id="kmax" value="1"/>
+      </listOfParameters>
+    </function>
+    <function id="fraction_protein_Cytoplasm" type="linear" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="LINEAR_COEF" value="0.178"/>
+        <parameter id="LINEAR_CONSTANT" value="0.848"/>
+        <parameter id="X_MIN" value="0"/>
+        <parameter id="X_MAX" value="2"/>
+        <parameter id="Y_MIN" value="0"/>
+        <parameter id="Y_MAX" value="1"/>
+      </listOfParameters>
+    </function>
+    <function id="fraction_protein_Cell_membrane" type="linear" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="LINEAR_COEF" value="-0.178"/>
+        <parameter id="LINEAR_CONSTANT" value="0.152"/>
+        <parameter id="X_MIN" value="0"/>
+        <parameter id="X_MAX" value="2"/>
+        <parameter id="Y_MIN" value="0"/>
+        <parameter id="Y_MAX" value="1"/>
+      </listOfParameters>
+    </function>
+    <function id="fraction_non_enzymatic_protein_Cytoplasm" type="linear" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="LINEAR_COEF" value="-0.613"/>
+        <parameter id="LINEAR_CONSTANT" value="0.61"/>
+        <parameter id="X_MIN" value="0"/>
+        <parameter id="X_MAX" value="2"/>
+        <parameter id="Y_MIN" value="0"/>
+        <parameter id="Y_MAX" value="1"/>
+      </listOfParameters>
+    </function>
+    <function id="fraction_non_enzymatic_protein_Cell_membrane" type="linear" variable="growth_rate">
+      <listOfParameters>
+        <parameter id="LINEAR_COEF" value="-0.204"/>
+        <parameter id="LINEAR_CONSTANT" value="0.908"/>
+        <parameter id="X_MIN" value="0"/>
+        <parameter id="X_MAX" value="2"/>
+        <parameter id="Y_MIN" value="0"/>
+        <parameter id="Y_MAX" value="1"/>
       </listOfParameters>
     </function>
   </listOfFunctions>

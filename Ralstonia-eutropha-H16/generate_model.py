@@ -14,7 +14,7 @@ import cobra
 def main():
     
     # make some inital modifications to sbml required for RBA
-    import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1.xml")
+    #import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1.xml")
     
     # inital run of model generation creates helper files
     reutropha = rba.RbaModel.from_data('params.in')
@@ -27,6 +27,9 @@ def main():
     
     # set k_app for selected reactions (from GECKO, optional)
     #reutropha.set_enzyme_efficiencies('data/enzyme_efficiency.tsv')
+    
+    # set total protein constraints for cell compartments
+    set_compartment_params(reutropha)
     
     # export to files
     reutropha.write()
@@ -88,6 +91,54 @@ def set_default_efficiencies(model):
     
     fn = model.parameters.functions.get_by_id('default_transporter_efficiency')
     fn.parameters.get_by_id('CONSTANT').value = 360000
+
+
+# set total protein constraints for cell compartments
+def set_compartment_params(model):
+    
+    # THE FOLLOWING VALUES WERE EXPERIMENTALLY DETERMINED USING MS
+    # For details, see R notebook 'Ralstonia eutropha model constraints'
+    # at https://github.com/m-jahn/R-notebooks
+    # ------------------------------------------------------------------
+    #
+    # remove old parameter constraints from model
+    pars = ([
+        'fraction_protein_Cytoplasm', 
+        'fraction_protein_Cell_membrane', 
+        'fraction_non_enzymatic_protein_Cytoplasm', 
+        'fraction_non_enzymatic_protein_Cell_membrane'])
+    
+    for par in pars:
+        fn = model.parameters.functions.get_by_id(par)
+        model.parameters.functions.remove(fn)
+    
+    # set secreted proteins to zero
+    fn = model.parameters.functions.get_by_id('fraction_protein_Secreted')
+    fn.parameters.get_by_id('CONSTANT').value = 0
+    
+    # set fraction of cytoplasmic proteins
+    par_frac_cp = {'LINEAR_COEF': 0.178, 'LINEAR_CONSTANT': 0.848, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    model.parameters.functions.append(
+        rba.xml.Function('fraction_protein_Cytoplasm', 'linear', par_frac_cp)
+    )
+    
+    # set fraction of membrane proteins
+    par_frac_mp = {'LINEAR_COEF': -0.178, 'LINEAR_CONSTANT': 0.152, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    model.parameters.functions.append(
+        rba.xml.Function('fraction_protein_Cell_membrane', 'linear', par_frac_mp)
+    )
+    
+    # set non-enzymatic fraction of protein for Cytoplasm
+    par_ne_cp = {'LINEAR_COEF': -0.613, 'LINEAR_CONSTANT': 0.610, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    model.parameters.functions.append(
+        rba.xml.Function('fraction_non_enzymatic_protein_Cytoplasm', 'linear', par_ne_cp)
+    )
+    
+    # set non-enzymatic fraction of protein for Cell membrane
+    par_ne_mp = {'LINEAR_COEF': -0.204, 'LINEAR_CONSTANT': 0.908, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    model.parameters.functions.append(
+        rba.xml.Function('fraction_non_enzymatic_protein_Cell_membrane', 'linear', par_ne_mp)
+    )
 
 
 if __name__ == "__main__":

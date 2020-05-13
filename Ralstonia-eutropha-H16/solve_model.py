@@ -18,7 +18,8 @@ def main():
     model = rba.RbaModel.from_xml(xml_dir)
     
     # optionally modify medium
-    c_fruc = [10**i for i in np.arange(-3.5, 0.25, 0.25)]
+    #[10**i for i in np.arange(-3.5, 0.25, 0.25)]
+    c_fruc = [10**i for i in [-3,-2,-1,0]]
     new_medium = model.medium
     
     # loop through a set of conditions
