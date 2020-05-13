@@ -1,0 +1,9 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+Q0K758	DNAJ_CUPNH	reviewed	Chaperone protein DnaJ	dnaJ H16_A3088	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	381
+Q0KBK5	TIG_CUPNH	reviewed	Trigger factor (TF) (EC 5.2.1.8) (PPIase)	tig H16_A1482	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	451
+Q0K8D7	HTPG_CUPNH	reviewed	Chaperone protein HtpG (Heat shock protein HtpG) (High temperature protein G)	htpG H16_A2654	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	633
+Q0KDR7	CH60_CUPNH	reviewed	60 kDa chaperonin (GroEL protein) (Protein Cpn60)	groL groEL H16_A0706	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	547
+Q0KCJ3	Q0KCJ3_CUPNH	unreviewed	Protein GrpE (HSP-70 cofactor)	grpE H16_A1137	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	186
+Q0KDR8	CH10_CUPNH	reviewed	10 kDa chaperonin (GroES protein) (Protein Cpn10)	groS groES H16_A0705	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	96
+Q0K757	DNAK_CUPNH	reviewed	Chaperone protein DnaK (HSP70) (Heat shock 70 kDa protein) (Heat shock protein 70)	dnaK H16_A3089	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	650
+Q0K967	HFQ_CUPNH	reviewed	RNA-binding protein Hfq	hfq H16_A2359	Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337) (Ralstonia eutropha)	79
