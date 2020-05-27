@@ -25,8 +25,11 @@ def main():
     # set k_app default efficiencies
     set_default_efficiencies(reutropha)
     
-    # set k_app for selected reactions (from GECKO, optional)
-    #reutropha.set_enzyme_efficiencies('data/enzyme_efficiency.tsv')
+    # set k_app for selected reactions
+    reutropha.set_enzyme_efficiencies('calibration/kapp_estimate.csv')
+    
+    # set maintenance demand
+    set_maintenance(reutropha)
     
     # set total protein constraints for cell compartments
     set_compartment_params(reutropha)
@@ -40,26 +43,8 @@ def main():
 # import model
 def import_sbml_model(model_path):
     
+    # import model from external dir
     model = cobra.io.read_sbml_model(model_path)
-    
-    # add (dummy) tRNA loading reaction for Asparagin 
-    # in the original model, tRNA-Asn is made from tRNA-Asp directly
-    # Reactions PRUK and RBPC (Rubisco enzyme) are added
-    model.add_metabolites(
-    cobra.Metabolite(
-        id = 'trnaasn_c',
-        name = 'tRNA(Asp)',
-        compartment = 'c',
-        charge = 0,
-        formula = 'C10H17O10PR2'))
-    
-    
-    ASNTRS = cobra.Reaction('ASNTRS')
-    ASNTRS.name = 'Asparaginyl-tRNA synthetase'
-    ASNTRS_string = 'asn__L_c + atp_c + trnaasn_c --> amp_c + asntrna_c + h_c + ppi_c'
-    model.add_reactions([ASNTRS])
-    model.reactions.ASNTRS.build_reaction_from_string(ASNTRS_string)
-    model.reactions.ASNTRS.gene_reaction_rule = 'H16_A0453'
     
     # replace all empty gene associations with UNKNOWN in order to
     # avoid spontaneous reactions (see RBApy manual)
@@ -67,9 +52,8 @@ def import_sbml_model(model_path):
         if r.gene_reaction_rule == '':
             r.gene_reaction_rule = 'UNKNOWN'
     
-    # manual curation of reactions that take part in artificial cycles
-    model.reactions.FDH.bounds = (0.0, 1000.0)
-    model.remove_reactions(['FRUpts2', 'ACt2r', 'ACACt2', 'MDH2'])
+    # remove original, superfluous maintenance reaction
+    model.remove_reactions(['Maintenance'])
     
     # export model as sbml.xml
     cobra.io.write_sbml_model(model, 'data/sbml.xml')
@@ -82,15 +66,29 @@ def set_default_efficiencies(model):
     # 12.5 * 3600 = 45000/h; Bulovic et al., 2019, RBApy
     # 65 * 3600 = 234000/h; Lloyd et al., 2018, CobraME
     # 172 * 3600 = 619200/h; Salvy et al., 2020, ETFL
+    # median of k_app parameter estimation = 10582
     
-    # systematically testing different default values revealed
-    # that transporter efficiency has little effect on µ compared to
-    # non transporter enzymes
     fn = model.parameters.functions.get_by_id('default_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 45000
+    fn.parameters.get_by_id('CONSTANT').value = 10582
     
     fn = model.parameters.functions.get_by_id('default_transporter_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 360000
+    fn.parameters.get_by_id('CONSTANT').value = 10582
+
+
+# set maintenance ATP consumption. Maintenance can consist of a growth-
+# dependent (constant) and independent term (coef)
+def set_maintenance(model):
+    
+    # In the original publication for the R. eutropha genome scale model,
+    # the growth- and non growth-associated maintenance in minimal medium were
+    # determined as 15.30 mmol gDCW-1 and 3.00 mmol gDCW-1 h-1, respectively. 
+    # A constant NGAM leads to higher yield at higher growth rate.
+    
+    fn = model.parameters.functions.get_by_id('maintenance_atp')
+    fn.parameters.get_by_id('LINEAR_CONSTANT').value = 3
+    fn.parameters.get_by_id('LINEAR_COEF').value = 15.3
+    fn.parameters.get_by_id('X_MIN').value = 0
+    fn.parameters.get_by_id('X_MAX').value = 1
 
 
 # set total protein constraints for cell compartments
@@ -129,13 +127,13 @@ def set_compartment_params(model):
     )
     
     # set non-enzymatic fraction of protein for Cytoplasm
-    par_ne_cp = {'LINEAR_COEF': -0.613, 'LINEAR_CONSTANT': 0.610, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    par_ne_cp = {'LINEAR_COEF': -0.632, 'LINEAR_CONSTANT': 0.585, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
     model.parameters.functions.append(
         rba.xml.Function('fraction_non_enzymatic_protein_Cytoplasm', 'linear', par_ne_cp)
     )
     
-    # set non-enzymatic fraction of protein for Cell membrane
-    par_ne_mp = {'LINEAR_COEF': -0.204, 'LINEAR_CONSTANT': 0.908, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    # set non-enzymatic fraction of protein for Cell membrane 
+    par_ne_mp = {'LINEAR_COEF': -0.309, 'LINEAR_CONSTANT': 0.854, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
     model.parameters.functions.append(
         rba.xml.Function('fraction_non_enzymatic_protein_Cell_membrane', 'linear', par_ne_mp)
     )

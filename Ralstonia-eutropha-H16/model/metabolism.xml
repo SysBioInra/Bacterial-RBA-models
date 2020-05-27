@@ -1,8 +1,8 @@
 <RBAMetabolism>
   <listOfCompartments>
+    <compartment id="Cytoplasm"/>
     <compartment id="Cell_membrane"/>
     <compartment id="Secreted"/>
-    <compartment id="Cytoplasm"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
@@ -192,7 +192,7 @@
     <species id="M_56dthm_c" boundaryCondition="false"/>
     <species id="M_thymd_e" boundaryCondition="true"/>
     <species id="M_mlzac_c" boundaryCondition="false"/>
-    <species id="M_bala_c" boundaryCondition="false"/>
+    <species id="M_ala_B_c" boundaryCondition="false"/>
     <species id="M_fadh2_c" boundaryCondition="false"/>
     <species id="M_3psme_c" boundaryCondition="false"/>
     <species id="M_im4act_c" boundaryCondition="false"/>
@@ -888,7 +888,7 @@
     <species id="M_c160_c" boundaryCondition="false"/>
     <species id="M_i3ac_c" boundaryCondition="false"/>
     <species id="M_citnl_c" boundaryCondition="false"/>
-    <species id="M_3opp_c" boundaryCondition="false"/>
+    <species id="M_msa_c" boundaryCondition="false"/>
     <species id="M_dxyl5p_c" boundaryCondition="false"/>
     <species id="M_cpppg3_c" boundaryCondition="false"/>
     <species id="M_25drapp_c" boundaryCondition="false"/>
@@ -1349,9 +1349,9 @@
     <species id="M_xtsn_e" boundaryCondition="true"/>
     <species id="M_2ag3pc_c" boundaryCondition="false"/>
     <species id="M_4fchdc_c" boundaryCondition="false"/>
+    <species id="M_trnaasn_c" boundaryCondition="false"/>
     <species id="M_rb15bp_c" boundaryCondition="false"/>
     <species id="M_4hba_c" boundaryCondition="false"/>
-    <species id="M_trnaasn_c" boundaryCondition="false"/>
   </listOfSpecies>
   <listOfReactions>
     <reaction id="R_EX_gln__L_e" reversible="false">
@@ -1468,7 +1468,7 @@
       </listOfReactants>
       <listOfProducts/>
     </reaction>
-    <reaction id="R_EX_fe2_e" reversible="false">
+    <reaction id="R_EX_fe2_e" reversible="true">
       <listOfReactants>
         <speciesReference species="M_fe2_e" stoichiometry="1.0"/>
       </listOfReactants>
@@ -4066,7 +4066,7 @@
         <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH" reversible="false">
+    <reaction id="R_FDH" reversible="true">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4076,7 +4076,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_2" reversible="false">
+    <reaction id="R_FDH_duplicate_2" reversible="true">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4086,7 +4086,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_3" reversible="false">
+    <reaction id="R_FDH_duplicate_3" reversible="true">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4096,7 +4096,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_4" reversible="false">
+    <reaction id="R_FDH_duplicate_4" reversible="true">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4106,7 +4106,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_5" reversible="false">
+    <reaction id="R_FDH_duplicate_5" reversible="true">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -4116,7 +4116,7 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_FDH_duplicate_6" reversible="false">
+    <reaction id="R_FDH_duplicate_6" reversible="true">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
@@ -5137,6 +5137,16 @@
         <speciesReference species="M_hophd_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
+    <reaction id="R_MDH2" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_mal__L_c" stoichiometry="1.0"/>
+        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_oaa_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
     <reaction id="R_BPHEDO2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_dhchph_c" stoichiometry="1.0"/>
@@ -5558,6 +5568,16 @@
       <listOfProducts>
         <speciesReference species="M_pi_c" stoichiometry="1.0"/>
         <speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_ACt2r" reversible="true">
+      <listOfReactants>
+        <speciesReference species="M_h_e" stoichiometry="1.0"/>
+        <speciesReference species="M_ac_e" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ac_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_ADOCBLS" reversible="false">
@@ -7026,7 +7046,7 @@
         <speciesReference species="M_xan_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ALATA_D" reversible="false">
+    <reaction id="R_ALATA_D2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_ala__D_c" stoichiometry="1.0"/>
         <speciesReference species="M_pydx5p_c" stoichiometry="1.0"/>
@@ -8509,7 +8529,7 @@
       <listOfProducts>
         <speciesReference species="M_co2_c" stoichiometry="1.0"/>
         <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_ALRTg" reversible="true">
@@ -9390,7 +9410,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_co2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_MNAO10" reversible="false">
@@ -10303,6 +10323,30 @@
       </listOfProducts>
     </reaction>
     <reaction id="R_CYTCOBO3" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
+        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_c" stoichiometry="4.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_e" stoichiometry="4.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_CYTCOBO3_duplicate_2" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
+        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_c" stoichiometry="4.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_e" stoichiometry="4.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_CYTCOBO3_duplicate_3" reversible="false">
       <listOfReactants>
         <speciesReference species="M_o2_c" stoichiometry="0.5"/>
         <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
@@ -11279,6 +11323,16 @@
         <speciesReference species="M_c181_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
+    <reaction id="R_ACACt2" reversible="true">
+      <listOfReactants>
+        <speciesReference species="M_acac_e" stoichiometry="1.0"/>
+        <speciesReference species="M_h_e" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h_c" stoichiometry="1.0"/>
+        <speciesReference species="M_acac_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
     <reaction id="R_PTRCORNt7" reversible="true">
       <listOfReactants>
         <speciesReference species="M_orn_c" stoichiometry="1.0"/>
@@ -11328,6 +11382,7 @@
         <speciesReference species="M_coa_c" stoichiometry="0.145"/>
         <speciesReference species="M_thf_c" stoichiometry="0.249"/>
         <speciesReference species="M_q8_c" stoichiometry="0.14"/>
+        <speciesReference species="M_hemeA_c" stoichiometry="0.0074"/>
         <speciesReference species="M_pydx5p_c" stoichiometry="0.449"/>
       </listOfReactants>
       <listOfProducts>
@@ -11582,7 +11637,7 @@
         <speciesReference species="M_pi_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ALAR" reversible="true">
+    <reaction id="R_ALAR" reversible="false">
       <listOfReactants>
         <speciesReference species="M_ala__L_c" stoichiometry="1.0"/>
       </listOfReactants>
@@ -11695,7 +11750,7 @@
         <speciesReference species="M_asp__D_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_DATA4" reversible="true">
+    <reaction id="R_ALATA_D" reversible="false">
       <listOfReactants>
         <speciesReference species="M_ala__D_c" stoichiometry="1.0"/>
         <speciesReference species="M_akg_c" stoichiometry="1.0"/>
@@ -13767,7 +13822,7 @@
     <reaction id="R_PAAD7" reversible="false">
       <listOfReactants>
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_3opp_c" stoichiometry="1.0"/>
+        <speciesReference species="M_msa_c" stoichiometry="1.0"/>
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_co2_c" stoichiometry="1.0"/>
@@ -14489,7 +14544,7 @@
       <listOfReactants>
         <speciesReference species="M_atp_c" stoichiometry="1.0"/>
         <speciesReference species="M_pant__R_c" stoichiometry="1.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_amp_c" stoichiometry="1.0"/>
@@ -16317,16 +16372,6 @@
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_gensa_c" stoichiometry="1.0"/>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_4AMBUAT" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
-        <speciesReference species="M_akg_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_glu__L_c" stoichiometry="1.0"/>
-        <speciesReference species="M_3opp_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_FBMO12" reversible="false">
@@ -18413,6 +18458,17 @@
         <speciesReference species="M_galctn__D_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
+    <reaction id="R_FRUpts2" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_fru_e" stoichiometry="1.0"/>
+        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_c" stoichiometry="1.0"/>
+        <speciesReference species="M_f6p_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
     <reaction id="R_CATCHD1" reversible="false">
       <listOfReactants>
         <speciesReference species="M_o2_c" stoichiometry="1.0"/>
@@ -18800,18 +18856,6 @@
         <speciesReference species="M_pi_c" stoichiometry="1.0"/>
         <speciesReference species="M_adp_c" stoichiometry="1.0"/>
         <speciesReference species="M_itcncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_P5CD2" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_glu5sa_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_glu__L_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="2.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_P5CD" reversible="false">
@@ -25474,578 +25518,6 @@
         <speciesReference species="M_succ_e" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ACOADH2" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_2" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_3" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_4" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_5" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_6" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_7" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_8" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_9" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_10" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_11" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_12" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_13" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_14" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_15" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_16" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_17" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_18" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_19" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_20" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_21" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_22" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_23" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_24" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_25" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_26" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_27" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_28" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_29" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_30" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_31" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_32" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_33" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_34" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_35" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_36" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_37" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_38" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_39" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_40" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_41" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_42" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_43" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_44" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_45" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_46" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_47" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_48" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_49" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_50" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_51" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ACOADH2_duplicate_52" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_ppcoa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_fadh2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_prpncoa_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
     <reaction id="R_ACOADH3" reversible="true">
       <listOfReactants>
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
@@ -27054,14 +26526,14 @@
         <speciesReference species="M_succ_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_BAPYRT" reversible="true">
+    <reaction id="R_APATr" reversible="true">
       <listOfReactants>
         <speciesReference species="M_ala__L_c" stoichiometry="1.0"/>
-        <speciesReference species="M_3opp_c" stoichiometry="1.0"/>
+        <speciesReference species="M_msa_c" stoichiometry="1.0"/>
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_UNK2" reversible="false">
@@ -27389,7 +26861,7 @@
         <speciesReference species="M_pi_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_LAAO3" reversible="true">
+    <reaction id="R_LAAO3" reversible="false">
       <listOfReactants>
         <speciesReference species="M_ile__L_c" stoichiometry="1.0"/>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
@@ -27401,7 +26873,7 @@
         <speciesReference species="M_3mop_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_LAAO3_duplicate_2" reversible="true">
+    <reaction id="R_LAAO3_duplicate_2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_ile__L_c" stoichiometry="1.0"/>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
@@ -28311,17 +27783,6 @@
       <listOfProducts>
         <speciesReference species="M_for_c" stoichiometry="1.0"/>
         <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_Maintenance" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_atp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pi_c" stoichiometry="1.0"/>
-        <speciesReference species="M_adp_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_CRNt7" reversible="false">
@@ -30271,7 +29732,7 @@
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_coa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_3opp_c" stoichiometry="1.0"/>
+        <speciesReference species="M_msa_c" stoichiometry="1.0"/>
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_accoa_c" stoichiometry="1.0"/>
@@ -30283,7 +29744,7 @@
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_coa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_3opp_c" stoichiometry="1.0"/>
+        <speciesReference species="M_msa_c" stoichiometry="1.0"/>
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_accoa_c" stoichiometry="1.0"/>
@@ -30295,7 +29756,7 @@
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_coa_c" stoichiometry="1.0"/>
-        <speciesReference species="M_3opp_c" stoichiometry="1.0"/>
+        <speciesReference species="M_msa_c" stoichiometry="1.0"/>
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_accoa_c" stoichiometry="1.0"/>
@@ -33276,7 +32737,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33288,7 +32749,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33300,7 +32761,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33312,7 +32773,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33324,7 +32785,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33336,7 +32797,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33348,7 +32809,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33360,7 +32821,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33372,7 +32833,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33384,7 +32845,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33396,7 +32857,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33408,7 +32869,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33420,7 +32881,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -33432,7 +32893,7 @@
       </listOfReactants>
       <listOfProducts>
         <speciesReference species="M_h_c" stoichiometry="2.0"/>
-        <speciesReference species="M_bala_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ala_B_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
@@ -37841,7 +37302,7 @@
         <speciesReference species="M_fadh2_c" stoichiometry="8.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ASPO1" reversible="true">
+    <reaction id="R_ASPO1" reversible="false">
       <listOfReactants>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
         <speciesReference species="M_asp__L_c" stoichiometry="1.0"/>
@@ -37853,7 +37314,7 @@
         <speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ASPO1_duplicate_2" reversible="true">
+    <reaction id="R_ASPO1_duplicate_2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
         <speciesReference species="M_asp__L_c" stoichiometry="1.0"/>
@@ -37865,7 +37326,7 @@
         <speciesReference species="M_h2o2_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ASPO1_duplicate_3" reversible="true">
+    <reaction id="R_ASPO1_duplicate_3" reversible="false">
       <listOfReactants>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
         <speciesReference species="M_asp__L_c" stoichiometry="1.0"/>
@@ -37901,32 +37362,6 @@
         <speciesReference species="M_4mop_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
         <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_LEUD3" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_3mop_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
-        <speciesReference species="M_ile__L_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_LEUD4" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
-        <speciesReference species="M_3mob_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_val__L_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_GLYD" reversible="false">
@@ -39350,6 +38785,28 @@
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
+    <reaction id="R_UPP3S" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_hmbil_c" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_uppg3_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_ASNTRS" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_asn__L_c" stoichiometry="1.0"/>
+        <speciesReference species="M_atp_c" stoichiometry="1.0"/>
+        <speciesReference species="M_trnaasn_c" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_amp_c" stoichiometry="1.0"/>
+        <speciesReference species="M_asntrna_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ppi_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
     <reaction id="R_HCO3E" reversible="true">
       <listOfReactants>
         <speciesReference species="M_co2_c" stoichiometry="1.0"/>
@@ -39451,19 +38908,6 @@
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
         <speciesReference species="M_ppi_c" stoichiometry="1.0"/>
         <speciesReference species="M_4hba_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_ASNTRS" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_asn__L_c" stoichiometry="1.0"/>
-        <speciesReference species="M_atp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_trnaasn_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_amp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_asntrna_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_ppi_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_maintenance_atp" reversible="false">

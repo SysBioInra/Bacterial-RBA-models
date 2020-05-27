@@ -18,8 +18,7 @@ def main():
     model = rba.RbaModel.from_xml(xml_dir)
     
     # optionally modify medium
-    #[10**i for i in np.arange(-3.5, 0.25, 0.25)]
-    c_fruc = [10**i for i in [-3,-2,-1,0]]
+    c_fruc = [round(10**i, 5) for i in np.arange(-3, -0.875, 0.125)]#[0.001, 0.01, 0.1, 1]
     new_medium = model.medium
     
     # loop through a set of conditions
@@ -35,27 +34,25 @@ def main():
         report_results(result,
             output_dir = output_dir,
             output_suffix = '_fru_' + str(conc) + '.tsv',
-            substrate ='R_FRUabc',  
-            substrate_MW = 0.18
+            substrate_TR ='R_FRUabc',  
+            substrate_MW = 0.18016
             )
 
 
 def report_results(
     result, output_dir, output_suffix,
-    substrate = None, substrate_MW = None):
+    substrate_TR = None, substrate_MW = None):
     
     # calculate yield
     # flux in mmol g_bm^-1 h^-1 needs to be converted to g substrate;
     # for fructose: MW = 180.16 g/mol = 0.18 g/mmol
-    if substrate:
-        yield_subs = result.mu_opt / (result.reaction_fluxes()[substrate] * substrate_MW)
+    if substrate_TR:
+        yield_subs = result.mu_opt / (result.reaction_fluxes()[substrate_TR] * substrate_MW)
     
     # export summary fluxes per reaction
     result.write_fluxes(
         output_dir + 'fluxes' + output_suffix,
         file_type = 'tsv',
-        merge_isozyme_reactions = True,
-        only_nonzero = True,
         remove_prefix = True)
     
     # export enzyme concentrations
@@ -67,17 +64,18 @@ def report_results(
     ma = result.process_machinery_concentrations()
     ma['P_ENZ'] = sum(result.enzyme_concentrations().values())
     ma['mu'] = result.mu_opt
-    if substrate:
+    if substrate_TR:
         ma['yield'] = yield_subs
     with open(output_dir + 'macroprocesses' + output_suffix, 'w') as fout:
         fout.write('\n'.join(['{}\t{}'.format(k, v) for k, v in ma.items()]))
     
     # print µ_max and yield to terminal
-    print('\n----- SUMMARY -----')
-    print('\nOptimal growth rate is {}.'.format(result.mu_opt))
+    print('\n----- SUMMARY -----\n')
+    print('Optimal growth rate is {}.'.format(result.mu_opt))
     print('Yield on substrate is {}.'.format(yield_subs))
-    # print top exchange fluxes
-    result.print_main_transport_reactions()
+    print('\n----- BOUNDARY FLUXES -----\n')
+    for r in result.sorted_boundary_fluxes():
+        print(r)
 
 
 if __name__ == '__main__':

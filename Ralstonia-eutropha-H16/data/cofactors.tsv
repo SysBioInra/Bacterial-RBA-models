@@ -41,3 +41,4 @@ Q0K790	CHEBI:18420	Mg(2+)	1	 Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:
 Q0K790	CHEBI:29035	Mn(2+)	0	 Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000256|RuleBase:RU004446}; Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000256|RuleBase:RU004446}; 
 Q0JZW1	CHEBI:18420	Mg(2+)	1	Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000256|PIRSR:PIRSR009407-3};
 Q0JZW1	CHEBI:29035	Mn(2+)	0	Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000256|PIRSR:PIRSR009407-3};
+Q0KES8	CHEBI:23378	Cu cation	[MISSING]	Binds a copper A center. {ECO:0000256|RuleBase:RU004024};

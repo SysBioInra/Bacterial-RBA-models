@@ -2,9 +2,9 @@
   <listOfTargetGroups>
     <targetGroup id="translation_targets">
       <listOfConcentrations>
+        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
         <targetSpecies value="nonenzymatic_proteins_Cell_membrane" species="average_protein_Cell_membrane"/>
         <targetSpecies value="nonenzymatic_proteins_Secreted" species="average_protein_Secreted"/>
-        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="transcription_targets">
@@ -71,6 +71,7 @@
         <targetSpecies value="M_PHOSPHOLIPID_c_concentration" species="M_PHOSPHOLIPID_c"/>
         <targetSpecies value="M_DNA_c_concentration" species="M_DNA_c"/>
         <targetSpecies value="M_RNA_c_concentration" species="M_RNA_c"/>
+        <targetSpecies value="M_phb_c_concentration" species="M_phb_c"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="maintenance_atp_target">
