@@ -66,13 +66,13 @@ def set_default_efficiencies(model):
     # 12.5 * 3600 = 45000/h; Bulovic et al., 2019, RBApy
     # 65 * 3600 = 234000/h; Lloyd et al., 2018, CobraME
     # 172 * 3600 = 619200/h; Salvy et al., 2020, ETFL
-    # median of k_app parameter estimation = 10582
+    # median of k_app parameter estimation = 9145
     
     fn = model.parameters.functions.get_by_id('default_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 10582
+    fn.parameters.get_by_id('CONSTANT').value = 9145
     
     fn = model.parameters.functions.get_by_id('default_transporter_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 10582
+    fn.parameters.get_by_id('CONSTANT').value = 9145
 
 
 # set maintenance ATP consumption. Maintenance can consist of a growth-
