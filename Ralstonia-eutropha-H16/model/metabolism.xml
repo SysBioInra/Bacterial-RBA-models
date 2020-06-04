@@ -1,8 +1,8 @@
 <RBAMetabolism>
   <listOfCompartments>
-    <compartment id="Cytoplasm"/>
-    <compartment id="Cell_membrane"/>
     <compartment id="Secreted"/>
+    <compartment id="Cell_membrane"/>
+    <compartment id="Cytoplasm"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
@@ -1352,6 +1352,7 @@
     <species id="M_trnaasn_c" boundaryCondition="false"/>
     <species id="M_rb15bp_c" boundaryCondition="false"/>
     <species id="M_4hba_c" boundaryCondition="false"/>
+    <species id="M_h2_e" boundaryCondition="true"/>
   </listOfSpecies>
   <listOfReactions>
     <reaction id="R_EX_gln__L_e" reversible="false">
@@ -2490,29 +2491,6 @@
         <speciesReference species="M_2ohph_c" stoichiometry="1.0"/>
         <speciesReference species="M_h_c" stoichiometry="3.0"/>
         <speciesReference species="M_adp_c" stoichiometry="2.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_DHFR2" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_dhf_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fol_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_DHFR3" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_h2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fol_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_thf_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_DBTS" reversible="false">
@@ -3765,96 +3743,6 @@
       <listOfProducts>
         <speciesReference species="M_acald_c" stoichiometry="1.0"/>
         <speciesReference species="M_gly_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK3" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_dgtp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_dgdp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK3_duplicate_2" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_dgtp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_dgdp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK3_duplicate_3" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_dgtp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_dgdp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK1" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_datp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_dadp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK1_duplicate_2" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_datp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_dadp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK1_duplicate_3" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_datp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_dadp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK2" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-        <speciesReference species="M_gtp_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_gdp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK2_duplicate_2" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-        <speciesReference species="M_gtp_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_gdp_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_PYK2_duplicate_3" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
-        <speciesReference species="M_gtp_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-        <speciesReference species="M_gdp_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_TAh" reversible="true">
@@ -14311,21 +14199,6 @@
         <speciesReference species="M_adp_c" stoichiometry="2.0"/>
         <speciesReference species="M_2omhmbl_c" stoichiometry="1.0"/>
         <speciesReference species="M_h_c" stoichiometry="3.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_CBBCYC" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_co2_c" stoichiometry="3.0"/>
-        <speciesReference species="M_atp_c" stoichiometry="9.0"/>
-        <speciesReference species="M_h2o_c" stoichiometry="5.0"/>
-        <speciesReference species="M_nadph_c" stoichiometry="6.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_nadp_c" stoichiometry="6.0"/>
-        <speciesReference species="M_h_c" stoichiometry="3.0"/>
-        <speciesReference species="M_adp_c" stoichiometry="9.0"/>
-        <speciesReference species="M_pi_c" stoichiometry="8.0"/>
-        <speciesReference species="M_g3p_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_GTHS" reversible="false">
@@ -30166,17 +30039,6 @@
         <speciesReference species="M_adp_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_DHFR2p" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_nadp_c" stoichiometry="1.0"/>
-        <speciesReference species="M_dhf_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_nadph_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_fol_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
     <reaction id="R_ACDH3" reversible="false">
       <listOfReactants>
         <speciesReference species="M_2o3e_c" stoichiometry="1.0"/>
@@ -31185,18 +31047,6 @@
       <listOfProducts>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
         <speciesReference species="M_pep_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_DHFR3p" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_fol_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadph_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h2_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_thf_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadp_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_ALAAPT" reversible="false">
@@ -38908,6 +38758,30 @@
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
         <speciesReference species="M_ppi_c" stoichiometry="1.0"/>
         <speciesReference species="M_4hba_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_HYDS" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h_c" stoichiometry="1.0"/>
+        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_EX_h2_e" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_h2_e" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts/>
+    </reaction>
+    <reaction id="R_H2td" reversible="true">
+      <listOfReactants>
+        <speciesReference species="M_h2_c" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h2_e" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_maintenance_atp" reversible="false">

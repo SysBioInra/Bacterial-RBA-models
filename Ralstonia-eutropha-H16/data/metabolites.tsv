@@ -81,7 +81,7 @@ CHEBI:58937	thiamine diphosphate	M_thmpp_c	0
 CHEBI:29105	Zn(2+)	[MISSING]	0
 CHEBI:597326	pyridoxal 5'-phosphate	M_pydx5p_c	0
 CHEBI:24875	Fe cation	M_fe2_c	0
-CHEBI:60344	heme b	M_hemeA_c	0
+CHEBI:60344	heme b	M_hemeA_c	0.000222
 CHEBI:60342	dipyrromethane	[MISSING]	0
 CHEBI:57540	NAD(+)	M_nad_c	0
 CHEBI:30413	heme	M_hemeA_c	0

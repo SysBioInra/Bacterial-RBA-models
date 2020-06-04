@@ -1331,3 +1331,10 @@ Q0KB48	1	cyoC2 H16_A1641	Bo3-type quinol oxidase, subunit III (EC 1.10.3.-)	[MIS
 Q0KB46	1	cyoA2 H16_A1643	Ubiquinol oxidase subunit 2	[MISSING]
 Q0K2F6	1	cyoC3 H16_B1027	Bo3-type chinol oxidase, subunit III (EC 1.10.3.-)	[MISSING]
 Q0KCQ7	1	cyoC1 H16_A1073	Bo3-type quinol oxidase, subunit III (EC 1.10.3.-)	[MISSING]
+P31891	1	hoxG PHG002	Uptake hydrogenase large subunit (EC 1.12.99.6) (Hydrogenlyase) (Membrane-bound hydrogenase large subunit)	SUBUNIT: Heterodimer of a large and a small subunit.
+P22320	1	hoxH PHG091	NAD-reducing hydrogenase HoxS subunit beta (EC 1.12.1.2)	SUBUNIT: Tetramer of an alpha and a gamma subunits (flavin-containing dimer), and a delta and a nickel-containing beta subunits (hydrogenase dimer).
+P22319	1	hoxY PHG090	NAD-reducing hydrogenase HoxS subunit delta (EC 1.12.1.2)	SUBUNIT: Tetramer of an alpha and a gamma subunits (flavin-containing dimer), and a delta and a nickel-containing beta subunits (hydrogenase dimer).
+P31898	1	hoxZ PHG003	Probable Ni/Fe-hydrogenase B-type cytochrome subunit	[MISSING]
+P22317	1	hoxF PHG088	NAD-reducing hydrogenase HoxS subunit alpha (EC 1.12.1.2)	SUBUNIT: Tetramer of an alpha and a gamma subunits (flavin-containing dimer), and a delta and a nickel-containing beta subunit (hydrogenase dimer).
+P31892	1	hoxK PHG001	Uptake hydrogenase small subunit (EC 1.12.99.6) (Hydrogenlyase) (Membrane-bound hydrogenase small subunit)	SUBUNIT: Heterodimer of a large and a small subunit.
+P22318	1	hoxU PHG089	NAD-reducing hydrogenase HoxS subunit gamma (EC 1.12.1.2)	SUBUNIT: Tetramer of an alpha and a gamma subunits (flavin-containing dimer), and a delta and a nickel-containing beta subunits (hydrogenase dimer).

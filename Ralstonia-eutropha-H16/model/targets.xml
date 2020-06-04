@@ -2,9 +2,9 @@
   <listOfTargetGroups>
     <targetGroup id="translation_targets">
       <listOfConcentrations>
-        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
-        <targetSpecies value="nonenzymatic_proteins_Cell_membrane" species="average_protein_Cell_membrane"/>
         <targetSpecies value="nonenzymatic_proteins_Secreted" species="average_protein_Secreted"/>
+        <targetSpecies value="nonenzymatic_proteins_Cell_membrane" species="average_protein_Cell_membrane"/>
+        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="transcription_targets">
@@ -60,6 +60,7 @@
         <targetSpecies value="K_concentration" species="M_k_c"/>
         <targetSpecies value="PPi_concentration" species="M_ppi_c"/>
         <targetSpecies value="10FTHF_concentration" species="M_10fthf_c"/>
+        <targetSpecies value="CHEBI:60344_concentration" species="M_hemeA_c"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="macrocomponent_production">
