@@ -22,11 +22,14 @@ def main():
     # set a growth medium
     reutropha.set_medium('data/medium.tsv')
     
+    # add replication and transcription machinery
+    update_processes(reutropha)
+    
     # set k_app default efficiencies
     set_default_efficiencies(reutropha)
     
     # set k_app for selected reactions
-    reutropha.set_enzyme_efficiencies('calibration/kapp_estimate.csv')
+    reutropha.set_enzyme_efficiencies('calibration/kapp_consensus.csv')
     
     # set maintenance demand
     set_maintenance(reutropha)
@@ -38,9 +41,9 @@ def main():
     reutropha.write()
 
 
+
 # the following function imports the genome scale model from remote
 # location and implements some changes important for making RBA model
-# import model
 def import_sbml_model(model_path):
     
     # import model from external dir
@@ -59,6 +62,23 @@ def import_sbml_model(model_path):
     cobra.io.write_sbml_model(model, 'data/sbml.xml')
 
 
+# customize some process parameters
+def update_processes(model):
+       
+    # Adjust target (steady-state) concentrations for DNA and RNA from 
+    # RBApy default to the ones from R.e. biomass equation (Park et al., 2011)
+    fn = model.parameters.functions.get_by_id('mrna_concentration')
+    fn.parameters.get_by_id('CONSTANT').value = 0.06
+    
+    fn = model.parameters.functions.get_by_id('dna_concentration')
+    fn.parameters.get_by_id('CONSTANT').value = 0.031
+    
+    # Remove test processes from default model that are not neccessary
+    # for pr in ['test_process_0', 'test_process_1', 'test_process_2']:
+        # pr = model.processes.processes.get_by_id(pr)
+        # model.processes.processes.remove(pr)
+
+
 # set k_app default efficiencies analogous to E.coli
 def set_default_efficiencies(model):
     
@@ -66,13 +86,13 @@ def set_default_efficiencies(model):
     # 12.5 * 3600 = 45000/h; Bulovic et al., 2019, RBApy
     # 65 * 3600 = 234000/h; Lloyd et al., 2018, CobraME
     # 172 * 3600 = 619200/h; Salvy et al., 2020, ETFL
-    # median of k_app parameter estimation = 9145
+    # median of k_app parameter estimation = 9159
     
     fn = model.parameters.functions.get_by_id('default_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 9145
+    fn.parameters.get_by_id('CONSTANT').value = 9159
     
     fn = model.parameters.functions.get_by_id('default_transporter_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 9145
+    fn.parameters.get_by_id('CONSTANT').value = 9159
 
 
 # set maintenance ATP consumption. Maintenance can consist of a growth-
@@ -114,26 +134,26 @@ def set_compartment_params(model):
     fn = model.parameters.functions.get_by_id('fraction_protein_Secreted')
     fn.parameters.get_by_id('CONSTANT').value = 0
     
-    # set fraction of cytoplasmic proteins
-    par_frac_cp = {'LINEAR_COEF': 0.178, 'LINEAR_CONSTANT': 0.848, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    # set fraction of cytoplasmic proteins       
+    par_frac_cp = {'LINEAR_COEF': 0.1060, 'LINEAR_CONSTANT': 0.8684, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
     model.parameters.functions.append(
         rba.xml.Function('fraction_protein_Cytoplasm', 'linear', par_frac_cp)
     )
     
     # set fraction of membrane proteins
-    par_frac_mp = {'LINEAR_COEF': -0.178, 'LINEAR_CONSTANT': 0.152, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    par_frac_mp = {'LINEAR_COEF': -0.1060, 'LINEAR_CONSTANT': 0.1316, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
     model.parameters.functions.append(
         rba.xml.Function('fraction_protein_Cell_membrane', 'linear', par_frac_mp)
     )
     
     # set non-enzymatic fraction of protein for Cytoplasm
-    par_ne_cp = {'LINEAR_COEF': -0.632, 'LINEAR_CONSTANT': 0.585, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    par_ne_cp = {'LINEAR_COEF': -0.5657, 'LINEAR_CONSTANT': 0.5374, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
     model.parameters.functions.append(
         rba.xml.Function('fraction_non_enzymatic_protein_Cytoplasm', 'linear', par_ne_cp)
     )
     
-    # set non-enzymatic fraction of protein for Cell membrane 
-    par_ne_mp = {'LINEAR_COEF': -0.309, 'LINEAR_CONSTANT': 0.854, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
+    # set non-enzymatic fraction of protein for Cell membrane
+    par_ne_mp = {'LINEAR_COEF': -0.2144, 'LINEAR_CONSTANT': 0.8415, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
     model.parameters.functions.append(
         rba.xml.Function('fraction_non_enzymatic_protein_Cell_membrane', 'linear', par_ne_mp)
     )

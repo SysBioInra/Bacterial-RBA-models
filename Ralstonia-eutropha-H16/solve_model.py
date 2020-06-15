@@ -15,7 +15,7 @@ def main():
     
     # set input and output paths
     xml_dir = 'model/'
-    output_dir = 'simulation/variability_analysis/fructose/'
+    output_dir = 'simulation/'
     
     # load model, build matrices
     model = rba.RbaModel.from_xml(xml_dir)
@@ -23,24 +23,31 @@ def main():
     # optionally modify medium
     orig_medium = model.medium
     orig_medium['M_fru'] = 0
+    #orig_medium['M_for'] = 10
     substrate = pd.read_csv('simulation/substrate_variability.csv')
+    
+    # A) simulation for different substrates OR
+    simulate_substrate(model, substrate, orig_medium, output_dir)
+    
+    # B) simulation for different k_apps
+    #iterations = 200
+    #simulate_variability(model, iterations, orig_medium, output_dir)
+
+
+def simulate_substrate(model, substrate, orig_medium, output_dir):
     
     # run several simulations in a loop
     for index, row in substrate.iterrows():
-        
-        # optionally randomly sample kapp values
-        model2 = copy.deepcopy(model)
-        randomize_efficiency(model2, log10_boundary = 2)
         
         # add target substrate concentration to minimal medium
         new_medium = orig_medium.copy()
         new_medium[row['carbon_source']] = row['carbon_conc']
         new_medium[row['nitrogen_source']] = row['nitrogen_conc']
-        model2.medium = new_medium
+        model.medium = new_medium
         
         # solve model
         try:
-            result = model2.solve()
+            result = model.solve()
             # report results; for yield calculation supply transport
             # reaction and MW of substrate
             report_results(result,
@@ -49,6 +56,38 @@ def main():
                 substrate_TR = row['substrate_TR'],  
                 substrate_MW = row['substrate_MW']
                 )
+        except TypeError:
+            print('model not solvable due to matrix inconsistency')
+
+
+def simulate_variability(model, iterations, orig_medium, output_dir):
+    
+    # assign medium, and iterator
+    model.medium = orig_medium
+    completed_cycles = 1
+    
+    # run several simulations in a loop
+    while completed_cycles <= iterations:
+        
+        # optionally randomly sample kapp values
+        model2 = copy.deepcopy(model)
+        randomize_efficiency(model2, log10_mean = 4, log10_sd = 1.06)
+        
+        # solve model
+        try:
+            result = model2.solve()
+            # report results; for yield calculation supply transport
+            # reaction and MW of substrate
+            if result.mu_opt > 0:                
+                report_results(result,
+                    output_dir = output_dir,
+                    output_suffix = '_iteration_{:0>3}.tsv'.format(completed_cycles),
+                    substrate_TR = 'R_FORt',
+                    substrate_MW = 0.04603
+                    )
+                completed_cycles = completed_cycles + 1
+            else:
+                print('growth rate is zero, discarding result')
         except TypeError:
             print('model not solvable due to matrix inconsistency')
 
@@ -100,7 +139,9 @@ def report_results(
         print(r)
 
 
-def randomize_efficiency(model, log10_boundary = 1):
+def randomize_efficiency(
+    model, log10_mean = 4, 
+    log10_sd = 1):
     
     # get default efficiency
     fn = model.parameters.functions.get_by_id('default_efficiency')
@@ -108,8 +149,9 @@ def randomize_efficiency(model, log10_boundary = 1):
     
     for e in model.enzymes.enzymes:
         
-        # generate a random factor from a log continuous interval of 10^-1 to 10^1
-        rand_factor = 10**(log10_boundary*2*np.random.random_sample((1, ))[0]-log10_boundary)
+        # generate a random enzyme efficiency from a log normal distribution
+        # (see O'Brien et al., PLOS Comp Bio, 2016)
+        rand_eff = 10**((np.random.randn(1, )[0]*log10_sd)+log10_mean)
         
         for eff in ['forward_efficiency', 'backward_efficiency']:
             # 2 scenarios: either the enzyme has a defined enzyme efficiency
@@ -123,7 +165,7 @@ def randomize_efficiency(model, log10_boundary = 1):
                     rba.xml.Function(
                         id_eff, 
                         'constant', 
-                        {'CONSTANT': def_efficiency * rand_factor}
+                        {'CONSTANT': rand_eff}
                     )
                 )
             
@@ -140,8 +182,8 @@ def randomize_efficiency(model, log10_boundary = 1):
                     id_eff = getattr(e, eff)
                 if not is_transporter:
                     fn = model.parameters.functions.get_by_id(id_eff)
-                    orig_eff = fn.parameters.get_by_id('CONSTANT').value
-                    fn.parameters.get_by_id('CONSTANT').value = orig_eff * rand_factor
+                    #orig_eff = fn.parameters.get_by_id('CONSTANT').value
+                    fn.parameters.get_by_id('CONSTANT').value = rand_eff
 
 
 if __name__ == '__main__':

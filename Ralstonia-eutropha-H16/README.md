@@ -42,11 +42,22 @@ This first run downloaded `data/uniprot.csv`, generated helper files `data/*.tsv
 
  - `location_map.tsv`: the uniprot compartment names were mapped to generic names (such as `Cytoplasm`)
  - `metabolites.tsv`: this table contains target metabolite concentrations for basic biomolecules and cofactors (for example `ATP`, `dATP`, `thiamin`, and so on). Molecules that are already contained in macrocomponents were set to zero. One exception are some nucleotide species that are present in more detail compared to macrocomponent reactions.
- - `macrocomponents.tsv`: This table was supplemented with all major cell components (`RNA`, `DNA`, `PEPTIDOGLYCAN`, and so on) and corresponding target concentrations from the original model's biomass equation
+ - `macrocomponents.tsv`: This table was supplemented with all major cell components (such as lipopolysaccharides, peptidoglycan, cofactors, and so on) and corresponding target concentrations from the original model's biomass equation. Target fluxes to other metabolites can be defined here as well, such as flux to PHB.
  - `medium.tsv`: added new minimal medium.
  - `subunits.tsv`: updated some protein stoichiometries (ATP synthase).
  - `unknown_proteins.tsv`: (empty) the SBML model contains no genes that could not be mapped
 
+Two additional macroprocesses were added, **transcription of DNA to mRNA**, and **DNA replication**. 
+The RBApy source code was adapted to automatically load protein associations from `transcription.fasta` and `replication.fasta` (see [github fork extra processes](https://github.com/m-jahn/RBApy/tree/extra_processes)). Adding machinery for transcription (TSC) was based on the following assumptions:
+
+ - We need **a capacity constraint**, effectively the transcription rate per RNA polymerase unit that is added to parameters. On bionumbers, several values in the range of 20-80 nt per second per unit RNA polymerase are given. We take the most recent estimate for *E. coli*, 62 nt/s or 223200 nt/h (source: Epshtein V, Nudler E. Cooperation between RNA polymerase molecules in transcription elongation. Science. 2003 May 2 300(5620):801-5.). PubMed ID12730602.
+- We need **proteins that catalyze transcription** (RNA polymerase complex). The canonical RNA polymerase in bacteria consists of 2 alpha, 1 beta, 1 beta prime, and 1 omega subunit. When a sigma factor is associated with the core, the holoenzyme is formed, which can initiate transcription. Four proteins were added as important sigma factors, rpoD1, D2, rpoS, and rpoN, each with partial contribution of 0.25 (source: uniprot.org, subunit structure).
+
+Adding machinery for replication (REP) was based on the following assumptions:
+
+- DNA replication is mainly catalyzed by DNA-dependent DNA polymerase III. We need to add a rate for this enzyme. Bionumbers gives estimates from 600-1000 nt/s, so on average 800 nt/s or 2880000 nt/h.
+- DNA polymerase III contains a core (composed of alpha, epsilon and theta chains) that associates with a tau subunit. This core dimerizes to form the POLIII complex. PolIII associates with the gamma complex (composed of gamma, delta, delta prime, psi and chi chains) and with the beta chain to form the complete DNA polymerase III complex.
+Additionally DNA helicase (hexamer), DNA (primase monomer), and DNA beta clamp (dimer) was added. The theta subunit (holE) is missing (`'Q0KD75': 2, 'Q0K8W5': 2, 'Q0K937': 3, 'Q0K709': 1, 'Q0KBB9': 1, 'Q0K7F6': 1, 'Q0K9E9': 6, 'Q0K866': 1, 'Q0KFR7': 2`). Source: uniprot.org, subunit structure.
 
 ### Step 3: Generate and solve full model
 

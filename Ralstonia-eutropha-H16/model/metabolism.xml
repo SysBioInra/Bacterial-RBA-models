@@ -1,8 +1,8 @@
 <RBAMetabolism>
   <listOfCompartments>
-    <compartment id="Secreted"/>
-    <compartment id="Cell_membrane"/>
     <compartment id="Cytoplasm"/>
+    <compartment id="Cell_membrane"/>
+    <compartment id="Secreted"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
@@ -3347,6 +3347,54 @@
       </listOfProducts>
     </reaction>
     <reaction id="R_CYTBD" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
+        <speciesReference species="M_h_c" stoichiometry="2.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_e" stoichiometry="2.0"/>
+        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_CYTBD_duplicate_2" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
+        <speciesReference species="M_h_c" stoichiometry="2.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_e" stoichiometry="2.0"/>
+        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_CYTBD_duplicate_3" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
+        <speciesReference species="M_h_c" stoichiometry="2.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_e" stoichiometry="2.0"/>
+        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_CYTBD_duplicate_4" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
+        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
+        <speciesReference species="M_h_c" stoichiometry="2.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_e" stoichiometry="2.0"/>
+        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_CYTBD_duplicate_5" reversible="false">
       <listOfReactants>
         <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
         <speciesReference species="M_o2_c" stoichiometry="0.5"/>
@@ -10211,30 +10259,6 @@
       </listOfProducts>
     </reaction>
     <reaction id="R_CYTCOBO3" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
-        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="4.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_e" stoichiometry="4.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_CYTCOBO3_duplicate_2" reversible="false">
-      <listOfReactants>
-        <speciesReference species="M_o2_c" stoichiometry="0.5"/>
-        <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_c" stoichiometry="4.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_q8_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
-        <speciesReference species="M_h_e" stoichiometry="4.0"/>
-      </listOfProducts>
-    </reaction>
-    <reaction id="R_CYTCOBO3_duplicate_3" reversible="false">
       <listOfReactants>
         <speciesReference species="M_o2_c" stoichiometry="0.5"/>
         <speciesReference species="M_q8h2_c" stoichiometry="1.0"/>
