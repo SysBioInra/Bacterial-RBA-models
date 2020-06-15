@@ -1131,3 +1131,5 @@ Q0K2F5	cyoD3 H16_B1028	Bo3-type chinol oxidase, subunit IV (EC 1.10.3.-)	Cell_me
 Q0KCQ8	cyoB1 H16_A1072	Bo3-type quinol oxidase, subunit I (EC 1.10.3.-)	Cell_membrane
 Q0KB49	cyoD2 H16_A1640	Bo3-type quinol oxidase, subunit IV (EC 1.10.3.-)	Cell_membrane
 Q0KCQ6	cyoD1 H16_A1074	Bo3-type quinol oxidase, subunit IV (EC 1.10.3.-)	Cell_membrane
+Q0K207	cydB1 H16_B1176	Bd-type quinol oxidase subunit II (EC 1.10.3.-)	Cytoplasm
+Q0K174	cydB2 H16_B1462	Bd-type quinol oxidase subunit I (EC 1.10.3.-)	Cytoplasm
