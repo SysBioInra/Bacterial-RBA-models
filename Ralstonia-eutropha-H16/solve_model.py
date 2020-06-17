@@ -15,16 +15,17 @@ def main():
     
     # set input and output paths
     xml_dir = 'model/'
-    output_dir = 'simulation/'
+    output_dir = 'simulation/substrate_limitation/'
     
     # load model, build matrices
     model = rba.RbaModel.from_xml(xml_dir)
     
     # optionally modify medium
     orig_medium = model.medium
-    orig_medium['M_fru'] = 0
+    orig_medium['M_fru'] = 0.1
+    #orig_medium['M_nh4'] = 10
     #orig_medium['M_for'] = 10
-    substrate = pd.read_csv('simulation/substrate_variability.csv')
+    substrate = pd.read_csv('simulation/substrate_limitation.csv')
     
     # A) simulation for different substrates OR
     simulate_substrate(model, substrate, orig_medium, output_dir)
@@ -102,6 +103,10 @@ def report_results(
     if substrate_TR:
         yield_subs = result.mu_opt / (result.reaction_fluxes()[substrate_TR] * substrate_MW)
     
+    # calculate compartment occupancy ('density status')
+    ds_mem = result.density_status("Cell_membrane")
+    ds_cyt = result.density_status("Cytoplasm")
+    
     # export summary fluxes per reaction
     result.write_fluxes(
         output_dir + 'fluxes' + output_suffix,
@@ -114,7 +119,6 @@ def report_results(
         index_col = 0, 
         header = None)
     fluxes.to_csv(output_dir + 'fluxes' + re.sub('tsv', 'csv', output_suffix))
-    
     
     # export enzyme concentrations
     result.write_proteins(
@@ -134,6 +138,8 @@ def report_results(
     print('\n----- SUMMARY -----\n')
     print('Optimal growth rate is {}.'.format(result.mu_opt))
     print('Yield on substrate is {}.'.format(yield_subs))
+    print('Cell membrane occupancy is {} %.'.format(round(100*ds_mem[0]/ds_mem[1], 3)))
+    print('Cytoplasm occupancy is {} %.'.format(round(100*ds_cyt[0]/ds_cyt[1], 3)))
     print('\n----- BOUNDARY FLUXES -----\n')
     for r in result.sorted_boundary_fluxes():
         print(r)

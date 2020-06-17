@@ -4,6 +4,7 @@
 from __future__ import absolute_import, division, print_function
 
 # package imports
+import re
 import rba
 import cobra
 
@@ -14,7 +15,7 @@ import cobra
 def main():
     
     # make some inital modifications to sbml required for RBA
-    #import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1.xml")
+    import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1.xml")
     
     # inital run of model generation creates helper files
     reutropha = rba.RbaModel.from_data('params.in')
@@ -51,9 +52,16 @@ def import_sbml_model(model_path):
     
     # replace all empty gene associations with UNKNOWN in order to
     # avoid spontaneous reactions (see RBApy manual)
+    # An exception are gas and small ion (facilitated) diffusion reactions
     for r in model.reactions:
         if r.gene_reaction_rule == '':
-            r.gene_reaction_rule = 'UNKNOWN'
+            if r.id in (['H2Ot', 'CO2t', 'O2t', 'NH4t', 'Ktr', 
+                'PIt2r', 'NAt3_1g', 'SO4t', 'MG2t', 'H2td']):
+                r.gene_reaction_rule = ''
+            elif re.search('t[0-9]?r?$|abc$|pts$', r.id):
+                r.gene_reaction_rule = 'UNKNOWN_TRANSPORTER'
+            else:
+                r.gene_reaction_rule = 'UNKNOWN'
     
     # remove original, superfluous maintenance reaction
     model.remove_reactions(['Maintenance'])
@@ -114,13 +122,14 @@ def set_maintenance(model):
 # set total protein constraints for cell compartments
 def set_compartment_params(model):
     
-    # THE FOLLOWING VALUES WERE EXPERIMENTALLY DETERMINED USING MS
+    # The values used for compartments were determined using MS-based proteomics.
     # For details, see R notebook 'Ralstonia eutropha model constraints'
     # at https://github.com/m-jahn/R-notebooks
     # ------------------------------------------------------------------
     #
     # remove old parameter constraints from model
     pars = ([
+        'Cytoplasm_density',
         'fraction_protein_Cytoplasm', 
         'fraction_protein_Cell_membrane', 
         'fraction_non_enzymatic_protein_Cytoplasm', 
@@ -129,6 +138,26 @@ def set_compartment_params(model):
     for par in pars:
         fn = model.parameters.functions.get_by_id(par)
         model.parameters.functions.remove(fn)
+    
+    # set amino_acid_concentration to constant, growth rate independent value
+    fn = model.parameters.functions.get_by_id('amino_acid_concentration')
+    fn.parameters.get_by_id('LINEAR_CONSTANT').value = 4.8972
+    fn.parameters.get_by_id('LINEAR_COEF').value = 0
+    fn.parameters.get_by_id('X_MIN').value = 0
+    fn.parameters.get_by_id('X_MAX').value = 1
+    
+    # set cytoplasm density to a fraction of total amino acid 
+    # concentration analogously to Cell_membrane density
+    Cytoplasm_density = rba.xml.Aggregate('Cytoplasm_density', type_='multiplication')
+    Cytoplasm_density.function_references.append(rba.xml.FunctionReference('amino_acid_concentration'))
+    Cytoplasm_density.function_references.append(rba.xml.FunctionReference('fraction_protein_Cytoplasm'))
+    model.parameters.aggregates.append(Cytoplasm_density)
+    
+    # fix compartment densities to specific values to enforce
+    # protein production even at low growth rate
+    for t in model.density.target_densities:
+        t.value = t.compartment + '_density'
+        t.upper_bound = None
     
     # set secreted proteins to zero
     fn = model.parameters.functions.get_by_id('fraction_protein_Secreted')

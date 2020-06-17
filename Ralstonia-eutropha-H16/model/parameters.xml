@@ -2,10 +2,10 @@
   <listOfFunctions>
     <function id="amino_acid_concentration" type="linear" variable="growth_rate">
       <listOfParameters>
-        <parameter id="LINEAR_COEF" value="-0.9757"/>
-        <parameter id="LINEAR_CONSTANT" value="6.3138"/>
-        <parameter id="X_MIN" value="0.25"/>
-        <parameter id="X_MAX" value="1.6"/>
+        <parameter id="LINEAR_COEF" value="0"/>
+        <parameter id="LINEAR_CONSTANT" value="4.8972"/>
+        <parameter id="X_MIN" value="0"/>
+        <parameter id="X_MAX" value="1"/>
         <parameter id="Y_MIN" value="-inf"/>
         <parameter id="Y_MAX" value="inf"/>
       </listOfParameters>
@@ -18,11 +18,6 @@
     <function id="fraction_non_enzymatic_protein_Secreted" type="constant" variable="growth_rate">
       <listOfParameters>
         <parameter id="CONSTANT" value="1"/>
-      </listOfParameters>
-    </function>
-    <function id="Cytoplasm_density" type="constant" variable="growth_rate">
-      <listOfParameters>
-        <parameter id="CONSTANT" value="4.8972"/>
       </listOfParameters>
     </function>
     <function id="inverse_average_protein_length" type="constant" variable="growth_rate">
@@ -8198,6 +8193,12 @@
       <listOfFunctionReferences>
         <functionReference function="default_transporter_efficiency"/>
         <functionReference function="R_FEabc_M_fe3_e_transport_factor"/>
+      </listOfFunctionReferences>
+    </aggregate>
+    <aggregate id="Cytoplasm_density" type="multiplication">
+      <listOfFunctionReferences>
+        <functionReference function="amino_acid_concentration"/>
+        <functionReference function="fraction_protein_Cytoplasm"/>
       </listOfFunctionReferences>
     </aggregate>
   </listOfAggregates>

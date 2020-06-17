@@ -1299,7 +1299,7 @@
     <enzyme id="R_TARTRt7_enzyme" reaction="R_TARTRt7" forward_efficiency="R_TARTRt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1376,7 +1376,7 @@
     <enzyme id="R_COBALTt5_enzyme" reaction="R_COBALTt5" forward_efficiency="R_COBALTt5_enzyme_forward_efficiency" backward_efficiency="R_COBALTt5_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1390,7 +1390,7 @@
     <enzyme id="R_4FLTHRt_enzyme" reaction="R_4FLTHRt" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1413,14 +1413,14 @@
     <enzyme id="R_GLYALDt_enzyme" reaction="R_GLYALDt" forward_efficiency="R_GLYALDt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_CCMUCt_enzyme" reaction="R_CCMUCt" forward_efficiency="R_CCMUCt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1588,7 +1588,7 @@
     <enzyme id="R_3HBZt_enzyme" reaction="R_3HBZt" forward_efficiency="R_3HBZt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1602,7 +1602,7 @@
     <enzyme id="R_2HBAt_enzyme" reaction="R_2HBAt" forward_efficiency="R_2HBAt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1742,7 +1742,7 @@
     <enzyme id="R_MELIBt2_enzyme" reaction="R_MELIBt2" forward_efficiency="R_MELIBt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1886,7 +1886,7 @@
     <enzyme id="R_INDOLEt2r_enzyme" reaction="R_INDOLEt2r" forward_efficiency="R_INDOLEt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -1900,7 +1900,7 @@
     <enzyme id="R_XTSNtr_enzyme" reaction="R_XTSNtr" forward_efficiency="R_XTSNtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2257,13 +2257,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_NH4t_enzyme" reaction="R_NH4t" forward_efficiency="R_NH4t_efficiency" backward_efficiency="R_NH4t_enzyme_backward_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_NH4t_enzyme" reaction="R_NH4t" forward_efficiency="R_NH4t_efficiency" backward_efficiency="R_NH4t_enzyme_backward_efficiency" zeroCost="false"/>
     <enzyme id="R_FDH_enzyme" reaction="R_FDH" forward_efficiency="R_FDH_enzyme_forward_efficiency" backward_efficiency="R_FDH_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -2381,7 +2375,7 @@
     <enzyme id="R_GALTpts_enzyme" reaction="R_GALTpts" forward_efficiency="R_GALTpts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2500,7 +2494,7 @@
     <enzyme id="R_DGSNt2_enzyme" reaction="R_DGSNt2" forward_efficiency="R_DGSNt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2765,13 +2759,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_H2Ot_enzyme" reaction="R_H2Ot" forward_efficiency="R_H2Ot_efficiency" backward_efficiency="R_H2Ot_enzyme_backward_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_H2Ot_enzyme" reaction="R_H2Ot" forward_efficiency="R_H2Ot_efficiency" backward_efficiency="R_H2Ot_enzyme_backward_efficiency" zeroCost="false"/>
     <enzyme id="R_PPAKr_enzyme" reaction="R_PPAKr" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -2789,14 +2777,14 @@
     <enzyme id="R_CBL1abc_enzyme" reaction="R_CBL1abc" forward_efficiency="R_CBL1abc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_PTRCt2_enzyme" reaction="R_PTRCt2" forward_efficiency="R_PTRCt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2901,7 +2889,7 @@
     <enzyme id="R_BZALt_enzyme" reaction="R_BZALt" forward_efficiency="R_BZALt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3007,7 +2995,7 @@
     <enzyme id="R_ILEtr_enzyme" reaction="R_ILEtr" forward_efficiency="R_ILEtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3113,7 +3101,7 @@
     <enzyme id="R_GALCTtr_enzyme" reaction="R_GALCTtr" forward_efficiency="R_GALCTtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3134,7 +3122,7 @@
     <enzyme id="R_MALTTRabc_enzyme" reaction="R_MALTTRabc" forward_efficiency="R_MALTTRabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3148,7 +3136,7 @@
     <enzyme id="R_4FLRBZt_enzyme" reaction="R_4FLRBZt" forward_efficiency="R_4FLRBZt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3204,7 +3192,7 @@
     <enzyme id="R_ACt2r_enzyme" reaction="R_ACt2r" forward_efficiency="R_ACt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3316,7 +3304,7 @@
     <enzyme id="R_CHLtr_enzyme" reaction="R_CHLtr" forward_efficiency="R_CHLtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3344,7 +3332,7 @@
     <enzyme id="R_GLCURt2r_enzyme" reaction="R_GLCURt2r" forward_efficiency="R_GLCURt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3827,7 +3815,7 @@
     <enzyme id="R_THRtr_enzyme" reaction="R_THRtr" forward_efficiency="R_THRtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -3932,7 +3920,7 @@
     <enzyme id="R_CADVt_enzyme" reaction="R_CADVt" forward_efficiency="R_CADVt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4142,14 +4130,14 @@
     <enzyme id="R_DURIt2_enzyme" reaction="R_DURIt2" forward_efficiency="R_DURIt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLYCLTt2r_enzyme" reaction="R_GLYCLTt2r" forward_efficiency="R_GLYCLTt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4219,7 +4207,7 @@
     <enzyme id="R_PROt4_enzyme" reaction="R_PROt4" forward_efficiency="R_PROt4_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4331,7 +4319,7 @@
     <enzyme id="R_HPPPNt2r_enzyme" reaction="R_HPPPNt2r" forward_efficiency="R_HPPPNt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4430,7 +4418,7 @@
     <enzyme id="R_HDCAt2_enzyme" reaction="R_HDCAt2" forward_efficiency="R_HDCAt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4465,7 +4453,7 @@
     <enzyme id="R_DSERt2_enzyme" reaction="R_DSERt2" forward_efficiency="R_DSERt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4570,14 +4558,14 @@
     <enzyme id="R_NO2t2r_enzyme" reaction="R_NO2t2r" forward_efficiency="R_NO2t2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_METabc_enzyme" reaction="R_METabc" forward_efficiency="R_METabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4591,7 +4579,7 @@
     <enzyme id="R_TOLabc_enzyme" reaction="R_TOLabc" forward_efficiency="R_TOLabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4696,14 +4684,14 @@
     <enzyme id="R_MNLpts_enzyme" reaction="R_MNLpts" forward_efficiency="R_MNLpts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SERt4_enzyme" reaction="R_SERt4" forward_efficiency="R_SERt4_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4752,7 +4740,7 @@
     <enzyme id="R_GAMpts_enzyme" reaction="R_GAMpts" forward_efficiency="R_GAMpts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4892,7 +4880,7 @@
     <enzyme id="R_MALTPTabc_enzyme" reaction="R_MALTPTabc" forward_efficiency="R_MALTPTabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5072,7 +5060,7 @@
     <enzyme id="R_PPAt_enzyme" reaction="R_PPAt" forward_efficiency="R_PPAt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5156,7 +5144,7 @@
     <enzyme id="R_CRNabc_enzyme" reaction="R_CRNabc" forward_efficiency="R_CRNabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5359,14 +5347,14 @@
     <enzyme id="R_XANt2_enzyme" reaction="R_XANt2" forward_efficiency="R_XANt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_XANt_enzyme" reaction="R_XANt" forward_efficiency="R_XANt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5412,13 +5400,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_MG2t_enzyme" reaction="R_MG2t" forward_efficiency="R_MG2t_efficiency" backward_efficiency="R_MG2t_enzyme_backward_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_MG2t_enzyme" reaction="R_MG2t" forward_efficiency="R_MG2t_efficiency" backward_efficiency="R_MG2t_enzyme_backward_efficiency" zeroCost="false"/>
     <enzyme id="R_KYNRN3_enzyme" reaction="R_KYNRN3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -5653,7 +5635,7 @@
     <enzyme id="R_ADNt2_enzyme" reaction="R_ADNt2" forward_efficiency="R_ADNt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5695,7 +5677,7 @@
     <enzyme id="R_CLt_enzyme" reaction="R_CLt" forward_efficiency="R_CLt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5843,7 +5825,7 @@
     <enzyme id="R_4CRESOLt_enzyme" reaction="R_4CRESOLt" forward_efficiency="R_4CRESOLt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5864,7 +5846,7 @@
     <enzyme id="R_TTDCAt2_enzyme" reaction="R_TTDCAt2" forward_efficiency="R_TTDCAt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6067,7 +6049,7 @@
     <enzyme id="R_FUCt_enzyme" reaction="R_FUCt" forward_efficiency="R_FUCt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6205,13 +6187,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_Ktr_enzyme" reaction="R_Ktr" forward_efficiency="R_Ktr_efficiency" backward_efficiency="R_Ktr_enzyme_backward_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_Ktr_enzyme" reaction="R_Ktr" forward_efficiency="R_Ktr_efficiency" backward_efficiency="R_Ktr_enzyme_backward_efficiency" zeroCost="false"/>
     <enzyme id="R_PYDXO_1_enzyme" reaction="R_PYDXO_1" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -6222,21 +6198,21 @@
     <enzyme id="R_GLUtr_enzyme" reaction="R_GLUtr" forward_efficiency="R_GLUtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_URIt2_enzyme" reaction="R_URIt2" forward_efficiency="R_URIt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_IDONt2r_enzyme" reaction="R_IDONt2r" forward_efficiency="R_IDONt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6616,7 +6592,7 @@
     <enzyme id="R_ILEabc_enzyme" reaction="R_ILEabc" forward_efficiency="R_ILEabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6752,7 +6728,7 @@
     <enzyme id="R_ALAtr_enzyme" reaction="R_ALAtr" forward_efficiency="R_ALAtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6935,21 +6911,21 @@
     <enzyme id="R_C181t_enzyme" reaction="R_C181t" forward_efficiency="R_C181t_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACACt2_enzyme" reaction="R_ACACt2" forward_efficiency="R_ACACt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_PTRCORNt7_enzyme" reaction="R_PTRCORNt7" forward_efficiency="R_PTRCORNt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7096,7 +7072,7 @@
     <enzyme id="R_ACALDt_enzyme" reaction="R_ACALDt" forward_efficiency="R_ACALDt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7173,7 +7149,7 @@
     <enzyme id="R_MALTHXabc_enzyme" reaction="R_MALTHXabc" forward_efficiency="R_MALTHXabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7201,7 +7177,7 @@
     <enzyme id="R_OCDCAt2_enzyme" reaction="R_OCDCAt2" forward_efficiency="R_OCDCAt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7212,24 +7188,18 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_O2t_enzyme" reaction="R_O2t" forward_efficiency="R_O2t_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_O2t_enzyme" reaction="R_O2t" forward_efficiency="R_O2t_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false"/>
     <enzyme id="R_CYTDtr_enzyme" reaction="R_CYTDtr" forward_efficiency="R_CYTDtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_DCYTt2_enzyme" reaction="R_DCYTt2" forward_efficiency="R_DCYTt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7334,7 +7304,7 @@
     <enzyme id="R_ACMANApts_enzyme" reaction="R_ACMANApts" forward_efficiency="R_ACMANApts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7425,7 +7395,7 @@
     <enzyme id="R_GLYt2r_enzyme" reaction="R_GLYt2r" forward_efficiency="R_GLYt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7502,7 +7472,7 @@
     <enzyme id="R_HIStr_enzyme" reaction="R_HIStr" forward_efficiency="R_HIStr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7537,7 +7507,7 @@
     <enzyme id="R_34DHBt_enzyme" reaction="R_34DHBt" forward_efficiency="R_34DHBt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7726,7 +7696,7 @@
     <enzyme id="R_ASNabc_enzyme" reaction="R_ASNabc" forward_efficiency="R_ASNabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7737,17 +7707,11 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_NAt3_1g_enzyme" reaction="R_NAt3_1g" forward_efficiency="R_NAt3_1g_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_NAt3_1g_enzyme" reaction="R_NAt3_1g" forward_efficiency="R_NAt3_1g_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false"/>
     <enzyme id="R_NMNt7_enzyme" reaction="R_NMNt7" forward_efficiency="R_NMNt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -7761,7 +7725,7 @@
     <enzyme id="R_ARGORNt7_enzyme" reaction="R_ARGORNt7" forward_efficiency="R_ARGORNt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8252,14 +8216,14 @@
     <enzyme id="R_ACONCt_enzyme" reaction="R_ACONCt" forward_efficiency="R_ACONCt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_THMabc_enzyme" reaction="R_THMabc" forward_efficiency="R_THMabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8329,7 +8293,7 @@
     <enzyme id="R_GLCNt2r_enzyme" reaction="R_GLCNt2r" forward_efficiency="R_GLCNt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8577,7 +8541,7 @@
     <enzyme id="R_6CHQt_enzyme" reaction="R_6CHQt" forward_efficiency="R_6CHQt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8661,7 +8625,7 @@
     <enzyme id="R_CITt7_enzyme" reaction="R_CITt7" forward_efficiency="R_CITt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8682,7 +8646,7 @@
     <enzyme id="R_NO3t7_enzyme" reaction="R_NO3t7" forward_efficiency="R_NO3t7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8724,7 +8688,7 @@
     <enzyme id="R_LYStr_enzyme" reaction="R_LYStr" forward_efficiency="R_LYStr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -8794,14 +8758,14 @@
     <enzyme id="R_AOBZACt_enzyme" reaction="R_AOBZACt" forward_efficiency="R_AOBZACt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_VALabc_enzyme" reaction="R_VALabc" forward_efficiency="R_VALabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9053,7 +9017,7 @@
     <enzyme id="R_INStr_enzyme" reaction="R_INStr" forward_efficiency="R_INStr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9067,7 +9031,7 @@
     <enzyme id="R_HYXNt_enzyme" reaction="R_HYXNt" forward_efficiency="R_HYXNt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9109,21 +9073,21 @@
     <enzyme id="R_BUTt2r_enzyme" reaction="R_BUTt2r" forward_efficiency="R_BUTt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SUCCabc_enzyme" reaction="R_SUCCabc" forward_efficiency="R_SUCCabc_efficiency" backward_efficiency="R_SUCCabc_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SUCCtr_enzyme" reaction="R_SUCCtr" forward_efficiency="R_SUCCtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9228,7 +9192,7 @@
     <enzyme id="R_G3POAT_Nlimit_enzyme" reaction="R_G3POAT_Nlimit" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9287,7 +9251,7 @@
     <enzyme id="R_ETOHt2r_enzyme" reaction="R_ETOHt2r" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9549,7 +9513,7 @@
     <enzyme id="R_DLACt_enzyme" reaction="R_DLACt" forward_efficiency="R_DLACt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9778,7 +9742,7 @@
     <enzyme id="R_BENZt_enzyme" reaction="R_BENZt" forward_efficiency="R_BENZt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9848,7 +9812,7 @@
     <enzyme id="R_UROCANt_enzyme" reaction="R_UROCANt" forward_efficiency="R_UROCANt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -9918,7 +9882,7 @@
     <enzyme id="R_GLCNtr_enzyme" reaction="R_GLCNtr" forward_efficiency="R_GLCNtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10016,14 +9980,14 @@
     <enzyme id="R_CYTDt2_enzyme" reaction="R_CYTDt2" forward_efficiency="R_CYTDt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_LEUabc_enzyme" reaction="R_LEUabc" forward_efficiency="R_LEUabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10331,14 +10295,14 @@
     <enzyme id="R_ASPALAt_enzyme" reaction="R_ASPALAt" forward_efficiency="R_ASPALAt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLUABUTt7_enzyme" reaction="R_GLUABUTt7" forward_efficiency="R_GLUABUTt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10408,7 +10372,7 @@
     <enzyme id="R_UREAt_enzyme" reaction="R_UREAt" forward_efficiency="R_UREAt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10422,7 +10386,7 @@
     <enzyme id="R_MANpts_enzyme" reaction="R_MANpts" forward_efficiency="R_MANpts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10520,7 +10484,7 @@
     <enzyme id="R_ASO3t1_enzyme" reaction="R_ASO3t1" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10555,14 +10519,14 @@
     <enzyme id="R_ASO3t2_enzyme" reaction="R_ASO3t2" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SERtr_enzyme" reaction="R_SERtr" forward_efficiency="R_SERtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10681,7 +10645,7 @@
     <enzyme id="R_GLYCt_enzyme" reaction="R_GLYCt" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10723,7 +10687,7 @@
     <enzyme id="R_PHBt_enzyme" reaction="R_PHBt" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10870,7 +10834,7 @@
     <enzyme id="R_ALAabc_enzyme" reaction="R_ALAabc" forward_efficiency="R_ALAabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10919,7 +10883,7 @@
     <enzyme id="R_DHAt_enzyme" reaction="R_DHAt" forward_efficiency="R_DHAt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -10933,7 +10897,7 @@
     <enzyme id="R_ACGApts_enzyme" reaction="R_ACGApts" forward_efficiency="R_ACGApts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11038,14 +11002,14 @@
     <enzyme id="R_MALTTTRabc_enzyme" reaction="R_MALTTTRabc" forward_efficiency="R_MALTTTRabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_4HBZt_enzyme" reaction="R_4HBZt" forward_efficiency="R_4HBZt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11101,7 +11065,7 @@
     <enzyme id="R_ASPt_enzyme" reaction="R_ASPt" forward_efficiency="R_ASPt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11115,7 +11079,7 @@
     <enzyme id="R_FE2abc_enzyme" reaction="R_FE2abc" forward_efficiency="R_FE2abc_efficiency" backward_efficiency="R_FE2abc_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11164,7 +11128,7 @@
     <enzyme id="R_4HBTt_enzyme" reaction="R_4HBTt" forward_efficiency="R_4HBTt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11192,14 +11156,14 @@
     <enzyme id="R_SUCCt2r_enzyme" reaction="R_SUCCt2r" forward_efficiency="R_SUCCt2r_efficiency" backward_efficiency="R_SUCCt2r_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GSNt2_enzyme" reaction="R_GSNt2" forward_efficiency="R_GSNt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11416,7 +11380,7 @@
     <enzyme id="R_DAPabc_enzyme" reaction="R_DAPabc" forward_efficiency="R_DAPabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11542,7 +11506,7 @@
     <enzyme id="R_NA1t_enzyme" reaction="R_NA1t" forward_efficiency="R_NA1t_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11612,7 +11576,7 @@
     <enzyme id="R_GALCTNt2r_enzyme" reaction="R_GALCTNt2r" forward_efficiency="R_GALCTNt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11689,14 +11653,14 @@
     <enzyme id="R_URItr_enzyme" reaction="R_URItr" forward_efficiency="R_URItr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_BUTNt_enzyme" reaction="R_BUTNt" forward_efficiency="R_BUTNt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11913,7 +11877,7 @@
     <enzyme id="R_NACt_enzyme" reaction="R_NACt" forward_efficiency="R_NACt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -15434,7 +15398,7 @@
     <enzyme id="R_THRabc_enzyme" reaction="R_THRabc" forward_efficiency="R_THRabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -15546,7 +15510,7 @@
     <enzyme id="R_DINSt2_enzyme" reaction="R_DINSt2" forward_efficiency="R_DINSt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -15868,7 +15832,7 @@
     <enzyme id="R_DADNt2_enzyme" reaction="R_DADNt2" forward_efficiency="R_DADNt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -16008,7 +15972,7 @@
     <enzyme id="R_R3HBNt_enzyme" reaction="R_R3HBNt" forward_efficiency="R_R3HBNt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -16057,7 +16021,7 @@
     <enzyme id="R_URAt2_enzyme" reaction="R_URAt2" forward_efficiency="R_URAt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -16547,14 +16511,14 @@
     <enzyme id="R_DALAt2r_enzyme" reaction="R_DALAt2r" forward_efficiency="R_DALAt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SUCFUMt_enzyme" reaction="R_SUCFUMt" forward_efficiency="R_SUCFUMt_efficiency" backward_efficiency="R_SUCFUMt_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17513,7 +17477,7 @@
     <enzyme id="R_THMDtr_enzyme" reaction="R_THMDtr" forward_efficiency="R_THMDtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17611,7 +17575,7 @@
     <enzyme id="R_ICITt_enzyme" reaction="R_ICITt" forward_efficiency="R_ICITt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17632,7 +17596,7 @@
     <enzyme id="R_THRt_enzyme" reaction="R_THRt" forward_efficiency="R_THRt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17695,7 +17659,7 @@
     <enzyme id="R_CATECHt_enzyme" reaction="R_CATECHt" forward_efficiency="R_CATECHt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17709,7 +17673,7 @@
     <enzyme id="R_GENt_enzyme" reaction="R_GENt" forward_efficiency="R_GENt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17793,7 +17757,7 @@
     <enzyme id="R_URAtr_enzyme" reaction="R_URAtr" forward_efficiency="R_URAtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17870,7 +17834,7 @@
     <enzyme id="R_ADIPt_enzyme" reaction="R_ADIPt" forward_efficiency="R_ADIPt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17912,7 +17876,7 @@
     <enzyme id="R_BENZOTt_enzyme" reaction="R_BENZOTt" forward_efficiency="R_BENZOTt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17926,7 +17890,7 @@
     <enzyme id="R_PNTOt4_enzyme" reaction="R_PNTOt4" forward_efficiency="R_PNTOt4_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17956,35 +17920,35 @@
     <enzyme id="R_GUAt_enzyme" reaction="R_GUAt" forward_efficiency="R_GUAt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_KNTt_enzyme" reaction="R_KNTt" forward_efficiency="R_KNTt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_THMDt2_enzyme" reaction="R_THMDt2" forward_efficiency="R_THMDt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GUAt2_enzyme" reaction="R_GUAt2" forward_efficiency="R_GUAt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_PACt_enzyme" reaction="R_PACt" forward_efficiency="R_PACt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -18019,7 +17983,7 @@
     <enzyme id="R_CRNt7_enzyme" reaction="R_CRNt7" forward_efficiency="R_CRNt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -18324,13 +18288,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_CO2t_enzyme" reaction="R_CO2t" forward_efficiency="R_CO2t_efficiency" backward_efficiency="R_CO2t_enzyme_backward_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_CO2t_enzyme" reaction="R_CO2t" forward_efficiency="R_CO2t_efficiency" backward_efficiency="R_CO2t_enzyme_backward_efficiency" zeroCost="false"/>
     <enzyme id="R_CRNBTCT_enzyme" reaction="R_CRNBTCT" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -18345,13 +18303,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_SO4t_enzyme" reaction="R_SO4t" forward_efficiency="R_SO4t_efficiency" backward_efficiency="R_SO4t_enzyme_backward_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_SO4t_enzyme" reaction="R_SO4t" forward_efficiency="R_SO4t_efficiency" backward_efficiency="R_SO4t_enzyme_backward_efficiency" zeroCost="false"/>
     <enzyme id="R_UDCPDP_enzyme" reaction="R_UDCPDP" forward_efficiency="R_UDCPDP_enzyme_forward_efficiency" backward_efficiency="R_UDCPDP_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -18572,7 +18524,7 @@
     <enzyme id="R_LEUtr_enzyme" reaction="R_LEUtr" forward_efficiency="R_LEUtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -18586,7 +18538,7 @@
     <enzyme id="R_2PGt_enzyme" reaction="R_2PGt" forward_efficiency="R_2PGt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -18635,7 +18587,7 @@
     <enzyme id="R_LLACtr_enzyme" reaction="R_LLACtr" forward_efficiency="R_LLACtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19085,7 +19037,7 @@
     <enzyme id="R_PPPNt2r_enzyme" reaction="R_PPPNt2r" forward_efficiency="R_PPPNt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19269,7 +19221,7 @@
     <enzyme id="R_CYNTt2_enzyme" reaction="R_CYNTt2" forward_efficiency="R_CYNTt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19318,7 +19270,7 @@
     <enzyme id="R_CSNt2_enzyme" reaction="R_CSNt2" forward_efficiency="R_CSNt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19401,7 +19353,7 @@
     <enzyme id="R_PROtr_enzyme" reaction="R_PROtr" forward_efficiency="R_PROtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -20186,7 +20138,7 @@
     <enzyme id="R_CITt_enzyme" reaction="R_CITt" forward_efficiency="R_CITt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -20614,7 +20566,7 @@
     <enzyme id="R_CHLabc_enzyme" reaction="R_CHLabc" forward_efficiency="R_CHLabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -20628,14 +20580,14 @@
     <enzyme id="R_FORt_enzyme" reaction="R_FORt" forward_efficiency="R_FORt_efficiency" backward_efficiency="R_FORt_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_KNt_enzyme" reaction="R_KNt" forward_efficiency="R_KNt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -20817,14 +20769,14 @@
     <enzyme id="R_LYSt_enzyme" reaction="R_LYSt" forward_efficiency="R_LYSt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_TYRtr_enzyme" reaction="R_TYRtr" forward_efficiency="R_TYRtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -21272,7 +21224,7 @@
     <enzyme id="R_VALtr_enzyme" reaction="R_VALtr" forward_efficiency="R_VALtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -21556,13 +21508,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_PIt2r_enzyme" reaction="R_PIt2r" forward_efficiency="R_PIt2r_efficiency" backward_efficiency="R_PIt2r_enzyme_backward_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_PIt2r_enzyme" reaction="R_PIt2r" forward_efficiency="R_PIt2r_efficiency" backward_efficiency="R_PIt2r_enzyme_backward_efficiency" zeroCost="false"/>
     <enzyme id="R_NADTRHD_enzyme" reaction="R_NADTRHD" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -21730,7 +21676,7 @@
     <enzyme id="R_4HPHEACt_enzyme" reaction="R_4HPHEACt" forward_efficiency="R_4HPHEACt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -21898,7 +21844,7 @@
     <enzyme id="R_PIabc_enzyme" reaction="R_PIabc" forward_efficiency="R_PIabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22038,7 +21984,7 @@
     <enzyme id="R_ALLTNt2r_enzyme" reaction="R_ALLTNt2r" forward_efficiency="R_ALLTNt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22052,7 +21998,7 @@
     <enzyme id="R_ANt_enzyme" reaction="R_ANt" forward_efficiency="R_ANt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22101,14 +22047,14 @@
     <enzyme id="R_OBUTt_enzyme" reaction="R_OBUTt" forward_efficiency="R_OBUTt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ARBt2r_enzyme" reaction="R_ARBt2r" forward_efficiency="R_ARBt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22199,7 +22145,7 @@
     <enzyme id="R_ASNtr_enzyme" reaction="R_ASNtr" forward_efficiency="R_ASNtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22213,7 +22159,7 @@
     <enzyme id="R_ACNAMt2_enzyme" reaction="R_ACNAMt2" forward_efficiency="R_ACNAMt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22367,14 +22313,14 @@
     <enzyme id="R_RMNt_enzyme" reaction="R_RMNt" forward_efficiency="R_RMNt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_MOBDabc_enzyme" reaction="R_MOBDabc" forward_efficiency="R_MOBDabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22465,7 +22411,7 @@
     <enzyme id="R_GLYC3Pt6_enzyme" reaction="R_GLYC3Pt6" forward_efficiency="R_GLYC3Pt6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22487,7 +22433,7 @@
     <enzyme id="R_PROabc_enzyme" reaction="R_PROabc" forward_efficiency="R_PROabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22523,7 +22469,7 @@
     <enzyme id="R_GLYBt2r_enzyme" reaction="R_GLYBt2r" forward_efficiency="R_GLYBt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22558,7 +22504,7 @@
     <enzyme id="R_MCLACTt_enzyme" reaction="R_MCLACTt" forward_efficiency="R_MCLACTt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22572,14 +22518,14 @@
     <enzyme id="R_FRUpts_enzyme" reaction="R_FRUpts" forward_efficiency="R_FRUpts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SBTpts_enzyme" reaction="R_SBTpts" forward_efficiency="R_SBTpts_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22779,7 +22725,7 @@
     <enzyme id="R_INSt2_enzyme" reaction="R_INSt2" forward_efficiency="R_INSt2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23409,7 +23355,7 @@
     <enzyme id="R_GLYBabc_enzyme" reaction="R_GLYBabc" forward_efficiency="R_GLYBabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23633,7 +23579,7 @@
     <enzyme id="R_PHEtr_enzyme" reaction="R_PHEtr" forward_efficiency="R_PHEtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23661,14 +23607,14 @@
     <enzyme id="R_GLXt_enzyme" reaction="R_GLXt" forward_efficiency="R_GLXt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_LCTSt_enzyme" reaction="R_LCTSt" forward_efficiency="R_LCTSt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23815,7 +23761,7 @@
     <enzyme id="R_ABUTt_enzyme" reaction="R_ABUTt" forward_efficiency="R_ABUTt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23871,7 +23817,7 @@
     <enzyme id="R_ADEtr_enzyme" reaction="R_ADEtr" forward_efficiency="R_ADEtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24095,14 +24041,14 @@
     <enzyme id="R_METDabc_enzyme" reaction="R_METDabc" forward_efficiency="R_METDabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ADNtr_enzyme" reaction="R_ADNtr" forward_efficiency="R_ADNtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24116,7 +24062,7 @@
     <enzyme id="R_TRPtr_enzyme" reaction="R_TRPtr" forward_efficiency="R_TRPtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24536,7 +24482,7 @@
     <enzyme id="R_Kabc_enzyme" reaction="R_Kabc" forward_efficiency="R_Kabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24567,21 +24513,21 @@
     <enzyme id="R_PHENOLt_enzyme" reaction="R_PHENOLt" forward_efficiency="R_PHENOLt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_12PPDt_enzyme" reaction="R_12PPDt" forward_efficiency="R_12PPDt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_PYRtr_enzyme" reaction="R_PYRtr" forward_efficiency="R_PYRtr_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24595,7 +24541,7 @@
     <enzyme id="R_3PGt_enzyme" reaction="R_3PGt" forward_efficiency="R_3PGt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24686,7 +24632,7 @@
     <enzyme id="R_GLUt4_enzyme" reaction="R_GLUt4" forward_efficiency="R_GLUt4_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24735,7 +24681,7 @@
     <enzyme id="R_HCINNMt2r_enzyme" reaction="R_HCINNMt2r" forward_efficiency="R_HCINNMt2r_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24833,7 +24779,7 @@
     <enzyme id="R_BP23Dt_enzyme" reaction="R_BP23Dt" forward_efficiency="R_BP23Dt_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24882,7 +24828,7 @@
     <enzyme id="R_TAURabc_enzyme" reaction="R_TAURabc" forward_efficiency="R_TAURabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24896,7 +24842,7 @@
     <enzyme id="R_FEabc_enzyme" reaction="R_FEabc" forward_efficiency="R_FEabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -25033,13 +24979,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_H2td_enzyme" reaction="R_H2td" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
-      <machineryComposition>
-        <listOfReactants>
-          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
-        </listOfReactants>
-      </machineryComposition>
-    </enzyme>
+    <enzyme id="R_H2td_enzyme" reaction="R_H2td" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false"/>
     <enzyme id="R_maintenance_atp_enzyme" reaction="R_maintenance_atp" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false"/>
   </listOfEnzymes>
 </RBAEnzymes>

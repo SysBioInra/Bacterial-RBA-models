@@ -2,9 +2,9 @@
   <listOfTargetGroups>
     <targetGroup id="translation_targets">
       <listOfConcentrations>
-        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
-        <targetSpecies value="nonenzymatic_proteins_Cell_membrane" species="average_protein_Cell_membrane"/>
         <targetSpecies value="nonenzymatic_proteins_Secreted" species="average_protein_Secreted"/>
+        <targetSpecies value="nonenzymatic_proteins_Cell_membrane" species="average_protein_Cell_membrane"/>
+        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="transcription_targets">
