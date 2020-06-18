@@ -22,12 +22,9 @@ def main():
     
     # optionally modify medium
     orig_medium = model.medium
-    orig_medium['M_fru'] = 0.1
-    #orig_medium['M_nh4'] = 10
-    #orig_medium['M_for'] = 10
     substrate = pd.read_csv('simulation/substrate_limitation.csv')
     
-    # A) simulation for different substrates OR
+    # A) simulation for different substrates
     simulate_substrate(model, substrate, orig_medium, output_dir)
     
     # B) simulation for different k_apps
@@ -40,11 +37,15 @@ def simulate_substrate(model, substrate, orig_medium, output_dir):
     # run several simulations in a loop
     for index, row in substrate.iterrows():
         
-        # add target substrate concentration to minimal medium
+        # add desired substrate concentration to minimal medium
         new_medium = orig_medium.copy()
         new_medium[row['carbon_source']] = row['carbon_conc']
         new_medium[row['nitrogen_source']] = row['nitrogen_conc']
         model.medium = new_medium
+        
+        # optional set flux boundary for reactions
+        if 'substrate_uptake' in row.index:
+            set_flux_boundary(model, row['substrate_TR'], row['substrate_uptake'])
         
         # solve model
         try:
@@ -70,7 +71,7 @@ def simulate_variability(model, iterations, orig_medium, output_dir):
     # run several simulations in a loop
     while completed_cycles <= iterations:
         
-        # optionally randomly sample kapp values
+        # randomly sample kapp values
         model2 = copy.deepcopy(model)
         randomize_efficiency(model2, log10_mean = 4, log10_sd = 1.06)
         
@@ -98,8 +99,8 @@ def report_results(
     substrate_TR = None, substrate_MW = None):
     
     # calculate yield
-    # flux in mmol g_bm^-1 h^-1 needs to be converted to g substrate;
-    # for fructose: MW = 180.16 g/mol = 0.18 g/mmol
+    # flux in mmol g_bm^-1 h^-1 needs to be converted to g substrate
+    # using transporter TR and molecular weight MW
     if substrate_TR:
         yield_subs = result.mu_opt / (result.reaction_fluxes()[substrate_TR] * substrate_MW)
     
@@ -131,6 +132,7 @@ def report_results(
     ma['mu'] = result.mu_opt
     if substrate_TR:
         ma['yield'] = yield_subs
+        ma['qS'] = result.reaction_fluxes()[substrate_TR]
     with open(output_dir + 'macroprocesses' + output_suffix, 'w') as fout:
         fout.write('\n'.join(['{}\t{}'.format(k, v) for k, v in ma.items()]))
     
@@ -143,6 +145,28 @@ def report_results(
     print('\n----- BOUNDARY FLUXES -----\n')
     for r in result.sorted_boundary_fluxes():
         print(r)
+
+
+def set_flux_boundary(model, reaction, value):
+    
+    # construct target from input reaction ID and flux boundary
+    boundary_id = reaction + '_flux_boundary'
+    new_target = rba.xml.targets.TargetReaction(reaction)
+    new_target.value = boundary_id
+    
+    # add target to model
+    mp = model.targets.target_groups.get_by_id('metabolite_production')
+    if reaction not in [i.reaction for i in mp.reaction_fluxes]:
+        mp.reaction_fluxes.append(new_target)
+        
+        # add a new parameter with the actual value to model
+        model.parameters.functions.append(
+            rba.xml.Function(boundary_id, 'constant', {'CONSTANT': value})
+        )
+    else:
+        # or update existing parameter
+        fn = model.parameters.functions.get_by_id(boundary_id)
+        fn.parameters.get_by_id('CONSTANT').value = value
 
 
 def randomize_efficiency(
