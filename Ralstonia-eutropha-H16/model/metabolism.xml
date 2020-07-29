@@ -1,8 +1,8 @@
 <RBAMetabolism>
   <listOfCompartments>
     <compartment id="Secreted"/>
-    <compartment id="Cell_membrane"/>
     <compartment id="Cytoplasm"/>
+    <compartment id="Cell_membrane"/>
   </listOfCompartments>
   <listOfSpecies>
     <species id="M_zoe_c" boundaryCondition="false"/>
@@ -38782,6 +38782,20 @@
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
         <speciesReference species="M_ppi_c" stoichiometry="1.0"/>
         <speciesReference species="M_4hba_c" stoichiometry="1.0"/>
+      </listOfProducts>
+    </reaction>
+    <reaction id="R_MTHF3ES_c" reversible="false">
+      <listOfReactants>
+        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
+        <speciesReference species="M_ser__L_c" stoichiometry="1.0"/>
+        <speciesReference species="M_h_c" stoichiometry="1.0"/>
+        <speciesReference species="M_tglu_c" stoichiometry="1.0"/>
+      </listOfReactants>
+      <listOfProducts>
+        <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
+        <speciesReference species="M_gly_c" stoichiometry="1.0"/>
+        <speciesReference species="M_5mtglu_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_HYDS" reversible="false">

@@ -139,9 +139,14 @@ def set_compartment_params(model):
         fn = model.parameters.functions.get_by_id(par)
         model.parameters.functions.remove(fn)
     
-    # set amino_acid_concentration to constant, growth rate independent value
+    # set amino_acid_concentration to constant, growth rate independent value.
+    # The default value of is 4.8972 mmol/gDCW. Assuming an average molecular weight
+    # per amino acid of of 110 mg / mmol, total protein mass = 4.8972*110/1000 = 0.5387 g/gDCW.
+    # This is a bit lower than the reported estimates for R. eutropha of 0.68 g/gDCW, or 
+    # cyanobacteria with 0.65 g/gDCW. A constant protein pool of 0.68g/gDCW would
+    # translate to an average amino acid concentration = 6.1818 mmol/gDCW
     fn = model.parameters.functions.get_by_id('amino_acid_concentration')
-    fn.parameters.get_by_id('LINEAR_CONSTANT').value = 4.8972
+    fn.parameters.get_by_id('LINEAR_CONSTANT').value = 6.1818
     fn.parameters.get_by_id('LINEAR_COEF').value = 0
     fn.parameters.get_by_id('X_MIN').value = 0
     fn.parameters.get_by_id('X_MAX').value = 1
@@ -153,17 +158,11 @@ def set_compartment_params(model):
     Cytoplasm_density.function_references.append(rba.xml.FunctionReference('fraction_protein_Cytoplasm'))
     model.parameters.aggregates.append(Cytoplasm_density)
     
-    # fix compartment densities to specific values to enforce
-    # protein production even at low growth rate
-    for t in model.density.target_densities:
-        t.value = t.compartment + '_density'
-        t.upper_bound = None
-    
     # set secreted proteins to zero
     fn = model.parameters.functions.get_by_id('fraction_protein_Secreted')
     fn.parameters.get_by_id('CONSTANT').value = 0
     
-    # set fraction of cytoplasmic proteins       
+    # set fraction of cytoplasmic proteins
     par_frac_cp = {'LINEAR_COEF': 0.1060, 'LINEAR_CONSTANT': 0.8684, 'X_MIN':0, 'X_MAX':2, 'Y_MIN':0, 'Y_MAX':1}
     model.parameters.functions.append(
         rba.xml.Function('fraction_protein_Cytoplasm', 'linear', par_frac_cp)

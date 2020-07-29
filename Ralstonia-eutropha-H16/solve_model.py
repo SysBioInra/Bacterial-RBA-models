@@ -15,16 +15,22 @@ def main():
     
     # set input and output paths
     xml_dir = 'model/'
-    output_dir = 'simulation/substrate_limitation/'
+    output_dir = 'simulation/mixotrophy/'
     
     # load model, build matrices
     model = rba.RbaModel.from_xml(xml_dir)
     
     # optionally modify medium
     orig_medium = model.medium
-    substrate = pd.read_csv('simulation/substrate_limitation.csv')
+    orig_medium['M_fru'] = 0.0
+    
+    # optionally add additional flux constraints
+    #set_flux_boundary(model, 'R_SUCCt2_2', 0.0)
+    #set_flux_boundary(model, 'R_SUCCt_3', 0.0)
+    #set_flux_boundary(model, 'R_SUCCtr', 0.0)
     
     # A) simulation for different substrates
+    substrate = pd.read_csv('simulation/substrate_mixotrophy.csv')
     simulate_substrate(model, substrate, orig_medium, output_dir)
     
     # B) simulation for different k_apps
@@ -38,18 +44,21 @@ def simulate_substrate(model, substrate, orig_medium, output_dir):
     for index, row in substrate.iterrows():
         
         # add desired substrate concentration to minimal medium
+        model2 = copy.deepcopy(model)
         new_medium = orig_medium.copy()
         new_medium[row['carbon_source']] = row['carbon_conc']
         new_medium[row['nitrogen_source']] = row['nitrogen_conc']
-        model.medium = new_medium
+        model2.medium = new_medium
         
-        # optional set flux boundary for reactions
+        # optionally set flux boundary for reactions
         if 'substrate_uptake' in row.index:
-            set_flux_boundary(model, row['substrate_TR'], row['substrate_uptake'])
+            set_flux_boundary(model2, row['substrate_TR'], row['substrate_uptake'])
+        # force flux through Rubisco, from 0 to 5 mmol/gDCW
+        set_flux_boundary(model2, 'R_RBPC', float(index))
         
         # solve model
         try:
-            result = model.solve()
+            result = model2.solve()
             # report results; for yield calculation supply transport
             # reaction and MW of substrate
             report_results(result,
@@ -140,8 +149,8 @@ def report_results(
     print('\n----- SUMMARY -----\n')
     print('Optimal growth rate is {}.'.format(result.mu_opt))
     print('Yield on substrate is {}.'.format(yield_subs))
-    print('Cell membrane occupancy is {} %.'.format(round(100*ds_mem[0]/ds_mem[1], 3)))
-    print('Cytoplasm occupancy is {} %.'.format(round(100*ds_cyt[0]/ds_cyt[1], 3)))
+    print('Cell membrane occupancy is {} %.'.format(round(100*ds_mem[1]/ds_mem[0], 3)))
+    print('Cytoplasm occupancy is {} %.'.format(round(100*ds_cyt[1]/ds_cyt[0], 3)))
     print('\n----- BOUNDARY FLUXES -----\n')
     for r in result.sorted_boundary_fluxes():
         print(r)

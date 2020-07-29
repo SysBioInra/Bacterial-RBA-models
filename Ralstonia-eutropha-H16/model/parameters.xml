@@ -3,7 +3,7 @@
     <function id="amino_acid_concentration" type="linear" variable="growth_rate">
       <listOfParameters>
         <parameter id="LINEAR_COEF" value="0"/>
-        <parameter id="LINEAR_CONSTANT" value="4.8972"/>
+        <parameter id="LINEAR_CONSTANT" value="6.1818"/>
         <parameter id="X_MIN" value="0"/>
         <parameter id="X_MAX" value="1"/>
         <parameter id="Y_MIN" value="-inf"/>
@@ -4604,12 +4604,12 @@
     </function>
     <function id="R_SUCCt2r_enzyme_forward_efficiency" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="10000"/>
+        <parameter id="CONSTANT" value="100000"/>
       </listOfParameters>
     </function>
     <function id="R_SUCCt2r_enzyme_backward_efficiency" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="10000"/>
+        <parameter id="CONSTANT" value="100000"/>
       </listOfParameters>
     </function>
     <function id="R_ILETA_enzyme_forward_efficiency" type="constant" variable="growth_rate">
@@ -5564,12 +5564,12 @@
     </function>
     <function id="R_FORt_enzyme_forward_efficiency" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="100000"/>
+        <parameter id="CONSTANT" value="400000"/>
       </listOfParameters>
     </function>
     <function id="R_FORt_enzyme_backward_efficiency" type="constant" variable="growth_rate">
       <listOfParameters>
-        <parameter id="CONSTANT" value="100000"/>
+        <parameter id="CONSTANT" value="400000"/>
       </listOfParameters>
     </function>
     <function id="R_ACOTA_enzyme_forward_efficiency" type="constant" variable="growth_rate">

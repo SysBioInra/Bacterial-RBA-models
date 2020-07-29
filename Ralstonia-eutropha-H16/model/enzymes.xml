@@ -2396,21 +2396,21 @@
     <enzyme id="R_CYSabc_enzyme" reaction="R_CYSabc" forward_efficiency="R_CYSabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_CYSabc_duplicate_2_enzyme" reaction="R_CYSabc_duplicate_2" forward_efficiency="R_CYSabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_CYSabc_duplicate_3_enzyme" reaction="R_CYSabc_duplicate_3" forward_efficiency="R_CYSabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -2424,14 +2424,14 @@
     <enzyme id="R_CYSabc_duplicate_5_enzyme" reaction="R_CYSabc_duplicate_5" forward_efficiency="R_CYSabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_CYSabc_duplicate_6_enzyme" reaction="R_CYSabc_duplicate_6" forward_efficiency="R_CYSabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -4656,14 +4656,14 @@
     <enzyme id="R_DAAD_duplicate_6_enzyme" reaction="R_DAAD_duplicate_6" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0841" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0857" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_DAAD_duplicate_7_enzyme" reaction="R_DAAD_duplicate_7" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0857" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0841" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5916,21 +5916,21 @@
     <enzyme id="R_GLNabc_enzyme" reaction="R_GLNabc" forward_efficiency="R_GLNabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLNabc_duplicate_2_enzyme" reaction="R_GLNabc_duplicate_2" forward_efficiency="R_GLNabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLNabc_duplicate_3_enzyme" reaction="R_GLNabc_duplicate_3" forward_efficiency="R_GLNabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -5944,14 +5944,14 @@
     <enzyme id="R_GLNabc_duplicate_5_enzyme" reaction="R_GLNabc_duplicate_5" forward_efficiency="R_GLNabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLNabc_duplicate_6_enzyme" reaction="R_GLNabc_duplicate_6" forward_efficiency="R_GLNabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6321,7 +6321,7 @@
     <enzyme id="R_HIBDkt_duplicate_6_enzyme" reaction="R_HIBDkt_duplicate_6" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A1102" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0388" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -6335,14 +6335,14 @@
     <enzyme id="R_HIBDkt_duplicate_8_enzyme" reaction="R_HIBDkt_duplicate_8" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0282" stoichiometry="1.0"/>
+          <speciesReference species="H16_A1102" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_HIBDkt_duplicate_9_enzyme" reaction="R_HIBDkt_duplicate_9" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0388" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0282" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11086,21 +11086,21 @@
     <enzyme id="R_HISabc_enzyme" reaction="R_HISabc" forward_efficiency="R_HISabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_HISabc_duplicate_2_enzyme" reaction="R_HISabc_duplicate_2" forward_efficiency="R_HISabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_HISabc_duplicate_3_enzyme" reaction="R_HISabc_duplicate_3" forward_efficiency="R_HISabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -11114,14 +11114,14 @@
     <enzyme id="R_HISabc_duplicate_5_enzyme" reaction="R_HISabc_duplicate_5" forward_efficiency="R_HISabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_HISabc_duplicate_6_enzyme" reaction="R_HISabc_duplicate_6" forward_efficiency="R_HISabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -16196,252 +16196,252 @@
     <enzyme id="R_ACOADH1_duplicate_6_enzyme" reaction="R_ACOADH1_duplicate_6" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0356" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0938" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_7_enzyme" reaction="R_ACOADH1_duplicate_7" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1694" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0751" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_8_enzyme" reaction="R_ACOADH1_duplicate_8" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B2158" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0660" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_9_enzyme" reaction="R_ACOADH1_duplicate_9" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0913" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0395" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_10_enzyme" reaction="R_ACOADH1_duplicate_10" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2596" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0360" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_11_enzyme" reaction="R_ACOADH1_duplicate_11" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0664" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0721" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_12_enzyme" reaction="R_ACOADH1_duplicate_12" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B2157" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0356" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_13_enzyme" reaction="R_ACOADH1_duplicate_13" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0234" stoichiometry="1.0"/>
+          <speciesReference species="H16_A1530" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_14_enzyme" reaction="R_ACOADH1_duplicate_14" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1367" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0460" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_15_enzyme" reaction="R_ACOADH1_duplicate_15" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0360" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0863" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_16_enzyme" reaction="R_ACOADH1_duplicate_16" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A1068" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0383" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_17_enzyme" reaction="R_ACOADH1_duplicate_17" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0383" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0849" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_18_enzyme" reaction="R_ACOADH1_duplicate_18" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0909" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0816" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_19_enzyme" reaction="R_ACOADH1_duplicate_19" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0849" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1481" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_20_enzyme" reaction="R_ACOADH1_duplicate_20" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0938" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0384" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_21_enzyme" reaction="R_ACOADH1_duplicate_21" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0721" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1332" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_22_enzyme" reaction="R_ACOADH1_duplicate_22" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0660" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0661" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_23_enzyme" reaction="R_ACOADH1_duplicate_23" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0665" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0683" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_24_enzyme" reaction="R_ACOADH1_duplicate_24" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A1530" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0101" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_25_enzyme" reaction="R_ACOADH1_duplicate_25" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0863" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0703" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_26_enzyme" reaction="R_ACOADH1_duplicate_26" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0661" stoichiometry="1.0"/>
+          <speciesReference species="H16_B2158" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_27_enzyme" reaction="R_ACOADH1_duplicate_27" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0101" stoichiometry="1.0"/>
+          <speciesReference species="H16_A1068" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_28_enzyme" reaction="R_ACOADH1_duplicate_28" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A1067" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0665" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_29_enzyme" reaction="R_ACOADH1_duplicate_29" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0975" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0909" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_30_enzyme" reaction="R_ACOADH1_duplicate_30" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0676" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2596" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_31_enzyme" reaction="R_ACOADH1_duplicate_31" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0580" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1826" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_32_enzyme" reaction="R_ACOADH1_duplicate_32" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1481" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0664" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_33_enzyme" reaction="R_ACOADH1_duplicate_33" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0704" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0396" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_34_enzyme" reaction="R_ACOADH1_duplicate_34" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0843" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0975" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_35_enzyme" reaction="R_ACOADH1_duplicate_35" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1332" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0400" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_36_enzyme" reaction="R_ACOADH1_duplicate_36" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0460" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0234" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_37_enzyme" reaction="R_ACOADH1_duplicate_37" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0722" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0704" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_38_enzyme" reaction="R_ACOADH1_duplicate_38" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0703" stoichiometry="1.0"/>
+          <speciesReference species="H16_B2157" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_39_enzyme" reaction="R_ACOADH1_duplicate_39" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0384" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1694" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_40_enzyme" reaction="R_ACOADH1_duplicate_40" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0396" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1192" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_41_enzyme" reaction="R_ACOADH1_duplicate_41" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1192" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0843" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -16455,49 +16455,49 @@
     <enzyme id="R_ACOADH1_duplicate_43_enzyme" reaction="R_ACOADH1_duplicate_43" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0395" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0379" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_44_enzyme" reaction="R_ACOADH1_duplicate_44" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0379" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1367" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_45_enzyme" reaction="R_ACOADH1_duplicate_45" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0816" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0580" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_46_enzyme" reaction="R_ACOADH1_duplicate_46" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1826" stoichiometry="1.0"/>
+          <speciesReference species="H16_A1067" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_47_enzyme" reaction="R_ACOADH1_duplicate_47" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0400" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0722" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_48_enzyme" reaction="R_ACOADH1_duplicate_48" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0751" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0913" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ACOADH1_duplicate_49_enzyme" reaction="R_ACOADH1_duplicate_49" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0683" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0676" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -17969,14 +17969,14 @@
     <enzyme id="R_FORA_duplicate_3_enzyme" reaction="R_FORA_duplicate_3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B2459" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0473" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_FORA_duplicate_4_enzyme" reaction="R_FORA_duplicate_4" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0473" stoichiometry="1.0"/>
+          <speciesReference species="H16_B2459" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -18461,21 +18461,21 @@
     <enzyme id="R_ORNabc_enzyme" reaction="R_ORNabc" forward_efficiency="R_ORNabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ORNabc_duplicate_2_enzyme" reaction="R_ORNabc_duplicate_2" forward_efficiency="R_ORNabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ORNabc_duplicate_3_enzyme" reaction="R_ORNabc_duplicate_3" forward_efficiency="R_ORNabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -18489,14 +18489,14 @@
     <enzyme id="R_ORNabc_duplicate_5_enzyme" reaction="R_ORNabc_duplicate_5" forward_efficiency="R_ORNabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ORNabc_duplicate_6_enzyme" reaction="R_ORNabc_duplicate_6" forward_efficiency="R_ORNabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19430,21 +19430,21 @@
     <enzyme id="R_ARGabc_enzyme" reaction="R_ARGabc" forward_efficiency="R_ARGabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ARGabc_duplicate_2_enzyme" reaction="R_ARGabc_duplicate_2" forward_efficiency="R_ARGabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ARGabc_duplicate_3_enzyme" reaction="R_ARGabc_duplicate_3" forward_efficiency="R_ARGabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19458,14 +19458,14 @@
     <enzyme id="R_ARGabc_duplicate_5_enzyme" reaction="R_ARGabc_duplicate_5" forward_efficiency="R_ARGabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ARGabc_duplicate_6_enzyme" reaction="R_ARGabc_duplicate_6" forward_efficiency="R_ARGabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -19837,21 +19837,21 @@
     <enzyme id="R_SADT2_enzyme" reaction="R_SADT2" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B0627" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2996" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SADT2_duplicate_2_enzyme" reaction="R_SADT2_duplicate_2" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2995" stoichiometry="1.0"/>
+          <speciesReference species="H16_B0627" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_SADT2_duplicate_3_enzyme" reaction="R_SADT2_duplicate_3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2996" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2995" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -21879,21 +21879,21 @@
     <enzyme id="R_GLUabc_enzyme" reaction="R_GLUabc" forward_efficiency="R_GLUabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLUabc_duplicate_2_enzyme" reaction="R_GLUabc_duplicate_2" forward_efficiency="R_GLUabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLUabc_duplicate_3_enzyme" reaction="R_GLUabc_duplicate_3" forward_efficiency="R_GLUabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -21907,14 +21907,14 @@
     <enzyme id="R_GLUabc_duplicate_5_enzyme" reaction="R_GLUabc_duplicate_5" forward_efficiency="R_GLUabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLUabc_duplicate_6_enzyme" reaction="R_GLUabc_duplicate_6" forward_efficiency="R_GLUabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22250,21 +22250,21 @@
     <enzyme id="R_GLYCTO1_duplicate_2_enzyme" reaction="R_GLYCTO1_duplicate_2" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A1307" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3097" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLYCTO1_duplicate_3_enzyme" reaction="R_GLYCTO1_duplicate_3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3094" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3096" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_GLYCTO1_duplicate_4_enzyme" reaction="R_GLYCTO1_duplicate_4" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3097" stoichiometry="1.0"/>
+          <speciesReference species="H16_A1307" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -22278,7 +22278,7 @@
     <enzyme id="R_GLYCTO1_duplicate_6_enzyme" reaction="R_GLYCTO1_duplicate_6" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3096" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3094" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23894,21 +23894,21 @@
     <enzyme id="R_LYSabc_enzyme" reaction="R_LYSabc" forward_efficiency="R_LYSabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_LYSabc_duplicate_2_enzyme" reaction="R_LYSabc_duplicate_2" forward_efficiency="R_LYSabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_LYSabc_duplicate_3_enzyme" reaction="R_LYSabc_duplicate_3" forward_efficiency="R_LYSabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23922,14 +23922,14 @@
     <enzyme id="R_LYSabc_duplicate_5_enzyme" reaction="R_LYSabc_duplicate_5" forward_efficiency="R_LYSabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_LYSabc_duplicate_6_enzyme" reaction="R_LYSabc_duplicate_6" forward_efficiency="R_LYSabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -23964,14 +23964,14 @@
     <enzyme id="R_OMCDC_duplicate_2_enzyme" reaction="R_OMCDC_duplicate_2" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2619" stoichiometry="2.0"/>
+          <speciesReference species="H16_A0477" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_OMCDC_duplicate_3_enzyme" reaction="R_OMCDC_duplicate_3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0477" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2619" stoichiometry="2.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24786,21 +24786,21 @@
     <enzyme id="R_ASPabc_enzyme" reaction="R_ASPabc" forward_efficiency="R_ASPabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
+          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ASPabc_duplicate_2_enzyme" reaction="R_ASPabc_duplicate_2" forward_efficiency="R_ASPabc_duplicate_2_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
+          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ASPabc_duplicate_3_enzyme" reaction="R_ASPabc_duplicate_3" forward_efficiency="R_ASPabc_duplicate_3_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A2756" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0475" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24814,14 +24814,14 @@
     <enzyme id="R_ASPabc_duplicate_5_enzyme" reaction="R_ASPabc_duplicate_5" forward_efficiency="R_ASPabc_duplicate_5_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
+          <speciesReference species="H16_B1810" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
     <enzyme id="R_ASPabc_duplicate_6_enzyme" reaction="R_ASPabc_duplicate_6" forward_efficiency="R_ASPabc_duplicate_6_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
-          <speciesReference species="H16_A3308" stoichiometry="1.0"/>
+          <speciesReference species="H16_A0045" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
@@ -24959,6 +24959,13 @@
           <speciesReference species="H16_A0238" stoichiometry="4.0"/>
           <speciesReference species="H16_A0237" stoichiometry="1.0"/>
           <speciesReference species="H16_A0330" stoichiometry="1.0"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
+    <enzyme id="R_MTHF3ES_c_enzyme" reaction="R_MTHF3ES_c" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
