@@ -5,19 +5,26 @@ Michael Jahn,
 
 ***
 
-This resource balance analysis (RBA) model was generated using the [RBApy package from Bulovic et al.](https://doi.org/10.1016/j.ymben.2019.06.001),
-using a manually curated metabolic reconstruction originally developed by [Park et al., 2011](http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-5-101). The original model was refactored and many reactions were curated and harmonized to community standards as e.g. available through the [Bigg model database](bigg.ucsd.edu/). The genome scale model that serves as base for the RBA model is maintained on [github.com/m-jahn/](https://github.com/m-jahn/genome-scale-models).
+## Overview
 
-Sources for parameter estimation are:
+This resource balance analysis (RBA) model was generated using the [RBApy package from Bulovic et al.](https://doi.org/10.1016/j.ymben.2019.06.001), using a genomse scale metabolic model (GSM) originally developed by [Park et al., 2011](http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-5-101). The original genome scale model was refactored and many reactions were curated and harmonized to community standards as e.g. available through the [Bigg model database](bigg.ucsd.edu/). The genome scale model that serves as base for the RBA model is maintained on [github.com/m-jahn/](https://github.com/m-jahn/genome-scale-models).
 
+The RBA model is an extension of the GSM where the solution space is constrained by many additional parameters. Model construction and parameter estimation are described below in more detail. Parameter estimation was largely based on the following publications:
+
+ - [Bulovic et al., 2019](https://doi.org/10.1016/j.ymben.2019.06.001): automatic model creation workflow.
  - [Goelzer at al., 2015](https://doi.org/10.1016/j.ymben.2015.10.003): set of parameters for transcription, translation, and other fundamental cellular functions.
- - [Park et al., 2011](http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-5-101) for the cell composition of *R. eutropha* (original biomass equation)
+ - [Park et al., 2011](http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-5-101): cell composition of *R. eutropha* (original biomass equation), basis for GSM.
 
+<p align="center">
+  <img src="figures/RBA_model_generation.png" />
+</p>
+
+----------
 
 ## Generation of the XML model
 
 The *Ralstonia eutropha H16* RBA model was generated in a step-wise manner,
-based on information from a hand-curated model.
+based on information from a hand-curated GSM. 
 
 
 ### Step 1: Generation of a default model
@@ -48,12 +55,14 @@ This first run downloaded `data/uniprot.csv`, generated helper files `data/*.tsv
  - `unknown_proteins.tsv`: (empty) the SBML model contains no genes that could not be mapped
 
 Two additional macroprocesses were added, **transcription of DNA to mRNA**, and **DNA replication**. 
-The RBApy source code was adapted to automatically load protein associations from `transcription.fasta` and `replication.fasta` (see [github fork extra processes](https://github.com/m-jahn/RBApy/tree/extra_processes)). Adding machinery for transcription (TSC) was based on the following assumptions:
+The RBApy source code was adapted to automatically load protein associations from `transcription.fasta` and `replication.fasta` (see [github fork extra processes](https://github.com/m-jahn/RBApy/tree/extra_processes)). 
+
+#### Machinery for transcription (TSC)
 
  - We need **a capacity constraint**, effectively the transcription rate per RNA polymerase unit that is added to parameters. On bionumbers, several values in the range of 20-80 nt per second per unit RNA polymerase are given. We take the most recent estimate for *E. coli*, 62 nt/s or 223200 nt/h (source: Epshtein V, Nudler E. Cooperation between RNA polymerase molecules in transcription elongation. Science. 2003 May 2 300(5620):801-5.). PubMed ID12730602.
 - We need **proteins that catalyze transcription** (RNA polymerase complex). The canonical RNA polymerase in bacteria consists of 2 alpha, 1 beta, 1 beta prime, and 1 omega subunit. When a sigma factor is associated with the core, the holoenzyme is formed, which can initiate transcription. Four proteins were added as important sigma factors, rpoD1, D2, rpoS, and rpoN, each with partial contribution of 0.25 (source: uniprot.org, subunit structure).
 
-Adding machinery for replication (REP) was based on the following assumptions:
+#### Machinery for replication (REP)
 
 - DNA replication is mainly catalyzed by DNA-dependent DNA polymerase III. We need to add a rate for this enzyme. Bionumbers gives estimates from 600-1000 nt/s, so on average 800 nt/s or 2880000 nt/h.
 - DNA polymerase III contains a core (composed of alpha, epsilon and theta chains) that associates with a tau subunit. This core dimerizes to form the POLIII complex. PolIII associates with the gamma complex (composed of gamma, delta, delta prime, psi and chi chains) and with the beta chain to form the complete DNA polymerase III complex.
@@ -74,20 +83,30 @@ python3 solve_rba_model.py .
 
 ### Step 4: Calibration
 
-The model can be calibrated with proteomics data, fluxomics data, or estimations of the `k_app` parameter. `k_app` is a collective term that links fluxes to enzyme abundances. It's theoretical maximum is `k_cat`, the turnover number of an enzyme, but it also depends on the metabolite concentration (therefore saturation), and reaction equilibirium.
+The model can be calibrated with proteomics data, fluxomics data, or other estimations of the `k_app` parameter. `k_app` is a collective term that links enzyme abundance to enzyme rate/flux (termed 'enzyme efficiency' in RBA). It's theoretical maximum is `k_cat`, the maximum turnover rate of an enzyme, but it also depends on the metabolite concentration (therefore saturation).
 
-**k_app**
+#### k_app
 
-`k_app` values e.g. obtained from BRENDA can optionally be included using the following command in `generate_model.py`:    `reutropha.set_enzyme_efficiencies('data/enzyme_efficiency.tsv')`
+`k_app` was estimated following the procedure and scripts from the original `RBApy` publication and the accompanying [github repository](https://github.com/SysBioInra/RBApy). The main script for `k_app` estimation is `kapp.py`, that was slightly customized for this model. The input are flux boundaries obtained from flux sampling analysis (FSA), enzyme abundance in mmol gDCW<sub>-1</sub>, and the GSM/RBA models. It performs `k_app` estimation by dividing apparent flux by enzyme abundance. The input parameters and final results for `k_app` estimation are detailed in the R notebook [Ralstonia model constraints](https://m-jahn.github.io/R-notebooks/Ralstonia_model_constraints.nb.html).
 
-**Protein fraction per compartment**
-<!--
-Protein fraction per compartment was calculated using the 'RBA estim' functions. Two tables, `calibration/experiment.csv` and `calibration/protein.csv` were prepaeed according to the RBApy manual. The estimation procedure is performed using the following script in the `rba/estim` folder (adapt file path):
+Alternatively, `k_app` values e.g. obtained from BRENDA can optionally be included using the following command in `generate_model.py`:    `reutropha.set_enzyme_efficiencies('data/enzyme_efficiency.tsv')`
 
-```
-cd path/to/RBApy/rba/estim
-python3 prot_per_compartment.py
-```
--->
+#### Total protein pool
 
-Protein fraction per compartment was calculated as described in the R notebook [Ralstonia model constraints](https://github.com/m-jahn/R-notebooks).
+The total protein pool (or concentration _c_) in mmol per gram dry cell weight (gDCW) was estimated based on the publication by Park et al, 2011. They reported an estimated protein concentration for _R. eutropha_ of 0.68 g/gDCW. For comparison, cyanobacteria's protein concentration was estimated with 0.65 g/gDCW. Assuming an average molecular weight per amino acid of 110 g/mol, total protein mass is calculated as:
+
+`c = 0.68 g/gDCW / 110 g/mol * 1000 = 6.1818 mmol/gDCW`
+
+#### Protein fraction per compartment
+
+Protein fraction per compartment was calculated as described in the R notebook [Ralstonia model constraints](https://m-jahn.github.io/R-notebooks/Ralstonia_model_constraints.nb.html). Using proteomics data with annotated protein localization as input, the following growth rate dependent linear models were obtained.
+
+- Fraction of cytoplasmic proteins: `0.8684 + 0.1060 * µ`
+- Fraction cytoplasmic membrane proteins: `0.1316 - 0.1060 * µ`
+
+#### Non-enzymatic protein fraction per compartment
+
+Similarly to the above estimation, the non-enzymatic (NE) protein fraction per compartment was determined from proteomics data annotated with gene-reaction associations from the RBA model [Ralstonia model constraints](https://m-jahn.github.io/R-notebooks/Ralstonia_model_constraints.nb.html). 
+
+- Fraction of NE proteins in cytoplasm: `0.5374 - 0.5657 * µ`
+- Fraction of NE proteins in cytoplasmic membrane: `0.8414 - 0.2147 * µ`
