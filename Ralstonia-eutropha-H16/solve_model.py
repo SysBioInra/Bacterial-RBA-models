@@ -15,14 +15,14 @@ def main():
     
     # set input and output paths
     xml_dir = 'model/'
-    output_dir = 'simulation/mixotrophy/'
+    output_dir = 'simulation/variability_analysis/fructose/'
     
     # load model, build matrices
     model = rba.RbaModel.from_xml(xml_dir)
     
     # optionally modify medium
     orig_medium = model.medium
-    orig_medium['M_fru'] = 0.0
+    orig_medium['M_fru'] = 1.0
     
     # optionally add additional flux constraints
     #set_flux_boundary(model, 'R_SUCCt2_2', 0.0)
@@ -30,12 +30,12 @@ def main():
     #set_flux_boundary(model, 'R_SUCCtr', 0.0)
     
     # A) simulation for different substrates
-    substrate = pd.read_csv('simulation/substrate_mixotrophy.csv')
-    simulate_substrate(model, substrate, orig_medium, output_dir)
+    #substrate = pd.read_csv('simulation/substrate_mixotrophy.csv')
+    #simulate_substrate(model, substrate, orig_medium, output_dir)
     
     # B) simulation for different k_apps
-    #iterations = 200
-    #simulate_variability(model, iterations, orig_medium, output_dir)
+    iterations = 200
+    simulate_variability(model, iterations, orig_medium, output_dir)
 
 
 def simulate_substrate(model, substrate, orig_medium, output_dir):
