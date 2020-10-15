@@ -1925,7 +1925,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_GLYOX_enzyme" reaction="R_GLYOX" forward_efficiency="R_GLYOX_enzyme_forward_efficiency" backward_efficiency="R_GLYOX_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_GLYOX_enzyme" reaction="R_GLYOX" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1980" stoichiometry="1.0"/>
@@ -2257,7 +2257,13 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_NH4t_enzyme" reaction="R_NH4t" forward_efficiency="R_NH4t_efficiency" backward_efficiency="R_NH4t_enzyme_backward_efficiency" zeroCost="false"/>
+    <enzyme id="R_NH4t_enzyme" reaction="R_NH4t" forward_efficiency="R_NH4t_efficiency" backward_efficiency="R_NH4t_enzyme_backward_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
     <enzyme id="R_FDH_enzyme" reaction="R_FDH" forward_efficiency="R_FDH_enzyme_forward_efficiency" backward_efficiency="R_FDH_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -3609,7 +3615,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_TRPD_enzyme" reaction="R_TRPD" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_TRPD_enzyme" reaction="R_TRPD" forward_efficiency="R_TRPD_enzyme_forward_efficiency" backward_efficiency="R_TRPD_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2816" stoichiometry="4.0"/>
@@ -4309,7 +4315,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_HMDPPK_enzyme" reaction="R_HMDPPK" forward_efficiency="R_HMDPPK_enzyme_forward_efficiency" backward_efficiency="R_HMDPPK_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_HMDPPK_enzyme" reaction="R_HMDPPK" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3082" stoichiometry="1.0"/>
@@ -4695,7 +4701,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_OCOAT1m_enzyme" reaction="R_OCOAT1m" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_OCOAT1m_enzyme" reaction="R_OCOAT1m" forward_efficiency="R_OCOAT1m_enzyme_forward_efficiency" backward_efficiency="R_OCOAT1m_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1332" stoichiometry="1.0"/>
@@ -5365,7 +5371,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_KYN_enzyme" reaction="R_KYN" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_KYN_enzyme" reaction="R_KYN" forward_efficiency="R_KYN_enzyme_forward_efficiency" backward_efficiency="R_KYN_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2815" stoichiometry="2.0"/>
@@ -5400,7 +5406,13 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_MG2t_enzyme" reaction="R_MG2t" forward_efficiency="R_MG2t_efficiency" backward_efficiency="R_MG2t_enzyme_backward_efficiency" zeroCost="false"/>
+    <enzyme id="R_MG2t_enzyme" reaction="R_MG2t" forward_efficiency="R_MG2t_efficiency" backward_efficiency="R_MG2t_enzyme_backward_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
     <enzyme id="R_KYNRN3_enzyme" reaction="R_KYNRN3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -5702,7 +5714,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_L_LACD2_enzyme" reaction="R_L_LACD2" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_L_LACD2_enzyme" reaction="R_L_LACD2" forward_efficiency="R_L_LACD2_enzyme_forward_efficiency" backward_efficiency="R_L_LACD2_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1817" stoichiometry="1.0"/>
@@ -5962,7 +5974,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_ORNCD_enzyme" reaction="R_ORNCD" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_ORNCD_enzyme" reaction="R_ORNCD" forward_efficiency="R_ORNCD_enzyme_forward_efficiency" backward_efficiency="R_ORNCD_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1881" stoichiometry="1.0"/>
@@ -6102,7 +6114,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_SUCD1_enzyme" reaction="R_SUCD1" forward_efficiency="R_SUCD1_enzyme_forward_efficiency" backward_efficiency="R_SUCD1_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_SUCD1_enzyme" reaction="R_SUCD1" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0204" stoichiometry="1.0"/>
@@ -6187,7 +6199,13 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_Ktr_enzyme" reaction="R_Ktr" forward_efficiency="R_Ktr_efficiency" backward_efficiency="R_Ktr_enzyme_backward_efficiency" zeroCost="false"/>
+    <enzyme id="R_Ktr_enzyme" reaction="R_Ktr" forward_efficiency="R_Ktr_efficiency" backward_efficiency="R_Ktr_enzyme_backward_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
     <enzyme id="R_PYDXO_1_enzyme" reaction="R_PYDXO_1" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -6513,7 +6531,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_PC_enzyme" reaction="R_PC" forward_efficiency="R_PC_enzyme_forward_efficiency" backward_efficiency="R_PC_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_PC_enzyme" reaction="R_PC" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1251" stoichiometry="1.0"/>
@@ -7273,7 +7291,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_THRD_enzyme" reaction="R_THRD" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_THRD_enzyme" reaction="R_THRD" forward_efficiency="R_THRD_enzyme_forward_efficiency" backward_efficiency="R_THRD_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A1934" stoichiometry="1.0"/>
@@ -7343,7 +7361,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_GLYAT_enzyme" reaction="R_GLYAT" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_GLYAT_enzyme" reaction="R_GLYAT" forward_efficiency="R_GLYAT_enzyme_forward_efficiency" backward_efficiency="R_GLYAT_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0819" stoichiometry="2.0"/>
@@ -7707,7 +7725,13 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_NAt3_1g_enzyme" reaction="R_NAt3_1g" forward_efficiency="R_NAt3_1g_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false"/>
+    <enzyme id="R_NAt3_1g_enzyme" reaction="R_NAt3_1g" forward_efficiency="R_NAt3_1g_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
     <enzyme id="R_NMNt7_enzyme" reaction="R_NMNt7" forward_efficiency="R_NMNt7_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -8839,7 +8863,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_NTP3_enzyme" reaction="R_NTP3" forward_efficiency="R_NTP3_enzyme_forward_efficiency" backward_efficiency="R_NTP3_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_NTP3_enzyme" reaction="R_NTP3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0948" stoichiometry="2.0"/>
@@ -8881,7 +8905,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_PPS_enzyme" reaction="R_PPS" forward_efficiency="R_PPS_enzyme_forward_efficiency" backward_efficiency="R_PPS_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_PPS_enzyme" reaction="R_PPS" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2038" stoichiometry="1.0"/>
@@ -9459,7 +9483,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_TRPS2_enzyme" reaction="R_TRPS2" forward_efficiency="R_TRPS2_enzyme_forward_efficiency" backward_efficiency="R_TRPS2_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_TRPS2_enzyme" reaction="R_TRPS2" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2612" stoichiometry="1.0"/>
@@ -9502,7 +9526,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_TRPS1_enzyme" reaction="R_TRPS1" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_TRPS1_enzyme" reaction="R_TRPS1" forward_efficiency="R_TRPS1_enzyme_forward_efficiency" backward_efficiency="R_TRPS1_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2612" stoichiometry="1.0"/>
@@ -10306,7 +10330,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_PYAM5PO_enzyme" reaction="R_PYAM5PO" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_PYAM5PO_enzyme" reaction="R_PYAM5PO" forward_efficiency="R_PYAM5PO_enzyme_forward_efficiency" backward_efficiency="R_PYAM5PO_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2802" stoichiometry="2.0"/>
@@ -10390,7 +10414,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_G3PD5_enzyme" reaction="R_G3PD5" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_G3PD5_enzyme" reaction="R_G3PD5" forward_efficiency="R_G3PD5_enzyme_forward_efficiency" backward_efficiency="R_G3PD5_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1198" stoichiometry="1.0"/>
@@ -10656,7 +10680,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_OMPHHX3_enzyme" reaction="R_OMPHHX3" forward_efficiency="R_OMPHHX3_enzyme_forward_efficiency" backward_efficiency="R_OMPHHX3_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_OMPHHX3_enzyme" reaction="R_OMPHHX3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0504" stoichiometry="1.0"/>
@@ -10698,14 +10722,14 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_P5CR_enzyme" reaction="R_P5CR" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_P5CR_enzyme" reaction="R_P5CR" forward_efficiency="R_P5CR_enzyme_forward_efficiency" backward_efficiency="R_P5CR_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3106" stoichiometry="1.0"/>
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_LGTHL_enzyme" reaction="R_LGTHL" forward_efficiency="R_LGTHL_enzyme_forward_efficiency" backward_efficiency="R_LGTHL_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_LGTHL_enzyme" reaction="R_LGTHL" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0274" stoichiometry="1.0"/>
@@ -11279,7 +11303,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_P5CD3_enzyme" reaction="R_P5CD3" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_P5CD3_enzyme" reaction="R_P5CD3" forward_efficiency="R_P5CD3_enzyme_forward_efficiency" backward_efficiency="R_P5CD3_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3631" stoichiometry="1.0"/>
@@ -11405,7 +11429,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_MGSA_enzyme" reaction="R_MGSA" forward_efficiency="R_MGSA_enzyme_forward_efficiency" backward_efficiency="R_MGSA_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_MGSA_enzyme" reaction="R_MGSA" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0932" stoichiometry="1.0"/>
@@ -15332,7 +15356,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_GCLDH_enzyme" reaction="R_GCLDH" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_GCLDH_enzyme" reaction="R_GCLDH" forward_efficiency="R_GCLDH_enzyme_forward_efficiency" backward_efficiency="R_GCLDH_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B0611" stoichiometry="1.0"/>
@@ -17243,7 +17267,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_LAAO5_enzyme" reaction="R_LAAO5" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_LAAO5_enzyme" reaction="R_LAAO5" forward_efficiency="R_LAAO5_enzyme_forward_efficiency" backward_efficiency="R_LAAO5_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0856" stoichiometry="1.0"/>
@@ -17894,7 +17918,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_DHPS2_enzyme" reaction="R_DHPS2" forward_efficiency="R_DHPS2_enzyme_forward_efficiency" backward_efficiency="R_DHPS2_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_DHPS2_enzyme" reaction="R_DHPS2" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2446" stoichiometry="1.0"/>
@@ -18303,7 +18327,13 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_SO4t_enzyme" reaction="R_SO4t" forward_efficiency="R_SO4t_efficiency" backward_efficiency="R_SO4t_enzyme_backward_efficiency" zeroCost="false"/>
+    <enzyme id="R_SO4t_enzyme" reaction="R_SO4t" forward_efficiency="R_SO4t_efficiency" backward_efficiency="R_SO4t_enzyme_backward_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
     <enzyme id="R_UDCPDP_enzyme" reaction="R_UDCPDP" forward_efficiency="R_UDCPDP_enzyme_forward_efficiency" backward_efficiency="R_UDCPDP_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -19197,7 +19227,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_MSDHA_enzyme" reaction="R_MSDHA" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_MSDHA_enzyme" reaction="R_MSDHA" forward_efficiency="R_MSDHA_enzyme_forward_efficiency" backward_efficiency="R_MSDHA_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1191" stoichiometry="1.0"/>
@@ -19260,7 +19290,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_SULabc_enzyme" reaction="R_SULabc" forward_efficiency="R_SULabc_efficiency" backward_efficiency="R_SULabc_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_SULabc_enzyme" reaction="R_SULabc" forward_efficiency="R_SULabc_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A2237" stoichiometry="1.0"/>
@@ -21508,7 +21538,13 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_PIt2r_enzyme" reaction="R_PIt2r" forward_efficiency="R_PIt2r_efficiency" backward_efficiency="R_PIt2r_enzyme_backward_efficiency" zeroCost="false"/>
+    <enzyme id="R_PIt2r_enzyme" reaction="R_PIt2r" forward_efficiency="R_PIt2r_efficiency" backward_efficiency="R_PIt2r_enzyme_backward_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cell_membrane" stoichiometry="1"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
     <enzyme id="R_NADTRHD_enzyme" reaction="R_NADTRHD" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
@@ -21687,7 +21723,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_ALCD2x_enzyme" reaction="R_ALCD2x" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_ALCD2x_enzyme" reaction="R_ALCD2x" forward_efficiency="R_ALCD2x_enzyme_forward_efficiency" backward_efficiency="R_ALCD2x_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B2470" stoichiometry="1.0"/>
@@ -21750,7 +21786,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_ACFM1_enzyme" reaction="R_ACFM1" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_ACFM1_enzyme" reaction="R_ACFM1" forward_efficiency="R_ACFM1_enzyme_forward_efficiency" backward_efficiency="R_ACFM1_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3005" stoichiometry="1.0"/>
@@ -23653,7 +23689,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_ME1_enzyme" reaction="R_ME1" forward_efficiency="R_ME1_enzyme_forward_efficiency" backward_efficiency="R_ME1_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_ME1_enzyme" reaction="R_ME1" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A3153" stoichiometry="1.0"/>
@@ -23765,7 +23801,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_HEXf_enzyme" reaction="R_HEXf" forward_efficiency="R_HEXf_enzyme_forward_efficiency" backward_efficiency="R_HEXf_enzyme_backward_efficiency" zeroCost="false">
+    <enzyme id="R_HEXf_enzyme" reaction="R_HEXf" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_B1503" stoichiometry="1.0"/>
@@ -24311,7 +24347,7 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_LACDH_enzyme" reaction="R_LACDH" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false">
+    <enzyme id="R_LACDH_enzyme" reaction="R_LACDH" forward_efficiency="R_LACDH_enzyme_forward_efficiency" backward_efficiency="R_LACDH_enzyme_backward_efficiency" zeroCost="false">
       <machineryComposition>
         <listOfReactants>
           <speciesReference species="H16_A0666" stoichiometry="1.0"/>
@@ -24986,7 +25022,13 @@
         </listOfReactants>
       </machineryComposition>
     </enzyme>
-    <enzyme id="R_H2td_enzyme" reaction="R_H2td" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false"/>
+    <enzyme id="R_H2td_enzyme" reaction="R_H2td" forward_efficiency="default_transporter_efficiency" backward_efficiency="default_transporter_efficiency" zeroCost="false">
+      <machineryComposition>
+        <listOfReactants>
+          <speciesReference species="average_protein_Cytoplasm" stoichiometry="1"/>
+        </listOfReactants>
+      </machineryComposition>
+    </enzyme>
     <enzyme id="R_maintenance_atp_enzyme" reaction="R_maintenance_atp" forward_efficiency="default_efficiency" backward_efficiency="default_efficiency" zeroCost="false"/>
   </listOfEnzymes>
 </RBAEnzymes>

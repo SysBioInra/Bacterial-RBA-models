@@ -15,27 +15,32 @@ def main():
     
     # set input and output paths
     xml_dir = 'model/'
-    output_dir = 'simulation/variability_analysis/fructose/'
+    output_dir = 'simulation/substrate_limitation/'
     
     # load model, build matrices
     model = rba.RbaModel.from_xml(xml_dir)
     
     # optionally modify medium
     orig_medium = model.medium
-    orig_medium['M_fru'] = 1.0
+    orig_medium['M_fru'] = 0.0
+    #orig_medium['M_succ'] = 1.0
+    #orig_medium['M_for'] = 1.0
+    #orig_medium['M_nh4'] = 0.1
     
     # optionally add additional flux constraints
-    #set_flux_boundary(model, 'R_SUCCt2_2', 0.0)
-    #set_flux_boundary(model, 'R_SUCCt_3', 0.0)
-    #set_flux_boundary(model, 'R_SUCCtr', 0.0)
+    set_flux_boundary(model, 'R_SUCCt2_2', 0.0)
+    set_flux_boundary(model, 'R_SUCCt_3', 0.0)
+    set_flux_boundary(model, 'R_SUCCtr', 0.0)
+    set_flux_boundary(model, 'R_GLUDy', 0.0)
+    
     
     # A) simulation for different substrates
-    #substrate = pd.read_csv('simulation/substrate_mixotrophy.csv')
-    #simulate_substrate(model, substrate, orig_medium, output_dir)
+    substrate = pd.read_csv('simulation/substrate_limitation.csv')
+    simulate_substrate(model, substrate, orig_medium, output_dir)
     
     # B) simulation for different k_apps
-    iterations = 200
-    simulate_variability(model, iterations, orig_medium, output_dir)
+    #iterations = 200
+    #simulate_variability(model, iterations, orig_medium, output_dir)
 
 
 def simulate_substrate(model, substrate, orig_medium, output_dir):
@@ -52,9 +57,10 @@ def simulate_substrate(model, substrate, orig_medium, output_dir):
         
         # optionally set flux boundary for reactions
         if 'substrate_uptake' in row.index:
-            set_flux_boundary(model2, row['substrate_TR'], row['substrate_uptake'])
-        # force flux through Rubisco, from 0 to 5 mmol/gDCW
-        set_flux_boundary(model2, 'R_RBPC', float(index))
+            if not np.isnan(row['substrate_uptake']):
+                set_flux_boundary(model2, row['substrate_TR'], row['substrate_uptake'])
+        # force flux through Rubisco, for example from 0 to 5 mmol/gDCW
+        # set_flux_boundary(model2, 'R_RBPC', float(index))
         
         # solve model
         try:

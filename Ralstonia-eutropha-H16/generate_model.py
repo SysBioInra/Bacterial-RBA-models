@@ -52,11 +52,10 @@ def import_sbml_model(model_path):
     
     # replace all empty gene associations with UNKNOWN in order to
     # avoid spontaneous reactions (see RBApy manual)
-    # An exception are gas and small ion (facilitated) diffusion reactions
+    # An exception are gases that diffuse more or less freely.
     for r in model.reactions:
         if r.gene_reaction_rule == '':
-            if r.id in (['H2Ot', 'CO2t', 'O2t', 'NH4t', 'Ktr', 
-                'PIt2r', 'NAt3_1g', 'SO4t', 'MG2t', 'H2td']):
+            if r.id in (['H2Ot', 'CO2t', 'O2t']):
                 r.gene_reaction_rule = ''
             elif re.search('t[0-9]?r?$|abc$|pts$', r.id):
                 r.gene_reaction_rule = 'UNKNOWN_TRANSPORTER'
@@ -94,13 +93,13 @@ def set_default_efficiencies(model):
     # 12.5 * 3600 = 45000/h; Bulovic et al., 2019, RBApy
     # 65 * 3600 = 234000/h; Lloyd et al., 2018, CobraME
     # 172 * 3600 = 619200/h; Salvy et al., 2020, ETFL
-    # median of k_app parameter estimation = 9159
+    # or median of k_app parameter estimation
     
     fn = model.parameters.functions.get_by_id('default_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 9159
+    fn.parameters.get_by_id('CONSTANT').value = 6295
     
     fn = model.parameters.functions.get_by_id('default_transporter_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 9159
+    fn.parameters.get_by_id('CONSTANT').value = 6295
 
 
 # set maintenance ATP consumption. Maintenance can consist of a growth-
@@ -114,7 +113,7 @@ def set_maintenance(model):
     
     fn = model.parameters.functions.get_by_id('maintenance_atp')
     fn.parameters.get_by_id('LINEAR_CONSTANT').value = 3
-    fn.parameters.get_by_id('LINEAR_COEF').value = 15.3
+    fn.parameters.get_by_id('LINEAR_COEF').value = 15
     fn.parameters.get_by_id('X_MIN').value = 0
     fn.parameters.get_by_id('X_MAX').value = 1
 
