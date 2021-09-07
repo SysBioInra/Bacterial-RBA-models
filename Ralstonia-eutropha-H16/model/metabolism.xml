@@ -1,7 +1,7 @@
 <RBAMetabolism>
   <listOfCompartments>
-    <compartment id="Cytoplasm"/>
     <compartment id="Cell_membrane"/>
+    <compartment id="Cytoplasm"/>
     <compartment id="Secreted"/>
   </listOfCompartments>
   <listOfSpecies>
@@ -8380,14 +8380,14 @@
         <speciesReference species="M_CAV_c" stoichiometry="0.03"/>
         <speciesReference species="M_RNA_c" stoichiometry="0.06"/>
         <speciesReference species="M_LPS_c" stoichiometry="0.034"/>
-        <speciesReference species="M_atp_c" stoichiometry="15.3"/>
+        <speciesReference species="M_atp_c" stoichiometry="150.0"/>
         <speciesReference species="M_PROTEIN_c" stoichiometry="0.68"/>
         <speciesReference species="M_CARBO_c" stoichiometry="0.055"/>
       </listOfReactants>
       <listOfProducts>
-        <speciesReference species="M_pi_c" stoichiometry="15.3"/>
+        <speciesReference species="M_pi_c" stoichiometry="150.0"/>
         <speciesReference species="M_BIOMASS_c" stoichiometry="1.0"/>
-        <speciesReference species="M_adp_c" stoichiometry="15.3"/>
+        <speciesReference species="M_adp_c" stoichiometry="150.0"/>
       </listOfProducts>
     </reaction>
     <reaction id="R_SUCOAS" reversible="true">
@@ -13096,7 +13096,7 @@
         <speciesReference species="M_acacacp_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ICDHyr" reversible="true">
+    <reaction id="R_ICDHyr" reversible="false">
       <listOfReactants>
         <speciesReference species="M_icit_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadp_c" stoichiometry="1.0"/>
@@ -13107,7 +13107,7 @@
         <speciesReference species="M_co2_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ICDHyr_duplicate_2" reversible="true">
+    <reaction id="R_ICDHyr_duplicate_2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_icit_c" stoichiometry="1.0"/>
         <speciesReference species="M_nadp_c" stoichiometry="1.0"/>
@@ -17809,7 +17809,7 @@
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_ICDHx" reversible="true">
+    <reaction id="R_ICDHx" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_icit_c" stoichiometry="1.0"/>
@@ -31649,7 +31649,7 @@
         <speciesReference species="M_glu__L_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_GLUDy" reversible="true">
+    <reaction id="R_GLUDy" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nadp_c" stoichiometry="1.0"/>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
@@ -31662,7 +31662,7 @@
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_GLUDy_duplicate_2" reversible="true">
+    <reaction id="R_GLUDy_duplicate_2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nadp_c" stoichiometry="1.0"/>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
@@ -31675,7 +31675,7 @@
         <speciesReference species="M_h_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_GDH1" reversible="true">
+    <reaction id="R_GDH1" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
@@ -31688,7 +31688,7 @@
         <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_GDH1_duplicate_2" reversible="true">
+    <reaction id="R_GDH1_duplicate_2" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nad_c" stoichiometry="1.0"/>
         <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
@@ -35341,19 +35341,6 @@
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_GLYAMT_duplicate_2" reversible="true">
-      <listOfReactants>
-        <speciesReference species="M_thf_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nad_c" stoichiometry="1.0"/>
-        <speciesReference species="M_gly_c" stoichiometry="1.0"/>
-      </listOfReactants>
-      <listOfProducts>
-        <speciesReference species="M_co2_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nh4_c" stoichiometry="1.0"/>
-        <speciesReference species="M_mlthf_c" stoichiometry="1.0"/>
-        <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
-      </listOfProducts>
-    </reaction>
     <reaction id="R_LALDO2x" reversible="false">
       <listOfReactants>
         <speciesReference species="M_nadh_c" stoichiometry="1.0"/>
@@ -38590,7 +38577,7 @@
         <speciesReference species="M_fe3_c" stoichiometry="1.0"/>
       </listOfProducts>
     </reaction>
-    <reaction id="R_GHMT3" reversible="true">
+    <reaction id="R_GHMT3" reversible="false">
       <listOfReactants>
         <speciesReference species="M_thf_c" stoichiometry="1.0"/>
         <speciesReference species="M_ser__L_c" stoichiometry="1.0"/>

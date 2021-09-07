@@ -15,7 +15,7 @@ def main():
     
     # set input and output paths
     xml_dir = 'model/'
-    output_dir = 'simulation/substrate_limitation/'
+    output_dir = 'simulation/mixotrophy/'
     
     # load model, build matrices
     model = rba.RbaModel.from_xml(xml_dir)
@@ -35,7 +35,7 @@ def main():
     
     
     # A) simulation for different substrates
-    substrate = pd.read_csv('simulation/substrate_limitation.csv')
+    substrate = pd.read_csv('simulation/substrate_mixotrophy.csv')
     simulate_substrate(model, substrate, orig_medium, output_dir)
     
     # B) simulation for different k_apps
@@ -60,7 +60,8 @@ def simulate_substrate(model, substrate, orig_medium, output_dir):
             if not np.isnan(row['substrate_uptake']):
                 set_flux_boundary(model2, row['substrate_TR'], row['substrate_uptake'])
         # force flux through Rubisco, for example from 0 to 5 mmol/gDCW
-        # set_flux_boundary(model2, 'R_RBPC', float(index))
+        set_flux_boundary(model2, 'R_RBPC', float(index))
+        
         
         # solve model
         try:

@@ -1342,3 +1342,4 @@ Q0K207	1	cydB1 H16_B1176	Bd-type quinol oxidase subunit II (EC 1.10.3.-)	[MISSIN
 Q0K175	1	cydA2 H16_B1461	Bd-type quinol oxidase subunit I (EC 1.10.3.-)	[MISSING]
 Q0K174	1	cydB2 H16_B1462	Bd-type quinol oxidase subunit I (EC 1.10.3.-)	[MISSING]
 Q0K206	1	cydA1 H16_B1177	Bd-type quinol oxidase subunit II (EC 1.10.3.-)	[MISSING]
+Q0K5P4	1	gcvH H16_A3620	Glycine cleavage system H protein	SUBUNIT: The glycine cleavage system is composed of four proteins: P, T, L and H. {ECO:0000256|HAMAP-Rule:MF_00272, ECO:0000256|SAAS:SAAS00846613}.

@@ -2,8 +2,8 @@
   <listOfTargetGroups>
     <targetGroup id="translation_targets">
       <listOfConcentrations>
-        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
         <targetSpecies value="nonenzymatic_proteins_Cell_membrane" species="average_protein_Cell_membrane"/>
+        <targetSpecies value="nonenzymatic_proteins_Cytoplasm" species="average_protein_Cytoplasm"/>
         <targetSpecies value="nonenzymatic_proteins_Secreted" species="average_protein_Secreted"/>
       </listOfConcentrations>
     </targetGroup>
@@ -62,6 +62,9 @@
         <targetSpecies value="10FTHF_concentration" species="M_10fthf_c"/>
         <targetSpecies value="CHEBI:60344_concentration" species="M_hemeA_c"/>
       </listOfConcentrations>
+      <listOfReactionFluxes>
+        <targetReaction value="R_PHBt_flux_boundary" reaction="R_PHBt"/>
+      </listOfReactionFluxes>
     </targetGroup>
     <targetGroup id="macrocomponent_production">
       <listOfConcentrations>
@@ -70,7 +73,6 @@
         <targetSpecies value="M_LPS_c_concentration" species="M_LPS_c"/>
         <targetSpecies value="M_PEPTIDO_c_concentration" species="M_PEPTIDO_c"/>
         <targetSpecies value="M_PHOSPHOLIPID_c_concentration" species="M_PHOSPHOLIPID_c"/>
-        <targetSpecies value="M_phb_c_concentration" species="M_phb_c"/>
       </listOfConcentrations>
     </targetGroup>
     <targetGroup id="maintenance_atp_target">

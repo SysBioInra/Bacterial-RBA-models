@@ -15,7 +15,7 @@ import cobra
 def main():
     
     # make some inital modifications to sbml required for RBA
-    import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1.xml")
+    import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1_maint.xml")
     
     # inital run of model generation creates helper files
     reutropha = rba.RbaModel.from_data('params.in')
@@ -96,10 +96,10 @@ def set_default_efficiencies(model):
     # or median of k_app parameter estimation
     
     fn = model.parameters.functions.get_by_id('default_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 6295
+    fn.parameters.get_by_id('CONSTANT').value = 5770
     
     fn = model.parameters.functions.get_by_id('default_transporter_efficiency')
-    fn.parameters.get_by_id('CONSTANT').value = 6295
+    fn.parameters.get_by_id('CONSTANT').value = 5770
 
 
 # set maintenance ATP consumption. Maintenance can consist of a growth-
@@ -113,9 +113,23 @@ def set_maintenance(model):
     
     fn = model.parameters.functions.get_by_id('maintenance_atp')
     fn.parameters.get_by_id('LINEAR_CONSTANT').value = 3
-    fn.parameters.get_by_id('LINEAR_COEF').value = 15
+    fn.parameters.get_by_id('LINEAR_COEF').value = 150
     fn.parameters.get_by_id('X_MIN').value = 0
     fn.parameters.get_by_id('X_MAX').value = 1
+    
+    # Set flux to PHB depending on NH4+ concentration
+    # first construct target from input reaction ID and flux boundary
+    boundary_id = 'R_PHBt_flux_boundary'
+    phb_target = rba.xml.targets.TargetReaction('R_PHBt')
+    phb_target.value = boundary_id
+    # add target to model
+    mp = model.targets.target_groups.get_by_id('metabolite_production')
+    mp.reaction_fluxes.append(phb_target)
+    # add linear relationship to model
+    par_phb = {'LINEAR_COEF': -1.0, 'LINEAR_CONSTANT': 3.25, 'X_MIN':0, 'X_MAX':3.25, 'Y_MIN':0, 'Y_MAX':3.25}
+    phb = rba.xml.Function(boundary_id, 'linear', par_phb)
+    phb.variable = 'M_nh4_e'
+    model.parameters.functions.append(phb)
 
 
 # set total protein constraints for cell compartments
