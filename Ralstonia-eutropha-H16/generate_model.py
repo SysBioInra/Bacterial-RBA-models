@@ -15,7 +15,7 @@ import cobra
 def main():
     
     # make some inital modifications to sbml required for RBA
-    import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1_maint.xml")
+    #import_sbml_model("../../genome-scale-models/Ralstonia_eutropha/sbml/RehMBEL1391_sbml_L3V1_maint.xml")
     
     # inital run of model generation creates helper files
     reutropha = rba.RbaModel.from_data('params.in')
