@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="145.52083mm"
+   height="74.083336mm"
+   viewBox="0 0 145.52083 74.083336"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="RBA_model_generation.svg"
+   inkscape:export-filename="/home/michael/Documents/SciLifeLab/Resources/Models/Bacterial-RBA-models/Ralstonia-eutropha-H16/figures/RBA_model_generation.png"
+   inkscape:export-xdpi="130"
+   inkscape:export-ydpi="130">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2481">
+      <stop
+         style="stop-color:#eedcb9;stop-opacity:1"
+         offset="0"
+         id="stop2477" />
+      <stop
+         style="stop-color:#dbac7b;stop-opacity:1"
+         offset="1"
+         id="stop2479" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2072"
+       inkscape:collect="always">
+      <stop
+         id="stop2068"
+         offset="0"
+         style="stop-color:#eee9b9;stop-opacity:1" />
+      <stop
+         id="stop2070"
+         offset="1"
+         style="stop-color:#d9db7b;stop-opacity:1" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1135"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient829-4">
+      <stop
+         style="stop-color:#cceeb9;stop-opacity:1"
+         offset="0"
+         id="stop825" />
+      <stop
+         style="stop-color:#b4db7b;stop-opacity:1"
+         offset="1"
+         id="stop827" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient829-4"
+       id="radialGradient831"
+       cx="28.947344"
+       cy="25.956821"
+       fx="28.947344"
+       fy="25.956821"
+       r="14.441143"
+       gradientTransform="matrix(1,0,0,0.45331673,-0.68892934,12.29201)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient829-4"
+       id="radialGradient831-9"
+       cx="29.456682"
+       cy="39.858074"
+       fx="29.456682"
+       fy="39.858074"
+       r="14.441143"
+       gradientTransform="matrix(1,0,0,1.0764181,-0.68892815,3.9113581)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient829-4"
+       id="radialGradient831-0"
+       cx="29.456682"
+       cy="28.579699"
+       fx="29.456682"
+       fy="28.579699"
+       r="14.441143"
+       gradientTransform="matrix(1,0,0,0.57676134,-0.68892904,53.722799)"
+       gradientUnits="userSpaceOnUse" />
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1135-7"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-40"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1135-6"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2072"
+       id="radialGradient831-90"
+       cx="28.856422"
+       cy="25.571112"
+       fx="28.856422"
+       fy="25.571112"
+       r="14.441143"
+       gradientTransform="matrix(1,0,0,0.42284493,45.091942,39.885936)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2481"
+       id="radialGradient831-90-6"
+       cx="28.856422"
+       cy="25.571112"
+       fx="28.856422"
+       fy="25.571112"
+       r="14.441143"
+       gradientTransform="matrix(1,0,0,0.42284493,78.429464,39.885938)"
+       gradientUnits="userSpaceOnUse" />
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-40-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1135-6-2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2072"
+       id="radialGradient2555"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.42284493,45.091942,35.123433)"
+       cx="29.276604"
+       cy="-26.669237"
+       fx="29.276604"
+       fy="-26.669237"
+       r="14.441143" />
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-40-6-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1135-6-2-6"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2481"
+       id="radialGradient831-90-6-1"
+       cx="28.856422"
+       cy="40.902519"
+       fx="28.856422"
+       fy="40.902519"
+       r="14.441143"
+       gradientTransform="matrix(1,0,0,0.88838367,112.29622,14.814808)"
+       gradientUnits="userSpaceOnUse" />
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-40-6-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1135-6-2-4"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-40-6-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1135-6-2-5"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3654106"
+     inkscape:cx="200.68595"
+     inkscape:cy="122.29165"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.317289,-5.4938827)">
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.33240432;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.33240436, 0.66480872;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4124"
+       width="145.52083"
+       height="74.083336"
+       x="12.317289"
+       y="5.4938827"
+       ry="2.136662"
+       rx="2.1336715" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient831);fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect815"
+       width="28.353119"
+       height="11.799648"
+       x="14.591194"
+       y="17.607063"
+       ry="1.5606759" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="17.094015"
+       y="22.08094"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="17.094015"
+         y="22.08094"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px">- genome scale model</tspan><tspan
+         sodipodi:role="line"
+         x="17.094015"
+         y="25.167746"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan837">  (SBML standard)</tspan></text>
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient831-9);fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect815-8"
+       width="28.353119"
+       height="28.947344"
+       x="14.591194"
+       y="31.365412"
+       ry="1.5606759" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.32291663px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="16.464865"
+       y="35.839287"
+       id="text835-0"><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="35.839287"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan876">- protein annotation</tspan><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="38.926094"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan961">- enzyme stoichiometry</tspan><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="42.012897"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan874">- ribosome compos.</tspan><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="45.099705"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan878">- chaperone compos.</tspan><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="48.186508"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan880">- tRNAs</tspan><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="51.273315"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan882">- metal cofactors</tspan><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="54.360119"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan886">  (most is retrieved</tspan><tspan
+         sodipodi:role="line"
+         x="16.464865"
+         y="57.446926"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan888">  from uniprot)</tspan></text>
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient831-0);fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect815-1"
+       width="28.353119"
+       height="15.761368"
+       x="14.591194"
+       y="62.057068"
+       ry="1.5606759" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="16.457516"
+       y="66.530945"
+       id="text835-08"><tspan
+         sodipodi:role="line"
+         x="16.457516"
+         y="66.530945"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan837-0">- physiol. parameters</tspan><tspan
+         sodipodi:role="line"
+         x="16.457516"
+         y="69.617752"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan957">(ribosome processivity,</tspan><tspan
+         sodipodi:role="line"
+         x="16.457516"
+         y="72.704559"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan963">cell density, default </tspan><tspan
+         sodipodi:role="line"
+         x="16.457516"
+         y="75.791359"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan5192">turnover rate <tspan
+   style="font-style:italic"
+   id="tspan5190">k<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan5195">app</tspan></tspan>)</tspan></text>
+    <path
+       style="opacity:0.95999995;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM)"
+       d="m 43.123905,23.316003 h 5.178264 L 54.1525,47.795567 h 3.832612"
+       id="path965"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="opacity:0.95999995;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM-4)"
+       d="m 43.123906,70.35902 h 5.178264 l 5.850331,-17.071231 h 3.832612"
+       id="path965-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="opacity:0.95999995;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM-40)"
+       d="M 43.123906,50.601584 H 57.985113"
+       id="path965-29"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient831-90);fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect815-3"
+       width="28.353119"
+       height="11.799648"
+       x="60.372074"
+       y="44.496616"
+       ry="1.5606759" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.552475"
+       y="51.271858"
+       id="text835-1"><tspan
+         sodipodi:role="line"
+         x="64.552475"
+         y="51.271858"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan837-03">default RBA model</tspan></text>
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient831-90-6);fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect815-3-0"
+       width="28.353119"
+       height="11.799648"
+       x="93.709602"
+       y="44.496616"
+       ry="1.5606759" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="96.228439"
+       y="51.271858"
+       id="text835-1-0"><tspan
+         sodipodi:role="line"
+         x="96.228439"
+         y="51.271858"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan837-03-4">calibrated RBA model</tspan></text>
+    <path
+       style="opacity:0.95999995;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM-40-6)"
+       d="m 122.08985,50.601588 h 3.21956"
+       id="path965-29-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="28.932531"
+       y="9.8356371"
+       id="text2485"><tspan
+         sodipodi:role="line"
+         id="tspan2483"
+         x="29.285309"
+         y="9.8356371"
+         style="font-size:2.82222223px;stroke-width:0.26458332px">semi-automatic model </tspan><tspan
+         sodipodi:role="line"
+         x="28.932531"
+         y="13.363415"
+         style="font-size:2.82222223px;stroke-width:0.26458332px"
+         id="tspan2487">generation</tspan></text>
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient2555);fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect815-9"
+       width="28.353115"
+       height="21.097519"
+       x="60.372074"
+       y="17.607065"
+       ry="1.5606759" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="64.023308"
+       y="21.109329"
+       id="text835-1-2"><tspan
+         sodipodi:role="line"
+         x="64.023308"
+         y="21.109329"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan837-03-9">- growth rate/yield</tspan><tspan
+         sodipodi:role="line"
+         x="64.023308"
+         y="24.196135"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan4884">- total protein conc.</tspan><tspan
+         sodipodi:role="line"
+         x="64.023308"
+         y="27.28294"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan4886">- protein per compart.</tspan><tspan
+         sodipodi:role="line"
+         x="64.023308"
+         y="30.369745"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan2577">- enzyme abundance</tspan><tspan
+         sodipodi:role="line"
+         x="64.023308"
+         y="33.456551"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan2575">- metabolic fluxes</tspan><tspan
+         sodipodi:role="line"
+         x="64.023308"
+         y="36.543358"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan2579">  (FBA sampling)</tspan></text>
+    <path
+       style="opacity:0.95999995;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.396875, 0.79375;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM-40-6-9)"
+       d="m 74.548632,38.910268 v 3.748728"
+       id="path965-29-6-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.440865"
+       y="9.8356438"
+       id="text2485-2"><tspan
+         sodipodi:role="line"
+         x="74.440865"
+         y="9.8356438"
+         style="font-size:2.82222223px;stroke-width:0.26458332px"
+         id="tspan2487-6">model calibration</tspan></text>
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient831-90-6-1);fill-opacity:1;fill-rule:nonzero;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect815-3-0-9"
+       width="28.353119"
+       height="25.845728"
+       x="127.57623"
+       y="38.46719"
+       ry="1.5606759" />
+    <path
+       style="opacity:0.95999995;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM-40-6-1)"
+       d="m 88.752335,50.601588 h 3.21956"
+       id="path965-29-6-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="129.28331"
+       y="42.912804"
+       id="text835-1-0-1"><tspan
+         sodipodi:role="line"
+         x="129.28331"
+         y="42.912804"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan837-03-4-0">- growth rate</tspan><tspan
+         sodipodi:role="line"
+         x="129.28331"
+         y="45.999611"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan3493">- yield</tspan><tspan
+         sodipodi:role="line"
+         x="129.28331"
+         y="49.086414"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan3495">- optimal flux distribution</tspan><tspan
+         sodipodi:role="line"
+         x="129.28331"
+         y="52.173222"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan3497">- optimal proteome</tspan><tspan
+         sodipodi:role="line"
+         x="129.28331"
+         y="55.260025"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan3499" /><tspan
+         sodipodi:role="line"
+         x="129.28331"
+         y="58.346832"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan3501">- enzyme saturation</tspan><tspan
+         sodipodi:role="line"
+         x="129.28331"
+         y="61.433636"
+         style="font-size:2.46944451px;line-height:125%;text-align:start;letter-spacing:0px;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332px"
+         id="tspan3503">- enzyme excess</tspan></text>
+    <path
+       style="opacity:0.95999995;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.39687499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.396875, 0.79375;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM-40-6-7)"
+       d="M 141.2502,38.407086 V 25.253411 H 90.988342"
+       id="path965-29-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="141.64503"
+       y="9.8356438"
+       id="text2485-2-7"><tspan
+         sodipodi:role="line"
+         x="141.64503"
+         y="9.8356438"
+         style="font-size:2.82222223px;stroke-width:0.26458332px"
+         id="tspan2487-6-0">model prediction</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:FreeSans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="118.0007"
+       y="23.71479"
+       id="text2485-2-7-4"><tspan
+         sodipodi:role="line"
+         x="118.0007"
+         y="23.71479"
+         style="font-size:2.82222223px;stroke-width:0.26458332px"
+         id="tspan2487-6-0-8">iterative refinement</tspan></text>
+  </g>
+</svg>

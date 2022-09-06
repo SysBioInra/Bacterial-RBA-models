@@ -1,0 +1,6 @@
+<RBADensity>
+  <listOfTargetDensities>
+    <targetDensity upperBound="Cell_membrane_density" compartment="Cell_membrane"/>
+    <targetDensity upperBound="Cytoplasm_density" compartment="Cytoplasm"/>
+  </listOfTargetDensities>
+</RBADensity>
