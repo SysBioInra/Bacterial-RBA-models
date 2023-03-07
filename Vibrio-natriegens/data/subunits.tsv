@@ -1,0 +1,917 @@
+ENTRY	STOICHIOMETRY	GENE NAMES	PROTEIN NAME	UNIPROT NOTE
+A0A1B1E9Q8	1	ispH PN96_10860	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (HMBPP reductase) (EC 1.17.7.4)	[MISSING]
+PN96_16540	1	PN96_16540	[MISSING]	[MISSING]
+PN96_15855	1	PN96_15855	[MISSING]	[MISSING]
+PN96_05185	1	PN96_05185	[MISSING]	[MISSING]
+PN96_00930	1	PN96_00930	[MISSING]	[MISSING]
+PN96_06670	1	PN96_06670	[MISSING]	[MISSING]
+PN96_10085	1	PN96_10085	[MISSING]	[MISSING]
+A0A1B1EJY2	1	fucK PN96_21535	L-fuculokinase (EC 2.7.1.51) (L-fuculose kinase)	[MISSING]
+PN96_22645	1	PN96_22645	[MISSING]	[MISSING]
+PN96_20635	1	PN96_20635	[MISSING]	[MISSING]
+PN96_17595	1	PN96_17595	[MISSING]	[MISSING]
+PN96_17675	1	PN96_17675	[MISSING]	[MISSING]
+A0A1B1EED0	1	rnfG PN96_03250	Ion-translocating oxidoreductase complex subunit G (EC 7.-.-.-) (Rnf electron transport complex subunit G)	SUBUNIT: The complex is composed of six subunits: RnfA, RnfB, RnfC, RnfD, RnfE and RnfG. {ECO:0000256|HAMAP-Rule:MF_00479}.
+A0A1B1EA33	1	nadK PN96_10255	NAD kinase (EC 2.7.1.23) (ATP-dependent NAD kinase)	[MISSING]
+A0A1B1E8X1	5	hldD PN96_12355	ADP-L-glycero-D-manno-heptose-6-epimerase (EC 5.1.3.20) (ADP-L-glycero-beta-D-manno-heptose-6-epimerase) (ADP-glyceromanno-heptose 6-epimerase) (ADP-hep 6-epimerase) (AGME)	SUBUNIT: Homopentamer. {ECO:0000256|HAMAP-Rule:MF_01601}.
+PN96_12790	1	PN96_12790	[MISSING]	[MISSING]
+A0A1B1E847	1	glyQ PN96_13280	Glycine--tRNA ligase alpha subunit (EC 6.1.1.14) (Glycyl-tRNA synthetase alpha subunit) (GlyRS)	SUBUNIT: Tetramer of two alpha and two beta subunits. {ECO:0000256|ARBA:ARBA00011209, ECO:0000256|HAMAP-Rule:MF_00254}.
+PN96_05290	1	PN96_05290	[MISSING]	[MISSING]
+A0A1B1E9J9	1	lpxC PN96_11180	UDP-3-O-acyl-N-acetylglucosamine deacetylase (UDP-3-O-acyl-GlcNAc deacetylase) (EC 3.5.1.108) (UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase)	[MISSING]
+PN96_13465	1	PN96_13465	[MISSING]	[MISSING]
+A0A1B1EI45	1	araD PN96_16035	L-ribulose-5-phosphate 4-epimerase	[MISSING]
+PN96_10370	1	PN96_10370	[MISSING]	[MISSING]
+PN96_10335	1	PN96_10335	[MISSING]	[MISSING]
+A0A1B1EA38	2	ribB PN96_10105	3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00180}.
+PN96_03200	1	PN96_03200	[MISSING]	[MISSING]
+A0A1B1EJR1	2	glyA PN96_22185	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00051}.
+PN96_17705	1	PN96_17705	[MISSING]	[MISSING]
+PN96_09650	1	PN96_09650	[MISSING]	[MISSING]
+A0A1B1EA44	1	purL PN96_10190	Phosphoribosylformylglycinamidine synthase (FGAM synthase) (FGAMS) (EC 6.3.5.3) (Formylglycinamide ribonucleotide amidotransferase) (FGAR amidotransferase) (FGAR-AT)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00419}.
+A0A1B1E8F4	1	fadA PN96_13245	3-ketoacyl-CoA thiolase (EC 2.3.1.16) (Acetyl-CoA acyltransferase) (Beta-ketothiolase) (Fatty acid oxidation complex subunit beta)	SUBUNIT: Heterotetramer of two alpha chains (FadB) and two beta chains (FadA). {ECO:0000256|HAMAP-Rule:MF_01620}.
+A0A1B1EAM2	2	folD PN96_09125	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01576}.
+PN96_08005	1	PN96_08005	[MISSING]	[MISSING]
+A0A1B1EGR9	12	aroQ PN96_18515	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	SUBUNIT: Homododecamer. {ECO:0000256|ARBA:ARBA00011193, ECO:0000256|HAMAP-Rule:MF_00169}.
+PN96_11295	1	PN96_11295	[MISSING]	[MISSING]
+A0A1B1EAY0	1	potA PN96_08660	Spermidine/putrescine import ATP-binding protein PotA (EC 7.6.2.11)	SUBUNIT: The complex is composed of two ATP-binding proteins (PotA), two transmembrane proteins (PotB and PotC) and a solute-binding protein (PotD). {ECO:0000256|RuleBase:RU364083}.
+PN96_14765	1	PN96_14765	[MISSING]	[MISSING]
+PN96_19175	1	PN96_19175	[MISSING]	[MISSING]
+A0A1B1EFQ0	4	argG PN96_14805	Argininosuccinate synthase (EC 6.3.4.5) (Citrulline--aspartate ligase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00005}.
+PN96_20395	1	PN96_20395	[MISSING]	[MISSING]
+A0A1B1EF32	1	pyrB PN96_00570	Aspartate carbamoyltransferase (EC 2.1.3.2) (Aspartate transcarbamylase) (ATCase)	[MISSING]
+PN96_15340	1	PN96_15340	[MISSING]	[MISSING]
+PN96_21445	1	PN96_21445	[MISSING]	[MISSING]
+A0A1B1EE97	1	glnD PN96_02250	Bifunctional uridylyltransferase/uridylyl-removing enzyme (UTase/UR) (Bifunctional [protein-PII] modification enzyme) (Bifunctional nitrogen sensor protein) [Includes: [Protein-PII] uridylyltransferase (PII uridylyltransferase) (UTase) (EC 2.7.7.59); [Protein-PII]-UMP uridylyl-removing enzyme (UR) (EC 3.1.4.-)]	[MISSING]
+A0A1B1EB68	2	aspS PN96_08190	Aspartate--tRNA ligase (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00044}.
+PN96_11505	1	PN96_11505	[MISSING]	[MISSING]
+PN96_21215	1	PN96_21215	[MISSING]	[MISSING]
+PN96_16560	1	PN96_16560	[MISSING]	[MISSING]
+PN96_17250	1	PN96_17250	[MISSING]	[MISSING]
+A0A1B1EEQ9	1	panB PN96_01385	3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11) (Ketopantoate hydroxymethyltransferase) (KPHMT)	SUBUNIT: Homodecamer; pentamer of dimers. {ECO:0000256|ARBA:ARBA00011424, ECO:0000256|HAMAP-Rule:MF_00156}.
+PN96_07150	1	PN96_07150	[MISSING]	[MISSING]
+A0A1B1EA25	4	gpt PN96_10145	Xanthine-guanine phosphoribosyltransferase (XGPRT) (EC 2.4.2.22) (Xanthine phosphoribosyltransferase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01903}.
+PN96_20905	1	PN96_20905	[MISSING]	[MISSING]
+PN96_00575	1	PN96_00575	[MISSING]	[MISSING]
+PN96_15930	1	PN96_15930	[MISSING]	[MISSING]
+PN96_08670	1	PN96_08670	[MISSING]	[MISSING]
+A0A1B1EBS0	1	hutI PN96_07205	Imidazolonepropionase (EC 3.5.2.7) (Imidazolone-5-propionate hydrolase)	[MISSING]
+PN96_17265	1	PN96_17265	[MISSING]	[MISSING]
+A0A1B1EJZ7	2	glyA PN96_20950	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00051}.
+A0A1B1E9L2	1	gltD PN96_11100	Glutamate synthase	[MISSING]
+PN96_05595	1	PN96_05595	[MISSING]	[MISSING]
+PN96_09105	1	PN96_09105	[MISSING]	[MISSING]
+PN96_13860	1	PN96_13860	[MISSING]	[MISSING]
+PN96_11560	1	PN96_11560	[MISSING]	[MISSING]
+A0A1B1E9F0	1	mtlD PN96_11520	Mannitol-1-phosphate 5-dehydrogenase (EC 1.1.1.17)	[MISSING]
+A0A1B1EL71	2	fabH PN96_20380	3-oxoacyl-[acyl-carrier-protein] synthase 3 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III) (Beta-ketoacyl-ACP synthase III) (KAS III)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01815}.
+PN96_04235	1	PN96_04235	[MISSING]	[MISSING]
+PN96_19245	1	PN96_19245	[MISSING]	[MISSING]
+PN96_03030	1	PN96_03030	[MISSING]	[MISSING]
+PN96_15085	1	PN96_15085	[MISSING]	[MISSING]
+PN96_07325	1	PN96_07325	[MISSING]	[MISSING]
+PN96_10075	1	PN96_10075	[MISSING]	[MISSING]
+PN96_23060	1	PN96_23060	[MISSING]	[MISSING]
+PN96_09115	1	PN96_09115	[MISSING]	[MISSING]
+A0A1B1EF66	1	pyrI PN96_00565	Aspartate carbamoyltransferase regulatory chain	SUBUNIT: Contains catalytic and regulatory chains. {ECO:0000256|HAMAP-Rule:MF_00002}.
+A0A1B1ED63	1	ribA PN96_04090	GTP cyclohydrolase-2 (EC 3.5.4.25) (GTP cyclohydrolase II)	[MISSING]
+A0A1B1EFU9	1	murI PN96_14090	Glutamate racemase (EC 5.1.1.3)	[MISSING]
+A0A1B1EA00	1	rhaA PN96_10330	L-rhamnose isomerase (EC 5.3.1.14)	[MISSING]
+A0A1B1EFR5	1	birA PN96_00055	Bifunctional ligase/repressor BirA (Biotin operon repressor) (Biotin--[acetyl-CoA-carboxylase] ligase) (EC 6.3.4.15) (Biotin--protein ligase) (Biotin-[acetyl-CoA carboxylase] synthetase)	[MISSING]
+A0A1B1E986	1	cysC PN96_11810	Adenylyl-sulfate kinase (EC 2.7.1.25) (APS kinase) (ATP adenosine-5'-phosphosulfate 3'-phosphotransferase) (Adenosine-5'-phosphosulfate kinase)	[MISSING]
+PN96_11655	1	PN96_11655	[MISSING]	[MISSING]
+PN96_17240	1	PN96_17240	[MISSING]	[MISSING]
+A0A1B1ELS3	1	nadE PN96_18815	Glutamine-dependent NAD(+) synthetase (EC 6.3.5.1) (NAD(+) synthase [glutamine-hydrolyzing])	[MISSING]
+PN96_13780	1	PN96_13780	[MISSING]	[MISSING]
+PN96_21670	1	PN96_21670	[MISSING]	[MISSING]
+A0A1B1E9B8	2	pdxA PN96_11635	4-hydroxythreonine-4-phosphate dehydrogenase (EC 1.1.1.262) (4-(phosphohydroxy)-L-threonine dehydrogenase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00536}.
+PN96_04760	1	PN96_04760	[MISSING]	[MISSING]
+PN96_06615	1	PN96_06615	[MISSING]	[MISSING]
+A0A1B1E9E5	1	cysD PN96_11825	Sulfate adenylyltransferase subunit 2 (EC 2.7.7.4) (ATP-sulfurylase small subunit) (Sulfate adenylate transferase) (SAT)	SUBUNIT: Heterodimer composed of CysD, the smaller subunit, and CysN. {ECO:0000256|HAMAP-Rule:MF_00064}.
+A0A1B1ECI2	1	pgl PN96_05285	6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)	[MISSING]
+PN96_18905	1	PN96_18905	[MISSING]	[MISSING]
+A0A1B1EJC3	1	atpA PN96_22295	ATP synthase subunit alpha (EC 7.1.2.2) (ATP synthase F1 sector subunit alpha) (F-ATPase subunit alpha)	[MISSING]
+A0A1B1EB45	4	glgC PN96_08305	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) (ADP-glucose pyrophosphorylase) (ADPGlc PPase) (ADP-glucose synthase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00624}.
+PN96_19070	1	PN96_19070	[MISSING]	[MISSING]
+PN96_02870	1	PN96_02870	[MISSING]	[MISSING]
+A0A1B1EFK9	2	purA PN96_14575	Adenylosuccinate synthetase (AMPSase) (AdSS) (EC 6.3.4.4) (IMP--aspartate ligase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_00011}.
+A0A1B1EA64	1	thiL PN96_10090	Thiamine-monophosphate kinase (TMP kinase) (Thiamine-phosphate kinase) (EC 2.7.4.16)	[MISSING]
+A0A1B1EGC4	1	thiP PN96_11725	Thiamine transport system permease protein ThiP	SUBUNIT: The complex is composed of two ATP-binding proteins (ThiQ), two transmembrane proteins (ThiP) and a solute-binding protein (ThiB). {ECO:0000256|ARBA:ARBA00011650}.
+PN96_04065	1	PN96_04065	[MISSING]	[MISSING]
+PN96_22060	1	PN96_22060	[MISSING]	[MISSING]
+A0A1B1EC40	1	ureC PN96_06175	Urease subunit alpha (EC 3.5.1.5) (Urea amidohydrolase subunit alpha)	SUBUNIT: Heterotrimer of UreA (gamma), UreB (beta) and UreC (alpha) subunits. Three heterotrimers associate to form the active enzyme. {ECO:0000256|HAMAP-Rule:MF_01953}.
+PN96_19810	1	PN96_19810	[MISSING]	[MISSING]
+A0A1B1EFZ9	1	gppA PN96_13770	Guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase (EC 3.6.1.40) (Guanosine pentaphosphate phosphohydrolase) (pppGpp-5'-phosphohydrolase)	[MISSING]
+PN96_15570	1	PN96_15570	[MISSING]	[MISSING]
+A0A1B1E8C0	1	idnK PN96_13070	Gluconokinase (EC 2.7.1.12)	[MISSING]
+PN96_12395	1	PN96_12395	[MISSING]	[MISSING]
+PN96_20615	1	PN96_20615	[MISSING]	[MISSING]
+A0A1B1EEY9	1	relA PN96_01060	GTP diphosphokinase	[MISSING]
+PN96_14200	1	PN96_14200	[MISSING]	[MISSING]
+A0A1B1EGB6	2	hemF PN96_13585	Oxygen-dependent coproporphyrinogen-III oxidase (CPO) (Coprogen oxidase) (Coproporphyrinogenase) (EC 1.3.3.3)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_00333}.
+PN96_14755	1	PN96_14755	[MISSING]	[MISSING]
+A0A1B1EEJ0	1	deoC PN96_01740	Deoxyribose-phosphate aldolase (DERA) (EC 4.1.2.4) (2-deoxy-D-ribose 5-phosphate aldolase) (Phosphodeoxyriboaldolase) (Deoxyriboaldolase)	[MISSING]
+A0A1B1EDP5	1	rnfD PN96_03255	Ion-translocating oxidoreductase complex subunit D (EC 7.-.-.-) (Rnf electron transport complex subunit D)	SUBUNIT: The complex is composed of six subunits: RnfA, RnfB, RnfC, RnfD, RnfE and RnfG. {ECO:0000256|HAMAP-Rule:MF_00462}.
+PN96_08920	1	PN96_08920	[MISSING]	[MISSING]
+PN96_06485	1	PN96_06485	[MISSING]	[MISSING]
+PN96_14355	1	PN96_14355	[MISSING]	[MISSING]
+A0A1B1EEM7	1	map PN96_02255	Methionine aminopeptidase (MAP) (MetAP) (EC 3.4.11.18) (Peptidase M)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_01974}.
+A0A1B1E975	1	cysN PN96_11820	Sulfate adenylyltransferase subunit 1 (EC 2.7.7.4) (ATP-sulfurylase large subunit) (Sulfate adenylate transferase) (SAT)	SUBUNIT: Heterodimer composed of CysD, the smaller subunit, and CysN. {ECO:0000256|HAMAP-Rule:MF_00062}.
+A0A1B1EI58	4	tnaA PN96_15750	Tryptophanase (EC 4.1.99.1) (L-tryptophan indole-lyase) (TNase)	SUBUNIT: Homotetramer. {ECO:0000256|ARBA:ARBA00011881, ECO:0000256|HAMAP-Rule:MF_00544}.
+A0A1B1EEB6	1	lpxB PN96_02325	Lipid-A-disaccharide synthase (EC 2.4.1.182)	[MISSING]
+A0A1B1EAU5	1	menH PN96_08905	Putative 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase (SHCHC synthase) (EC 4.2.99.20)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_01660}.
+PN96_03005	1	PN96_03005	[MISSING]	[MISSING]
+A0A1B1EB27	2	menD PN96_08910	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase (SEPHCHC synthase) (EC 2.2.1.9) (Menaquinone biosynthesis protein MenD)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01659}.
+A0A1B1EER8	1	gluQ PN96_01400	Glutamyl-Q tRNA(Asp) synthetase (Glu-Q-RSs) (EC 6.1.1.-)	[MISSING]
+PN96_22390	1	PN96_22390	[MISSING]	[MISSING]
+PN96_11835	1	PN96_11835	[MISSING]	[MISSING]
+A0A1B1EDA0	1	metE PN96_03850	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14) (Cobalamin-independent methionine synthase) (Methionine synthase, vitamin-B12 independent isozyme)	[MISSING]
+PN96_19460	1	PN96_19460	[MISSING]	[MISSING]
+PN96_15290	1	PN96_15290	[MISSING]	[MISSING]
+PN96_18850	1	PN96_18850	[MISSING]	[MISSING]
+PN96_09990	1	PN96_09990	[MISSING]	[MISSING]
+PN96_19585	1	PN96_19585	[MISSING]	[MISSING]
+PN96_05000	1	PN96_05000	[MISSING]	[MISSING]
+PN96_06015	1	PN96_06015	[MISSING]	[MISSING]
+PN96_02865	1	PN96_02865	[MISSING]	[MISSING]
+PN96_21130	1	PN96_21130	[MISSING]	[MISSING]
+PN96_12420	1	PN96_12420	[MISSING]	[MISSING]
+A0A1B1E9A1	4	fbp PN96_11745	Fructose-1,6-bisphosphatase class 1 (FBPase class 1) (EC 3.1.3.11) (D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01855}.
+PN96_07145	1	PN96_07145	[MISSING]	[MISSING]
+PN96_04930	1	PN96_04930	[MISSING]	[MISSING]
+PN96_12055	1	PN96_12055	[MISSING]	[MISSING]
+PN96_19485	1	PN96_19485	[MISSING]	[MISSING]
+PN96_22510	1	PN96_22510	[MISSING]	[MISSING]
+PN96_15920	1	PN96_15920	[MISSING]	[MISSING]
+PN96_21485	1	PN96_21485	[MISSING]	[MISSING]
+PN96_12570	1	PN96_12570	[MISSING]	[MISSING]
+PN96_06680	1	PN96_06680	[MISSING]	[MISSING]
+A0A1B1EAN0	1	znuC PN96_09255	Zinc import ATP-binding protein ZnuC (EC 7.2.2.20)	SUBUNIT: The complex is composed of two ATP-binding proteins (ZnuC), two transmembrane proteins (ZnuB) and a solute-binding protein (ZnuA). {ECO:0000256|HAMAP-Rule:MF_01725}.
+PN96_19020	1	PN96_19020	[MISSING]	[MISSING]
+A0A1B1EDE1	2	fabH PN96_03495	3-oxoacyl-[acyl-carrier-protein] synthase 3 (EC 2.3.1.180) (3-oxoacyl-[acyl-carrier-protein] synthase III) (Beta-ketoacyl-ACP synthase III) (KAS III)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01815}.
+PN96_17840	1	PN96_17840	[MISSING]	[MISSING]
+A0A1B1E9B6	4	leuA PN96_11595	2-isopropylmalate synthase (EC 2.3.3.13) (Alpha-IPM synthase) (Alpha-isopropylmalate synthase)	SUBUNIT: Homotetramer. {ECO:0000256|ARBA:ARBA00011881, ECO:0000256|HAMAP-Rule:MF_01025}.
+PN96_04990	1	PN96_04990	[MISSING]	[MISSING]
+PN96_14605	1	PN96_14605	[MISSING]	[MISSING]
+A0A1B1E9L7	1	thrB PN96_11050	Homoserine kinase (HK) (HSK) (EC 2.7.1.39)	[MISSING]
+A0A1B1E9M0	1	mtnN PN96_11120	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase (MTA/SAH nucleosidase) (MTAN) (EC 3.2.2.9) (5'-deoxyadenosine nucleosidase) (DOA nucleosidase) (dAdo nucleosidase) (5'-methylthioadenosine nucleosidase) (MTA nucleosidase) (S-adenosylhomocysteine nucleosidase) (AdoHcy nucleosidase) (SAH nucleosidase) (SRH nucleosidase)	[MISSING]
+PN96_08455	1	PN96_08455	[MISSING]	[MISSING]
+PN96_08690	1	PN96_08690	[MISSING]	[MISSING]
+PN96_09170	1	PN96_09170	[MISSING]	[MISSING]
+PN96_06465	1	PN96_06465	[MISSING]	[MISSING]
+PN96_23290	1	PN96_23290	[MISSING]	[MISSING]
+PN96_03930	1	PN96_03930	[MISSING]	[MISSING]
+A0A1B1EEJ5	4	gmhA PN96_02410	Phosphoheptose isomerase (EC 5.3.1.28) (Sedoheptulose 7-phosphate isomerase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00067}.
+A0A1B1ECY6	1	aguA PN96_05005	Putative agmatine deiminase (EC 3.5.3.12) (Agmatine iminohydrolase)	[MISSING]
+PN96_03210	1	PN96_03210	[MISSING]	[MISSING]
+PN96_00265	1	PN96_00265	[MISSING]	[MISSING]
+PN96_12385	1	PN96_12385	[MISSING]	[MISSING]
+PN96_22955	1	PN96_22955	[MISSING]	[MISSING]
+A0A1B1EK83	1	gcvH PN96_20955	Glycine cleavage system H protein	SUBUNIT: The glycine cleavage system is composed of four proteins: P, T, L and H. {ECO:0000256|HAMAP-Rule:MF_00272}.
+PN96_06325	1	PN96_06325	[MISSING]	[MISSING]
+A0A1B1EIG4	1	deoD PN96_15250	Purine nucleoside phosphorylase DeoD-type (PNP) (EC 2.4.2.1)	SUBUNIT: Homohexamer; trimer of homodimers. {ECO:0000256|HAMAP-Rule:MF_01627}.
+PN96_20835	1	PN96_20835	[MISSING]	[MISSING]
+PN96_11055	1	PN96_11055	[MISSING]	[MISSING]
+A0A1B1EDV6	4	aroC PN96_02835	Chorismate synthase (CS) (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00300}.
+A0A1B1EJX1	1	artM PN96_21305	Arginine transporter permease subunit ArtM	[MISSING]
+PN96_15095	1	PN96_15095	[MISSING]	[MISSING]
+PN96_18955	1	PN96_18955	[MISSING]	[MISSING]
+A0A1B1E9Y5	2	hisS PN96_10465	Histidine--tRNA ligase (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00127}.
+PN96_22385	1	PN96_22385	[MISSING]	[MISSING]
+PN96_15055	1	PN96_15055	[MISSING]	[MISSING]
+PN96_06440	1	PN96_06440	[MISSING]	[MISSING]
+A0A1B1ECN5	1	lpxL PN96_05075	Lipid A biosynthesis lauroyltransferase (EC 2.3.1.241) (Kdo(2)-lipid IV(A) lauroyltransferase)	[MISSING]
+PN96_11430	1	PN96_11430	[MISSING]	[MISSING]
+PN96_20540	1	PN96_20540	[MISSING]	[MISSING]
+PN96_10110	1	PN96_10110	[MISSING]	[MISSING]
+PN96_16800	1	PN96_16800	[MISSING]	[MISSING]
+PN96_18720	1	PN96_18720	[MISSING]	[MISSING]
+PN96_20050	1	PN96_20050	[MISSING]	[MISSING]
+PN96_06585	1	PN96_06585	[MISSING]	[MISSING]
+PN96_19060	1	PN96_19060	[MISSING]	[MISSING]
+A0A1B1EL94	2	nifH PN96_19185	Nitrogenase iron protein (EC 1.18.6.1) (Nitrogenase Fe protein) (Nitrogenase component II) (Nitrogenase reductase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_00533}.
+PN96_10585	1	PN96_10585	[MISSING]	[MISSING]
+PN96_15505	1	PN96_15505	[MISSING]	[MISSING]
+PN96_17930	1	PN96_17930	[MISSING]	[MISSING]
+A0A1B1EES8	1	aceF PN96_01340	Acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)	SUBUNIT: Forms a 24-polypeptide structural core with octahedral symmetry. {ECO:0000256|ARBA:ARBA00011484, ECO:0000256|RuleBase:RU361137}.
+A0A1B1EBR9	2	cdd PN96_07105	Cytidine deaminase (EC 3.5.4.5) (Cytidine aminohydrolase) (CDA)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01558}.
+PN96_08930	1	PN96_08930	[MISSING]	[MISSING]
+A0A1B1EA92	1	ispE PN96_09735	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	[MISSING]
+PN96_06125	1	PN96_06125	[MISSING]	[MISSING]
+A0A1B1EDI2	2	metG PN96_03430	Methionine--tRNA ligase (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_00098}.
+A0A1B1EFJ2	1	gpsA PN96_14420	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94) (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase)	[MISSING]
+A0A1B1EA47	1	nudF PN96_11355	ADP-ribose diphosphatase (EC 3.6.1.13) (ADP-ribose phosphohydrolase) (ADP-ribose pyrophosphatase) (Adenosine diphosphoribose pyrophosphatase)	[MISSING]
+PN96_23230	1	PN96_23230	[MISSING]	[MISSING]
+PN96_04230	1	PN96_04230	[MISSING]	[MISSING]
+A0A1B1EK46	4	glgC PN96_20845	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) (ADP-glucose pyrophosphorylase) (ADPGlc PPase) (ADP-glucose synthase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00624}.
+A0A1B1E940	1	menA PN96_12040	1,4-dihydroxy-2-naphthoate octaprenyltransferase (DHNA-octaprenyltransferase) (EC 2.5.1.74)	[MISSING]
+PN96_17175	1	PN96_17175	[MISSING]	[MISSING]
+PN96_06540	1	PN96_06540	[MISSING]	[MISSING]
+A0A1B1EEJ2	1	deoD PN96_01755	Purine nucleoside phosphorylase DeoD-type (PNP) (EC 2.4.2.1)	SUBUNIT: Homohexamer; trimer of homodimers. {ECO:0000256|HAMAP-Rule:MF_01627}.
+A0A1B1EGA7	1	psd PN96_14450	Phosphatidylserine decarboxylase proenzyme (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase alpha chain; Phosphatidylserine decarboxylase beta chain]	SUBUNIT: Heterodimer of a large membrane-associated beta subunit and a small pyruvoyl-containing alpha subunit. {ECO:0000256|HAMAP-Rule:MF_00662}.
+PN96_08025	1	PN96_08025	[MISSING]	[MISSING]
+PN96_06640	1	PN96_06640	[MISSING]	[MISSING]
+A0A1B1EDG3	1	tmk PN96_03530	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	[MISSING]
+PN96_22025	1	PN96_22025	[MISSING]	[MISSING]
+A0A1B1EA87	2	hemA PN96_09725	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00087}.
+A0A1B1E8N4	1	ubiE PN96_12880	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE (EC 2.1.1.163) (EC 2.1.1.201) (2-methoxy-6-polyprenyl-1,4-benzoquinol methylase) (Demethylmenaquinone methyltransferase)	[MISSING]
+PN96_02780	1	PN96_02780	[MISSING]	[MISSING]
+A0A1B1EBS8	1	tpm PN96_07115	Thiopurine S-methyltransferase (EC 2.1.1.67) (Thiopurine methyltransferase)	[MISSING]
+A0A1B1EGB9	1	atpG PN96_13415	ATP synthase gamma chain (ATP synthase F1 sector gamma subunit) (F-ATPase gamma subunit)	SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core - and CF(0) - the membrane proton channel. CF(1) has five subunits: alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has three main subunits: a, b and c. {ECO:0000256|HAMAP-Rule:MF_00815}.
+A0A1B1E9X2	6	pepB PN96_10490	Peptidase B (EC 3.4.11.23) (Aminopeptidase B)	SUBUNIT: Homohexamer. {ECO:0000256|HAMAP-Rule:MF_00504}.
+A0A1B1EAI3	1	asnB PN96_09380	Asparagine synthase (glutamine-hydrolyzing) (EC 6.3.5.4)	[MISSING]
+PN96_17465	1	PN96_17465	[MISSING]	[MISSING]
+PN96_21455	1	PN96_21455	[MISSING]	[MISSING]
+PN96_03450	1	PN96_03450	[MISSING]	[MISSING]
+PN96_06705	1	PN96_06705	[MISSING]	[MISSING]
+PN96_17590	1	PN96_17590	[MISSING]	[MISSING]
+PN96_09970	1	PN96_09970	[MISSING]	[MISSING]
+PN96_04705	1	PN96_04705	[MISSING]	[MISSING]
+A0A1B1EDK5	1	mgsA PN96_04755	Methylglyoxal synthase (MGS) (EC 4.2.3.3)	[MISSING]
+PN96_21200	1	PN96_21200	[MISSING]	[MISSING]
+PN96_03660	1	PN96_03660	[MISSING]	[MISSING]
+PN96_08890	1	PN96_08890	[MISSING]	[MISSING]
+PN96_08165	1	PN96_08165	[MISSING]	[MISSING]
+A0A1B1EDN8	1	cmk PN96_03620	Cytidylate kinase (CK) (EC 2.7.4.25) (Cytidine monophosphate kinase) (CMP kinase)	[MISSING]
+PN96_19000	1	PN96_19000	[MISSING]	[MISSING]
+A0A1B1ECB3	4	maeA PN96_07295	NAD-dependent malic enzyme (NAD-ME) (EC 1.1.1.38)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01619}.
+A0A1B1E9K5	1	carB PN96_11150	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5) (Carbamoyl-phosphate synthetase ammonia chain)	SUBUNIT: Composed of two chains; the small (or glutamine) chain promotes the hydrolysis of glutamine to ammonia, which is used by the large (or ammonia) chain to synthesize carbamoyl phosphate. {ECO:0000256|HAMAP-Rule:MF_01210}.
+A0A1B1E9R9	1	tyrA PN96_10810	T-protein	[MISSING]
+PN96_15830	1	PN96_15830	[MISSING]	[MISSING]
+PN96_15605	1	PN96_15605	[MISSING]	[MISSING]
+PN96_19565	1	PN96_19565	[MISSING]	[MISSING]
+A0A1B1EK07	1	gcvT PN96_20940	Glycine cleavage system T protein (EC 2.1.2.10)	[MISSING]
+PN96_05535	1	PN96_05535	[MISSING]	[MISSING]
+PN96_22000	1	PN96_22000	[MISSING]	[MISSING]
+PN96_20910	1	PN96_20910	[MISSING]	[MISSING]
+PN96_00450	1	PN96_00450	[MISSING]	[MISSING]
+A0A1B1EJM3	1	purU PN96_22160	Formyltetrahydrofolate deformylase (EC 3.5.1.10) (Formyl-FH(4) hydrolase)	[MISSING]
+PN96_03260	1	PN96_03260	[MISSING]	[MISSING]
+PN96_17040	1	PN96_17040	[MISSING]	[MISSING]
+A0A1B1EEF3	1	nqrF PN96_02140	Na(+)-translocating NADH-quinone reductase subunit F (Na(+)-NQR subunit F) (Na(+)-translocating NQR subunit F) (EC 7.2.1.1) (NQR complex subunit F) (NQR-1 subunit F)	SUBUNIT: Composed of six subunits; NqrA, NqrB, NqrC, NqrD, NqrE and NqrF. {ECO:0000256|ARBA:ARBA00011309, ECO:0000256|HAMAP-Rule:MF_00430}.
+PN96_18340	1	PN96_18340	[MISSING]	[MISSING]
+PN96_13925	1	PN96_13925	[MISSING]	[MISSING]
+PN96_16865	1	PN96_16865	[MISSING]	[MISSING]
+A0A1B1EBP3	1	purC PN96_07275	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6) (SAICAR synthetase)	[MISSING]
+A0A1B1E905	1	coaBC PN96_12450	Coenzyme A biosynthesis bifunctional protein CoaBC (DNA/pantothenate metabolism flavoprotein) (Phosphopantothenoylcysteine synthetase/decarboxylase) (PPCS-PPCDC) [Includes: Phosphopantothenoylcysteine decarboxylase (PPC decarboxylase) (PPC-DC) (EC 4.1.1.36) (CoaC); Phosphopantothenate--cysteine ligase (EC 6.3.2.5) (CoaB) (Phosphopantothenoylcysteine synthetase) (PPC synthetase) (PPC-S)]	[MISSING]
+A0A1B1EF63	1	glpK PN96_01955	Glycerol kinase (EC 2.7.1.30) (ATP:glycerol 3-phosphotransferase) (Glycerokinase) (GK)	[MISSING]
+PN96_22110	1	PN96_22110	[MISSING]	[MISSING]
+PN96_14235	1	PN96_14235	[MISSING]	[MISSING]
+A0A1B1EEQ4	2	tyrS PN96_01575	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_02007}.
+A0A1B1E981	6	ppa PN96_11750	Inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)	SUBUNIT: Homohexamer. {ECO:0000256|HAMAP-Rule:MF_00209}.
+PN96_21420	1	PN96_21420	[MISSING]	[MISSING]
+A0A1B1EDE5	1	gabD PN96_05010	Succinate-semialdehyde dehydrogenase (NADP(+))	[MISSING]
+PN96_18700	1	PN96_18700	[MISSING]	[MISSING]
+PN96_11110	1	PN96_11110	[MISSING]	[MISSING]
+PN96_19470	1	PN96_19470	[MISSING]	[MISSING]
+A0A1B1EBH9	1	menF PN96_08915	Isochorismate synthase MenF (EC 5.4.4.2) (Isochorismate mutase)	[MISSING]
+PN96_06300	1	PN96_06300	[MISSING]	[MISSING]
+PN96_20475	1	PN96_20475	[MISSING]	[MISSING]
+A0A1B1EBD2	1	hisG PN96_07800	ATP phosphoribosyltransferase (ATP-PRT) (ATP-PRTase) (EC 2.4.2.17)	[MISSING]
+PN96_06460	1	PN96_06460	[MISSING]	[MISSING]
+A0A1B1EC11	4	mhpB PN96_06270	2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic acid 1,2-dioxygenase (EC 1.13.11.16) (3-carboxyethylcatechol 2,3-dioxygenase)	SUBUNIT: Homotetramer. {ECO:0000256|ARBA:ARBA00011881, ECO:0000256|HAMAP-Rule:MF_01653}.
+A0A1B1EB50	1	glgA PN96_08300	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	[MISSING]
+A0A1B1EA96	1	kdsA PN96_09700	2-dehydro-3-deoxyphosphooctonate aldolase (EC 2.5.1.55) (3-deoxy-D-manno-octulosonic acid 8-phosphate synthase) (KDO-8-phosphate synthase) (KDO 8-P synthase) (KDOPS) (Phospho-2-dehydro-3-deoxyoctonate aldolase)	[MISSING]
+A0A1B1EKW3	1	rbsA PN96_19690	Ribose import ATP-binding protein RbsA (EC 7.5.2.7)	SUBUNIT: The complex is composed of an ATP-binding protein (RbsA), two transmembrane proteins (RbsC) and a solute-binding protein (RbsB). {ECO:0000256|HAMAP-Rule:MF_01716}.
+PN96_19055	1	PN96_19055	[MISSING]	[MISSING]
+A0A1B1EGT5	1	fmt PN96_13540	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	[MISSING]
+PN96_03460	1	PN96_03460	[MISSING]	[MISSING]
+PN96_03515	1	PN96_03515	[MISSING]	[MISSING]
+PN96_00270	1	PN96_00270	[MISSING]	[MISSING]
+PN96_19050	1	PN96_19050	[MISSING]	[MISSING]
+PN96_03990	1	PN96_03990	[MISSING]	[MISSING]
+PN96_21480	1	PN96_21480	[MISSING]	[MISSING]
+A0A1B1EBF9	1	hisF PN96_07770	Imidazole glycerol phosphate synthase subunit HisF (EC 4.3.2.10) (IGP synthase cyclase subunit) (IGP synthase subunit HisF) (ImGP synthase subunit HisF) (IGPS subunit HisF)	SUBUNIT: Heterodimer of HisH and HisF. {ECO:0000256|ARBA:ARBA00011152, ECO:0000256|HAMAP-Rule:MF_01013}.
+A0A1B1E9F4	1	cca PN96_11415	Multifunctional CCA protein [Includes: CCA-adding enzyme (EC 2.7.7.72) (CCA tRNA nucleotidyltransferase) (tRNA CCA-pyrophosphorylase) (tRNA adenylyl-/cytidylyl-transferase) (tRNA nucleotidyltransferase) (tRNA-NT); 2'-nucleotidase (EC 3.1.3.-); 2',3'-cyclic phosphodiesterase (EC 3.1.4.-); Phosphatase]	SUBUNIT: Monomer. Can also form homodimers and oligomers. {ECO:0000256|HAMAP-Rule:MF_01261}.
+A0A1B1EC57	2	ureG PN96_06160	Urease accessory protein UreG	SUBUNIT: Homodimer. UreD, UreF and UreG form a complex that acts as a GTP-hydrolysis-dependent molecular chaperone, activating the urease apoprotein by helping to assemble the nickel containing metallocenter of UreC. The UreE protein probably delivers the nickel. {ECO:0000256|HAMAP-Rule:MF_01389}.
+PN96_20630	1	PN96_20630	[MISSING]	[MISSING]
+PN96_22055	1	PN96_22055	[MISSING]	[MISSING]
+PN96_13295	1	PN96_13295	[MISSING]	[MISSING]
+PN96_10325	1	PN96_10325	[MISSING]	[MISSING]
+A0A1B1E8W5	1	lpxL PN96_12460	Lipid A biosynthesis lauroyltransferase (EC 2.3.1.241) (Kdo(2)-lipid IV(A) lauroyltransferase)	[MISSING]
+A0A1B1EBT4	1	cobT PN96_06830	Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (NN:DBI PRT) (EC 2.4.2.21) (N(1)-alpha-phosphoribosyltransferase)	[MISSING]
+PN96_05350	1	PN96_05350	[MISSING]	[MISSING]
+PN96_21525	1	PN96_21525	[MISSING]	[MISSING]
+PN96_21165	1	PN96_21165	[MISSING]	[MISSING]
+A0A1B1EEU8	1	gshA PN96_01235	Glutamate--cysteine ligase (EC 6.3.2.2) (Gamma-ECS) (GCS) (Gamma-glutamylcysteine synthetase)	[MISSING]
+PN96_09510	1	PN96_09510	[MISSING]	[MISSING]
+PN96_03185	1	PN96_03185	[MISSING]	[MISSING]
+PN96_18160	1	PN96_18160	[MISSING]	[MISSING]
+A0A1B1ED72	1	trpA PN96_03905	Tryptophan synthase alpha chain (EC 4.2.1.20)	SUBUNIT: Tetramer of two alpha and two beta chains. {ECO:0000256|HAMAP-Rule:MF_00131}.
+PN96_14825	1	PN96_14825	[MISSING]	[MISSING]
+PN96_12390	1	PN96_12390	[MISSING]	[MISSING]
+A0A1B1EDC2	2	pyrF PN96_03645	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23) (OMP decarboxylase) (OMPDCase) (OMPdecase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01200}.
+A0A1B1EE96	1	purM PN96_02425	Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1) (AIR synthase) (AIRS) (Phosphoribosyl-aminoimidazole synthetase)	[MISSING]
+A0A1B1EBS4	1	aroA PN96_08320	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19) (5-enolpyruvylshikimate-3-phosphate synthase) (EPSP synthase) (EPSPS)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00210}.
+PN96_14775	1	PN96_14775	[MISSING]	[MISSING]
+A0A1B1EEA6	1	gloB PN96_02375	Hydroxyacylglutathione hydrolase (EC 3.1.2.6) (Glyoxalase II) (Glx II)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_01374}.
+PN96_19040	1	PN96_19040	[MISSING]	[MISSING]
+PN96_13735	1	PN96_13735	[MISSING]	[MISSING]
+PN96_00150	1	PN96_00150	[MISSING]	[MISSING]
+A0A1B1EFQ5	12	aroQ PN96_14205	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	SUBUNIT: Homododecamer. {ECO:0000256|ARBA:ARBA00011193, ECO:0000256|HAMAP-Rule:MF_00169}.
+A0A1B1EFY4	2	dapF PN96_13885	Diaminopimelate epimerase (DAP epimerase) (EC 5.1.1.7) (PLP-independent amino acid racemase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00197}.
+PN96_21430	1	PN96_21430	[MISSING]	[MISSING]
+PN96_18520	1	PN96_18520	[MISSING]	[MISSING]
+PN96_14385	1	PN96_14385	[MISSING]	[MISSING]
+A0A1B1E9A2	1	apaH PN96_11650	Bis(5'-nucleosyl)-tetraphosphatase, symmetrical (EC 3.6.1.41) (Ap4A hydrolase) (Diadenosine 5',5'''-P1,P4-tetraphosphate pyrophosphohydrolase) (Diadenosine tetraphosphatase)	[MISSING]
+PN96_07315	1	PN96_07315	[MISSING]	[MISSING]
+A0A1B1EEW0	1	oadG PN96_01205	Probable oxaloacetate decarboxylase gamma chain (EC 7.2.4.2)	SUBUNIT: Heterotrimer of an alpha, a beta and a gamma subunit. {ECO:0000256|ARBA:ARBA00011869, ECO:0000256|HAMAP-Rule:MF_00404}.
+PN96_07390	1	PN96_07390	[MISSING]	[MISSING]
+PN96_22475	1	PN96_22475	[MISSING]	[MISSING]
+A0A1B1EE01	1	rnfE PN96_03245	Ion-translocating oxidoreductase complex subunit E (EC 7.-.-.-) (Rnf electron transport complex subunit E)	SUBUNIT: The complex is composed of six subunits: RnfA, RnfB, RnfC, RnfD, RnfE and RnfG. {ECO:0000256|HAMAP-Rule:MF_00478}.
+PN96_15805	1	PN96_15805	[MISSING]	[MISSING]
+A0A1B1EG58	1	atpC PN96_13425	ATP synthase epsilon chain (ATP synthase F1 sector epsilon subunit) (F-ATPase epsilon subunit)	SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core - and CF(0) - the membrane proton channel. CF(1) has five subunits: alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has three main subunits: a, b and c. {ECO:0000256|ARBA:ARBA00011648, ECO:0000256|HAMAP-Rule:MF_00530, ECO:0000256|RuleBase:RU003656}.
+PN96_12850	1	PN96_12850	[MISSING]	[MISSING]
+PN96_20350	1	PN96_20350	[MISSING]	[MISSING]
+PN96_12840	1	PN96_12840	[MISSING]	[MISSING]
+PN96_04195	1	PN96_04195	[MISSING]	[MISSING]
+PN96_16785	1	PN96_16785	[MISSING]	[MISSING]
+A0A1B1EJD2	1	gabD PN96_22225	Succinate-semialdehyde dehydrogenase (NADP(+))	[MISSING]
+A0A1B1EEC6	6	pyrH PN96_02270	Uridylate kinase (UK) (EC 2.7.4.22) (Uridine monophosphate kinase) (UMP kinase) (UMPK)	SUBUNIT: Homohexamer. {ECO:0000256|HAMAP-Rule:MF_01220}.
+PN96_22315	1	PN96_22315	[MISSING]	[MISSING]
+PN96_08650	1	PN96_08650	[MISSING]	[MISSING]
+PN96_10540	1	PN96_10540	[MISSING]	[MISSING]
+A0A1B1ECS2	1	prpE PN96_05365	Propionyl-CoA synthetase	[MISSING]
+A0A1B1EDS3	2	asd PN96_03170	Aspartate-semialdehyde dehydrogenase (ASA dehydrogenase) (ASADH) (EC 1.2.1.11) (Aspartate-beta-semialdehyde dehydrogenase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_02121}.
+PN96_22865	1	PN96_22865	[MISSING]	[MISSING]
+A0A1B1EF20	4	epd PN96_00895	D-erythrose-4-phosphate dehydrogenase (E4PDH) (EC 1.2.1.72)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01640}.
+A0A1B1EF17	2	rpiA PN96_00935	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00170}.
+A0A1B1EFX0	1	hemC PN96_13865	Porphobilinogen deaminase (PBG) (EC 2.5.1.61) (Hydroxymethylbilane synthase) (HMBS) (Pre-uroporphyrinogen synthase)	SUBUNIT: Monomer. {ECO:0000256|ARBA:ARBA00011245, ECO:0000256|HAMAP-Rule:MF_00260}.
+A0A1B1EEL8	2	deoA PN96_01745	Thymidine phosphorylase (EC 2.4.2.4) (TdRPase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01628}.
+PN96_10780	1	PN96_10780	[MISSING]	[MISSING]
+PN96_08360	1	PN96_08360	[MISSING]	[MISSING]
+PN96_12760	1	PN96_12760	[MISSING]	[MISSING]
+A0A1B1EFT9	1	glpE PN96_14015	Thiosulfate sulfurtransferase GlpE (EC 2.8.1.1)	[MISSING]
+A0A1B1EAY5	1	gltX PN96_09645	Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00022}.
+PN96_06675	1	PN96_06675	[MISSING]	[MISSING]
+A0A1B1EC24	1	ureE PN96_06170	Urease accessory protein UreE	[MISSING]
+PN96_09285	1	PN96_09285	[MISSING]	[MISSING]
+PN96_14910	1	PN96_14910	[MISSING]	[MISSING]
+A0A1B1EAK1	1	sucD PN96_09265	Succinate--CoA ligase [ADP-forming] subunit alpha (EC 6.2.1.5) (Succinyl-CoA synthetase subunit alpha) (SCS-alpha)	SUBUNIT: Heterotetramer of two alpha and two beta subunits. {ECO:0000256|HAMAP-Rule:MF_01988, ECO:0000256|RuleBase:RU000699}.
+PN96_16580	1	PN96_16580	[MISSING]	[MISSING]
+PN96_03925	1	PN96_03925	[MISSING]	[MISSING]
+PN96_17680	1	PN96_17680	[MISSING]	[MISSING]
+PN96_22635	1	PN96_22635	[MISSING]	[MISSING]
+PN96_21190	1	PN96_21190	[MISSING]	[MISSING]
+PN96_19960	1	PN96_19960	[MISSING]	[MISSING]
+A0A1B1EBP9	1	hutG PN96_07210	Formimidoylglutamase (EC 3.5.3.8) (Formiminoglutamase) (Formiminoglutamate hydrolase)	[MISSING]
+PN96_17630	1	PN96_17630	[MISSING]	[MISSING]
+PN96_11685	1	PN96_11685	[MISSING]	[MISSING]
+PN96_09360	1	PN96_09360	[MISSING]	[MISSING]
+A0A1B1EED7	1	nqrB PN96_02120	Na(+)-translocating NADH-quinone reductase subunit B (Na(+)-NQR subunit B) (Na(+)-translocating NQR subunit B) (EC 7.2.1.1) (NQR complex subunit B) (NQR-1 subunit B)	SUBUNIT: Composed of six subunits; NqrA, NqrB, NqrC, NqrD, NqrE and NqrF. {ECO:0000256|HAMAP-Rule:MF_00426}.
+PN96_08170	1	PN96_08170	[MISSING]	[MISSING]
+PN96_08425	1	PN96_08425	[MISSING]	[MISSING]
+PN96_08640	1	PN96_08640	[MISSING]	[MISSING]
+PN96_08570	1	PN96_08570	[MISSING]	[MISSING]
+PN96_21795	1	PN96_21795	[MISSING]	[MISSING]
+A0A1B1ECA5	2	serC PN96_07345	Phosphoserine aminotransferase (EC 2.6.1.52) (Phosphohydroxythreonine aminotransferase) (PSAT)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00160}.
+A0A1B1EF55	1	arcA PN96_00580	Arginine deiminase (ADI) (EC 3.5.3.6) (Arginine dihydrolase) (AD)	[MISSING]
+PN96_16795	1	PN96_16795	[MISSING]	[MISSING]
+PN96_18050	1	PN96_18050	[MISSING]	[MISSING]
+PN96_20670	1	PN96_20670	[MISSING]	[MISSING]
+PN96_07765	1	PN96_07765	[MISSING]	[MISSING]
+A0A1B1EBD9	2	hisC PN96_07790	Histidinol-phosphate aminotransferase (EC 2.6.1.9) (Imidazole acetol-phosphate transaminase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01023}.
+PN96_07690	1	PN96_07690	[MISSING]	[MISSING]
+A0A1B1EGJ8	1	ubiC PN96_14030	Probable chorismate pyruvate-lyase (CL) (CPL) (EC 4.1.3.40)	[MISSING]
+PN96_01210	1	PN96_01210	[MISSING]	[MISSING]
+A0A1B1EA60	1	proA PN96_10125	Gamma-glutamyl phosphate reductase (GPR) (EC 1.2.1.41) (Glutamate-5-semialdehyde dehydrogenase) (Glutamyl-gamma-semialdehyde dehydrogenase) (GSA dehydrogenase)	[MISSING]
+PN96_10150	1	PN96_10150	[MISSING]	[MISSING]
+A0A1B1EBQ9	1	pheT PN96_07155	Phenylalanine--tRNA ligase beta subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase beta subunit) (PheRS)	SUBUNIT: Tetramer of two alpha and two beta subunits. {ECO:0000256|ARBA:ARBA00011209, ECO:0000256|HAMAP-Rule:MF_00283}.
+A0A1B1E8L7	1	cysQ PN96_12645	3'(2'),5'-bisphosphate nucleotidase CysQ (EC 3.1.3.7) (3'(2'),5-bisphosphonucleoside 3'(2')-phosphohydrolase) (3'-phosphoadenosine 5'-phosphate phosphatase) (PAP phosphatase)	[MISSING]
+PN96_03235	1	PN96_03235	[MISSING]	[MISSING]
+PN96_13190	1	PN96_13190	[MISSING]	[MISSING]
+A0A1B1EH77	1	hutU PN96_17635	Urocanate hydratase (Urocanase) (EC 4.2.1.49) (Imidazolonepropionate hydrolase)	[MISSING]
+PN96_21770	1	PN96_21770	[MISSING]	[MISSING]
+PN96_15500	1	PN96_15500	[MISSING]	[MISSING]
+A0A1B1EF33	1	proC PN96_00825	Pyrroline-5-carboxylate reductase (P5C reductase) (P5CR) (EC 1.5.1.2) (PCA reductase)	[MISSING]
+PN96_20415	1	PN96_20415	[MISSING]	[MISSING]
+A0A1B1EI80	3	lamB PN96_15675	Maltoporin (Maltose-inducible porin)	SUBUNIT: Homotrimer formed of three 18-stranded antiparallel beta-barrels, containing three independent channels. {ECO:0000256|HAMAP-Rule:MF_01301}.
+PN96_21780	1	PN96_21780	[MISSING]	[MISSING]
+PN96_07460	1	PN96_07460	[MISSING]	[MISSING]
+A0A1B1EGM8	2	lysA PN96_13880	Diaminopimelate decarboxylase (DAP decarboxylase) (DAPDC) (EC 4.1.1.20)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_02120}.
+A0A1B1ELL2	1	mgsA PN96_19735	Methylglyoxal synthase (MGS) (EC 4.2.3.3)	[MISSING]
+PN96_21080	1	PN96_21080	[MISSING]	[MISSING]
+A0A1B1E887	1	fadB PN96_13240	Fatty acid oxidation complex subunit alpha [Includes: Enoyl-CoA hydratase/Delta(3)-cis-Delta(2)-trans-enoyl-CoA isomerase/3-hydroxybutyryl-CoA epimerase (EC 4.2.1.17) (EC 5.1.2.3) (EC 5.3.3.8); 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)]	SUBUNIT: Heterotetramer of two alpha chains (FadB) and two beta chains (FadA). {ECO:0000256|HAMAP-Rule:MF_01621}.
+A0A1B1EFJ7	1	hmp PN96_14585	Flavohemoprotein (Flavohemoglobin) (Hemoglobin-like protein) (Nitric oxide dioxygenase) (NO oxygenase) (NOD) (EC 1.14.12.17)	[MISSING]
+A0A1B1EJ45	1	lldD PN96_15345	L-lactate dehydrogenase (EC 1.1.-.-)	[MISSING]
+A0A1B1EG37	1	coaA PN96_00060	Pantothenate kinase (EC 2.7.1.33) (Pantothenic acid kinase)	[MISSING]
+PN96_21300	1	PN96_21300	[MISSING]	[MISSING]
+A0A1B1EJ03	1	gabD PN96_22900	Succinate-semialdehyde dehydrogenase (NADP(+))	[MISSING]
+A0A1B1EEF1	1	dapA PN96_02485	4-hydroxy-tetrahydrodipicolinate synthase (HTPA synthase) (EC 4.3.3.7)	SUBUNIT: Homotetramer; dimer of dimers. {ECO:0000256|HAMAP-Rule:MF_00418}.
+PN96_12235	1	PN96_12235	[MISSING]	[MISSING]
+PN96_19165	1	PN96_19165	[MISSING]	[MISSING]
+PN96_22340	1	PN96_22340	[MISSING]	[MISSING]
+PN96_13795	1	PN96_13795	[MISSING]	[MISSING]
+A0A1B1EK36	1	gcvP PN96_20960	Glycine dehydrogenase (decarboxylating) (EC 1.4.4.2) (Glycine cleavage system P-protein) (Glycine decarboxylase) (Glycine dehydrogenase (aminomethyl-transferring))	SUBUNIT: The glycine cleavage system is composed of four proteins: P, T, L and H. {ECO:0000256|ARBA:ARBA00011690, ECO:0000256|HAMAP-Rule:MF_00711}.
+PN96_22050	1	PN96_22050	[MISSING]	[MISSING]
+PN96_04245	1	PN96_04245	[MISSING]	[MISSING]
+PN96_12260	1	PN96_12260	[MISSING]	[MISSING]
+A0A1B1EBU0	1	astE PN96_06805	Succinylglutamate desuccinylase (EC 3.5.1.96)	[MISSING]
+PN96_21720	1	PN96_21720	[MISSING]	[MISSING]
+PN96_06470	1	PN96_06470	[MISSING]	[MISSING]
+PN96_19195	1	PN96_19195	[MISSING]	[MISSING]
+PN96_12185	1	PN96_12185	[MISSING]	[MISSING]
+PN96_20725	1	PN96_20725	[MISSING]	[MISSING]
+A0A1B1EF16	4	glsA PN96_00795	Glutaminase (EC 3.5.1.2)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00313}.
+A0A1B1ELP3	2	rbsK PN96_19705	Ribokinase (RK) (EC 2.7.1.15)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01987}.
+A0A1B1EG22	2	thiC PN96_13660	Phosphomethylpyrimidine synthase (EC 4.1.99.17) (Hydroxymethylpyrimidine phosphate synthase) (HMP-P synthase) (HMP-phosphate synthase) (HMPP synthase) (Thiamine biosynthesis protein ThiC)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00089}.
+A0A1B1EE51	2	dapE PN96_02505	Succinyl-diaminopimelate desuccinylase (SDAP desuccinylase) (EC 3.5.1.18) (N-succinyl-LL-2,6-diaminoheptanedioate amidohydrolase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01690}.
+PN96_21490	1	PN96_21490	[MISSING]	[MISSING]
+A0A1B1EGH9	1	udk PN96_03440	Uridine kinase (EC 2.7.1.48) (Cytidine monophosphokinase) (Uridine monophosphokinase)	[MISSING]
+A0A1B1EBA4	2	nadA PN96_08115	Quinolinate synthase A (EC 2.5.1.72)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00567}.
+PN96_12365	1	PN96_12365	[MISSING]	[MISSING]
+A0A1B1EF36	1	valS PN96_00605	Valine--tRNA ligase (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_02004}.
+PN96_09365	1	PN96_09365	[MISSING]	[MISSING]
+PN96_06700	1	PN96_06700	[MISSING]	[MISSING]
+A0A1B1E9Y1	1	thiQ PN96_11720	Thiamine import ATP-binding protein ThiQ (EC 7.6.2.15)	SUBUNIT: The complex is composed of two ATP-binding proteins (ThiQ), two transmembrane proteins (ThiP) and a solute-binding protein (ThiB). {ECO:0000256|HAMAP-Rule:MF_01723}.
+A0A1B1EDQ2	1	rnfB PN96_03265	Ion-translocating oxidoreductase complex subunit B (EC 7.-.-.-) (Rnf electron transport complex subunit B)	SUBUNIT: The complex is composed of six subunits: RnfA, RnfB, RnfC, RnfD, RnfE and RnfG. {ECO:0000256|HAMAP-Rule:MF_00463}.
+PN96_21075	1	PN96_21075	[MISSING]	[MISSING]
+A0A1B1EJK9	4	fucA PN96_21530	L-fuculose phosphate aldolase (EC 4.1.2.17) (D-ribulose-phosphate aldolase) (L-fuculose-1-phosphate aldolase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00987}.
+A0A1B1EAE3	2	glyA PN96_09955	Serine hydroxymethyltransferase (SHMT) (Serine methylase) (EC 2.1.2.1)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00051}.
+A0A1B1EKA9	1	fucI PN96_21540	L-fucose isomerase (FucIase) (EC 5.3.1.25) (6-deoxy-L-galactose isomerase)	[MISSING]
+PN96_16555	1	PN96_16555	[MISSING]	[MISSING]
+A0A1B1EBE7	1	hisB PN96_07785	Histidine biosynthesis bifunctional protein HisB [Includes: Histidinol-phosphatase (EC 3.1.3.15); Imidazoleglycerol-phosphate dehydratase (IGPD) (EC 4.2.1.19)]	[MISSING]
+PN96_06445	1	PN96_06445	[MISSING]	[MISSING]
+PN96_12585	1	PN96_12585	[MISSING]	[MISSING]
+A0A1B1EA54	1	ribH PN96_10100	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	SUBUNIT: Forms an icosahedral capsid composed of 60 subunits, arranged as a dodecamer of pentamers. {ECO:0000256|HAMAP-Rule:MF_00178}.
+PN96_15295	1	PN96_15295	[MISSING]	[MISSING]
+PN96_13385	1	PN96_13385	[MISSING]	[MISSING]
+PN96_20165	1	PN96_20165	[MISSING]	[MISSING]
+PN96_06000	1	PN96_06000	[MISSING]	[MISSING]
+PN96_13675	1	PN96_13675	[MISSING]	[MISSING]
+PN96_18725	1	PN96_18725	[MISSING]	[MISSING]
+PN96_03500	1	PN96_03500	[MISSING]	[MISSING]
+PN96_04750	1	PN96_04750	[MISSING]	[MISSING]
+A0A1B1EC27	1	ureB PN96_06180	Urease subunit beta (EC 3.5.1.5) (Urea amidohydrolase subunit beta)	SUBUNIT: Heterotrimer of UreA (gamma), UreB (beta) and UreC (alpha) subunits. Three heterotrimers associate to form the active enzyme. {ECO:0000256|HAMAP-Rule:MF_01954}.
+PN96_18395	1	PN96_18395	[MISSING]	[MISSING]
+PN96_12215	1	PN96_12215	[MISSING]	[MISSING]
+PN96_02800	1	PN96_02800	[MISSING]	[MISSING]
+PN96_18535	1	PN96_18535	[MISSING]	[MISSING]
+PN96_21425	1	PN96_21425	[MISSING]	[MISSING]
+PN96_06550	1	PN96_06550	[MISSING]	[MISSING]
+PN96_08230	1	PN96_08230	[MISSING]	[MISSING]
+A0A1B1E888	1	edd PN96_13075	Phosphogluconate dehydratase (EC 4.2.1.12)	[MISSING]
+PN96_04740	1	PN96_04740	[MISSING]	[MISSING]
+PN96_01795	1	PN96_01795	[MISSING]	[MISSING]
+A0A1B1E8Y0	1	ilvC PN96_13170	Ketol-acid reductoisomerase (NADP(+)) (KARI) (EC 1.1.1.86) (Acetohydroxy-acid isomeroreductase) (AHIR) (Alpha-keto-beta-hydroxylacyl reductoisomerase)	[MISSING]
+PN96_22480	1	PN96_22480	[MISSING]	[MISSING]
+PN96_10905	1	PN96_10905	[MISSING]	[MISSING]
+A0A1B1EG44	1	aroB PN96_14860	3-dehydroquinate synthase (DHQS) (EC 4.2.3.4)	[MISSING]
+A0A1B1EBJ2	1	ushA PN96_07525	Bifunctional UDP-sugar hydrolase/5'-nucleotidase	[MISSING]
+PN96_18065	1	PN96_18065	[MISSING]	[MISSING]
+A0A1B1EBX5	1	mqo PN96_19465	Probable malate:quinone oxidoreductase (EC 1.1.5.4) (MQO) (Malate dehydrogenase [quinone])	[MISSING]
+A0A1B1EG18	1	thiE PN96_13665	Thiamine phosphate synthase	[MISSING]
+PN96_18385	1	PN96_18385	[MISSING]	[MISSING]
+PN96_18465	1	PN96_18465	[MISSING]	[MISSING]
+PN96_11515	1	PN96_11515	[MISSING]	[MISSING]
+A0A1B1E9A8	1	gmk PN96_12560	Guanylate kinase (EC 2.7.4.8) (GMP kinase)	[MISSING]
+PN96_10245	1	PN96_10245	[MISSING]	[MISSING]
+PN96_18045	1	PN96_18045	[MISSING]	[MISSING]
+A0A1B1EEM9	2	hemL PN96_01550	Glutamate-1-semialdehyde 2,1-aminomutase (GSA) (EC 5.4.3.8) (Glutamate-1-semialdehyde aminotransferase) (GSA-AT)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00375}.
+PN96_17865	1	PN96_17865	[MISSING]	[MISSING]
+A0A1B1E928	2	tpiA PN96_12085	Triosephosphate isomerase (TIM) (TPI) (EC 5.3.1.1) (Triose-phosphate isomerase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00147, ECO:0000256|RuleBase:RU363013}.
+PN96_06315	1	PN96_06315	[MISSING]	[MISSING]
+PN96_12210	1	PN96_12210	[MISSING]	[MISSING]
+PN96_19455	1	PN96_19455	[MISSING]	[MISSING]
+PN96_22890	1	PN96_22890	[MISSING]	[MISSING]
+A0A1B1EBV8	1	dsdA PN96_07340	Probable D-serine dehydratase (EC 4.3.1.18) (D-serine deaminase) (DSD)	[MISSING]
+A0A1B1E9Y0	4	ndk PN96_10485	Nucleoside diphosphate kinase (NDK) (NDP kinase) (EC 2.7.4.6) (Nucleoside-2-P kinase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00451}.
+A0A1B1EEP6	1	glmM PN96_01620	Phosphoglucosamine mutase (EC 5.4.2.10)	[MISSING]
+PN96_06455	1	PN96_06455	[MISSING]	[MISSING]
+PN96_06060	1	PN96_06060	[MISSING]	[MISSING]
+PN96_04070	1	PN96_04070	[MISSING]	[MISSING]
+A0A1B1EF23	1	metK PN96_00880	S-adenosylmethionine synthase (AdoMet synthase) (EC 2.5.1.6) (MAT) (Methionine adenosyltransferase)	SUBUNIT: Homotetramer. {ECO:0000256|RuleBase:RU000542}.; SUBUNIT: Homotetramer; dimer of dimers. {ECO:0000256|HAMAP-Rule:MF_00086}.
+PN96_00275	1	PN96_00275	[MISSING]	[MISSING]
+PN96_18775	1	PN96_18775	[MISSING]	[MISSING]
+PN96_10880	1	PN96_10880	[MISSING]	[MISSING]
+A0A1B1EK16	1	pdhA PN96_21070	Pyruvate dehydrogenase E1 component subunit alpha (EC 1.2.4.1)	SUBUNIT: Heterodimer of an alpha and a beta chain. {ECO:0000256|RuleBase:RU366007}.
+PN96_04765	1	PN96_04765	[MISSING]	[MISSING]
+PN96_19935	1	PN96_19935	[MISSING]	[MISSING]
+PN96_21360	1	PN96_21360	[MISSING]	[MISSING]
+A0A1B1EFI6	1	astD PN96_14630	N-succinylglutamate 5-semialdehyde dehydrogenase (EC 1.2.1.71) (Succinylglutamic semialdehyde dehydrogenase) (SGSD)	[MISSING]
+A0A1B1E8K2	1	pckA PN96_12720	Phosphoenolpyruvate carboxykinase (ATP) (PCK) (PEP carboxykinase) (PEPCK) (EC 4.1.1.49)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00453}.
+PN96_15600	1	PN96_15600	[MISSING]	[MISSING]
+PN96_06630	1	PN96_06630	[MISSING]	[MISSING]
+PN96_20215	1	PN96_20215	[MISSING]	[MISSING]
+A0A1B1EGX7	2	tal PN96_18165	Transaldolase (EC 2.2.1.2)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738}.
+A0A1B1EEZ7	1	pdxJ PN96_01040	Pyridoxine 5'-phosphate synthase (PNP synthase) (EC 2.6.99.2)	SUBUNIT: Homooctamer; tetramer of dimers. {ECO:0000256|HAMAP-Rule:MF_00279}.
+PN96_11125	1	PN96_11125	[MISSING]	[MISSING]
+PN96_06450	1	PN96_06450	[MISSING]	[MISSING]
+A0A1B1EAV7	1	menB PN96_08900	1,4-dihydroxy-2-naphthoyl-CoA synthase (DHNA-CoA synthase) (EC 4.1.3.36)	[MISSING]
+PN96_13870	1	PN96_13870	[MISSING]	[MISSING]
+PN96_11105	1	PN96_11105	[MISSING]	[MISSING]
+A0A1B1EFE9	1	rpe PN96_14875	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)	[MISSING]
+A0A1B1EDU7	1	purF PN96_02935	Amidophosphoribosyltransferase (ATase) (EC 2.4.2.14) (Glutamine phosphoribosylpyrophosphate amidotransferase) (GPATase)	[MISSING]
+PN96_06665	1	PN96_06665	[MISSING]	[MISSING]
+PN96_18355	1	PN96_18355	[MISSING]	[MISSING]
+PN96_21140	1	PN96_21140	[MISSING]	[MISSING]
+PN96_05745	1	PN96_05745	[MISSING]	[MISSING]
+A0A1B1EFC7	1	argC PN96_14795	N-acetyl-gamma-glutamyl-phosphate reductase (AGPR) (EC 1.2.1.38) (N-acetyl-glutamate semialdehyde dehydrogenase) (NAGSA dehydrogenase)	[MISSING]
+PN96_18510	1	PN96_18510	[MISSING]	[MISSING]
+A0A1B1EG51	3	glmU PN96_13430	Bifunctional protein GlmU [Includes: UDP-N-acetylglucosamine pyrophosphorylase (EC 2.7.7.23) (N-acetylglucosamine-1-phosphate uridyltransferase); Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)]	SUBUNIT: Homotrimer. {ECO:0000256|HAMAP-Rule:MF_01631}.
+PN96_05105	1	PN96_05105	[MISSING]	[MISSING]
+PN96_01500	1	PN96_01500	[MISSING]	[MISSING]
+A0A1B1EDN0	1	rnfA PN96_03270	Ion-translocating oxidoreductase complex subunit A (EC 7.-.-.-) (Rnf electron transport complex subunit A)	SUBUNIT: The complex is composed of six subunits: RnfA, RnfB, RnfC, RnfD, RnfE and RnfG. {ECO:0000256|HAMAP-Rule:MF_00459}.
+PN96_18770	1	PN96_18770	[MISSING]	[MISSING]
+A0A1B1EAQ5	1	glnS PN96_09355	Glutamine--tRNA ligase (EC 6.1.1.18) (Glutaminyl-tRNA synthetase) (GlnRS)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00126}.
+PN96_01460	1	PN96_01460	[MISSING]	[MISSING]
+A0A1B1EIE1	2	pdxY PN96_15645	Pyridoxal kinase PdxY (PL kinase) (EC 2.7.1.35)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01639}.
+A0A1B1EK95	1	cobQ PN96_20490	Cobyric acid synthase	[MISSING]
+PN96_16170	1	PN96_16170	[MISSING]	[MISSING]
+A0A1B1EEY3	1	ispD PN96_01085	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	[MISSING]
+PN96_03555	1	PN96_03555	[MISSING]	[MISSING]
+PN96_21310	1	PN96_21310	[MISSING]	[MISSING]
+PN96_19035	1	PN96_19035	[MISSING]	[MISSING]
+A0A1B1EDJ3	2	ackA PN96_03365	Acetate kinase (EC 2.7.2.1) (Acetokinase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00020}.
+A0A1B1EGM9	1	nqrA PN96_02115	Na(+)-translocating NADH-quinone reductase subunit A (Na(+)-NQR subunit A) (Na(+)-translocating NQR subunit A) (EC 7.2.1.1) (NQR complex subunit A) (NQR-1 subunit A)	SUBUNIT: Composed of six subunits; NqrA, NqrB, NqrC, NqrD, NqrE and NqrF. {ECO:0000256|HAMAP-Rule:MF_00425}.
+A0A1B1EBE4	1	lpxH PN96_07750	UDP-2,3-diacylglucosamine hydrolase (EC 3.6.1.54) (UDP-2,3-diacylglucosamine diphosphatase)	[MISSING]
+PN96_11095	1	PN96_11095	[MISSING]	[MISSING]
+PN96_14415	1	PN96_14415	[MISSING]	[MISSING]
+PN96_22170	1	PN96_22170	[MISSING]	[MISSING]
+A0A1B1EIW4	1	malK PN96_14975	Maltose/maltodextrin import ATP-binding protein MalK (EC 7.5.2.1)	SUBUNIT: The complex is composed of two ATP-binding proteins (MalK), two transmembrane proteins (MalG and MalK) and a solute-binding protein (MalE). {ECO:0000256|HAMAP-Rule:MF_01709}.
+PN96_03895	1	PN96_03895	[MISSING]	[MISSING]
+PN96_09010	1	PN96_09010	[MISSING]	[MISSING]
+A0A1B1E9A0	2	mdh PN96_11695	Malate dehydrogenase (EC 1.1.1.37)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01516}.
+A0A1B1EBF7	4	tdk PN96_07735	Thymidine kinase (EC 2.7.1.21)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00124}.
+A0A1B1E9J1	1	mraY PN96_11220	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13) (UDP-MurNAc-pentapeptide phosphotransferase)	[MISSING]
+PN96_02920	1	PN96_02920	[MISSING]	[MISSING]
+A0A1B1EHG3	1	fni PN96_17180	Isopentenyl-diphosphate delta-isomerase (IPP isomerase) (EC 5.3.3.2) (Isopentenyl diphosphate:dimethylallyl diphosphate isomerase) (Isopentenyl pyrophosphate isomerase) (Type 2 isopentenyl diphosphate isomerase) (IDI-2)	SUBUNIT: Homooctamer. Dimer of tetramers. {ECO:0000256|HAMAP-Rule:MF_00354}.
+PN96_19075	1	PN96_19075	[MISSING]	[MISSING]
+A0A1B1EJM9	2	ackA PN96_21510	Acetate kinase (EC 2.7.2.1) (Acetokinase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00020}.
+A0A1B1EE91	1	upp PN96_02430	Uracil phosphoribosyltransferase (EC 2.4.2.9) (UMP pyrophosphorylase) (UPRTase)	[MISSING]
+A0A1B1EBA8	2	bioF PN96_07905	8-amino-7-oxononanoate synthase (AONS) (EC 2.3.1.47) (7-keto-8-amino-pelargonic acid synthase) (7-KAP synthase) (KAPA synthase) (8-amino-7-ketopelargonate synthase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01693}.
+PN96_01355	1	PN96_01355	[MISSING]	[MISSING]
+PN96_18335	1	PN96_18335	[MISSING]	[MISSING]
+A0A1B1EIG6	4	tdh PN96_15380	L-threonine 3-dehydrogenase (TDH) (EC 1.1.1.103)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00627}.
+A0A1B1EC38	1	ureF PN96_06165	Urease accessory protein UreF	SUBUNIT: UreD, UreF and UreG form a complex that acts as a GTP-hydrolysis-dependent molecular chaperone, activating the urease apoprotein by helping to assemble the nickel containing metallocenter of UreC. The UreE protein probably delivers the nickel. {ECO:0000256|HAMAP-Rule:MF_01385}.
+PN96_18315	1	PN96_18315	[MISSING]	[MISSING]
+PN96_11830	1	PN96_11830	[MISSING]	[MISSING]
+PN96_00990	1	PN96_00990	[MISSING]	[MISSING]
+A0A1B1EFH8	1	miaA PN96_14545	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00185}.
+PN96_09305	1	PN96_09305	[MISSING]	[MISSING]
+PN96_22940	1	PN96_22940	[MISSING]	[MISSING]
+A0A1B1EAT7	1	argS PN96_09220	Arginine--tRNA ligase (EC 6.1.1.19) (Arginyl-tRNA synthetase) (ArgRS)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00123}.
+A0A1B1EBF2	1	cysS PN96_07740	Cysteine--tRNA ligase (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)	SUBUNIT: Monomer. {ECO:0000256|ARBA:ARBA00011245, ECO:0000256|HAMAP-Rule:MF_00041}.
+PN96_12325	1	PN96_12325	[MISSING]	[MISSING]
+A0A1B1EFV4	1	ubiA PN96_14035	4-hydroxybenzoate octaprenyltransferase (EC 2.5.1.39) (4-HB polyprenyltransferase)	[MISSING]
+A0A1B1ELE0	1	speA PN96_16870	Biosynthetic arginine decarboxylase (ADC) (EC 4.1.1.19)	[MISSING]
+PN96_01420	1	PN96_01420	[MISSING]	[MISSING]
+A0A1B1EEE9	1	nqrC PN96_02125	Na(+)-translocating NADH-quinone reductase subunit C (Na(+)-NQR subunit C) (Na(+)-translocating NQR subunit C) (EC 7.2.1.1) (NQR complex subunit C) (NQR-1 subunit C)	SUBUNIT: Composed of six subunits; NqrA, NqrB, NqrC, NqrD, NqrE and NqrF. {ECO:0000256|HAMAP-Rule:MF_00427, ECO:0000256|PIRNR:PIRNR009437}.
+A0A1B1EFC4	1	pgi PN96_14920	Glucose-6-phosphate isomerase (GPI) (EC 5.3.1.9) (Phosphoglucose isomerase) (PGI) (Phosphohexose isomerase) (PHI)	[MISSING]
+A0A1B1EHC6	2	purA PN96_17475	Adenylosuccinate synthetase (AMPSase) (AdSS) (EC 6.3.4.4) (IMP--aspartate ligase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00011}.
+PN96_21665	1	PN96_21665	[MISSING]	[MISSING]
+PN96_06310	1	PN96_06310	[MISSING]	[MISSING]
+PN96_19300	1	PN96_19300	[MISSING]	[MISSING]
+PN96_19805	1	PN96_19805	[MISSING]	[MISSING]
+A0A1B1ED57	1	ubiG PN96_04075	Ubiquinone biosynthesis O-methyltransferase (2-polyprenyl-6-hydroxyphenol methylase) (EC 2.1.1.222) (3-demethylubiquinone 3-O-methyltransferase) (EC 2.1.1.64)	[MISSING]
+A0A1B1EG30	1	def PN96_13545	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	[MISSING]
+A0A1B1EFS3	2	hemE PN96_00140	Uroporphyrinogen decarboxylase (UPD) (URO-D) (EC 4.1.1.37)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_00218}.
+PN96_01940	1	PN96_01940	[MISSING]	[MISSING]
+A0A1B1EFN0	1	eno PN96_01075	Enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lyase) (2-phosphoglycerate dehydratase)	SUBUNIT: Component of the RNA degradosome, which is a multiprotein complex involved in RNA processing and mRNA degradation. {ECO:0000256|HAMAP-Rule:MF_00318}.
+PN96_14770	1	PN96_14770	[MISSING]	[MISSING]
+PN96_05095	1	PN96_05095	[MISSING]	[MISSING]
+PN96_00905	1	PN96_00905	[MISSING]	[MISSING]
+PN96_01335	1	PN96_01335	[MISSING]	[MISSING]
+PN96_07605	1	PN96_07605	[MISSING]	[MISSING]
+PN96_17735	1	PN96_17735	[MISSING]	[MISSING]
+PN96_04250	1	PN96_04250	[MISSING]	[MISSING]
+A0A1B1EFI9	1	gpmI PN96_14435	2,3-bisphosphoglycerate-independent phosphoglycerate mutase (BPG-independent PGAM) (Phosphoglyceromutase) (iPGM) (EC 5.4.2.12)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_01038}.
+PN96_09320	1	PN96_09320	[MISSING]	[MISSING]
+PN96_03585	1	PN96_03585	[MISSING]	[MISSING]
+PN96_05600	1	PN96_05600	[MISSING]	[MISSING]
+PN96_01345	1	PN96_01345	[MISSING]	[MISSING]
+PN96_19030	1	PN96_19030	[MISSING]	[MISSING]
+A0A1B1ED60	1	trpB PN96_03910	Tryptophan synthase beta chain (EC 4.2.1.20)	SUBUNIT: Tetramer of two alpha and two beta chains. {ECO:0000256|ARBA:ARBA00011270, ECO:0000256|HAMAP-Rule:MF_00133}.
+A0A1B1EJK2	1	xylB PN96_22075	Xylulose kinase (Xylulokinase) (EC 2.7.1.17)	[MISSING]
+PN96_21010	1	PN96_21010	[MISSING]	[MISSING]
+PN96_22180	1	PN96_22180	[MISSING]	[MISSING]
+A0A1B1EDY0	1	fadJ PN96_02805	Fatty acid oxidation complex subunit alpha [Includes: Enoyl-CoA hydratase/3-hydroxybutyryl-CoA epimerase (EC 4.2.1.17) (EC 5.1.2.3); 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)]	SUBUNIT: Heterotetramer of two alpha chains (FadJ) and two beta chains (FadI). {ECO:0000256|HAMAP-Rule:MF_01617}.
+PN96_05815	1	PN96_05815	[MISSING]	[MISSING]
+PN96_08655	1	PN96_08655	[MISSING]	[MISSING]
+PN96_10580	1	PN96_10580	[MISSING]	[MISSING]
+PN96_16705	1	PN96_16705	[MISSING]	[MISSING]
+PN96_22470	1	PN96_22470	[MISSING]	[MISSING]
+A0A1B1ELG7	1	betA PN96_19095	Oxygen-dependent choline dehydrogenase (CDH) (CHD) (EC 1.1.99.1) (Betaine aldehyde dehydrogenase) (BADH) (EC 1.2.1.8)	[MISSING]
+PN96_06025	1	PN96_06025	[MISSING]	[MISSING]
+PN96_09300	1	PN96_09300	[MISSING]	[MISSING]
+A0A1B1EAH2	1	hemH PN96_09395	Ferrochelatase (EC 4.99.1.1) (Heme synthase) (Protoheme ferro-lyase)	[MISSING]
+A0A1B1E9H0	1	uppP PN96_11420	Undecaprenyl-diphosphatase (EC 3.6.1.27) (Bacitracin resistance protein) (Undecaprenyl pyrophosphate phosphatase)	[MISSING]
+PN96_03545	1	PN96_03545	[MISSING]	[MISSING]
+A0A1B1EDW7	2	pdxB PN96_02895	Erythronate-4-phosphate dehydrogenase (EC 1.1.1.290)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01825}.
+PN96_21025	1	PN96_21025	[MISSING]	[MISSING]
+PN96_18115	1	PN96_18115	[MISSING]	[MISSING]
+PN96_21460	1	PN96_21460	[MISSING]	[MISSING]
+PN96_13440	1	PN96_13440	[MISSING]	[MISSING]
+A0A1B1EF14	1	pgk PN96_00900	Phosphoglycerate kinase (EC 2.7.2.3)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00145}.
+PN96_14615	1	PN96_14615	[MISSING]	[MISSING]
+PN96_06815	1	PN96_06815	[MISSING]	[MISSING]
+PN96_11480	1	PN96_11480	[MISSING]	[MISSING]
+PN96_03520	1	PN96_03520	[MISSING]	[MISSING]
+PN96_20755	1	PN96_20755	[MISSING]	[MISSING]
+PN96_00890	1	PN96_00890	[MISSING]	[MISSING]
+A0A1B1EGU8	1	benD PN96_18365	1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase	[MISSING]
+PN96_22640	1	PN96_22640	[MISSING]	[MISSING]
+A0A1B1EHI7	2	phnX PN96_17080	Phosphonoacetaldehyde hydrolase (Phosphonatase) (EC 3.11.1.1) (Phosphonoacetaldehyde phosphonohydrolase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01375}.
+A0A1B1EH20	1	folE PN96_18205	GTP cyclohydrolase 1 (EC 3.5.4.16) (GTP cyclohydrolase I) (GTP-CH-I)	SUBUNIT: Homopolymer. {ECO:0000256|HAMAP-Rule:MF_00223}.
+PN96_01430	1	PN96_01430	[MISSING]	[MISSING]
+A0A1B1EBE2	1	hisA PN96_07775	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase (EC 5.3.1.16) (Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase)	[MISSING]
+PN96_18975	1	PN96_18975	[MISSING]	[MISSING]
+PN96_09290	1	PN96_09290	[MISSING]	[MISSING]
+PN96_08810	1	PN96_08810	[MISSING]	[MISSING]
+PN96_17245	1	PN96_17245	[MISSING]	[MISSING]
+PN96_15940	1	PN96_15940	[MISSING]	[MISSING]
+PN96_23175	1	PN96_23175	[MISSING]	[MISSING]
+A0A1B1EFM2	1	frdC PN96_14375	Fumarate reductase subunit C (Quinol-fumarate reductase subunit C) (QFR subunit C)	SUBUNIT: Part of an enzyme complex containing four subunits: a flavoprotein (FrdA), an iron-sulfur protein (FrdB), and two hydrophobic anchor proteins (FrdC and FrdD). {ECO:0000256|HAMAP-Rule:MF_00708}.
+PN96_06535	1	PN96_06535	[MISSING]	[MISSING]
+PN96_20915	1	PN96_20915	[MISSING]	[MISSING]
+A0A1B1E9C0	1	leuC PN96_11605	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	SUBUNIT: Heterodimer of LeuC and LeuD. {ECO:0000256|HAMAP-Rule:MF_01026}.
+A0A1B1EID3	2	kbl PN96_15385	2-amino-3-ketobutyrate coenzyme A ligase (AKB ligase) (EC 2.3.1.29) (Glycine acetyltransferase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00985}.
+A0A1B1EAX5	1	ushA PN96_09695	Bifunctional UDP-sugar hydrolase/5'-nucleotidase	[MISSING]
+A0A1B1EFN6	4	pfkA PN96_14310	ATP-dependent 6-phosphofructokinase (ATP-PFK) (Phosphofructokinase) (EC 2.7.1.11) (Phosphohexokinase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00339}.
+PN96_08465	1	PN96_08465	[MISSING]	[MISSING]
+PN96_02435	1	PN96_02435	[MISSING]	[MISSING]
+PN96_14950	1	PN96_14950	[MISSING]	[MISSING]
+PN96_08605	1	PN96_08605	[MISSING]	[MISSING]
+PN96_03915	1	PN96_03915	[MISSING]	[MISSING]
+A0A1B1EL85	1	nirD PN96_20325	Nitrite reductase small subunit	[MISSING]
+PN96_06580	1	PN96_06580	[MISSING]	[MISSING]
+PN96_06260	1	PN96_06260	[MISSING]	[MISSING]
+PN96_18040	1	PN96_18040	[MISSING]	[MISSING]
+PN96_17690	1	PN96_17690	[MISSING]	[MISSING]
+A0A1B1EEH5	1	argA PN96_02020	Amino-acid acetyltransferase (EC 2.3.1.1) (N-acetylglutamate synthase) (AGS) (NAGS)	[MISSING]
+PN96_04945	1	PN96_04945	[MISSING]	[MISSING]
+A0A1B1EG77	4	ilvA PN96_13455	L-threonine dehydratase (EC 4.3.1.19) (Threonine deaminase)	SUBUNIT: Homotetramer. {ECO:0000256|RuleBase:RU362012}.
+A0A1B1ECJ9	1	zwf PN96_05280	Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49)	[MISSING]
+PN96_01965	1	PN96_01965	[MISSING]	[MISSING]
+PN96_11425	1	PN96_11425	[MISSING]	[MISSING]
+PN96_08000	1	PN96_08000	[MISSING]	[MISSING]
+PN96_07680	1	PN96_07680	[MISSING]	[MISSING]
+PN96_04170	1	PN96_04170	[MISSING]	[MISSING]
+PN96_17145	1	PN96_17145	[MISSING]	[MISSING]
+PN96_21465	1	PN96_21465	[MISSING]	[MISSING]
+PN96_11555	1	PN96_11555	[MISSING]	[MISSING]
+PN96_09295	1	PN96_09295	[MISSING]	[MISSING]
+A0A1B1EAW1	1	menC PN96_08895	o-succinylbenzoate synthase (OSB synthase) (OSBS) (EC 4.2.1.113) (4-(2'-carboxyphenyl)-4-oxybutyric acid synthase) (o-succinylbenzoic acid synthase)	[MISSING]
+PN96_01125	1	PN96_01125	[MISSING]	[MISSING]
+PN96_01215	1	PN96_01215	[MISSING]	[MISSING]
+PN96_14225	1	PN96_14225	[MISSING]	[MISSING]
+PN96_22200	1	PN96_22200	[MISSING]	[MISSING]
+A0A1B1EFI3	2	trpS PN96_14610	Tryptophan--tRNA ligase (EC 6.1.1.2) (Tryptophanyl-tRNA synthetase) (TrpRS)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00140}.
+A0A1B1EEA2	3	lpxA PN96_02320	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (UDP-N-acetylglucosamine acyltransferase) (EC 2.3.1.129)	SUBUNIT: Homotrimer. {ECO:0000256|HAMAP-Rule:MF_00387}.
+PN96_22140	1	PN96_22140	[MISSING]	[MISSING]
+PN96_15405	1	PN96_15405	[MISSING]	[MISSING]
+PN96_17565	1	PN96_17565	[MISSING]	[MISSING]
+PN96_18070	1	PN96_18070	[MISSING]	[MISSING]
+A0A1B1EI75	1	araB PN96_16030	Ribulokinase (EC 2.7.1.16)	[MISSING]
+PN96_15690	1	PN96_15690	[MISSING]	[MISSING]
+A0A1B1EEY1	3	ispF PN96_01090	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	SUBUNIT: Homotrimer. {ECO:0000256|ARBA:ARBA00011233, ECO:0000256|HAMAP-Rule:MF_00107}.
+A0A1B1E9G4	1	cpdA PN96_11345	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA (3',5'-cyclic AMP phosphodiesterase) (cAMP phosphodiesterase) (EC 3.1.4.53)	[MISSING]
+PN96_01435	1	PN96_01435	[MISSING]	[MISSING]
+A0A1B1EGC1	1	cysZ PN96_09505	Sulfate transporter CysZ	[MISSING]
+PN96_19170	1	PN96_19170	[MISSING]	[MISSING]
+PN96_08010	1	PN96_08010	[MISSING]	[MISSING]
+PN96_22670	1	PN96_22670	[MISSING]	[MISSING]
+A0A1B1EGI7	1	btuB PN96_14080	Vitamin B12 transporter BtuB (Cobalamin receptor) (Outer membrane cobalamin translocator)	[MISSING]
+PN96_21440	1	PN96_21440	[MISSING]	[MISSING]
+PN96_21320	1	PN96_21320	[MISSING]	[MISSING]
+PN96_22625	1	PN96_22625	[MISSING]	[MISSING]
+PN96_14275	1	PN96_14275	[MISSING]	[MISSING]
+A0A1B1E9B4	2	leuB PN96_11600	3-isopropylmalate dehydrogenase (EC 1.1.1.85) (3-IPM-DH) (Beta-IPM dehydrogenase) (IMDH)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01033, ECO:0000256|RuleBase:RU004445}.
+A0A1B1EBJ5	2	bioB PN96_07910	Biotin synthase (EC 2.8.1.6)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01694}.
+A0A1B1EAG5	1	adk PN96_09400	Adenylate kinase (AK) (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate monophosphate kinase)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00235, ECO:0000256|RuleBase:RU003331}.
+PN96_15895	1	PN96_15895	[MISSING]	[MISSING]
+PN96_04720	1	PN96_04720	[MISSING]	[MISSING]
+PN96_05190	1	PN96_05190	[MISSING]	[MISSING]
+PN96_21675	1	PN96_21675	[MISSING]	[MISSING]
+A0A1B1EBZ2	2	bioA PN96_07915	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62) (7,8-diamino-pelargonic acid aminotransferase) (DAPA AT) (DAPA aminotransferase) (7,8-diaminononanoate synthase) (DANS) (Diaminopelargonic acid synthase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00834}.
+PN96_13060	1	PN96_13060	[MISSING]	[MISSING]
+PN96_02785	1	PN96_02785	[MISSING]	[MISSING]
+PN96_13715	1	PN96_13715	[MISSING]	[MISSING]
+PN96_22735	1	PN96_22735	[MISSING]	[MISSING]
+PN96_10815	1	PN96_10815	[MISSING]	[MISSING]
+PN96_16180	1	PN96_16180	[MISSING]	[MISSING]
+A0A1B1EFK2	1	frdD PN96_14370	Fumarate reductase subunit D (Quinol-fumarate reductase subunit D) (QFR subunit D)	SUBUNIT: Part of an enzyme complex containing four subunits: a flavoprotein (FrdA), an iron-sulfur protein (FrdB), and two hydrophobic anchor proteins (FrdC and FrdD). {ECO:0000256|HAMAP-Rule:MF_00709}.
+PN96_17700	1	PN96_17700	[MISSING]	[MISSING]
+A0A1B1ECI8	1	prpB PN96_05345	2-methylisocitrate lyase (2-MIC) (MICL) (EC 4.1.3.30) ((2R,3S)-2-methylisocitrate lyase)	SUBUNIT: Homotetramer; dimer of dimers. {ECO:0000256|HAMAP-Rule:MF_01939}.
+A0A1B1EFR8	1	murB PN96_00050	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98) (UDP-N-acetylmuramate dehydrogenase)	[MISSING]
+PN96_17685	1	PN96_17685	[MISSING]	[MISSING]
+PN96_16515	1	PN96_16515	[MISSING]	[MISSING]
+A0A1B1E9Z6	2	guaA PN96_10425	GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2) (GMP synthetase) (Glutamine amidotransferase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00344}.
+A0A1B1EE84	1	purN PN96_02420	Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2) (5'-phosphoribosylglycinamide transformylase) (GAR transformylase) (GART)	[MISSING]
+PN96_16610	1	PN96_16610	[MISSING]	[MISSING]
+PN96_00290	1	PN96_00290	[MISSING]	[MISSING]
+PN96_20335	1	PN96_20335	[MISSING]	[MISSING]
+A0A1B1EBL5	1	nhaA PN96_07430	Na(+)/H(+) antiporter NhaA (Sodium/proton antiporter NhaA)	[MISSING]
+PN96_03360	1	PN96_03360	[MISSING]	[MISSING]
+A0A1B1EJI4	2	pyrC PN96_23080	Dihydroorotase (DHOase) (EC 3.5.2.3)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00219}.
+A0A1B1E9Y2	4	guaB PN96_10430	Inosine-5'-monophosphate dehydrogenase (IMP dehydrogenase) (IMPD) (IMPDH) (EC 1.1.1.205)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01964}.
+PN96_09520	1	PN96_09520	[MISSING]	[MISSING]
+PN96_16050	1	PN96_16050	[MISSING]	[MISSING]
+A0A1B1EEJ9	1	accD PN96_02915	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta (ACCase subunit beta) (Acetyl-CoA carboxylase carboxyltransferase subunit beta) (EC 2.1.3.15)	SUBUNIT: Acetyl-CoA carboxylase is a heterohexamer composed of biotin carboxyl carrier protein (AccB), biotin carboxylase (AccC) and two subunits each of ACCase subunit alpha (AccA) and ACCase subunit beta (AccD). {ECO:0000256|HAMAP-Rule:MF_01395}.
+A0A1B1EFW8	1	murA PN96_00550	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7) (Enoylpyruvate transferase) (UDP-N-acetylglucosamine enolpyruvyl transferase) (EPT)	[MISSING]
+PN96_05130	1	PN96_05130	[MISSING]	[MISSING]
+A0A1B1E9Q1	2	thyA PN96_10915	Thymidylate synthase (TS) (TSase) (EC 2.1.1.45)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00008}.
+PN96_01145	1	PN96_01145	[MISSING]	[MISSING]
+A0A1B1EB12	1	lpxK PN96_08505	Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130) (Lipid A 4'-kinase)	[MISSING]
+PN96_20810	1	PN96_20810	[MISSING]	[MISSING]
+PN96_19610	1	PN96_19610	[MISSING]	[MISSING]
+A0A1B1EDU6	2	asd PN96_02900	Aspartate-semialdehyde dehydrogenase (ASA dehydrogenase) (ASADH) (EC 1.2.1.11) (Aspartate-beta-semialdehyde dehydrogenase)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_02121}.
+A0A1B1EGG8	2	asnS PN96_04220	Asparagine--tRNA ligase (EC 6.1.1.22) (Asparaginyl-tRNA synthetase) (AsnRS)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00534}.
+A0A1B1EBQ6	1	pheS PN96_07160	Phenylalanine--tRNA ligase alpha subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase alpha subunit) (PheRS)	SUBUNIT: Tetramer of two alpha and two beta subunits. {ECO:0000256|ARBA:ARBA00011209, ECO:0000256|HAMAP-Rule:MF_00281}.
+PN96_08015	1	PN96_08015	[MISSING]	[MISSING]
+PN96_19475	1	PN96_19475	[MISSING]	[MISSING]
+PN96_21810	1	PN96_21810	[MISSING]	[MISSING]
+PN96_04020	1	PN96_04020	[MISSING]	[MISSING]
+A0A1B1EEU9	1	coaE PN96_01295	Dephospho-CoA kinase (EC 2.7.1.24) (Dephosphocoenzyme A kinase)	[MISSING]
+PN96_05305	1	PN96_05305	[MISSING]	[MISSING]
+PN96_06825	1	PN96_06825	[MISSING]	[MISSING]
+PN96_22895	1	PN96_22895	[MISSING]	[MISSING]
+PN96_21775	1	PN96_21775	[MISSING]	[MISSING]
+PN96_19510	1	PN96_19510	[MISSING]	[MISSING]
+PN96_11730	1	PN96_11730	[MISSING]	[MISSING]
+A0A1B1EFW1	1	plsB PN96_14040	Glycerol-3-phosphate acyltransferase (GPAT) (EC 2.3.1.15)	[MISSING]
+A0A1B1EFN9	1	purD PN96_00175	Phosphoribosylamine--glycine ligase (EC 6.3.4.13) (GARS) (Glycinamide ribonucleotide synthetase) (Phosphoribosylglycinamide synthetase)	[MISSING]
+PN96_01320	1	PN96_01320	[MISSING]	[MISSING]
+PN96_06525	1	PN96_06525	[MISSING]	[MISSING]
+A0A1B1EER7	2	panC PN96_01380	Pantothenate synthetase (PS) (EC 6.3.2.1) (Pantoate--beta-alanine ligase) (Pantoate-activating enzyme)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00158}.
+PN96_21920	1	PN96_21920	[MISSING]	[MISSING]
+PN96_01765	1	PN96_01765	[MISSING]	[MISSING]
+PN96_17380	1	PN96_17380	[MISSING]	[MISSING]
+PN96_14690	1	PN96_14690	[MISSING]	[MISSING]
+A0A1B1ECG6	1	queC PN96_05440	7-cyano-7-deazaguanine synthase (EC 6.3.4.20) (7-cyano-7-carbaguanine synthase) (PreQ(0) synthase) (Queuosine biosynthesis protein QueC)	[MISSING]
+A0A1B1E9J3	1	murG PN96_11205	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227) (Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase)	[MISSING]
+PN96_20320	1	PN96_20320	[MISSING]	[MISSING]
+PN96_16570	1	PN96_16570	[MISSING]	[MISSING]
+PN96_02285	1	PN96_02285	[MISSING]	[MISSING]
+PN96_22155	1	PN96_22155	[MISSING]	[MISSING]
+PN96_22145	1	PN96_22145	[MISSING]	[MISSING]
+PN96_02060	1	PN96_02060	[MISSING]	[MISSING]
+A0A1B1EIU1	2	nadE PN96_23065	NH(3)-dependent NAD(+) synthetase (EC 6.3.1.5)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00193}.
+PN96_18150	1	PN96_18150	[MISSING]	[MISSING]
+PN96_11565	1	PN96_11565	[MISSING]	[MISSING]
+PN96_15935	1	PN96_15935	[MISSING]	[MISSING]
+A0A1B1EA62	2	dxs PN96_10080	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_00315}.
+PN96_05355	1	PN96_05355	[MISSING]	[MISSING]
+PN96_22465	1	PN96_22465	[MISSING]	[MISSING]
+A0A1B1EEL4	1	deoB PN96_01750	Phosphopentomutase (EC 5.4.2.7) (Phosphodeoxyribomutase)	[MISSING]
+A0A1B1EGS5	2	aroE PN96_13590	Shikimate dehydrogenase (NADP(+)) (SDH) (EC 1.1.1.25)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00222}.
+PN96_16645	1	PN96_16645	[MISSING]	[MISSING]
+A0A1B1EA52	1	proB PN96_10130	Glutamate 5-kinase (EC 2.7.2.11) (Gamma-glutamyl kinase) (GK)	[MISSING]
+PN96_12230	1	PN96_12230	[MISSING]	[MISSING]
+PN96_17785	1	PN96_17785	[MISSING]	[MISSING]
+PN96_20210	1	PN96_20210	[MISSING]	[MISSING]
+A0A1B1EBD6	1	hisD PN96_07795	Histidinol dehydrogenase (HDH) (EC 1.1.1.23)	[MISSING]
+PN96_07945	1	PN96_07945	[MISSING]	[MISSING]
+A0A1B1EDG9	2	trpD PN96_03920	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00211}.
+PN96_09280	1	PN96_09280	[MISSING]	[MISSING]
+A0A1B1EHQ5	1	thiE PN96_16675	Thiamine-phosphate synthase (TP synthase) (TPS) (EC 2.5.1.3) (Thiamine-phosphate pyrophosphorylase) (TMP pyrophosphorylase) (TMP-PPase)	[MISSING]
+PN96_15755	1	PN96_15755	[MISSING]	[MISSING]
+PN96_21395	1	PN96_21395	[MISSING]	[MISSING]
+A0A1B1E9L6	1	carA PN96_11155	Carbamoyl-phosphate synthase small chain (EC 6.3.5.5) (Carbamoyl-phosphate synthetase glutamine chain)	SUBUNIT: Composed of two chains; the small (or glutamine) chain promotes the hydrolysis of glutamine to ammonia, which is used by the large (or ammonia) chain to synthesize carbamoyl phosphate. {ECO:0000256|HAMAP-Rule:MF_01209}.
+PN96_12315	1	PN96_12315	[MISSING]	[MISSING]
+A0A1B1EEL6	3	lpxD PN96_02310	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	SUBUNIT: Homotrimer. {ECO:0000256|HAMAP-Rule:MF_00523}.
+A0A1B1EE88	2	uppS PN96_02280	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) (EC 2.5.1.31) (Ditrans,polycis-undecaprenylcistransferase) (Undecaprenyl diphosphate synthase) (UDS) (Undecaprenyl pyrophosphate synthase) (UPP synthase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01139}.
+A0A1B1EHZ2	2	pdxH PN96_16200	Pyridoxine/pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5) (PNP/PMP oxidase) (PNPOx) (Pyridoxal 5'-phosphate synthase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01629}.
+PN96_04785	1	PN96_04785	[MISSING]	[MISSING]
+A0A1B1EFM3	1	cysI PN96_14960	Sulfite reductase [NADPH] hemoprotein beta-component (SiR-HP) (SiRHP) (EC 1.8.1.2)	SUBUNIT: Alpha(8)-beta(8). The alpha component is a flavoprotein, the beta component is a hemoprotein. {ECO:0000256|HAMAP-Rule:MF_01540}.
+A0A1B1EG54	1	argH PN96_14810	Argininosuccinate lyase (ASAL) (EC 4.3.2.1) (Arginosuccinase)	[MISSING]
+PN96_21870	1	PN96_21870	[MISSING]	[MISSING]
+PN96_06635	1	PN96_06635	[MISSING]	[MISSING]
+PN96_14195	1	PN96_14195	[MISSING]	[MISSING]
+PN96_03890	1	PN96_03890	[MISSING]	[MISSING]
+PN96_21475	1	PN96_21475	[MISSING]	[MISSING]
+PN96_12310	1	PN96_12310	[MISSING]	[MISSING]
+PN96_01615	1	PN96_01615	[MISSING]	[MISSING]
+A0A1B1EBI1	1	hcp PN96_07575	Hydroxylamine reductase (EC 1.7.99.1) (Hybrid-cluster protein) (HCP) (Prismane protein)	[MISSING]
+PN96_11045	1	PN96_11045	[MISSING]	[MISSING]
+A0A1B1EFF8	4	ppc PN96_14785	Phosphoenolpyruvate carboxylase (PEPC) (PEPCase) (EC 4.1.1.31)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00595}.
+PN96_11570	1	PN96_11570	[MISSING]	[MISSING]
+PN96_17550	1	PN96_17550	[MISSING]	[MISSING]
+A0A1B1EK27	1	fhs PN96_20840	Formate--tetrahydrofolate ligase (EC 6.3.4.3) (Formyltetrahydrofolate synthetase) (FHS) (FTHFS)	[MISSING]
+PN96_06820	1	PN96_06820	[MISSING]	[MISSING]
+A0A1B1EEC1	1	nqrE PN96_02135	Na(+)-translocating NADH-quinone reductase subunit E (Na(+)-NQR subunit E) (Na(+)-translocating NQR subunit E) (EC 7.2.1.1) (NQR complex subunit E) (NQR-1 subunit E)	SUBUNIT: Composed of six subunits; NqrA, NqrB, NqrC, NqrD, NqrE and NqrF. {ECO:0000256|HAMAP-Rule:MF_00429}.
+A0A1B1EG16	1	purH PN96_00180	Bifunctional purine biosynthesis protein PurH [Includes: Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3) (AICAR transformylase); IMP cyclohydrolase (EC 3.5.4.10) (ATIC) (IMP synthase) (Inosinicase)]	[MISSING]
+A0A1B1EH26	2	ribB PN96_17870	3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00180, ECO:0000256|RuleBase:RU003843}.
+PN96_20410	1	PN96_20410	[MISSING]	[MISSING]
+A0A1B1EEA7	1	dxr PN96_02290	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	[MISSING]
+PN96_11395	1	PN96_11395	[MISSING]	[MISSING]
+A0A1B1EG94	1	atpH PN96_13405	ATP synthase subunit delta (ATP synthase F(1) sector subunit delta) (F-type ATPase subunit delta) (F-ATPase subunit delta)	[MISSING]
+PN96_10115	1	PN96_10115	[MISSING]	[MISSING]
+PN96_08610	1	PN96_08610	[MISSING]	[MISSING]
+A0A1B1EA88	6	prs PN96_09740	Ribose-phosphate pyrophosphokinase (RPPK) (EC 2.7.6.1) (5-phospho-D-ribosyl alpha-1-diphosphate) (Phosphoribosyl diphosphate synthase) (Phosphoribosyl pyrophosphate synthase) (P-Rib-PP synthase) (PRPP synthase) (PRPPase)	SUBUNIT: Homohexamer. {ECO:0000256|HAMAP-Rule:MF_00583}.
+A0A1B1EF48	1	pepA PN96_00615	Probable cytosol aminopeptidase (EC 3.4.11.1) (Leucine aminopeptidase) (LAP) (EC 3.4.11.10) (Leucyl aminopeptidase)	[MISSING]
+PN96_21415	1	PN96_21415	[MISSING]	[MISSING]
+A0A1B1EK05	1	pdhA PN96_21125	Pyruvate dehydrogenase E1 component subunit alpha (EC 1.2.4.1)	SUBUNIT: Heterodimer of an alpha and a beta chain. {ECO:0000256|ARBA:ARBA00011870, ECO:0000256|RuleBase:RU361139}.
+PN96_22835	1	PN96_22835	[MISSING]	[MISSING]
+PN96_01945	1	PN96_01945	[MISSING]	[MISSING]
+A0A1B1EI63	1	nagB PN96_16380	Glucosamine-6-phosphate deaminase (EC 3.5.99.6) (GlcN6P deaminase) (GNPDA) (Glucosamine-6-phosphate isomerase)	SUBUNIT: Homohexamer; trimer of disulfide-linked dimers. {ECO:0000256|HAMAP-Rule:MF_01241}.
+PN96_08560	1	PN96_08560	[MISSING]	[MISSING]
+A0A1B1EG86	1	ilvD PN96_13460	Dihydroxy-acid dehydratase (DAD) (EC 4.2.1.9)	[MISSING]
+PN96_15945	1	PN96_15945	[MISSING]	[MISSING]
+PN96_16090	1	PN96_16090	[MISSING]	[MISSING]
+A0A1B1EC30	1	ureD PN96_06190	Urease accessory protein UreD	SUBUNIT: UreD, UreF and UreG form a complex that acts as a GTP-hydrolysis-dependent molecular chaperone, activating the urease apoprotein by helping to assemble the nickel containing metallocenter of UreC. The UreE protein probably delivers the nickel. {ECO:0000256|HAMAP-Rule:MF_01384}.
+A0A1B1EEB2	1	accA PN96_02340	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (ACCase subunit alpha) (Acetyl-CoA carboxylase carboxyltransferase subunit alpha) (EC 2.1.3.15)	SUBUNIT: Acetyl-CoA carboxylase is a heterohexamer composed of biotin carboxyl carrier protein (AccB), biotin carboxylase (AccC) and two subunits each of ACCase subunit alpha (AccA) and ACCase subunit beta (AccD). {ECO:0000256|HAMAP-Rule:MF_00823}.
+A0A1B1ECM7	1	metAS PN96_05065	Homoserine O-succinyltransferase (HST) (EC 2.3.1.46) (Homoserine transsuccinylase) (HTS)	[MISSING]
+A0A1B1EFJ8	2	argD PN96_14620	Acetylornithine aminotransferase (ACOAT) (EC 2.6.1.11)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01107}.
+A0A1B1EG13	1	purE PN96_13575	N5-carboxyaminoimidazole ribonucleotide mutase (N5-CAIR mutase) (EC 5.4.99.18) (5-(carboxyamino)imidazole ribonucleotide mutase)	[MISSING]
+A0A1B1EC25	1	ureA PN96_06185	Urease subunit gamma (EC 3.5.1.5) (Urea amidohydrolase subunit gamma)	SUBUNIT: Heterotrimer of UreA (gamma), UreB (beta) and UreC (alpha) subunits. Three heterotrimers associate to form the active enzyme. {ECO:0000256|HAMAP-Rule:MF_00739}.
+A0A1B1EHV3	1	gltS PN96_16355	Sodium/glutamate symporter	[MISSING]
+A0A1B1EFP2	1	aroK PN96_14855	Shikimate kinase (SK) (EC 2.7.1.71)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00109}.
+A0A1B1EEW7	1	alaS PN96_01140	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)	[MISSING]
+PN96_02885	1	PN96_02885	[MISSING]	[MISSING]
+A0A1B1E8H2	1	add PN96_12785	Adenosine deaminase (EC 3.5.4.4) (Adenosine aminohydrolase)	[MISSING]
+PN96_18345	1	PN96_18345	[MISSING]	[MISSING]
+PN96_03390	1	PN96_03390	[MISSING]	[MISSING]
+PN96_22135	1	PN96_22135	[MISSING]	[MISSING]
+A0A1B1EAJ2	1	sucC PN96_09270	Succinate--CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	SUBUNIT: Heterotetramer of two alpha and two beta subunits. {ECO:0000256|HAMAP-Rule:MF_00558}.
+PN96_14625	1	PN96_14625	[MISSING]	[MISSING]
+A0A1B1EEE8	3	dapD PN96_01975	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117) (Tetrahydrodipicolinate N-succinyltransferase) (THDP succinyltransferase) (THP succinyltransferase) (Tetrahydropicolinate succinylase)	SUBUNIT: Homotrimer. {ECO:0000256|HAMAP-Rule:MF_02122}.
+PN96_04025	1	PN96_04025	[MISSING]	[MISSING]
+PN96_13050	1	PN96_13050	[MISSING]	[MISSING]
+A0A1B1EFQ1	1	dsbD PN96_14265	Thiol:disulfide interchange protein DsbD (EC 1.8.1.8) (Protein-disulfide reductase) (Disulfide reductase)	[MISSING]
+A0A1B1EHP7	1	thiM PN96_16680	Hydroxyethylthiazole kinase (EC 2.7.1.50) (4-methyl-5-beta-hydroxyethylthiazole kinase) (TH kinase) (Thz kinase)	[MISSING]
+PN96_16670	1	PN96_16670	[MISSING]	[MISSING]
+A0A1B1EI15	1	araA PN96_16040	L-arabinose isomerase (EC 5.3.1.4)	[MISSING]
+A0A1B1E9L4	4	dapB PN96_11160	4-hydroxy-tetrahydrodipicolinate reductase (HTPA reductase) (EC 1.17.1.8)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00102}.
+PN96_17710	1	PN96_17710	[MISSING]	[MISSING]
+A0A1B1EA58	1	metQ PN96_09995	Lipoprotein	[MISSING]
+A0A1B1EGY0	4	guaC PN96_18240	GMP reductase (EC 1.7.1.7) (Guanosine 5'-monophosphate oxidoreductase) (Guanosine monophosphate reductase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_00596}.
+PN96_07845	1	PN96_07845	[MISSING]	[MISSING]
+PN96_03805	1	PN96_03805	[MISSING]	[MISSING]
+A0A1B1EL55	1	betB PN96_19090	Betaine aldehyde dehydrogenase (BADH) (EC 1.2.1.8)	SUBUNIT: Dimer of dimers. {ECO:0000256|HAMAP-Rule:MF_00804}.
+PN96_14535	1	PN96_14535	[MISSING]	[MISSING]
+A0A1B1EF95	1	cysJ PN96_14955	Sulfite reductase [NADPH] flavoprotein alpha-component (SiR-FP) (EC 1.8.1.2)	SUBUNIT: Alpha(8)-beta(8). The alpha component is a flavoprotein, the beta component is a hemoprotein. {ECO:0000256|HAMAP-Rule:MF_01541, ECO:0000256|PIRNR:PIRNR000207}.
+A0A1B1ECC1	1	pyrD PN96_05605	Dihydroorotate dehydrogenase (quinone) (EC 1.3.5.2) (DHOdehase) (DHOD) (DHODase) (Dihydroorotate oxidase)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00225}.
+PN96_18350	1	PN96_18350	[MISSING]	[MISSING]
+PN96_01960	1	PN96_01960	[MISSING]	[MISSING]
+PN96_22840	1	PN96_22840	[MISSING]	[MISSING]
+PN96_09525	1	PN96_09525	[MISSING]	[MISSING]
+A0A1B1EB08	1	kdsB PN96_08495	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38) (CMP-2-keto-3-deoxyoctulosonic acid synthase) (CKS) (CMP-KDO synthase)	[MISSING]
+A0A1B1EHP0	2	phnW PN96_17090	2-aminoethylphosphonate--pyruvate transaminase (EC 2.6.1.37) (2-aminoethylphosphonate aminotransferase) (AEP transaminase) (AEPT)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01376}.
+PN96_11015	1	PN96_11015	[MISSING]	[MISSING]
+PN96_19190	1	PN96_19190	[MISSING]	[MISSING]
+A0A1B1EAN9	1	purU PN96_09200	Formyltetrahydrofolate deformylase (EC 3.5.1.10) (Formyl-FH(4) hydrolase)	[MISSING]
+A0A1B1EG63	1	atpA PN96_13410	ATP synthase subunit alpha (EC 7.1.2.2) (ATP synthase F1 sector subunit alpha) (F-ATPase subunit alpha)	[MISSING]
+A0A1B1EEE2	2	proS PN96_02195	Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_01569}.
+A0A1B1E9I9	1	leuD PN96_11610	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	SUBUNIT: Heterodimer of LeuC and LeuD. {ECO:0000256|ARBA:ARBA00011271, ECO:0000256|HAMAP-Rule:MF_01031}.
+PN96_19025	1	PN96_19025	[MISSING]	[MISSING]
+A0A1B1EKM0	1	dld PN96_20240	Quinone-dependent D-lactate dehydrogenase (EC 1.1.5.12) (D-lactate dehydrogenase) (D-LDH)	[MISSING]
+PN96_17845	1	PN96_17845	[MISSING]	[MISSING]
+A0A1B1EEV7	2	luxS PN96_01245	S-ribosylhomocysteine lyase (EC 4.4.1.21) (AI-2 synthesis protein) (Autoinducer-2 production protein LuxS)	SUBUNIT: Homodimer. {ECO:0000256|ARBA:ARBA00011738, ECO:0000256|HAMAP-Rule:MF_00091}.
+A0A1B1E869	1	hemG PN96_13225	Protoporphyrinogen IX dehydrogenase [quinone] (EC 1.3.5.3) (Protoporphyrinogen IX dehydrogenase [menaquinone]) (Protoporphyrinogen IX dehydrogenase [ubiquinone]) (Protoporphyrinogen oxidase) (PPO)	[MISSING]
+A0A1B1E8U0	2	pyrE PN96_12465	Orotate phosphoribosyltransferase (OPRT) (OPRTase) (EC 2.4.2.10)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01208}.
+A0A1B1EFU0	1	pssA PN96_00040	Phosphatidylserine synthase	[MISSING]
+PN96_05830	1	PN96_05830	[MISSING]	[MISSING]
+A0A1B1EFV1	1	sthA PN96_14060	Soluble pyridine nucleotide transhydrogenase (STH) (EC 1.6.1.1) (NAD(P)(+) transhydrogenase [B-specific])	[MISSING]
+PN96_23215	1	PN96_23215	[MISSING]	[MISSING]
+PN96_22080	1	PN96_22080	[MISSING]	[MISSING]
+PN96_11440	1	PN96_11440	[MISSING]	[MISSING]
+PN96_12080	1	PN96_12080	[MISSING]	[MISSING]
+A0A1B1EG25	1	cysH PN96_14965	Phosphoadenosine phosphosulfate reductase (EC 1.8.4.8) (3'-phosphoadenylylsulfate reductase) (PAPS reductase, thioredoxin dependent) (PAPS sulfotransferase) (PAdoPS reductase)	[MISSING]
+PN96_19520	1	PN96_19520	[MISSING]	[MISSING]
+PN96_16510	1	PN96_16510	[MISSING]	[MISSING]
+A0A1B1EEF0	1	nqrD PN96_02130	Na(+)-translocating NADH-quinone reductase subunit D (Na(+)-NQR subunit D) (Na(+)-translocating NQR subunit D) (EC 7.2.1.1) (NQR complex subunit D) (NQR-1 subunit D)	SUBUNIT: Composed of six subunits; NqrA, NqrB, NqrC, NqrD, NqrE and NqrF. {ECO:0000256|HAMAP-Rule:MF_00428}.
+PN96_06305	1	PN96_06305	[MISSING]	[MISSING]
+PN96_17020	1	PN96_17020	[MISSING]	[MISSING]
+A0A1B1EF87	4	pyrG PN96_01070	CTP synthase (EC 6.3.4.2) (Cytidine 5'-triphosphate synthase) (Cytidine triphosphate synthetase) (CTP synthetase) (CTPS) (UTP--ammonia ligase)	SUBUNIT: Homotetramer. {ECO:0000256|HAMAP-Rule:MF_01227}.
+A0A1B1EBY9	2	thrS PN96_07185	Threonine--tRNA ligase (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00184}.
+A0A1B1EBB2	1	serS PN96_07920	Serine--tRNA ligase (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)	SUBUNIT: Homodimer. The tRNA molecule binds across the dimer. {ECO:0000256|HAMAP-Rule:MF_00176}.
+A0A1B1ELF2	1	pncB PN96_17275	Nicotinate phosphoribosyltransferase (NAPRTase) (EC 6.3.4.21)	[MISSING]
+PN96_23180	1	PN96_23180	[MISSING]	[MISSING]
+A0A1B1EG78	1	atpD PN96_13420	ATP synthase subunit beta (EC 7.1.2.2) (ATP synthase F1 sector subunit beta) (F-ATPase subunit beta)	[MISSING]
+A0A1B1E9V6	1	ppk PN96_10630	Polyphosphate kinase (EC 2.7.4.1) (ATP-polyphosphate phosphotransferase) (Polyphosphoric acid kinase)	[MISSING]
+PN96_13470	1	PN96_13470	[MISSING]	[MISSING]
+PN96_20455	1	PN96_20455	[MISSING]	[MISSING]
+PN96_04715	1	PN96_04715	[MISSING]	[MISSING]
+PN96_00940	1	PN96_00940	[MISSING]	[MISSING]
+PN96_06250	1	PN96_06250	[MISSING]	[MISSING]
+PN96_20275	1	PN96_20275	[MISSING]	[MISSING]
+PN96_09965	1	PN96_09965	[MISSING]	[MISSING]
+A0A1B1EJF9	1	galK PN96_22130	Galactokinase (EC 2.7.1.6) (Galactose kinase)	[MISSING]
+A0A1B1EA86	1	leuS PN96_09895	Leucine--tRNA ligase (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)	[MISSING]
+A0A1B1E891	1	glyS PN96_13285	Glycine--tRNA ligase beta subunit (EC 6.1.1.14) (Glycyl-tRNA synthetase beta subunit) (GlyRS)	SUBUNIT: Tetramer of two alpha and two beta subunits. {ECO:0000256|ARBA:ARBA00011209, ECO:0000256|HAMAP-Rule:MF_00255}.
+A0A1B1EE60	2	apt PN96_02960	Adenine phosphoribosyltransferase (APRT) (EC 2.4.2.7)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00004}.
+PN96_07825	1	PN96_07825	[MISSING]	[MISSING]
+A0A1B1EF07	1	gshB PN96_00855	Glutathione synthetase (EC 6.3.2.3) (GSH synthetase) (GSH-S) (GSHase) (Glutathione synthase)	[MISSING]
+PN96_17875	1	PN96_17875	[MISSING]	[MISSING]
+PN96_01390	1	PN96_01390	[MISSING]	[MISSING]
+PN96_21015	1	PN96_21015	[MISSING]	[MISSING]
+PN96_09275	1	PN96_09275	[MISSING]	[MISSING]
+PN96_00555	1	PN96_00555	[MISSING]	[MISSING]
+A0A1B1EE66	1	fadE PN96_02405	Acyl-coenzyme A dehydrogenase (EC 1.3.8.7) (EC 1.3.8.8)	[MISSING]
+A0A1B1EDR0	1	acpP PN96_03510	Acyl carrier protein (ACP)	[MISSING]
+A0A1B1EG85	1	bioH PN96_12625	Pimeloyl-[acyl-carrier protein] methyl ester esterase (EC 3.1.1.85) (Biotin synthesis protein BioH) (Carboxylesterase BioH)	SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_01260}.
+A0A1B1EBL6	1	fabV PN96_07415	Enoyl-[acyl-carrier-protein] reductase [NADH] (ENR) (EC 1.3.1.9)	SUBUNIT: Monomer. {ECO:0000256|ARBA:ARBA00011245, ECO:0000256|HAMAP-Rule:MF_01838}.
+A0A1B1EBB6	1	bioC PN96_07900	Malonyl-[acyl-carrier protein] O-methyltransferase (Malonyl-ACP O-methyltransferase) (EC 2.1.1.197) (Biotin synthesis protein BioC)	[MISSING]
+A0A1B1EGP0	4	fabG PN96_03505	3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100)	SUBUNIT: Homotetramer. {ECO:0000256|RuleBase:RU366074}.
+A0A1B1EBC0	2	bioD PN96_07895	ATP-dependent dethiobiotin synthetase BioD (EC 6.3.3.3) (DTB synthetase) (DTBS) (Dethiobiotin synthase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_00336}.
+A0A1B1EEY7	1	fabZ PN96_02315	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (EC 4.2.1.59) ((3R)-hydroxymyristoyl-[acyl-carrier-protein] dehydratase) ((3R)-hydroxymyristoyl-ACP dehydrase) (Beta-hydroxyacyl-ACP dehydratase)	[MISSING]
+PN96_18060	1	PN96_18060	[MISSING]	[MISSING]
+A0A1B1EG27	2	purK PN96_13570	N5-carboxyaminoimidazole ribonucleotide synthase (N5-CAIR synthase) (EC 6.3.4.18) (5-(carboxyamino)imidazole ribonucleotide synthetase)	SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01928, ECO:0000256|RuleBase:RU361200}.
+PN96_17650	1	PN96_17650	[MISSING]	[MISSING]
+PN96_09515	1	PN96_09515	[MISSING]	[MISSING]
+PN96_05125	1	PN96_05125	[MISSING]	[MISSING]
+PN96_17490	1	PN96_17490	[MISSING]	[MISSING]
+PN96_10385	1	PN96_10385	[MISSING]	[MISSING]
+PN96_05220	1	PN96_05220	[MISSING]	[MISSING]
+A0A1B1ECJ3	1	ectA PN96_05215	L-2,4-diaminobutyric acid acetyltransferase (DABA acetyltransferase) (EC 2.3.1.178)	[MISSING]
+A0A1B1ECL0	1	ectC PN96_05225	L-ectoine synthase (EC 4.2.1.108) (N-acetyldiaminobutyrate dehydratase)	[MISSING]

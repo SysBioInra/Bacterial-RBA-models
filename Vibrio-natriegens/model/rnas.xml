@@ -1,0 +1,186 @@
+<RBARnas>
+  <listOfComponents>
+    <component id="A" name="Adenosine residue" type="Nucleotide" weight="2.9036"/>
+    <component id="C" name="Cytosine residue" type="Nucleotide" weight="2.7017"/>
+    <component id="G" name="Guanine residue" type="Nucleotide" weight="3.0382"/>
+    <component id="U" name="Uramine residue" type="Nucleotide" weight="2.7102"/>
+  </listOfComponents>
+  <listOfMacromolecules>
+    <macromolecule id="M_cpd11924_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="25.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="A" stoichiometry="14.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11915_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="26.0"/>
+        <componentReference component="G" stoichiometry="19.0"/>
+        <componentReference component="A" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11920_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="17.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="26.0"/>
+        <componentReference component="A" stoichiometry="14.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11914_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="21.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="A" stoichiometry="13.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11916_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="29.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="A" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11921_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="24.0"/>
+        <componentReference component="C" stoichiometry="24.0"/>
+        <componentReference component="G" stoichiometry="21.0"/>
+        <componentReference component="A" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11910_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="12.0"/>
+        <componentReference component="C" stoichiometry="26.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="A" stoichiometry="14.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11908_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="14.5"/>
+        <componentReference component="C" stoichiometry="23.5"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="A" stoichiometry="15.5"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11923_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="A" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11918_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="25.0"/>
+        <componentReference component="G" stoichiometry="25.0"/>
+        <componentReference component="A" stoichiometry="13.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11919_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="A" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11922_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="18.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="20.0"/>
+        <componentReference component="A" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11906_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="24.0"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="A" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11907_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="25.0"/>
+        <componentReference component="A" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11917_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="17.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="18.0"/>
+        <componentReference component="A" stoichiometry="21.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11751_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="17.0"/>
+        <componentReference component="C" stoichiometry="25.0"/>
+        <componentReference component="G" stoichiometry="27.0"/>
+        <componentReference component="A" stoichiometry="16.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11911_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="21.5"/>
+        <componentReference component="G" stoichiometry="24.5"/>
+        <componentReference component="A" stoichiometry="15.5"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_cpd11913_c" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="19.0"/>
+        <componentReference component="C" stoichiometry="24.0"/>
+        <componentReference component="G" stoichiometry="19.0"/>
+        <componentReference component="A" stoichiometry="13.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="mrna" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="0.283"/>
+        <componentReference component="C" stoichiometry="0.2181"/>
+        <componentReference component="G" stoichiometry="0.2171"/>
+        <componentReference component="A" stoichiometry="0.2818"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="PN96_16730" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="397"/>
+        <componentReference component="C" stoichiometry="494"/>
+        <componentReference component="G" stoichiometry="342"/>
+        <componentReference component="A" stoichiometry="329"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="PN96_16755" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="770"/>
+        <componentReference component="C" stoichiometry="883"/>
+        <componentReference component="G" stoichiometry="623"/>
+        <componentReference component="A" stoichiometry="639"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="PN96_16760" compartment="Cytoplasm">
+      <composition>
+        <componentReference component="U" stoichiometry="28"/>
+        <componentReference component="C" stoichiometry="33"/>
+        <componentReference component="G" stoichiometry="30"/>
+        <componentReference component="A" stoichiometry="26"/>
+      </composition>
+    </macromolecule>
+  </listOfMacromolecules>
+</RBARnas>

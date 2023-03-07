@@ -1,0 +1,192 @@
+ENTRY	GENE NAME	PROTEIN NAME	LOCATION
+A0A1B1E8Y0	ilvC PN96_13170	Ketol-acid reductoisomerase (NADP(+)) (KARI) (EC 1.1.1.86) (Acetohydroxy-acid isomeroreductase) (AHIR) (Alpha-keto-beta-hydroxylacyl reductoisomerase)	Cytoplasm
+A0A1B1EL85	nirD PN96_20325	Nitrite reductase small subunit	Cytoplasm
+A0A1B1E8C0	idnK PN96_13070	Gluconokinase (EC 2.7.1.12)	Cytoplasm
+A0A1B1EIW4	PN96_14975	Maltose/maltodextrin transporter ATP-binding protein	Cytoplasm
+A0A1B1EFU0	pssA PN96_00040	Phosphatidylserine synthase	Cytoplasm
+A0A1B1EA38	ribB PN96_10105	3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12)	Cytoplasm
+A0A1B1EF87	pyrG PN96_01070	CTP synthase (EC 6.3.4.2) (Cytidine 5'-triphosphate synthase) (Cytidine triphosphate synthetase) (CTP synthetase) (CTPS) (UTP--ammonia ligase)	Cytoplasm
+A0A1B1EEA7	dxr PN96_02290	1-deoxy-D-xylulose 5-phosphate reductoisomerase (DXP reductoisomerase) (EC 1.1.1.267) (1-deoxyxylulose-5-phosphate reductoisomerase) (2-C-methyl-D-erythritol 4-phosphate synthase)	Cytoplasm
+A0A1B1EG86	ilvD PN96_13460	Dihydroxy-acid dehydratase (DAD) (EC 4.2.1.9)	Cytoplasm
+A0A1B1EI75	araB PN96_16030	Ribulokinase (EC 2.7.1.16)	Cytoplasm
+A0A1B1EJK2	xylB PN96_22075	Xylulose kinase (Xylulokinase) (EC 2.7.1.17)	Cytoplasm
+A0A1B1EGM9	nqrA PN96_02115	Na(+)-translocating NADH-quinone reductase subunit A (Na(+)-NQR subunit A) (Na(+)-translocating NQR subunit A) (EC 7.2.1.1) (NQR complex subunit A) (NQR-1 subunit A)	Cytoplasm
+A0A1B1EH26	ribB PN96_17870	3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12)	Cytoplasm
+A0A1B1EEM7	map PN96_02255	Methionine aminopeptidase (MAP) (MetAP) (EC 3.4.11.18) (Peptidase M)	Cytoplasm
+A0A1B1EFQ5	aroQ PN96_14205	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	Cytoplasm
+A0A1B1EK07	gcvT PN96_20940	Glycine cleavage system T protein (EC 2.1.2.10)	Cytoplasm
+A0A1B1ED63	ribA PN96_04090	GTP cyclohydrolase-2 (EC 3.5.4.25) (GTP cyclohydrolase II)	Cytoplasm
+A0A1B1EBP9	hutG PN96_07210	Formimidoylglutamase (EC 3.5.3.8) (Formiminoglutamase) (Formiminoglutamate hydrolase)	Cytoplasm
+A0A1B1EGY0	guaC PN96_18240	GMP reductase (EC 1.7.1.7) (Guanosine 5'-monophosphate oxidoreductase) (Guanosine monophosphate reductase)	Cytoplasm
+A0A1B1EB12	lpxK PN96_08505	Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130) (Lipid A 4'-kinase)	Cytoplasm
+A0A1B1EGU8	benD PN96_18365	1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase	Cytoplasm
+A0A1B1E9A2	apaH PN96_11650	Bis(5'-nucleosyl)-tetraphosphatase, symmetrical (EC 3.6.1.41) (Ap4A hydrolase) (Diadenosine 5',5'''-P1,P4-tetraphosphate pyrophosphohydrolase) (Diadenosine tetraphosphatase)	Cytoplasm
+A0A1B1EH20	folE PN96_18205	GTP cyclohydrolase 1 (EC 3.5.4.16) (GTP cyclohydrolase I) (GTP-CH-I)	Cytoplasm
+A0A1B1EI58	tnaA PN96_15750	Tryptophanase (EC 4.1.99.1) (L-tryptophan indole-lyase) (TNase)	Cytoplasm
+A0A1B1EG22	thiC PN96_13660	Phosphomethylpyrimidine synthase (EC 4.1.99.17) (Hydroxymethylpyrimidine phosphate synthase) (HMP-P synthase) (HMP-phosphate synthase) (HMPP synthase) (Thiamine biosynthesis protein ThiC)	Cytoplasm
+A0A1B1EFI6	astD PN96_14630	N-succinylglutamate 5-semialdehyde dehydrogenase (EC 1.2.1.71) (Succinylglutamic semialdehyde dehydrogenase) (SGSD)	Cytoplasm
+A0A1B1E8U0	pyrE PN96_12465	Orotate phosphoribosyltransferase (OPRT) (OPRTase) (EC 2.4.2.10)	Cytoplasm
+A0A1B1EF17	rpiA PN96_00935	Ribose-5-phosphate isomerase A (EC 5.3.1.6) (Phosphoriboisomerase A) (PRI)	Cytoplasm
+A0A1B1EA92	ispE PN96_09735	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (CMK) (EC 2.7.1.148) (4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase)	Cytoplasm
+A0A1B1EF16	glsA PN96_00795	Glutaminase (EC 3.5.1.2)	Cytoplasm
+A0A1B1EEJ2	deoD PN96_01755	Purine nucleoside phosphorylase DeoD-type (PNP) (EC 2.4.2.1)	Cytoplasm
+A0A1B1EB27	menD PN96_08910	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase (SEPHCHC synthase) (EC 2.2.1.9) (Menaquinone biosynthesis protein MenD)	Cytoplasm
+A0A1B1EDK5	mgsA PN96_04755	Methylglyoxal synthase (MGS) (EC 4.2.3.3)	Cytoplasm
+A0A1B1EDG3	tmk PN96_03530	Thymidylate kinase (EC 2.7.4.9) (dTMP kinase)	Cytoplasm
+A0A1B1EBR9	cdd PN96_07105	Cytidine deaminase (EC 3.5.4.5) (Cytidine aminohydrolase) (CDA)	Cytoplasm
+A0A1B1EIE1	pdxY PN96_15645	Pyridoxal kinase PdxY (PL kinase) (EC 2.7.1.35)	Cytoplasm
+A0A1B1E9F0	mtlD PN96_11520	Mannitol-1-phosphate 5-dehydrogenase (EC 1.1.1.17)	Cytoplasm
+A0A1B1EG30	def PN96_13545	Peptide deformylase (PDF) (EC 3.5.1.88) (Polypeptide deformylase)	Cytoplasm
+A0A1B1EAW1	menC PN96_08895	o-succinylbenzoate synthase (OSB synthase) (OSBS) (EC 4.2.1.113) (4-(2'-carboxyphenyl)-4-oxybutyric acid synthase) (o-succinylbenzoic acid synthase)	Cytoplasm
+A0A1B1E9A0	mdh PN96_11695	Malate dehydrogenase (EC 1.1.1.37)	Cytoplasm
+A0A1B1E9E5	cysD PN96_11825	Sulfate adenylyltransferase subunit 2 (EC 2.7.7.4) (ATP-sulfurylase small subunit) (Sulfate adenylate transferase) (SAT)	Cytoplasm
+A0A1B1EG13	purE PN96_13575	N5-carboxyaminoimidazole ribonucleotide mutase (N5-CAIR mutase) (EC 5.4.99.18) (5-(carboxyamino)imidazole ribonucleotide mutase)	Cytoplasm
+A0A1B1ELS3	nadE PN96_18815	Glutamine-dependent NAD(+) synthetase (EC 6.3.5.1) (NAD(+) synthase [glutamine-hydrolyzing])	Cytoplasm
+A0A1B1EAV7	menB PN96_08900	1,4-dihydroxy-2-naphthoyl-CoA synthase (DHNA-CoA synthase) (EC 4.1.3.36)	Cytoplasm
+A0A1B1E9F4	cca PN96_11415	Multifunctional CCA protein [Includes: CCA-adding enzyme (EC 2.7.7.72) (CCA tRNA nucleotidyltransferase) (tRNA CCA-pyrophosphorylase) (tRNA adenylyl-/cytidylyl-transferase) (tRNA nucleotidyltransferase) (tRNA-NT); 2'-nucleotidase (EC 3.1.3.-); 2',3'-cyclic phosphodiesterase (EC 3.1.4.-); Phosphatase]	Cytoplasm
+A0A1B1E986	cysC PN96_11810	Adenylyl-sulfate kinase (EC 2.7.1.25) (APS kinase) (ATP adenosine-5'-phosphosulfate 3'-phosphotransferase) (Adenosine-5'-phosphosulfate kinase)	Cytoplasm
+A0A1B1E887	fadB PN96_13240	Fatty acid oxidation complex subunit alpha [Includes: Enoyl-CoA hydratase/Delta(3)-cis-Delta(2)-trans-enoyl-CoA isomerase/3-hydroxybutyryl-CoA epimerase (EC 4.2.1.17) (EC 5.1.2.3) (EC 5.3.3.8); 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)]	Cytoplasm
+A0A1B1E9G4	cpdA PN96_11345	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA (3',5'-cyclic AMP phosphodiesterase) (cAMP phosphodiesterase) (EC 3.1.4.53)	Cytoplasm
+A0A1B1EGR9	aroQ PN96_18515	3-dehydroquinate dehydratase (3-dehydroquinase) (EC 4.2.1.10) (Type II DHQase)	Cytoplasm
+A0A1B1EJY2	fucK PN96_21535	L-fuculokinase (EC 2.7.1.51) (L-fuculose kinase)	Cytoplasm
+A0A1B1E9I9	leuD PN96_11610	3-isopropylmalate dehydratase small subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+A0A1B1EFJ7	hmp PN96_14585	Flavohemoprotein (Flavohemoglobin) (Hemoglobin-like protein) (Nitric oxide dioxygenase) (NO oxygenase) (NOD) (EC 1.14.12.17)	Cytoplasm
+A0A1B1EAX5	ushA PN96_09695	Bifunctional UDP-sugar hydrolase/5'-nucleotidase	Cytoplasm
+A0A1B1EBA8	bioF PN96_07905	8-amino-7-oxononanoate synthase (AONS) (EC 2.3.1.47) (7-keto-8-amino-pelargonic acid synthase) (7-KAP synthase) (KAPA synthase) (8-amino-7-ketopelargonate synthase)	Cytoplasm
+A0A1B1EGT5	fmt PN96_13540	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	Cytoplasm
+A0A1B1EFZ9	gppA PN96_13770	Guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase (EC 3.6.1.40) (Guanosine pentaphosphate phosphohydrolase) (pppGpp-5'-phosphohydrolase)	Cytoplasm
+A0A1B1EAU5	menH PN96_08905	Putative 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase (SHCHC synthase) (EC 4.2.99.20)	Cytoplasm
+A0A1B1EEL6	lpxD PN96_02310	UDP-3-O-acylglucosamine N-acyltransferase (EC 2.3.1.-)	Cytoplasm
+A0A1B1EES8	aceF PN96_01340	Acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)	Cytoplasm
+A0A1B1ED72	trpA PN96_03905	Tryptophan synthase alpha chain (EC 4.2.1.20)	Cytoplasm
+A0A1B1EFM3	cysI PN96_14960	Sulfite reductase [NADPH] hemoprotein beta-component (SiR-HP) (SiRHP) (EC 1.8.1.2)	Cytoplasm
+A0A1B1EDU7	purF PN96_02935	Amidophosphoribosyltransferase (ATase) (EC 2.4.2.14) (Glutamine phosphoribosylpyrophosphate amidotransferase) (GPATase)	Cytoplasm
+A0A1B1EEY9	relA PN96_01060	GTP diphosphokinase	Cytoplasm
+A0A1B1EBJ5	bioB PN96_07910	Biotin synthase (EC 2.8.1.6)	Cytoplasm
+A0A1B1ED60	trpB PN96_03910	Tryptophan synthase beta chain (EC 4.2.1.20)	Cytoplasm
+A0A1B1EAN9	purU PN96_09200	Formyltetrahydrofolate deformylase (EC 3.5.1.10) (Formyl-FH(4) hydrolase)	Cytoplasm
+A0A1B1ECI8	prpB PN96_05345	2-methylisocitrate lyase (2-MIC) (MICL) (EC 4.1.3.30) ((2R,3S)-2-methylisocitrate lyase)	Cytoplasm
+A0A1B1EIU1	nadE PN96_23065	NH(3)-dependent NAD(+) synthetase (EC 6.3.1.5)	Cytoplasm
+A0A1B1ELF2	pncB PN96_17275	Nicotinate phosphoribosyltransferase (NAPRTase) (EC 6.3.4.21)	Cytoplasm
+A0A1B1E8X1	hldD PN96_12355	ADP-L-glycero-D-manno-heptose-6-epimerase (EC 5.1.3.20) (ADP-L-glycero-beta-D-manno-heptose-6-epimerase) (ADP-glyceromanno-heptose 6-epimerase) (ADP-hep 6-epimerase) (AGME)	Cytoplasm
+A0A1B1E8N4	ubiE PN96_12880	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE (EC 2.1.1.163) (EC 2.1.1.201) (2-methoxy-6-polyprenyl-1,4-benzoquinol methylase) (Demethylmenaquinone methyltransferase)	Cytoplasm
+A0A1B1EFR5	birA PN96_00055	Bifunctional ligase/repressor BirA (Biotin operon repressor) (Biotin--[acetyl-CoA-carboxylase] ligase) (EC 6.3.4.15) (Biotin--protein ligase) (Biotin-[acetyl-CoA carboxylase] synthetase)	Cytoplasm
+A0A1B1EFX0	hemC PN96_13865	Porphobilinogen deaminase (PBG) (EC 2.5.1.61) (Hydroxymethylbilane synthase) (HMBS) (Pre-uroporphyrinogen synthase)	Cytoplasm
+A0A1B1E888	edd PN96_13075	Phosphogluconate dehydratase (EC 4.2.1.12)	Cytoplasm
+A0A1B1E9L2	gltD PN96_11100	Glutamate synthase	Cytoplasm
+A0A1B1EI63	nagB PN96_16380	Glucosamine-6-phosphate deaminase (EC 3.5.99.6) (GlcN6P deaminase) (GNPDA) (Glucosamine-6-phosphate isomerase)	Cytoplasm
+A0A1B1EEY1	ispF PN96_01090	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (MECDP-synthase) (MECPP-synthase) (MECPS) (EC 4.6.1.12)	Cytoplasm
+A0A1B1EEL8	deoA PN96_01745	Thymidine phosphorylase (EC 2.4.2.4) (TdRPase)	Cytoplasm
+A0A1B1EA87	hemA PN96_09725	Glutamyl-tRNA reductase (GluTR) (EC 1.2.1.70)	Cytoplasm
+A0A1B1EDA0	metE PN96_03850	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14) (Cobalamin-independent methionine synthase) (Methionine synthase, vitamin-B12 independent isozyme)	Cytoplasm
+A0A1B1EK27	fhs PN96_20840	Formate--tetrahydrofolate ligase (EC 6.3.4.3) (Formyltetrahydrofolate synthetase) (FHS) (FTHFS)	Cytoplasm
+A0A1B1EHP7	thiM PN96_16680	Hydroxyethylthiazole kinase (EC 2.7.1.50) (4-methyl-5-beta-hydroxyethylthiazole kinase) (TH kinase) (Thz kinase)	Cytoplasm
+A0A1B1EK46	glgC PN96_20845	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) (ADP-glucose pyrophosphorylase) (ADPGlc PPase) (ADP-glucose synthase)	Cytoplasm
+A0A1B1EDU6	asd PN96_02900	Aspartate-semialdehyde dehydrogenase (ASA dehydrogenase) (ASADH) (EC 1.2.1.11) (Aspartate-beta-semialdehyde dehydrogenase)	Cytoplasm
+A0A1B1EFN9	purD PN96_00175	Phosphoribosylamine--glycine ligase (EC 6.3.4.13) (GARS) (Glycinamide ribonucleotide synthetase) (Phosphoribosylglycinamide synthetase)	Cytoplasm
+A0A1B1EE91	upp PN96_02430	Uracil phosphoribosyltransferase (EC 2.4.2.9) (UMP pyrophosphorylase) (UPRTase)	Cytoplasm
+A0A1B1EFE9	rpe PN96_14875	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)	Cytoplasm
+A0A1B1E9B6	leuA PN96_11595	2-isopropylmalate synthase (EC 2.3.3.13) (Alpha-IPM synthase) (Alpha-isopropylmalate synthase)	Cytoplasm
+A0A1B1EI45	araD PN96_16035	L-ribulose-5-phosphate 4-epimerase	Cytoplasm
+A0A1B1ELL2	mgsA PN96_19735	Methylglyoxal synthase (MGS) (EC 4.2.3.3)	Cytoplasm
+A0A1B1EF66	pyrI PN96_00565	Aspartate carbamoyltransferase regulatory chain	Cytoplasm
+A0A1B1ECY6	aguA PN96_05005	Putative agmatine deiminase (EC 3.5.3.12) (Agmatine iminohydrolase)	Cytoplasm
+A0A1B1EK95	cobQ PN96_20490	Cobyric acid synthase	Cytoplasm
+A0A1B1EFF8	ppc PN96_14785	Phosphoenolpyruvate carboxylase (PEPC) (PEPCase) (EC 4.1.1.31)	Cytoplasm
+A0A1B1EEB6	lpxB PN96_02325	Lipid-A-disaccharide synthase (EC 2.4.1.182)	Cytoplasm
+A0A1B1ECS2	prpE PN96_05365	Propionyl-CoA synthetase	Cytoplasm
+A0A1B1EE88	uppS PN96_02280	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) (EC 2.5.1.31) (Ditrans,polycis-undecaprenylcistransferase) (Undecaprenyl diphosphate synthase) (UDS) (Undecaprenyl pyrophosphate synthase) (UPP synthase)	Cytoplasm
+A0A1B1EGM8	lysA PN96_13880	Diaminopimelate decarboxylase (DAP decarboxylase) (DAPDC) (EC 4.1.1.20)	Cytoplasm
+A0A1B1EE51	dapE PN96_02505	Succinyl-diaminopimelate desuccinylase (SDAP desuccinylase) (EC 3.5.1.18) (N-succinyl-LL-2,6-diaminoheptanedioate amidohydrolase)	Cytoplasm
+A0A1B1E9M0	mtnN PN96_11120	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase (MTA/SAH nucleosidase) (MTAN) (EC 3.2.2.9) (5'-deoxyadenosine nucleosidase) (DOA nucleosidase) (dAdo nucleosidase) (5'-methylthioadenosine nucleosidase) (MTA nucleosidase) (S-adenosylhomocysteine nucleosidase) (AdoHcy nucleosidase) (SAH nucleosidase) (SRH nucleosidase)	Cytoplasm
+A0A1B1EEU8	gshA PN96_01235	Glutamate--cysteine ligase (EC 6.3.2.2) (Gamma-ECS) (GCS) (Gamma-glutamylcysteine synthetase)	Cytoplasm
+A0A1B1EFH8	miaA PN96_14545	tRNA dimethylallyltransferase (EC 2.5.1.75) (Dimethylallyl diphosphate:tRNA dimethylallyltransferase) (DMAPP:tRNA dimethylallyltransferase) (DMATase) (Isopentenyl-diphosphate:tRNA isopentenyltransferase) (IPP transferase) (IPPT) (IPTase)	Cytoplasm
+A0A1B1EDC2	pyrF PN96_03645	Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23) (OMP decarboxylase) (OMPDCase) (OMPdecase)	Cytoplasm
+A0A1B1EGS5	aroE PN96_13590	Shikimate dehydrogenase (NADP(+)) (SDH) (EC 1.1.1.25)	Cytoplasm
+A0A1B1E9Q8	ispH PN96_10860	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (HMBPP reductase) (EC 1.17.7.4)	Cytoplasm
+A0A1B1EF63	glpK PN96_01955	Glycerol kinase (EC 2.7.1.30) (ATP:glycerol 3-phosphotransferase) (Glycerokinase) (GK)	Cytoplasm
+A0A1B1EEV7	luxS PN96_01245	S-ribosylhomocysteine lyase (EC 4.4.1.21) (AI-2 synthesis protein) (Autoinducer-2 production protein LuxS)	Cytoplasm
+A0A1B1EBH9	menF PN96_08915	Isochorismate synthase MenF (EC 5.4.4.2) (Isochorismate mutase)	Cytoplasm
+A0A1B1EG77	ilvA PN96_13455	L-threonine dehydratase (EC 4.3.1.19) (Threonine deaminase)	Cytoplasm
+A0A1B1EK16	pdhA PN96_21070	Pyruvate dehydrogenase E1 component subunit alpha (EC 1.2.4.1)	Cytoplasm
+A0A1B1E8H2	add PN96_12785	Adenosine deaminase (EC 3.5.4.4) (Adenosine aminohydrolase)	Cytoplasm
+A0A1B1EBX5	mqo PN96_19465	Probable malate:quinone oxidoreductase (EC 1.1.5.4) (MQO) (Malate dehydrogenase [quinone])	Cytoplasm
+A0A1B1ECJ9	zwf PN96_05280	Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49)	Cytoplasm
+A0A1B1EAY0	potA PN96_08660	Spermidine/putrescine import ATP-binding protein PotA (EC 7.6.2.11)	Cytoplasm
+A0A1B1EHZ2	pdxH PN96_16200	Pyridoxine/pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5) (PNP/PMP oxidase) (PNPOx) (Pyridoxal 5'-phosphate synthase)	Cytoplasm
+A0A1B1EJ03	gabD PN96_22900	Succinate-semialdehyde dehydrogenase (NADP(+))	Cytoplasm
+A0A1B1EBJ2	ushA PN96_07525	Bifunctional UDP-sugar hydrolase/5'-nucleotidase	Cytoplasm
+A0A1B1EBV8	dsdA PN96_07340	Probable D-serine dehydratase (EC 4.3.1.18) (D-serine deaminase) (DSD)	Cytoplasm
+A0A1B1EB45	glgC PN96_08305	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27) (ADP-glucose pyrophosphorylase) (ADPGlc PPase) (ADP-glucose synthase)	Cytoplasm
+A0A1B1EIG4	deoD PN96_15250	Purine nucleoside phosphorylase DeoD-type (PNP) (EC 2.4.2.1)	Cytoplasm
+A0A1B1EK36	gcvP PN96_20960	Glycine dehydrogenase (decarboxylating) (EC 1.4.4.2) (Glycine cleavage system P-protein) (Glycine decarboxylase) (Glycine dehydrogenase (aminomethyl-transferring))	Cytoplasm
+A0A1B1ECI2	pgl PN96_05285	6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)	Cytoplasm
+A0A1B1EAM2	folD PN96_09125	Bifunctional protein FolD [Includes: Methylenetetrahydrofolate dehydrogenase (EC 1.5.1.5); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]	Cytoplasm
+A0A1B1EDS3	asd PN96_03170	Aspartate-semialdehyde dehydrogenase (ASA dehydrogenase) (ASADH) (EC 1.2.1.11) (Aspartate-beta-semialdehyde dehydrogenase)	Cytoplasm
+A0A1B1E9Y2	guaB PN96_10430	Inosine-5'-monophosphate dehydrogenase (IMP dehydrogenase) (IMPD) (IMPDH) (EC 1.1.1.205)	Cytoplasm
+A0A1B1EE84	purN PN96_02420	Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2) (5'-phosphoribosylglycinamide transformylase) (GAR transformylase) (GART)	Cytoplasm
+A0A1B1EJD2	gabD PN96_22225	Succinate-semialdehyde dehydrogenase (NADP(+))	Cytoplasm
+A0A1B1EE97	glnD PN96_02250	Bifunctional uridylyltransferase/uridylyl-removing enzyme (UTase/UR) (Bifunctional [protein-PII] modification enzyme) (Bifunctional nitrogen sensor protein) [Includes: [Protein-PII] uridylyltransferase (PII uridylyltransferase) (UTase) (EC 2.7.7.59); [Protein-PII]-UMP uridylyl-removing enzyme (UR) (EC 3.1.4.-)]	Cytoplasm
+A0A1B1EKW3	PN96_19690	Ribose ABC transporter ATP-binding protein RbsA	Cytoplasm
+A0A1B1E9J9	lpxC PN96_11180	UDP-3-O-acyl-N-acetylglucosamine deacetylase (UDP-3-O-acyl-GlcNAc deacetylase) (EC 3.5.1.108) (UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase)	Cytoplasm
+A0A1B1EK05	pdhA PN96_21125	Pyruvate dehydrogenase E1 component subunit alpha (EC 1.2.4.1)	Cytoplasm
+A0A1B1EDG9	trpD PN96_03920	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)	Cytoplasm
+A0A1B1ED57	ubiG PN96_04075	Ubiquinone biosynthesis O-methyltransferase (2-polyprenyl-6-hydroxyphenol methylase) (EC 2.1.1.222) (3-demethylubiquinone 3-O-methyltransferase) (EC 2.1.1.64)	Cytoplasm
+A0A1B1EA62	dxs PN96_10080	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7) (1-deoxyxylulose-5-phosphate synthase) (DXP synthase) (DXPS)	Cytoplasm
+A0A1B1EJI4	pyrC PN96_23080	Dihydroorotase (DHOase) (EC 3.5.2.3)	Cytoplasm
+A0A1B1EF32	pyrB PN96_00570	Aspartate carbamoyltransferase (EC 2.1.3.2) (Aspartate transcarbamylase) (ATCase)	Cytoplasm
+A0A1B1EFU9	murI PN96_14090	Glutamate racemase (EC 5.1.1.3)	Cytoplasm
+A0A1B1EEP6	glmM PN96_01620	Phosphoglucosamine mutase (EC 5.4.2.10)	Cytoplasm
+A0A1B1EID3	kbl PN96_15385	2-amino-3-ketobutyrate coenzyme A ligase (AKB ligase) (EC 2.3.1.29) (Glycine acetyltransferase)	Cytoplasm
+A0A1B1EHI7	phnX PN96_17080	Phosphonoacetaldehyde hydrolase (Phosphonatase) (EC 3.11.1.1) (Phosphonoacetaldehyde phosphonohydrolase)	Cytoplasm
+A0A1B1EER8	gluQ PN96_01400	Glutamyl-Q tRNA(Asp) synthetase (Glu-Q-RSs) (EC 6.1.1.-)	Cytoplasm
+A0A1B1EBP3	purC PN96_07275	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6) (SAICAR synthetase)	Cytoplasm
+A0A1B1EJM3	purU PN96_22160	Formyltetrahydrofolate deformylase (EC 3.5.1.10) (Formyl-FH(4) hydrolase)	Cytoplasm
+A0A1B1EAN0	znuC PN96_09255	Zinc ABC transporter ATP-binding protein ZnuC	Cytoplasm
+A0A1B1E975	cysN PN96_11820	Sulfate adenylyltransferase subunit 1 (EC 2.7.7.4) (ATP-sulfurylase large subunit) (Sulfate adenylate transferase) (SAT)	Cytoplasm
+A0A1B1ELG7	betA PN96_19095	Oxygen-dependent choline dehydrogenase (CDH) (CHD) (EC 1.1.99.1) (Betaine aldehyde dehydrogenase) (BADH) (EC 1.2.1.8)	Cytoplasm
+A0A1B1EAK1	sucD PN96_09265	Succinate--CoA ligase [ADP-forming] subunit alpha (EC 6.2.1.5) (Succinyl-CoA synthetase subunit alpha) (SCS-alpha)	Cytoplasm
+A0A1B1EG16	purH PN96_00180	Bifunctional purine biosynthesis protein PurH [Includes: Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3) (AICAR transformylase); IMP cyclohydrolase (EC 3.5.4.10) (ATIC) (IMP synthase) (Inosinicase)]	Cytoplasm
+A0A1B1EBD9	hisC PN96_07790	Histidinol-phosphate aminotransferase (EC 2.6.1.9) (Imidazole acetol-phosphate transaminase)	Cytoplasm
+A0A1B1EA54	ribH PN96_10100	6,7-dimethyl-8-ribityllumazine synthase (DMRL synthase) (LS) (Lumazine synthase) (EC 2.5.1.78)	Cytoplasm
+A0A1B1EHQ5	thiE PN96_16675	Thiamine-phosphate synthase (TP synthase) (TPS) (EC 2.5.1.3) (Thiamine-phosphate pyrophosphorylase) (TMP pyrophosphorylase) (TMP-PPase)	Cytoplasm
+A0A1B1EBT4	cobT PN96_06830	Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (NN:DBI PRT) (EC 2.4.2.21) (N(1)-alpha-phosphoribosyltransferase)	Cytoplasm
+A0A1B1EBU0	astE PN96_06805	Succinylglutamate desuccinylase (EC 3.5.1.96)	Cytoplasm
+A0A1B1E9V6	ppk PN96_10630	Polyphosphate kinase (EC 2.7.4.1) (ATP-polyphosphate phosphotransferase) (Polyphosphoric acid kinase)	Cytoplasm
+A0A1B1E9C0	leuC PN96_11605	3-isopropylmalate dehydratase large subunit (EC 4.2.1.33) (Alpha-IPM isomerase) (IPMI) (Isopropylmalate isomerase)	Cytoplasm
+A0A1B1EI15	araA PN96_16040	L-arabinose isomerase (EC 5.3.1.4)	Cytoplasm
+A0A1B1EG18	thiE PN96_13665	Thiamine phosphate synthase	Cytoplasm
+A0A1B1EDE5	gabD PN96_05010	Succinate-semialdehyde dehydrogenase (NADP(+))	Cytoplasm
+A0A1B1EHP0	phnW PN96_17090	2-aminoethylphosphonate--pyruvate transaminase (EC 2.6.1.37) (2-aminoethylphosphonate aminotransferase) (AEP transaminase) (AEPT)	Cytoplasm
+A0A1B1EC11	mhpB PN96_06270	2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic acid 1,2-dioxygenase (EC 1.13.11.16) (3-carboxyethylcatechol 2,3-dioxygenase)	Cytoplasm
+A0A1B1ELE0	speA PN96_16870	Biosynthetic arginine decarboxylase (ADC) (EC 4.1.1.19)	Cytoplasm
+A0A1B1E9Z6	guaA PN96_10425	GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2) (GMP synthetase) (Glutamine amidotransferase)	Cytoplasm
+A0A1B1EAI3	asnB PN96_09380	Asparagine synthase B	Cytoplasm
+A0A1B1EL55	betB PN96_19090	Betaine aldehyde dehydrogenase (BADH) (EC 1.2.1.8)	Cytoplasm
+A0A1B1EA47	nudF PN96_11355	ADP-ribose diphosphatase (EC 3.6.1.13) (ADP-ribose phosphohydrolase) (ADP-ribose pyrophosphatase) (Adenosine diphosphoribose pyrophosphatase)	Cytoplasm
+A0A1B1EA64	thiL PN96_10090	Thiamine-monophosphate kinase (TMP kinase) (Thiamine-phosphate kinase) (EC 2.7.4.16)	Cytoplasm
+A0A1B1E9Y1	PN96_11720	Thiamine ABC transporter, ATP-binding protein	Cytoplasm
+A0A1B1EK83	gcvH PN96_20955	Glycine cleavage system H protein	Cytoplasm
+A0A1B1EDV6	aroC PN96_02835	Chorismate synthase (CS) (EC 4.2.3.5) (5-enolpyruvylshikimate-3-phosphate phospholyase)	Cytoplasm
+A0A1B1EL94	nifH PN96_19185	Nitrogenase iron protein (EC 1.18.6.1) (Nitrogenase Fe protein) (Nitrogenase component II) (Nitrogenase reductase)	Cytoplasm
+A0A1B1EEY3	ispD PN96_01085	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60) (4-diphosphocytidyl-2C-methyl-D-erythritol synthase) (MEP cytidylyltransferase) (MCT)	Cytoplasm
+A0A1B1ECB3	maeA PN96_07295	NAD-dependent malic enzyme (NAD-ME) (EC 1.1.1.38)	Cytoplasm
+A0A1B1E9L6	carA PN96_11155	Carbamoyl-phosphate synthase small chain (EC 6.3.5.5) (Carbamoyl-phosphate synthetase glutamine chain)	Cytoplasm
+A0A1B1E905	coaBC PN96_12450	Coenzyme A biosynthesis bifunctional protein CoaBC (DNA/pantothenate metabolism flavoprotein) (Phosphopantothenoylcysteine synthetase/decarboxylase) (PPCS-PPCDC) [Includes: Phosphopantothenoylcysteine decarboxylase (PPC decarboxylase) (PPC-DC) (EC 4.1.1.36) (CoaC); Phosphopantothenate--cysteine ligase (EC 6.3.2.5) (CoaB) (Phosphopantothenoylcysteine synthetase) (PPC synthetase) (PPC-S)]	Cytoplasm
+A0A1B1EFI9	gpmI PN96_14435	2,3-bisphosphoglycerate-independent phosphoglycerate mutase (BPG-independent PGAM) (Phosphoglyceromutase) (iPGM) (EC 5.4.2.12)	Cytoplasm
+A0A1B1EJK9	fucA PN96_21530	L-fuculose phosphate aldolase (EC 4.1.2.17) (D-ribulose-phosphate aldolase) (L-fuculose-1-phosphate aldolase)	Cytoplasm
+A0A1B1EBD6	hisD PN96_07795	Histidinol dehydrogenase (HDH) (EC 1.1.1.23)	Cytoplasm
+A0A1B1EEA6	gloB PN96_02375	Hydroxyacylglutathione hydrolase (EC 3.1.2.6) (Glyoxalase II) (Glx II)	Cytoplasm
+A0A1B1EF95	cysJ PN96_14955	Sulfite reductase [NADPH] flavoprotein alpha-component (SiR-FP) (EC 1.8.1.2)	Cytoplasm
+A0A1B1EB50	glgA PN96_08300	Glycogen synthase (EC 2.4.1.21) (Starch [bacterial glycogen] synthase)	Cytoplasm
+A0A1B1EF07	gshB PN96_00855	Glutathione synthetase (EC 6.3.2.3) (GSH synthetase) (GSH-S) (GSHase) (Glutathione synthase)	Cytoplasm
+A0A1B1EAJ2	sucC PN96_09270	Succinate--CoA ligase [ADP-forming] subunit beta (EC 6.2.1.5) (Succinyl-CoA synthetase subunit beta) (SCS-beta)	Cytoplasm
+A0A1B1E9K5	carB PN96_11150	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5) (Carbamoyl-phosphate synthetase ammonia chain)	Cytoplasm
+A0A1B1ECG6	queC PN96_05440	7-cyano-7-deazaguanine synthase (EC 6.3.4.20) (7-cyano-7-carbaguanine synthase) (PreQ(0) synthase) (Queuosine biosynthesis protein QueC)	Cytoplasm
+A0A1B1EE66	fadE PN96_02405	Acyl-coenzyme A dehydrogenase (EC 1.3.8.7) (EC 1.3.8.8)	Cytoplasm
+A0A1B1EBL6	fabV PN96_07415	Enoyl-[acyl-carrier-protein] reductase [NADH] (ENR) (EC 1.3.1.9)	Cytoplasm
+A0A1B1EBB6	bioC PN96_07900	Malonyl-[acyl-carrier protein] O-methyltransferase (Malonyl-ACP O-methyltransferase) (EC 2.1.1.197) (Biotin synthesis protein BioC)	Cytoplasm
+A0A1B1EGP0	fabG PN96_03505	3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100)	Cytoplasm
+A0A1B1EG27	purK PN96_13570	N5-carboxyaminoimidazole ribonucleotide synthase (N5-CAIR synthase) (EC 6.3.4.18) (5-(carboxyamino)imidazole ribonucleotide synthetase)	Cytoplasm
+A0A1B1ECJ3	ectA PN96_05215	L-2,4-diaminobutyric acid acetyltransferase (DABA acetyltransferase) (EC 2.3.1.178)	Cytoplasm
+A0A1B1ECL0	ectC PN96_05225	L-ectoine synthase (EC 4.2.1.108) (N-acetyldiaminobutyrate dehydratase)	Cytoplasm
